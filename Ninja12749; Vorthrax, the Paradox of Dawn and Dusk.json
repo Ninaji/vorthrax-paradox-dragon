@@ -170,7 +170,7 @@
 						"Vorthrax cannot die by ordinary means. When he is reduced to 0 Hit Points, his body melts into a window of open night sky, time rewinds one second, and a new Vorthrax—same soul, same memories, new body—is dragged into the present, gaining one Paradox Mark.",
 						"The first time this happens during an encounter, he is gone only an instant: at the start of the next round he reappears with all his Hit Points in his space (or the nearest unoccupied space), and every condition and effect on him ends.",
 						"Each subsequent death sends him careening through Gaia's scorched xylem, lost between seconds. He is gone for 12 hours, and each death thereafter doubles the journey along this scale: 12 hours, 1 day, 1 week, 1 month, and so on—each crossing melts more of the World Tree's veins, and he loses his way in the dark between moments. Wherever he dies, the ground remains a permanent scar of open night sky (see the regional effects).",
-						"Only the fate described in The Mended Soul ends the cycle. If Paradox Rebirth triggers during an encounter, award XP as if the party had defeated two CR 25 creatures."
+						"Nothing ends the cycle—not even salvation (see The Mended Soul). If Paradox Rebirth triggers during an encounter, award XP as if the party had defeated two CR 25 creatures."
 					]
 				},
 				{
@@ -188,7 +188,7 @@
 				{
 					"name": "The Mended Soul",
 					"entries": [
-						"Vorthrax is the mightiest creature of the Elemental Realm of Light fused with the mightiest spawn of the Primordial Darkness, and that fusion is the paradox that sustains him. If he is ever made whole—purified wholly into light, or surrendered wholly into shadow, by whatever rite, miracle, or {@spell wish|XPHB} can accomplish it—the timeline corrects itself: another Vorthrax steps out of the rewound second, and the mended one, at peace at last, unmakes himself. No rebirth follows the mended one. The other remains."
+						"Vorthrax is the mightiest creature of the Elemental Realm of Light fused with the mightiest spawn of the Primordial Darkness, and that fusion is the paradox that sustains him. If he is ever made whole—purified wholly into light, or surrendered wholly into shadow, by whatever rite, miracle, or {@spell wish|XPHB} can accomplish it—the paradox treats salvation as an execution: his past, unmended self steps out of the rewound second for a single purpose—to slay the mended Vorthrax, exactly as if he had been killed. The death plays out as in Paradox Rebirth: the mended body melts into a scar of open night sky, and the unmended self remains, one Paradox Mark stronger. There is no happy ending and no rest; saving Vorthrax is only another way of killing him, at the same price as all the others."
 					]
 				}
 			],
@@ -284,7 +284,7 @@
 						"entries": [
 							"Vorthrax cannot die. Whatever strikes him down, time flinches: the moment rewinds one second, and a new Vorthrax—new body, same memories—is hauled forward into the present. He does not do this consciously; it is a consequence of what he is, the strongest creature of light and the strongest creature of shadow occupying one impossible soul. Each death leaves him stronger and stranger.",
 							"The crossing is not free. The planes hang from the World Tree, Gaia, and each rebirth drags him through her xylem, melting the living veins as he passes. Where his body fell, the ground does not scar with stone or ash—it opens onto a night sky beneath the soil, a window of unfamiliar stars where the floor should be. And because the veins he travels are a little more ruined each time, he takes ever longer to find his way back: twelve hours, then a day, then a week, then a month.",
-							"There is exactly one way out. If anyone ever truly saves him—returns him wholly to the light, or surrenders him wholly to the dark—the paradox resolves: another Vorthrax steps out of the rewound second, and the mended one, finally at peace, unmakes himself. The cycle does not end. It just changes hands."
+							"There is no way out. If anyone ever truly saves him—returns him wholly to the light, or surrenders him wholly to the dark—the paradox answers the only way it knows how: his past, unmended self steps out of the rewound second and kills the mended one, as if salvation were merely another sword. The corpse opens its window of night sky, the unmended Vorthrax remains one mark stronger, and the cycle continues. There is no happy ending. There is no rest."
 						]
 					},
 					{

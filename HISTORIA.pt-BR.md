@@ -178,27 +178,31 @@ Se Vorthrax morrer ali, a região **não se cura**. O ponto da morte vira janela
 sub-céu, e o xilema de Gaia murcha por um quilômetro e meio ao redor, fechando aquela estrada da
 Árvore-Mundo para sempre.
 
-## 7. A Alma Remendada — a única saída
+## 7. A Alma Remendada — a saída que não existe
 
-Existe exatamente **uma** maneira de encerrar o ciclo de um Vorthrax — e não é com dano.
+Toda lenda sobre Vorthrax termina com a mesma esperança: se ninguém consegue matá-lo, talvez
+alguém consiga **salvá-lo**. Purificá-lo *por inteiro* de volta à Luz, **ou** entregá-lo *por
+inteiro* às Sombras — qualquer um dos dois lados serve, desde que a alma dele volte a ser de
+**uma cor só**. Sem a guerra interna, o paradoxo não teria mais o que sustentar. A conta,
+finalmente, fecharia.
 
-Se alguém conseguir **salvá-lo de verdade** — purificá-lo *por inteiro* de volta à Luz, **ou**
-entregá-lo *por inteiro* às Sombras; qualquer um dos dois lados serve, desde que a alma dele volte
-a ser de **uma cor só** — o paradoxo daquele Vorthrax se resolve. A conta, finalmente, fecha.
+A esperança está errada. Eis o que acontece com um Vorthrax salvo:
 
-E então acontece a coisa mais triste dessa história inteira:
+1. No instante em que a alma dele se torna inteira, **a versão dele do passado — ainda partida,
+   ainda paradoxal, ainda louca — sai do segundo rebobinado.** O paradoxo não aceita ser curado:
+   expulso do corpo remendado, ele simplesmente veste o corpo de um segundo atrás.
+2. Essa versão aparece com um único propósito: **matar o Vorthrax salvo.** Para o paradoxo,
+   ser remendado e ser morto são a mesma coisa — uma tentativa de encerrá-lo — e ele responde
+   às duas do único jeito que conhece, **como se ele tivesse sido morto**.
+3. O Vorthrax curado morre pelas garras de quem ele era. O corpo derrete no chão e abre mais uma
+   janela de céu noturno; **o Vorthrax partido permanece**, uma Marca mais forte, com a memória
+   de ter visto a si mesmo inteiro por um instante — e de ter encerrado isso com as próprias garras.
 
-1. No instante em que a alma dele se torna inteira, **outra versão de Vorthrax sai do segundo
-   rebobinado** — o paradoxo, expulso do corpo curado, veste um corpo novo.
-2. O Vorthrax **salvo** olha para o que ele é quando não está em guerra consigo mesmo... e,
-   **em paz pela primeira vez, desfaz a si próprio**. Sem rebobinar. Sem cópia. A morte dele,
-   essa sim, é final.
-3. O outro permanece. Mais forte. Com a memória de ter sido salvo — e de ter escolhido não ficar.
-
-O ciclo não acaba: **troca de mãos.** Salvar Vorthrax é real, é possível e é genuinamente bom —
-para *aquele* Vorthrax. Para o mundo, é mais uma morte na escala, mais uma Marca, mais um dragão.
-Heróis de coração mole e heróis de coração duro chegam, por caminhos opostos, ao mesmo dilema:
-**não existe vitória contra Vorthrax — existe apenas o preço que você aceita pagar pelo adiamento.**
+**Não há final feliz. Não há descanso.** Salvar Vorthrax não encerra o ciclo nem o entrega a
+outras mãos: é apenas mais uma forma de matá-lo, com o mesmo preço de todas as outras — uma
+cicatriz nova, uma Marca nova, um dragão mais forte. Heróis de coração mole e heróis de coração
+duro chegam, por caminhos opostos, ao mesmo dilema: **não existe vitória contra Vorthrax — existe
+apenas o preço que você aceita pagar pelo adiamento.**
 
 ## 8. Usando o Vorthrax na mesa
 
