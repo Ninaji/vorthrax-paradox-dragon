@@ -1,0 +1,351 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "VorthraxParadox",
+				"abbreviation": "VPX",
+				"full": "Vorthrax, the Paradox of Dawn and Dusk",
+				"authors": [
+					"Ninja12749"
+				],
+				"convertedBy": [
+					"Ninja12749"
+				],
+				"version": "1.0.0",
+				"color": "6d28d9"
+			}
+		],
+		"edition": "one",
+		"dateAdded": 1781136000,
+		"dateLastModified": 1781136000
+	},
+	"monster": [
+		{
+			"name": "Vorthrax",
+			"shortName": "Vorthrax",
+			"isNamedCreature": true,
+			"source": "VorthraxParadox",
+			"size": [
+				"G"
+			],
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"archdraco",
+					"shadow"
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 487,
+				"formula": "25d20 + 225"
+			},
+			"speed": {
+				"walk": 120,
+				"climb": 60,
+				"fly": {
+					"number": 120,
+					"condition": "(he prefers to keep all four paws on the ground)"
+				}
+			},
+			"str": 30,
+			"dex": 18,
+			"con": 29,
+			"int": 18,
+			"wis": 17,
+			"cha": 25,
+			"save": {
+				"dex": "+12",
+				"con": "+17",
+				"wis": "+11",
+				"cha": "+15"
+			},
+			"skill": {
+				"arcana": "+12",
+				"insight": "+11",
+				"perception": "+19",
+				"stealth": "+12"
+			},
+			"senses": [
+				"truesight 120 ft.",
+				"darkvision 240 ft."
+			],
+			"passive": 29,
+			"resist": [
+				"force"
+			],
+			"immune": [
+				"necrotic",
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"prone"
+			],
+			"languages": [
+				"Celestial",
+				"Common",
+				"Draconic",
+				"telepathy 120 ft."
+			],
+			"cr": {
+				"cr": "25",
+				"lair": "26"
+			},
+			"environment": [
+				"forest"
+			],
+			"legendaryGroup": {
+				"name": "Vorthrax",
+				"source": "VorthraxParadox"
+			},
+			"trait": [
+				{
+					"name": "Legendary Resistance (4/Day, or 5/Day in Lair)",
+					"entries": [
+						"If Vorthrax fails a saving throw, he can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Wellspring of Mana",
+					"entries": [
+						"Vorthrax's existence condenses mana out of nothing. Magic can't be suppressed or negated within 120 feet of him: antimagic effects (such as {@spell antimagic field|XPHB}) and dead-magic areas don't function there, and Vorthrax's attacks, spells, and wheels ignore them. He chose to sleep in a mana-starved waste so that his overflowing existence would drown no one."
+					]
+				},
+				{
+					"name": "Force Breaker",
+					"entries": [
+						"Vorthrax's claws shear bound energy apart. His Rend ignores Resistance and Immunity to Force damage, and effects of magical force (such as {@spell shield|XPHB}, {@spell wall of force|XPHB}, and {@spell forcecage|XPHB}) impede neither his attacks nor his movement: any such effect his claws strike, or that he moves through, is instantly destroyed."
+					]
+				},
+				{
+					"name": "Paradox Husk",
+					"entries": [
+						"While in Bright Light or in Darkness, Vorthrax has Resistance to Bludgeoning, Piercing, and Slashing damage. While in Dim Light—the twilight where his two halves meet—he loses this Resistance."
+					]
+				},
+				{
+					"name": "The Three Wheels",
+					"entries": [
+						"Three enormous Ioun stones orbit within 10 feet of Vorthrax, spinning ceaselessly. When a creature enters a space within 15 feet of Vorthrax or starts its turn there, one intact wheel of Vorthrax's choice scourges it: the creature makes a DC 24 saving throw (see below), taking 16 ({@damage 3d10}) damage of the wheel's type on a failed save. A creature can be scourged this way only once per turn.",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "Dawnwheel (Radiant; Strength save).",
+									"entry": "While it orbits, it sheds Bright Light in a 30-foot radius."
+								},
+								{
+									"type": "item",
+									"name": "Duskwheel (Necrotic; Constitution save).",
+									"entry": "While it orbits, Vorthrax's Rend the Weave legendary action ends spells of level 9 and lower automatically."
+								},
+								{
+									"type": "item",
+									"name": "Voidwheel (Force; Dexterity save).",
+									"entry": "While it orbits, the teleport range of Vorthrax's Paradox Step doubles."
+								}
+							]
+						},
+						"Each wheel is a Large magic object: AC 22, HP 45, Immunity to Necrotic, Poison, Psychic, and Radiant damage. A destroyed wheel detonates: each creature within 10 feet of it makes a DC 24 Dexterity saving throw, taking 22 ({@damage 4d10}) damage of the wheel's type on a failed save, or half as much damage on a successful one. Destroyed wheels reform only when Vorthrax returns from a rebirth that took 12 hours or longer."
+					]
+				},
+				{
+					"name": "Paradox Rebirth",
+					"entries": [
+						"Vorthrax cannot die by ordinary means. When he is reduced to 0 Hit Points, his body melts into a window of open night sky, time rewinds one second, and a new Vorthrax—same soul, same memories, new body—is dragged into the present, gaining one Paradox Mark.",
+						"The first time this happens during an encounter, he is gone only an instant: at the start of the next round he reappears with all his Hit Points in his space (or the nearest unoccupied space), and every condition and effect on him ends.",
+						"Each subsequent death sends him careening through Gaia's scorched xylem, lost between seconds. He is gone for 12 hours, and each death thereafter doubles the journey along this scale: 12 hours, 1 day, 1 week, 1 month, and so on—each crossing melts more of the World Tree's veins, and he loses his way in the dark between moments. Wherever he dies, the ground remains a permanent scar of open night sky (see the regional effects).",
+						"Only the fate described in The Mended Soul ends the cycle. If Paradox Rebirth triggers during an encounter, award XP as if the party had defeated two CR 25 creatures."
+					]
+				},
+				{
+					"name": "Paradox Mark",
+					"entries": [
+						"Each Paradox Mark grants Vorthrax a cumulative, permanent +1 bonus to AC, attack rolls, and save DCs; 25 additional Hit Points (maximum and current); and an extra 4 ({@damage 1d8}) Force damage on his Rend. This statblock assumes no marks; a Vorthrax who has already died should arrive marked."
+					]
+				},
+				{
+					"name": "Sapways of Gaia",
+					"entries": [
+						"The planes hang from the World Tree, Gaia, and Vorthrax walks her veins. He can spend 1 minute melding into any wood or living plant connected to Gaia and emerge from any other branch, root, or leaf of the World Tree, on any plane. Every crossing scalds the xylem behind him: the passage withers, and a hair-thin seam of night sky is left in the wood."
+					]
+				},
+				{
+					"name": "The Mended Soul",
+					"entries": [
+						"Vorthrax is the mightiest creature of the Elemental Realm of Light fused with the mightiest spawn of the Primordial Darkness, and that fusion is the paradox that sustains him. If he is ever made whole—purified wholly into light, or surrendered wholly into shadow, by whatever rite, miracle, or {@spell wish|XPHB} can accomplish it—the timeline corrects itself: another Vorthrax steps out of the rewound second, and the mended one, at peace at last, unmakes himself. No rebirth follows the mended one. The other remains."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Vorthrax makes three Rend attacks. He can replace one attack with a use of Spellcasting."
+					]
+				},
+				{
+					"name": "Rend",
+					"entries": [
+						"{@atkr m} {@hit 18}, reach 15 ft. {@h}23 ({@damage 2d12 + 10}) Force damage plus 13 ({@damage 3d8}) Radiant or Necrotic damage (Vorthrax's choice)."
+					]
+				},
+				{
+					"name": "Dark Star Breath {@recharge 5}",
+					"entries": [
+						"Vorthrax exhales a collapsing star of fused light and darkness, which detonates at a point he can see within 150 feet. {@actSave con} {@dc 25}, each creature in a 40-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on that point. {@actSaveFail} 55 ({@damage 10d10}) Force damage. A creature reduced to 0 Hit Points by this damage is disintegrated, as the {@spell disintegrate|XPHB} spell. {@actSaveSuccess} Half damage.",
+						"The Sphere remains until the start of Vorthrax's next turn as a void of crushing gravity filled with magical Darkness that no vision—not even Truesight—can penetrate, and through which no sound can be created or pass (as the {@spell dark star|EGW} spell). A creature that enters the Sphere for the first time on a turn or starts its turn there repeats the saving throw."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Paradox Step",
+					"entries": [
+						"Vorthrax slips one second sideways through time, teleporting up to 60 feet (120 feet while the Voidwheel orbits him) to an unoccupied space he can see, along with his wheels."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Vorthrax casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 23; +15 on spellcasting ability checks):"
+					],
+					"will": [
+						"{@spell darkness|XPHB}",
+						"{@spell detect magic|XPHB}",
+						"{@spell dispel magic|XPHB} (level 5 version)",
+						"{@spell light|XPHB}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell plane shift|XPHB} (self only; along Gaia's branches)"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "action"
+				}
+			],
+			"legendaryHeader": [
+				"Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, Vorthrax can expend a use to take one of the following actions. Vorthrax regains all expended uses at the start of each of his turns."
+			],
+			"legendaryActions": 3,
+			"legendary": [
+				{
+					"name": "Rend the Weave",
+					"entries": [
+						"Vorthrax casts {@spell dispel magic|XPHB} (level 5 version; +15 on the spellcasting ability check), targeting one creature, object, or magical effect he can perceive. While the Duskwheel orbits him, the casting instead ends spells of level 9 and lower automatically."
+					]
+				},
+				{
+					"name": "Paradox Lunge",
+					"entries": [
+						"Vorthrax moves up to half his Speed or teleports up to 60 feet, then makes one Rend attack."
+					]
+				},
+				{
+					"name": "Wheelstorm (Costs 2 Actions)",
+					"entries": [
+						"The wheels howl and widen their orbits: each creature of Vorthrax's choice within 30 feet of him is scourged by an intact wheel of his choice, as in The Three Wheels trait."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"name": "The Strongest Light, the Deepest Dark",
+						"entries": [
+							"Vorthrax was firstborn of the Elemental Realm of Light: an archdraco—four wings, four paws—and the mightiest creature radiance ever shaped. Though his frame is built to rear up on two legs, he keeps all four paws pressed to the ground. He used to say the world deserved to carry his whole weight honestly; now no one is sure he remembers why. Light cannot burn him.",
+							"The Primordial Darkness, the mother-deep of the Elemental Realm of Shadow, poured itself into him to steal light's champion. It half succeeded: the graft took, and he is now as much shadow dragon as light, no rot or darkness able to touch him—but neither half would yield to the other. Light and dark fused, and the fusion drove him mad.",
+							"In a rare clear moment, Vorthrax dragged himself to a mana-starved waste far from every road and went to sleep, so that his lunacy would hurt no one. It was the kindest place he could choose: his mere existence condenses mana, and the starving land drinks the overflow. But the curse stirs whenever darkness draws near—when shadows reach for him, the madness flares, and he wakes."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "The Paradox",
+						"entries": [
+							"Vorthrax cannot die. Whatever strikes him down, time flinches: the moment rewinds one second, and a new Vorthrax—new body, same memories—is hauled forward into the present. He does not do this consciously; it is a consequence of what he is, the strongest creature of light and the strongest creature of shadow occupying one impossible soul. Each death leaves him stronger and stranger.",
+							"The crossing is not free. The planes hang from the World Tree, Gaia, and each rebirth drags him through her xylem, melting the living veins as he passes. Where his body fell, the ground does not scar with stone or ash—it opens onto a night sky beneath the soil, a window of unfamiliar stars where the floor should be. And because the veins he travels are a little more ruined each time, he takes ever longer to find his way back: twelve hours, then a day, then a week, then a month.",
+							"There is exactly one way out. If anyone ever truly saves him—returns him wholly to the light, or surrenders him wholly to the dark—the paradox resolves: another Vorthrax steps out of the rewound second, and the mended one, finally at peace, unmakes himself. The cycle does not end. It just changes hands."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "The Corrupted Region",
+						"entries": [
+							"The land around his sleeping-hollow turns slowly violet, and rifts of under-sky open in fields and cellar floors while the buildings above stand eerily firm. Folk who witness a rift open forget the faces of whoever stood beside them, and many wander off to re-live the last hour of their lives on a loop, talking to no one. The beasts that linger change in small wrong ways—hide re-tinted in impossible colors, eyes faintly starlit—and grow monstrously strong, like familiar creatures repainted for the end of the world."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Running the Fight (Design Notes)",
+						"entries": [
+							"Vorthrax is a solo, two-phase boss tuned for four 17th-level characters equipped with very rare and legendary magic items. Expect 5–7 rounds across both lives; if Paradox Rebirth triggers, award XP for two CR 25 monsters (150,000 XP total).",
+							"Dynamic levers: the three wheels are destructible sub-objectives (break the Voidwheel to halve his teleport, the Duskwheel to weaken his legendary {@spell dispel magic|XPHB}, the Dawnwheel to snuff his personal Bright Light); Paradox Husk rewards parties that engineer Dim Light around him; Force Breaker punishes {@spell wall of force|XPHB} and {@spell forcecage|XPHB} turtling; Dark Star Breath punishes clustering.",
+							"Tactics: he opens with Dark Star Breath on the tightest cluster, Paradox Steps onto the backline so the wheels scourge the casters, spends Rend the Weave on flight and the party's strongest buff, and saves Legendary Resistance for banishment and imprisonment effects. After his first death he returns at full Hit Points with a Paradox Mark—play the second life faster and crueler; he has already seen one second of the future.",
+							"The curse across a campaign: Death 1—returns at the start of the next round (full HP, +1 mark). Death 2—returns after 12 hours. Death 3—1 day. Death 4—1 week. Death 5—1 month, doubling thereafter. He comes back one mark stronger each time. The question is never how to kill Vorthrax; it is whether killing him is ever worth it."
+						]
+					}
+				]
+			}
+		}
+	],
+	"legendaryGroup": [
+		{
+			"name": "Vorthrax",
+			"source": "VorthraxParadox",
+			"regionalEffects": [
+				"The region around Vorthrax's sleeping-hollow (typically a 6-mile radius, centered where Gaia's bark runs thin) is warped by his paradox, creating the following effects:",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "Violet Verdance.",
+							"entry": "Stone, water, and living things slowly shift toward violet and ultraviolet hues. Buildings stand eerily firm and pristine, even where the ground beneath them has opened."
+						},
+						{
+							"type": "item",
+							"name": "The Under-Sky.",
+							"entry": "Rifts in the earth within 1 mile reveal not soil but a vault of night sky dense with unfamiliar stars. A creature that falls into a rift plunges \"down\" into that sky for {@dice 1d4} rounds before reality reasserts itself and deposits the creature, {@condition prone|XPHB}, at the rift's lip."
+						},
+						{
+							"type": "item",
+							"name": "Hour-Echoes.",
+							"entry": "When a new rift opens, each Beast and Humanoid within 300 feet of it must succeed on a DC 20 Wisdom saving throw or forget everyone who was near it when the rift appeared and become compelled to re-live the last hour of its life, repeating its movements and conversations with no one. Each repetition frays the mind a little further, at the DM's discretion."
+						},
+						{
+							"type": "item",
+							"name": "Paradox-Touched.",
+							"entry": "Creatures that lair within 1 mile for more than a month are slowly re-colored in impossible tints—violet hide, starlit eyes—and grow unnaturally mighty, like familiar beasts refit for the end of the world. The DM can represent this by doubling such a creature's Hit Points and granting it a +2 bonus to AC, attack rolls, and save DCs."
+						},
+						{
+							"type": "item",
+							"name": "Wellspring.",
+							"entry": "Mana pools where there was none: dead-magic areas in the region rekindle, candle flames burn violet at dusk, and minor wonders—drifting motes of light, shadows that whisper—occur unbidden."
+						}
+					]
+				},
+				"If Vorthrax dies, these effects do not fade. Where he died, the land never heals: the spot remains a permanent window onto the under-sky, and Gaia's xylem withers for a mile around it, closing that branch-road of the World Tree forever."
+			]
+		}
+	]
+}
