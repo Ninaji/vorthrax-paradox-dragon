@@ -246,5 +246,4 @@ combate, premie XP como se o grupo tivesse derrotado **dois** monstros de CR 25 
 
 *Vorthrax é conteúdo de homebrew para D&D 5ª edição (regras de 2024). A ficha completa, em inglês,
 está no arquivo JSON deste repositório, pronta para importar no [5e.tools](https://5e.tools) e no
-Roll20 (betteR20). Inspirações declaradas: Chaos de Monster Girl Quest: Paradox; Yggdrasil, da
-mitologia nórdica.*
+Roll20 (betteR20).*
