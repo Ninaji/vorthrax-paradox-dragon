@@ -10,6 +10,7 @@ segundo e uma cópia nova é puxada ao presente, mais forte que a anterior, deix
 cicatriz permanente de céu noturno e derretendo o xilema de Gaia, a Árvore-Mundo.
 
 📖 **[Leia a história completa e a explicação do paradoxo (em português) →](HISTORIA.pt-BR.md)**
+🌌 **[Tratado de cenário: o sub-céu, luz+sombra, deuses e aberrações →](PARADOXO.pt-BR.md)**
 
 ## Conteúdo
 
@@ -17,6 +18,7 @@ cicatriz permanente de céu noturno e derretendo o xilema de Gaia, a Árvore-Mun
 |---|---|
 | [`Ninja12749; Vorthrax, the Paradox of Dawn and Dusk.json`](Ninja12749%3B%20Vorthrax%2C%20the%20Paradox%20of%20Dawn%20and%20Dusk.json) | A ficha completa (inglês), formato 5e.tools, edição 2024 |
 | [`HISTORIA.pt-BR.md`](HISTORIA.pt-BR.md) | História, cosmologia de Gaia e a explicação do paradoxo (português) |
+| [`PARADOXO.pt-BR.md`](PARADOXO.pt-BR.md) | Tratado de cenário: o que é o paradoxo, bolsas/demiplanos e o xilema, o céu no chão, luz+sombra, espaços de paradoxo, deuses, anjos, demônios e aberrações (português) |
 
 ## Destaques da ficha
 
