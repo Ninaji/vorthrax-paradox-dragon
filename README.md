@@ -16,7 +16,7 @@ cicatriz permanente de céu noturno e derretendo o xilema de Gaia, a Árvore-Mun
 
 | Arquivo | O que é |
 |---|---|
-| [`Ninja12749; Vorthrax, the Paradox of Dawn and Dusk.json`](Ninja12749%3B%20Vorthrax%2C%20the%20Paradox%20of%20Dawn%20and%20Dusk.json) | A ficha completa (inglês), formato 5e.tools, edição 2024 |
+| [`Ninja12749; Vorthrax, the Paradox of Dawn and Dusk.json`](Ninja12749%3B%20Vorthrax%2C%20the%20Paradox%20of%20Dawn%20and%20Dusk.json) | **4 fichas** (inglês), formato 5e.tools, edição 2024: Vorthrax + as 3 esferas (Dawnwheel, Duskwheel, Voidwheel) |
 | [`HISTORIA.pt-BR.md`](HISTORIA.pt-BR.md) | História, cosmologia de Gaia e a explicação do paradoxo (português) |
 | [`PARADOXO.pt-BR.md`](PARADOXO.pt-BR.md) | Tratado de cenário: o que é o paradoxo, bolsas/demiplanos e o xilema, o céu no chão, luz+sombra, espaços de paradoxo, deuses, anjos, demônios e aberrações (português) |
 
@@ -27,7 +27,9 @@ cicatriz permanente de céu noturno e derretendo o xilema de Gaia, a Árvore-Mun
   bônus cumulativos (Marca de Paradoxo); mortes seguintes o afastam por 12 h → 1 dia → 1 semana →
   1 mês, sempre dobrando
 - **As Três Rodas**: 3 pedras Ioun gigantes orbitando (dano radiante/necrótico/força, CD 24) —
-  destrutíveis, cada uma alimenta um poder dele
+  destrutíveis, cada uma alimenta um poder dele, e agora com **ficha própria** (Dawnwheel,
+  Duskwheel, Voidwheel), incluindo a descrição de **como cada uma se movimenta** (a *Bound Orbit*):
+  a Dawnwheel sobe alto, a Duskwheel arrasta rente ao chão, a Voidwheel pisca fora de sincronia
 - **Sopro Estrela Negra** (a magia *dark star*): esfera de escuridão, silêncio e gravidade que
   desintegra a 0 PV, durando 1 round
 - **Garras Quebra-Força**: dano de força; destroem *wall of force*, *forcecage* e *shield* no contato

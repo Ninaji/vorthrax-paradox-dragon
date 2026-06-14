@@ -161,7 +161,7 @@
 								}
 							]
 						},
-						"Each wheel is a Large magic object: AC 22, HP 45, Immunity to Necrotic, Poison, Psychic, and Radiant damage. A destroyed wheel detonates: each creature within 10 feet of it makes a DC 24 Dexterity saving throw, taking 22 ({@damage 4d10}) damage of the wheel's type on a failed save, or half as much damage on a successful one. Destroyed wheels reform only when Vorthrax returns from a rebirth that took 12 hours or longer."
+						"Each wheel is a Large magic object: AC 22, HP 45, Immunity to Necrotic, Poison, Psychic, and Radiant damage. A destroyed wheel detonates: each creature within 10 feet of it makes a DC 24 Dexterity saving throw, taking 22 ({@damage 4d10}) damage of the wheel's type on a failed save, or half as much damage on a successful one. Destroyed wheels reform only when Vorthrax returns from a rebirth that took 12 hours or longer. Full statblocks for the {@creature Dawnwheel|VorthraxParadox}, {@creature Duskwheel|VorthraxParadox}, and {@creature Voidwheel|VorthraxParadox}—including how each one moves—follow this creature."
 					]
 				},
 				{
@@ -304,6 +304,321 @@
 							"The curse across a campaign: Death 1—returns at the start of the next round (full HP, +1 mark). Death 2—returns after 12 hours. Death 3—1 day. Death 4—1 week. Death 5—1 month, doubling thereafter. He comes back one mark stronger each time. The question is never how to kill Vorthrax; it is whether killing him is ever worth it."
 						]
 					}
+				]
+			}
+		},
+		{
+			"name": "Dawnwheel",
+			"source": "VorthraxParadox",
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "construct",
+				"tags": [
+					"ioun stone"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"paradox ward"
+					]
+				}
+			],
+			"hp": {
+				"average": 45,
+				"formula": "6d10 + 12"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": 60,
+				"canHover": true
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 14,
+			"int": 1,
+			"wis": 6,
+			"cha": 1,
+			"senses": [
+				"blindsight 60 ft. (blind beyond this radius)"
+			],
+			"passive": 8,
+			"immune": [
+				"necrotic",
+				"poison",
+				"psychic",
+				"radiant"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"languages": [
+				"understands the intent of Vorthrax but can't speak"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Bound Orbit (How It Moves)",
+					"entries": [
+						"The Dawnwheel climbs. It rides the high arc of its orbit, wheeling over Vorthrax's shoulders like a sunrise that never finishes rising, its rim spinning so fast the gold blurs into one solid ring. It moves only with Vorthrax—sweeping overhead to hold its high station above him—and wherever he teleports it is already cresting the sky above the new spot. It never touches the ground."
+					]
+				},
+				{
+					"name": "Paradox-Anchored",
+					"entries": [
+						"The Dawnwheel acts on {@creature Vorthrax|VorthraxParadox}'s initiative, takes no actions of its own, and orbits within 10 feet of him at all times, accompanying him whenever he moves or teleports. It can't be moved against its will or forced out of his orbit: it automatically fails checks made to relocate it and is immune to any effect that would move it without destroying it."
+					]
+				},
+				{
+					"name": "Orbital Scourge (Radiant)",
+					"entries": [
+						"Whenever a creature enters a space within 15 feet of the Dawnwheel for the first time on a turn or starts its turn there, that creature makes a {@dc 24} Strength saving throw, taking 16 ({@damage 3d10}) Radiant damage on a failed save. A creature can be scourged by the Dawnwheel only once per turn.",
+						"When the wheel is run alongside {@creature Vorthrax|VorthraxParadox}, use his The Three Wheels trait instead, which lets only one wheel of his choice scourge a given creature each turn (rather than all three at once)."
+					]
+				},
+				{
+					"name": "Dawn's Vigil",
+					"entries": [
+						"While the Dawnwheel orbits, it sheds Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. That Bright Light denies Vorthrax's enemies the Dim Light they need to pierce his Paradox Husk near him—destroying the Dawnwheel is one way to drown his space in the twilight where he becomes vulnerable."
+					]
+				},
+				{
+					"name": "Shatter",
+					"entries": [
+						"When the Dawnwheel drops to 0 Hit Points, its bound light detonates: each creature within 10 feet makes a {@dc 24} Dexterity saving throw, taking 22 ({@damage 4d10}) Radiant damage on a failed save, or half as much on a successful one. The wheel is destroyed and reforms intact only when Vorthrax returns from a rebirth that took 12 hours or longer (see his Paradox Rebirth)."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"One of three Ioun stones torn from Vorthrax's hoard and remade by the paradox, the Dawnwheel is his light-half given a body: a small captive sunrise that holds the high station of the orbit and burns away the gentle twilight that would otherwise show his foes where he can be hurt.",
+					"Run the Dawnwheel as part of the Vorthrax encounter; the wheels grant no XP of their own."
+				]
+			}
+		},
+		{
+			"name": "Duskwheel",
+			"source": "VorthraxParadox",
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "construct",
+				"tags": [
+					"ioun stone"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"paradox ward"
+					]
+				}
+			],
+			"hp": {
+				"average": 45,
+				"formula": "6d10 + 12"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": 60,
+				"canHover": true
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 14,
+			"int": 1,
+			"wis": 6,
+			"cha": 1,
+			"senses": [
+				"blindsight 60 ft. (blind beyond this radius)"
+			],
+			"passive": 8,
+			"immune": [
+				"necrotic",
+				"poison",
+				"psychic",
+				"radiant"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"languages": [
+				"understands the intent of Vorthrax but can't speak"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Bound Orbit (How It Moves)",
+					"entries": [
+						"The Duskwheel sinks. It drags along the low arc of its orbit, grinding just above the soil like a dying sun that refuses to set—turning slow and heavy, trailing a grey smear of afterimage half a second behind itself. As it circles it leans toward the nearest living warmth, as though it means to put that warmth out. When Vorthrax moves, it wallows after him: last to arrive, and always somehow in the way."
+					]
+				},
+				{
+					"name": "Paradox-Anchored",
+					"entries": [
+						"The Duskwheel acts on {@creature Vorthrax|VorthraxParadox}'s initiative, takes no actions of its own, and orbits within 10 feet of him at all times, accompanying him whenever he moves or teleports. It can't be moved against its will or forced out of his orbit: it automatically fails checks made to relocate it and is immune to any effect that would move it without destroying it."
+					]
+				},
+				{
+					"name": "Orbital Scourge (Necrotic)",
+					"entries": [
+						"Whenever a creature enters a space within 15 feet of the Duskwheel for the first time on a turn or starts its turn there, that creature makes a {@dc 24} Constitution saving throw, taking 16 ({@damage 3d10}) Necrotic damage on a failed save. A creature can be scourged by the Duskwheel only once per turn.",
+						"When the wheel is run alongside {@creature Vorthrax|VorthraxParadox}, use his The Three Wheels trait instead, which lets only one wheel of his choice scourge a given creature each turn (rather than all three at once)."
+					]
+				},
+				{
+					"name": "Dusk's Unraveling",
+					"entries": [
+						"While the Duskwheel orbits, Vorthrax's Rend the Weave legendary action ends spells of level 9 and lower automatically, requiring no ability check. If the Duskwheel is destroyed, Rend the Weave reverts to a normal level 5 {@spell dispel magic|XPHB}."
+					]
+				},
+				{
+					"name": "Shatter",
+					"entries": [
+						"When the Duskwheel drops to 0 Hit Points, its bound rot detonates: each creature within 10 feet makes a {@dc 24} Dexterity saving throw, taking 22 ({@damage 4d10}) Necrotic damage on a failed save, or half as much on a successful one. The wheel is destroyed and reforms intact only when Vorthrax returns from a rebirth that took 12 hours or longer (see his Paradox Rebirth)."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The Duskwheel is Vorthrax's shadow-half made into a millstone—a sun that died mid-set, grinding along the bottom of the orbit. The necrotic cold pouring off it lets him tear spells out of the world with a careless swipe.",
+					"Run the Duskwheel as part of the Vorthrax encounter; the wheels grant no XP of their own."
+				]
+			}
+		},
+		{
+			"name": "Voidwheel",
+			"source": "VorthraxParadox",
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "construct",
+				"tags": [
+					"ioun stone"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"paradox ward"
+					]
+				}
+			],
+			"hp": {
+				"average": 45,
+				"formula": "6d10 + 12"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": 60,
+				"canHover": true
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 14,
+			"int": 1,
+			"wis": 6,
+			"cha": 1,
+			"senses": [
+				"blindsight 60 ft. (blind beyond this radius)"
+			],
+			"passive": 8,
+			"immune": [
+				"necrotic",
+				"poison",
+				"psychic",
+				"radiant"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"languages": [
+				"understands the intent of Vorthrax but can't speak"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Bound Orbit (How It Moves)",
+					"entries": [
+						"The Voidwheel stutters. It does not orbit so much as skip—blinking from point to point along its path, each position a frame out of order, so that it seems to hang in three places at once before snapping into one. It is only ever half-present in this second. When Vorthrax teleports, the Voidwheel does not follow him: it was already there, waiting, a heartbeat before he arrives."
+					]
+				},
+				{
+					"name": "Paradox-Anchored",
+					"entries": [
+						"The Voidwheel acts on {@creature Vorthrax|VorthraxParadox}'s initiative, takes no actions of its own, and orbits within 10 feet of him at all times, accompanying him whenever he moves or teleports. It can't be moved against its will or forced out of his orbit: it automatically fails checks made to relocate it and is immune to any effect that would move it without destroying it."
+					]
+				},
+				{
+					"name": "Orbital Scourge (Force)",
+					"entries": [
+						"Whenever a creature enters a space within 15 feet of the Voidwheel for the first time on a turn or starts its turn there, that creature makes a {@dc 24} Dexterity saving throw, taking 16 ({@damage 3d10}) Force damage on a failed save. A creature can be scourged by the Voidwheel only once per turn.",
+						"When the wheel is run alongside {@creature Vorthrax|VorthraxParadox}, use his The Three Wheels trait instead, which lets only one wheel of his choice scourge a given creature each turn (rather than all three at once)."
+					]
+				},
+				{
+					"name": "Void's Skip",
+					"entries": [
+						"While the Voidwheel orbits, the range of Vorthrax's Paradox Step bonus action increases from 60 feet to 120 feet. If the Voidwheel is destroyed, his Paradox Step range drops back to 60 feet. (Being force itself, the Voidwheel is not immune to Force damage—it is the easiest of the three to break for a party that can deal it.)"
+					]
+				},
+				{
+					"name": "Shatter",
+					"entries": [
+						"When the Voidwheel drops to 0 Hit Points, its bound force detonates: each creature within 10 feet makes a {@dc 24} Dexterity saving throw, taking 22 ({@damage 4d10}) Force damage on a failed save, or half as much on a successful one. The wheel is destroyed and reforms intact only when Vorthrax returns from a rebirth that took 12 hours or longer (see his Paradox Rebirth)."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The Voidwheel is the seam between Vorthrax's two halves—the cut itself, given mass. It never quite agrees on where it is, skipping a frame ahead of the present, and while it spins he borrows that same stutter to fold the distance his steps must cross.",
+					"Run the Voidwheel as part of the Vorthrax encounter; the wheels grant no XP of their own."
 				]
 			}
 		}
