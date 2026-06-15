@@ -18,6 +18,7 @@ cicatriz permanente de céu noturno e derretendo o xilema de Gaia, a Árvore-Mun
 |---|---|
 | [`Ninja12749; Vorthrax, the Paradox of Dawn and Dusk.json`](Ninja12749%3B%20Vorthrax%2C%20the%20Paradox%20of%20Dawn%20and%20Dusk.json) | **4 fichas** (inglês), formato 5e.tools, edição 2024: Vorthrax + as 3 esferas (Dawnwheel, Duskwheel, Voidwheel) |
 | [`Ninja12749; Paradox-Touched Warband.json`](Ninja12749%3B%20Paradox-Touched%20Warband.json) | **6 fichas** (fonte PTW): goblins e kobolds tocados-pelo-paradoxo — guerreiro / arqueiro / conjurador de cada — como *glass-cannon minions* CR 17 (batem como tier 4, morrem como mooks), afinados para o mesmo grupo do Vorthrax (4 PCs nível 17 bem equipados). Plano de encontro embutido na lore do Goblin Hexer |
+| [`Ninja12749; Astral Tyrannosaur.json`](Ninja12749%3B%20Astral%20Tyrannosaur.json) | **1 ficha** (fonte AST): T-Rex tocado-pelo-paradoxo com olhos-estrela que disparam laser (feixe único à vontade + *Annihilation Gaze* em linha) e que se teleporta o tempo todo (Blinkstep + Phase Out). Elite CR 18 **sem ações lendárias** — mini-boss ideal para liderar a warband |
 | [`HISTORIA.pt-BR.md`](HISTORIA.pt-BR.md) | História, cosmologia de Gaia e a explicação do paradoxo (português) |
 | [`PARADOXO.pt-BR.md`](PARADOXO.pt-BR.md) | Tratado de cenário: o que é o paradoxo, bolsas/demiplanos e o xilema, o céu no chão, luz+sombra, espaços de paradoxo, deuses, anjos, demônios e aberrações (português) |
 

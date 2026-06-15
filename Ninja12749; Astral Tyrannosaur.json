@@ -1,0 +1,175 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "AstralTyrant",
+				"abbreviation": "AST",
+				"full": "Astral Tyrannosaur",
+				"authors": [
+					"Ninja12749"
+				],
+				"convertedBy": [
+					"Ninja12749"
+				],
+				"version": "1.0.0",
+				"color": "4338ca"
+			}
+		],
+		"edition": "one",
+		"dateAdded": 1781222400,
+		"dateLastModified": 1781222400
+	},
+	"monster": [
+		{
+			"name": "Astral Tyrannosaur",
+			"source": "AstralTyrant",
+			"size": [
+				"H"
+			],
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"dinosaur"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 207,
+				"formula": "18d12 + 90"
+			},
+			"speed": {
+				"walk": 60
+			},
+			"str": 26,
+			"dex": 12,
+			"con": 20,
+			"int": 6,
+			"wis": 14,
+			"cha": 16,
+			"save": {
+				"str": "+14",
+				"con": "+11",
+				"wis": "+8"
+			},
+			"skill": {
+				"perception": "+14"
+			},
+			"senses": [
+				"darkvision 120 ft.",
+				"truesight 60 ft."
+			],
+			"passive": 24,
+			"resist": [
+				"force",
+				"radiant"
+			],
+			"conditionImmune": [
+				"blinded",
+				"frightened"
+			],
+			"languages": [
+				"understands Deep Speech but can't speak"
+			],
+			"cr": "18",
+			"trait": [
+				{
+					"name": "Starfire Eyes",
+					"entries": [
+						"The tyrannosaur's eyes are twin captive stars. Its Coronal Beam and Annihilation Gaze ignore Half Cover and Three-Quarters Cover, it has Advantage on Wisdom ({@skill Perception}) checks that rely on sight, and it can't be {@condition Blinded}."
+					]
+				},
+				{
+					"name": "Unfixed in Space",
+					"entries": [
+						"The tyrannosaur isn't fully anchored to one moment. Difficult terrain doesn't cost it extra movement, and it can teleport instead of walking (see Blinkstep and Phase Out). Whenever it teleports, the air it leaves and the air it arrives in crackle with violet starlight."
+					]
+				},
+				{
+					"name": "Siege Monster",
+					"entries": [
+						"The tyrannosaur deals double damage to objects and structures."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The tyrannosaur makes one Bite attack and one Tail attack, or it uses Coronal Beam twice."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atkr m} {@hit 14}, reach 10 ft. {@h}30 ({@damage 4d10 + 8}) Piercing damage plus 9 ({@damage 2d8}) Radiant damage. If the target is a Large or smaller creature, it has the {@condition grappled} condition (escape {@dc 18}) and has the {@condition restrained} condition until the grapple ends. The tyrannosaur can have only one creature grappled in its jaws at a time."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atkr m} {@hit 14}, reach 15 ft. {@h}24 ({@damage 3d10 + 8}) Bludgeoning damage, and the target must succeed on a {@dc 18} Strength saving throw or be pushed up to 10 feet away and knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Coronal Beam",
+					"entries": [
+						"{@atkr r} {@hit 14}, range 120 ft. {@h}22 ({@damage 5d8}) Radiant damage. The tyrannosaur fires a lance of starlight from one eye; it can use this as part of a Multiattack or on its own."
+					]
+				},
+				{
+					"name": "Annihilation Gaze {@recharge 5}",
+					"entries": [
+						"Both of the tyrannosaur's eyes blaze, and it sweeps a beam of searing starlight in a {@variantrule Line [Area of Effect]|XPHB|Line} 120 feet long and 10 feet wide. {@actSave dex} {@dc 19}, each creature in the Line. {@actSaveFail} 55 ({@damage 10d10}) Radiant damage. {@actSaveSuccess} Half damage. A creature reduced to 0 Hit Points by this damage is disintegrated, leaving only a smear of violet ash and a thumbnail of night sky where it stood."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Blinkstep",
+					"entries": [
+						"The tyrannosaur teleports up to 60 feet to an unoccupied space it can see. If it is grappling a creature, that creature is left behind."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Phase Out",
+					"entries": [
+						"When the tyrannosaur takes damage, it teleports up to 30 feet to an unoccupied space it can see. It can't use this reaction while it has the {@condition incapacitated} condition."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"name": "The Star-Eyed Tyrant",
+						"entries": [
+							"Somewhere in the violet ring around Vorthrax's hollow, a tyrannosaur drank too long from a rift of under-sky—and the paradox recopied it with two stars where its eyes had been. Now it folds space the way it once crossed open ground: a blink, a lance of starfire, another blink, and it is behind you. It is the apex of the corrupted region, and it makes a natural warlord for the {@i Paradox-Touched Warband}: let the goblins and kobolds swarm while the tyrant blinks across the field, snapping beams into the backline and biting the front to pieces.",
+							"You can also drop it into any campaign as a stand-alone marvel: a teleporting, laser-eyed dinosaur needs no further justification."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Design: A CR 18 Elite (No Legendary Actions)",
+						"entries": [
+							"This tyrannosaur is built as a {@b mini-boss / elite}, not a full solo. It hits like Challenge 18 (tier 4) and is genuinely durable (AC 18, 207 HP), but it has {@b no Legendary Actions and no Legendary Resistance}, which makes it far simpler to run and a touch softer than a true solo CR 18. That is by design: it shines leading lesser creatures—action economy from allies covers what its missing legendary turns would have provided.",
+							"Its identity is mobility and the eye-beam: {@b Blinkstep} (Bonus Action) and {@b Phase Out} (Reaction whenever it's damaged) mean it almost never ends a round where it was hit, while {@b Coronal Beam} snipes at will and {@b Annihilation Gaze} threatens a 120-foot line. Open at range, blink to break line of sight or escape melee, and punish clusters with the Gaze.",
+							"{@b Running it solo against four 17th-level PCs?} As written it will fall faster than a legendary boss should. To headline a fight alone, add Legendary Resistance (3/Day) and 2–3 Legendary Actions (Blinkstep for 1, Coronal Beam for 1, Tail for 2), and roughly +80 Hit Points—or simply field it alongside the Paradox-Touched Warband, which is how it's meant to fight."
+						]
+					}
+				]
+			}
+		}
+	]
+}
