@@ -11,13 +11,13 @@
 				"convertedBy": [
 					"Ninja12749"
 				],
-				"version": "1.0.0",
+				"version": "1.1.0",
 				"color": "7c3aed"
 			}
 		],
 		"edition": "one",
 		"dateAdded": 1781136000,
-		"dateLastModified": 1781136000
+		"dateLastModified": 1781222400
 	},
 	"monster": [
 		{
@@ -38,7 +38,7 @@
 			],
 			"ac": [
 				{
-					"ac": 17,
+					"ac": 18,
 					"from": [
 						"paradox-warded leather",
 						"shield"
@@ -46,8 +46,8 @@
 				}
 			],
 			"hp": {
-				"average": 36,
-				"formula": "8d6 + 8"
+				"average": 58,
+				"formula": "13d6 + 13"
 			},
 			"speed": {
 				"walk": 30
@@ -59,10 +59,10 @@
 			"wis": 10,
 			"cha": 9,
 			"save": {
-				"dex": "+8"
+				"dex": "+9"
 			},
 			"skill": {
-				"stealth": "+8"
+				"stealth": "+9"
 			},
 			"senses": [
 				"darkvision 60 ft."
@@ -75,12 +75,12 @@
 				"Common",
 				"Goblin"
 			],
-			"cr": "14",
+			"cr": "17",
 			"trait": [
 				{
 					"name": "Glass-Cannon Minion",
 					"entries": [
-						"This creature's attacks are calibrated to Challenge 14 (tier 3), but its Hit Points are deliberately minion-grade—it hits like an endgame threat and dies like a mook. Its listed CR reflects the danger of its attacks, not its durability: a single solid hit or area spell from a 14th-level character usually drops it. For encounter budgeting, treat it as far less durable than a true CR 14 monster (see the Paradox-Touched Goblin Hexer for roster math)."
+						"This creature's attacks are calibrated to Challenge 17 (tier 4), but its Hit Points are deliberately minion-grade—it hits like an endgame threat and dies like a mook. Its listed CR reflects the danger of its attacks, not its durability: a single solid hit or area spell from a well-equipped 17th-level character usually drops it. For encounter budgeting, treat it as far less durable than a true CR 17 monster (see the Paradox-Touched Goblin Hexer for roster math)."
 					]
 				},
 				{
@@ -106,7 +106,7 @@
 				{
 					"name": "Paradox Scimitar",
 					"entries": [
-						"{@atkr m} {@hit 11}, reach 5 ft. {@h}11 ({@damage 2d6 + 4}) Slashing damage plus 9 ({@damage 2d8}) Necrotic damage."
+						"{@atkr m} {@hit 13}, reach 5 ft. {@h}14 ({@damage 2d8 + 5}) Slashing damage plus 13 ({@damage 3d8}) Necrotic damage."
 					]
 				}
 			],
@@ -114,7 +114,7 @@
 				{
 					"name": "Unmade Flicker",
 					"entries": [
-						"When the goblin is reduced to 0 Hit Points, its body tears into a thumbnail of night sky and is gone. Each creature within 5 feet of it takes 5 ({@damage 2d4}) Necrotic damage from the imploding seam."
+						"When the goblin is reduced to 0 Hit Points, its body tears into a thumbnail of night sky and is gone. Each creature within 5 feet of it takes 7 ({@damage 3d4}) Necrotic damage from the imploding seam."
 					]
 				}
 			],
@@ -142,15 +142,15 @@
 			],
 			"ac": [
 				{
-					"ac": 16,
+					"ac": 17,
 					"from": [
 						"paradox-warded leather"
 					]
 				}
 			],
 			"hp": {
-				"average": 27,
-				"formula": "6d6 + 6"
+				"average": 49,
+				"formula": "11d6 + 11"
 			},
 			"speed": {
 				"walk": 30
@@ -162,16 +162,16 @@
 			"wis": 13,
 			"cha": 8,
 			"save": {
-				"dex": "+10"
+				"dex": "+11"
 			},
 			"skill": {
-				"stealth": "+10",
-				"perception": "+6"
+				"stealth": "+11",
+				"perception": "+7"
 			},
 			"senses": [
 				"darkvision 60 ft."
 			],
-			"passive": 16,
+			"passive": 17,
 			"conditionImmune": [
 				"frightened"
 			],
@@ -179,12 +179,12 @@
 				"Common",
 				"Goblin"
 			],
-			"cr": "14",
+			"cr": "17",
 			"trait": [
 				{
 					"name": "Glass-Cannon Minion",
 					"entries": [
-						"This creature's attacks are calibrated to Challenge 14 (tier 3), but its Hit Points are deliberately minion-grade—it hits like an endgame threat and dies like a mook. Its listed CR reflects the danger of its attacks, not its durability: a single solid hit or area spell from a 14th-level character usually drops it. For encounter budgeting, treat it as far less durable than a true CR 14 monster (see the Paradox-Touched Goblin Hexer for roster math)."
+						"This creature's attacks are calibrated to Challenge 17 (tier 4), but its Hit Points are deliberately minion-grade—it hits like an endgame threat and dies like a mook. Its listed CR reflects the danger of its attacks, not its durability: a single solid hit or area spell from a well-equipped 17th-level character usually drops it. For encounter budgeting, treat it as far less durable than a true CR 17 monster (see the Paradox-Touched Goblin Hexer for roster math)."
 					]
 				},
 				{
@@ -210,13 +210,13 @@
 				{
 					"name": "Paradox Shortbow",
 					"entries": [
-						"{@atkr r} {@hit 11}, range 80/320 ft. {@h}12 ({@damage 2d6 + 5}) Piercing damage plus 9 ({@damage 2d8}) Force damage."
+						"{@atkr r} {@hit 13}, range 80/320 ft. {@h}15 ({@damage 2d8 + 5}) Piercing damage plus 13 ({@damage 3d8}) Force damage."
 					]
 				},
 				{
 					"name": "Starfall Volley {@recharge 5}",
 					"entries": [
-						"The goblin looses an arrow that bursts into falling starlight at a point it can see within 150 feet. {@actSave dex} {@dc 18}, each creature in a 15-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on that point. {@actSaveFail} 27 ({@damage 6d8}) Force damage. {@actSaveSuccess} Half damage."
+						"The goblin looses an arrow that bursts into falling starlight at a point it can see within 150 feet. {@actSave dex} {@dc 20}, each creature in a 15-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on that point. {@actSaveFail} 36 ({@damage 8d8}) Force damage. {@actSaveSuccess} Half damage."
 					]
 				}
 			],
@@ -224,7 +224,7 @@
 				{
 					"name": "Unmade Flicker",
 					"entries": [
-						"When the goblin is reduced to 0 Hit Points, its body tears into a thumbnail of night sky and is gone. Each creature within 5 feet of it takes 5 ({@damage 2d4}) Force damage from the imploding seam."
+						"When the goblin is reduced to 0 Hit Points, its body tears into a thumbnail of night sky and is gone. Each creature within 5 feet of it takes 7 ({@damage 3d4}) Force damage from the imploding seam."
 					]
 				}
 			],
@@ -252,15 +252,15 @@
 			],
 			"ac": [
 				{
-					"ac": 16,
+					"ac": 17,
 					"from": [
 						"paradox ward"
 					]
 				}
 			],
 			"hp": {
-				"average": 38,
-				"formula": "7d6 + 14"
+				"average": 66,
+				"formula": "12d6 + 24"
 			},
 			"speed": {
 				"walk": 30
@@ -272,17 +272,17 @@
 			"wis": 18,
 			"cha": 13,
 			"save": {
-				"wis": "+9"
+				"wis": "+10"
 			},
 			"skill": {
-				"perception": "+9",
-				"deception": "+6",
-				"stealth": "+7"
+				"perception": "+10",
+				"deception": "+7",
+				"stealth": "+8"
 			},
 			"senses": [
 				"darkvision 60 ft."
 			],
-			"passive": 19,
+			"passive": 20,
 			"conditionImmune": [
 				"frightened"
 			],
@@ -290,12 +290,12 @@
 				"Common",
 				"Goblin"
 			],
-			"cr": "14",
+			"cr": "17",
 			"trait": [
 				{
 					"name": "Glass-Cannon Minion",
 					"entries": [
-						"This creature's attacks and spells are calibrated to Challenge 14 (tier 3), but its Hit Points are deliberately minion-grade—it hits like an endgame threat and dies like a mook. Its listed CR reflects the danger of its magic, not its durability: a single solid hit or area spell from a 14th-level character usually drops it."
+						"This creature's attacks and spells are calibrated to Challenge 17 (tier 4), but its Hit Points are deliberately minion-grade—it hits like an endgame threat and dies like a mook. Its listed CR reflects the danger of its magic, not its durability: a single solid hit or area spell from a well-equipped 17th-level character usually drops it."
 					]
 				},
 				{
@@ -310,7 +310,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The goblin casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 19}; {@hitYourSpellAttack +11 to hit with spell attacks}):"
+						"The goblin casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 20}; {@hitYourSpellAttack +12 to hit with spell attacks}):"
 					],
 					"will": [
 						"{@spell vicious mockery|XPHB}",
@@ -322,10 +322,10 @@
 						"2e": [
 							"{@spell hunger of hadar|XPHB}",
 							"{@spell fear|XPHB}",
-							"{@spell blindness/deafness|XPHB}"
+							"{@spell bane|XPHB}"
 						],
 						"1e": [
-							"{@spell bestow curse|XPHB}",
+							"{@spell synaptic static|XPHB}",
 							"{@spell hold monster|XPHB}"
 						]
 					},
@@ -343,7 +343,7 @@
 				{
 					"name": "Hex Bolt",
 					"entries": [
-						"{@atkr r} {@hit 11}, range 120 ft. {@h}22 ({@damage 4d8 + 4}) Necrotic damage, and the target can't regain Hit Points until the end of the goblin's next turn."
+						"{@atkr r} {@hit 12}, range 120 ft. {@h}27 ({@damage 5d8 + 4}) Necrotic damage, and the target can't regain Hit Points until the end of the goblin's next turn."
 					]
 				}
 			],
@@ -351,7 +351,7 @@
 				{
 					"name": "Curse of the Unmade",
 					"entries": [
-						"When a creature the goblin can see within 60 feet reduces it to 0 Hit Points, that creature must succeed on a {@dc 19} Wisdom saving throw or take 18 ({@damage 4d8}) Psychic damage and have Disadvantage on its next attack roll before the end of its next turn, as a stranger's memories flood in."
+						"When a creature the goblin can see within 60 feet reduces it to 0 Hit Points, that creature must succeed on a {@dc 20} Wisdom saving throw or take 22 ({@damage 5d8}) Psychic damage and have Disadvantage on its next attack roll before the end of its next turn, as a stranger's memories flood in."
 					]
 				}
 			],
@@ -366,28 +366,28 @@
 					},
 					{
 						"type": "entries",
-						"name": "Design: Glass-Cannon Minions (CR 14)",
+						"name": "Design: Glass-Cannon Minions (CR 17)",
 						"entries": [
-							"Every member of the warband is built as a {@b glass cannon}: its attacks, save DCs, and damage are calibrated to Challenge 14 (tier 3), so a single one is a genuine threat to a 14th-level character—but its Hit Points are minion-grade, so it drops to almost any solid hit or area spell. The CR 14 label is the threat of the attack, not the toughness of the body.",
-							"This breaks the normal CR-to-XP math on purpose. By the book, six CR 14 monsters would be an apocalyptic 69,000 XP; in practice these die so fast that the effective difficulty is roughly that of treating each as a {@b CR 4–5} creature. Budget by their fragility, not their label.",
+							"Every member of the warband is built as a {@b glass cannon}: its attacks, save DCs, and damage are calibrated to Challenge 17 (tier 4), so a single one is a genuine threat to a well-equipped 17th-level character—but its Hit Points are minion-grade (45–66), so it drops to almost any focused hit or area spell. The CR 17 label is the threat of the attack, not the toughness of the body. They have just enough Hit Points to survive the alpha strike of a tier-4 party and take one real turn—which is exactly when they bite.",
+							"This breaks the normal CR-to-XP math on purpose. By the book, six CR 17 monsters would be an absurd 108,000 XP; in practice these die so fast that the effective difficulty is roughly that of treating each as a {@b CR 6–7} creature. Budget by their fragility, not their label.",
 							"The six variants: {@creature Paradox-Touched Goblin Cutter|ParadoxWarband} and {@creature Paradox-Touched Kobold Clawfoot|ParadoxWarband} (melee warriors), {@creature Paradox-Touched Goblin Stinger|ParadoxWarband} and {@creature Paradox-Touched Kobold Slinger|ParadoxWarband} (archers), and the {@creature Paradox-Touched Goblin Hexer|ParadoxWarband} and {@creature Paradox-Touched Kobold Star-Scale|ParadoxWarband} (casters)."
 						]
 					},
 					{
 						"type": "entries",
-						"name": "Running It for Four 14th-Level Characters",
+						"name": "Running It for Four Well-Equipped 17th-Level Characters",
 						"entries": [
-							"Because they are glass cannons, this fight is {@b swingy}: whoever lands the first big turn shapes it. Suggested rosters:",
+							"This is the same party that fights Vorthrax: four 17th-level characters, each with a legendary item and a very rare item. The XP budgets for them are Low 18,000 / Moderate 28,800 / High 46,800. Because these minions are glass cannons, the fight is {@b swingy}—whoever lands the first big turn shapes it. Suggested rosters:",
 							{
 								"type": "list",
 								"items": [
 									"{@b Sharp brawl (recommended):} 1 caster + 1 archer + 2 warriors (4 total)—a tense, fast 2–3 round fight that ends when the party's area damage lands.",
-									"{@b The full warband:} both casters + 2 archers + 4 warriors (8 total)—genuinely dangerous in round 1, then collapses quickly. Open with the casters' control and the archers' Volley/Scatter before the party scatters them.",
-									"{@b Endless tide:} feed them in waves of 3–4 each round to evoke the region recopying its dead—thematically perfect, and it lets you dial lethality live."
+									"{@b The full warband:} both casters + 2 archers + 4 warriors (8 total)—genuinely dangerous in round 1 against a tier-4 party, then collapses quickly. Open with the casters' control and the archers' Volley/Scatter before the party scatters them.",
+									"{@b Endless tide:} feed them in waves of 4–6 each round to evoke the region recopying its dead—thematically perfect, and it lets you dial lethality live. This is the recommended way to threaten a party this strong: attrition, not a single alpha."
 								]
 							},
-							"Tactics: casters open with {@spell hunger of hadar|XPHB}, {@spell fear|XPHB}, or {@spell hold monster|XPHB} to pin the party; archers spend {@b Starfall Volley}/{@b Scatter Shot} on clusters; warriors use Nimble Escape and Pack Tactics to gang a single isolated character. Lean into the {@b Unmade Flicker} death bursts—every minion that dies stings whoever killed it, so melee characters take a slow toll wading through the horde.",
-							"Flavor note: these are the literal punchline of the campaign's running joke—the level-20 goblin in a different color. When the party recognizes the silhouette of a common goblin and then it hits like a CR 14, that dissonance is the point."
+							"Tactics: casters open with {@spell hunger of hadar|XPHB}, {@spell synaptic static|XPHB}, or {@spell hold monster|XPHB} to pin the party; archers spend {@b Starfall Volley}/{@b Scatter Shot} on clusters; warriors use Nimble Escape and Pack Tactics to gang a single isolated character. Lean into the {@b Unmade Flicker} death bursts—every minion that dies stings whoever killed it, so melee characters take a slow toll wading through the horde.",
+							"Flavor note: these are the literal punchline of the campaign's running joke—the level-20 goblin in a different color. When the party recognizes the silhouette of a common goblin and then it hits like a CR 17, that dissonance is the point."
 						]
 					}
 				]
@@ -411,15 +411,15 @@
 			],
 			"ac": [
 				{
-					"ac": 16,
+					"ac": 17,
 					"from": [
 						"paradox-warded scraps"
 					]
 				}
 			],
 			"hp": {
-				"average": 32,
-				"formula": "7d6 + 7"
+				"average": 54,
+				"formula": "12d6 + 12"
 			},
 			"speed": {
 				"walk": 30
@@ -431,10 +431,10 @@
 			"wis": 9,
 			"cha": 9,
 			"save": {
-				"dex": "+9"
+				"dex": "+10"
 			},
 			"skill": {
-				"stealth": "+9"
+				"stealth": "+10"
 			},
 			"senses": [
 				"darkvision 60 ft."
@@ -447,12 +447,12 @@
 				"Common",
 				"Draconic"
 			],
-			"cr": "14",
+			"cr": "17",
 			"trait": [
 				{
 					"name": "Glass-Cannon Minion",
 					"entries": [
-						"This creature's attacks are calibrated to Challenge 14 (tier 3), but its Hit Points are deliberately minion-grade—it hits like an endgame threat and dies like a mook. Its listed CR reflects the danger of its attacks, not its durability: a single solid hit or area spell from a 14th-level character usually drops it. For encounter budgeting, treat it as far less durable than a true CR 14 monster (see the Paradox-Touched Goblin Hexer for roster math)."
+						"This creature's attacks are calibrated to Challenge 17 (tier 4), but its Hit Points are deliberately minion-grade—it hits like an endgame threat and dies like a mook. Its listed CR reflects the danger of its attacks, not its durability: a single solid hit or area spell from a well-equipped 17th-level character usually drops it. For encounter budgeting, treat it as far less durable than a true CR 17 monster (see the Paradox-Touched Goblin Hexer for roster math)."
 					]
 				},
 				{
@@ -478,7 +478,7 @@
 				{
 					"name": "Paradox Claw",
 					"entries": [
-						"{@atkr m} {@hit 11}, reach 5 ft. {@h}11 ({@damage 2d6 + 4}) Slashing damage plus 7 ({@damage 2d6}) Necrotic damage."
+						"{@atkr m} {@hit 13}, reach 5 ft. {@h}13 ({@damage 2d8 + 4}) Slashing damage plus 10 ({@damage 3d6}) Necrotic damage."
 					]
 				}
 			],
@@ -494,7 +494,7 @@
 				{
 					"name": "Unmade Flicker",
 					"entries": [
-						"When the kobold is reduced to 0 Hit Points, its body tears into a thumbnail of night sky and is gone. Each creature within 5 feet of it takes 5 ({@damage 2d4}) Necrotic damage from the imploding seam."
+						"When the kobold is reduced to 0 Hit Points, its body tears into a thumbnail of night sky and is gone. Each creature within 5 feet of it takes 7 ({@damage 3d4}) Necrotic damage from the imploding seam."
 					]
 				}
 			],
@@ -522,30 +522,30 @@
 			],
 			"ac": [
 				{
-					"ac": 15,
+					"ac": 16,
 					"from": [
 						"paradox-warded scraps"
 					]
 				}
 			],
 			"hp": {
-				"average": 27,
-				"formula": "6d6 + 6"
+				"average": 45,
+				"formula": "10d6 + 10"
 			},
 			"speed": {
 				"walk": 30
 			},
 			"str": 8,
-			"dex": 19,
+			"dex": 20,
 			"con": 12,
 			"int": 8,
 			"wis": 10,
 			"cha": 8,
 			"save": {
-				"dex": "+9"
+				"dex": "+11"
 			},
 			"skill": {
-				"stealth": "+9"
+				"stealth": "+11"
 			},
 			"senses": [
 				"darkvision 60 ft."
@@ -558,12 +558,12 @@
 				"Common",
 				"Draconic"
 			],
-			"cr": "14",
+			"cr": "17",
 			"trait": [
 				{
 					"name": "Glass-Cannon Minion",
 					"entries": [
-						"This creature's attacks are calibrated to Challenge 14 (tier 3), but its Hit Points are deliberately minion-grade—it hits like an endgame threat and dies like a mook. Its listed CR reflects the danger of its attacks, not its durability: a single solid hit or area spell from a 14th-level character usually drops it. For encounter budgeting, treat it as far less durable than a true CR 14 monster (see the Paradox-Touched Goblin Hexer for roster math)."
+						"This creature's attacks are calibrated to Challenge 17 (tier 4), but its Hit Points are deliberately minion-grade—it hits like an endgame threat and dies like a mook. Its listed CR reflects the danger of its attacks, not its durability: a single solid hit or area spell from a well-equipped 17th-level character usually drops it. For encounter budgeting, treat it as far less durable than a true CR 17 monster (see the Paradox-Touched Goblin Hexer for roster math)."
 					]
 				},
 				{
@@ -589,13 +589,13 @@
 				{
 					"name": "Paradox Sling",
 					"entries": [
-						"{@atkr m,r} {@hit 11}, reach 5 ft. or range 30/120 ft. {@h}11 ({@damage 2d6 + 4}) Bludgeoning damage plus 7 ({@damage 2d6}) Force damage."
+						"{@atkr m,r} {@hit 13}, reach 5 ft. or range 30/120 ft. {@h}15 ({@damage 2d8 + 5}) Bludgeoning damage plus 10 ({@damage 3d6}) Force damage."
 					]
 				},
 				{
 					"name": "Scatter Shot {@recharge 5}",
 					"entries": [
-						"The kobold whirls a spray of starlit shot in a 30-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. {@actSave dex} {@dc 17}, each creature in that area. {@actSaveFail} 21 ({@damage 6d6}) Force damage. {@actSaveSuccess} Half damage."
+						"The kobold whirls a spray of starlit shot in a 30-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. {@actSave dex} {@dc 19}, each creature in that area. {@actSaveFail} 28 ({@damage 8d6}) Force damage. {@actSaveSuccess} Half damage."
 					]
 				}
 			],
@@ -603,7 +603,7 @@
 				{
 					"name": "Unmade Flicker",
 					"entries": [
-						"When the kobold is reduced to 0 Hit Points, its body tears into a thumbnail of night sky and is gone. Each creature within 5 feet of it takes 5 ({@damage 2d4}) Force damage from the imploding seam."
+						"When the kobold is reduced to 0 Hit Points, its body tears into a thumbnail of night sky and is gone. Each creature within 5 feet of it takes 7 ({@damage 3d4}) Force damage from the imploding seam."
 					]
 				}
 			],
@@ -631,31 +631,31 @@
 			],
 			"ac": [
 				{
-					"ac": 16,
+					"ac": 17,
 					"from": [
 						"paradox ward"
 					]
 				}
 			],
 			"hp": {
-				"average": 33,
-				"formula": "6d6 + 12"
+				"average": 58,
+				"formula": "13d6 + 13"
 			},
 			"speed": {
 				"walk": 30
 			},
 			"str": 8,
 			"dex": 16,
-			"con": 14,
+			"con": 12,
 			"int": 10,
 			"wis": 11,
 			"cha": 18,
 			"save": {
-				"cha": "+9"
+				"cha": "+10"
 			},
 			"skill": {
-				"arcana": "+5",
-				"stealth": "+8"
+				"arcana": "+6",
+				"stealth": "+9"
 			},
 			"senses": [
 				"darkvision 60 ft."
@@ -668,12 +668,12 @@
 				"Common",
 				"Draconic"
 			],
-			"cr": "14",
+			"cr": "17",
 			"trait": [
 				{
 					"name": "Glass-Cannon Minion",
 					"entries": [
-						"This creature's spells are calibrated to Challenge 14 (tier 3), but its Hit Points are deliberately minion-grade—it hits like an endgame threat and dies like a mook. Its listed CR reflects the danger of its magic, not its durability: a single solid hit or area spell from a 14th-level character usually drops it."
+						"This creature's spells are calibrated to Challenge 17 (tier 4), but its Hit Points are deliberately minion-grade—it hits like an endgame threat and dies like a mook. Its listed CR reflects the danger of its magic, not its durability: a single solid hit or area spell from a well-equipped 17th-level character usually drops it."
 					]
 				},
 				{
@@ -694,7 +694,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The kobold casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 19}; {@hitYourSpellAttack +11 to hit with spell attacks}):"
+						"The kobold casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 20}; {@hitYourSpellAttack +12 to hit with spell attacks}):"
 					],
 					"will": [
 						"{@spell sorcerous burst|XPHB}",
@@ -712,7 +712,7 @@
 							"{@spell misty step|XPHB}"
 						],
 						"1e": [
-							"{@spell fireball|XPHB} (cast as \"Starburst\"; Force damage)"
+							"{@spell fireball|XPHB} (cast as \"Starburst\" at 5th level; 35 (10d6) Force damage, save {@dc 20})"
 						]
 					},
 					"ability": "cha",
@@ -729,7 +729,7 @@
 				{
 					"name": "Star Bolt",
 					"entries": [
-						"{@atkr r} {@hit 11}, range 120 ft. {@h}18 ({@damage 4d8}) Force damage."
+						"{@atkr r} {@hit 12}, range 120 ft. {@h}22 ({@damage 5d8}) Force damage."
 					]
 				}
 			],
@@ -737,7 +737,7 @@
 				{
 					"name": "Unmade Flicker",
 					"entries": [
-						"When the kobold is reduced to 0 Hit Points, its body tears into a thumbnail of night sky and is gone. Each creature within 5 feet of it takes 5 ({@damage 2d4}) Force damage from the imploding seam."
+						"When the kobold is reduced to 0 Hit Points, its body tears into a thumbnail of night sky and is gone. Each creature within 5 feet of it takes 7 ({@damage 3d4}) Force damage from the imploding seam."
 					]
 				}
 			],
