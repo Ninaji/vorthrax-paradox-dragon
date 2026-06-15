@@ -1,8 +1,8 @@
 # Plano — Bestiário do Paradoxo de Gaia: "A Apoptose / Os Apagados"
 
-Documento de planejamento (TODO por criatura) **antes** de estatísticar. Inspiração: a *Apoptosis*
-de Monster Girl Quest Paradox (seres de **anti-existência / apagamento**), adaptada à cosmologia de
-**Gaia** e ao **efeito regional do paradoxo** do Vorthrax. Sem conteúdo adulto — só os conceitos.
+Documento de planejamento (TODO por criatura) **antes** de estatísticar. Inspiração: o conceito de
+*apoptose* (morte celular programada → seres de **anti-existência / apagamento**), adaptada à
+cosmologia de **Gaia** e ao **efeito regional do paradoxo** do Vorthrax.
 
 ## Regras da facção (valem para TODAS as 12)
 
