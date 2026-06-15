@@ -1,0 +1,62 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "ForgottenHero",
+				"abbreviation": "CCH",
+				"full": "Chaos Consumed Forgotten Hero",
+				"authors": ["Ninja12749"],
+				"convertedBy": ["Ninja12749"],
+				"version": "1.0.0",
+				"color": "713f12"
+			}
+		],
+		"edition": "one",
+		"dateAdded": 1781654400,
+		"dateLastModified": 1781654400
+	},
+	"monster": [
+		{
+			"name": "Chaos Consumed Forgotten Hero",
+			"source": "ForgottenHero",
+			"isNamedCreature": true,
+			"size": ["M"],
+			"type": { "type": "aberration", "tags": ["construct", "humanoid", "paradox"] },
+			"alignment": ["C", "E"],
+			"ac": [{ "ac": 19, "from": ["hollow paragon's plate"] }],
+			"hp": { "average": 135, "formula": "18d8 + 54" },
+			"speed": { "walk": 40 },
+			"str": 22, "dex": 18, "con": 16, "int": 12, "wis": 16, "cha": 18,
+			"save": { "str": "+14", "con": "+11", "wis": "+11", "cha": "+12" },
+			"skill": { "athletics": "+14", "perception": "+11" },
+			"senses": ["truesight 60 ft.", "darkvision 120 ft."],
+			"passive": 21,
+			"resist": ["necrotic", "radiant"],
+			"conditionImmune": ["charmed", "exhaustion", "frightened"],
+			"languages": ["Common", "Celestial", "Deep Speech"],
+			"cr": "25",
+			"trait": [
+				{ "name": "Glass-Cannon Minion", "entries": ["The Forgotten Hero's attacks are calibrated to Challenge 25 (tier 4)—the strikes of a perfect hero—but his Hit Points are deliberately minion-grade (135). He hits like the savior the world remembers and dies like the husk he became: focused fire or a single big spell from a high-tier party usually drops him in a round. His listed CR reflects the danger of his blade, not his durability."] },
+				{ "name": "Relentless Crusade", "entries": ["Once per turn, when the Forgotten Hero reduces a creature to 0 Hit Points with the Sealed Sword, he can immediately make one more Sealed Sword attack."] },
+				{ "name": "Soul Cage", "entries": ["When the Sealed Sword reduces a creature to 0 Hit Points, that creature's soul is sealed in the blade (as the {@spell soul cage|XGE} spell). A creature whose soul is caged can't be raised or resurrected until the soul is freed (see Free the Soul). As a Bonus Action, the Forgotten Hero can spend one caged soul to either regain 40 Hit Points or gain Advantage on his attack rolls until the end of his next turn. The Sealed Sword can hold up to six souls."] },
+				{ "name": "Free the Soul (Remove Curse)", "entries": ["The Forgotten Hero's own soul is sealed in the cursed blade alongside his victims'. While he is below half his Hit Point maximum (67 Hit Points or fewer), the seal is loose enough to touch: a creature within 5 feet of him can take a Magic action to cast {@spell remove curse|XPHB} (using a level 3+ slot) on the Sealed Sword. Doing so releases every caged soul (those creatures can be raised normally again) and unseals the Hero's own soul—he immediately drops to 0 Hit Points and crumbles to rest. This is a way to end him without ever out-damaging him."] }
+			],
+			"action": [
+				{ "name": "Multiattack", "entries": ["The Forgotten Hero makes three Sealed Sword attacks."] },
+				{ "name": "Sealed Sword", "entries": ["{@atkr m} {@hit 17}, reach 5 ft. {@h}19 ({@damage 3d8 + 6}) Slashing damage plus 18 ({@damage 4d8}) Force damage. On a hit, one spell of level 5 or lower on the target ends, as a targeted {@spell dispel magic|XPHB} (no ability check required); the GM chooses which spell if there is more than one."] },
+				{ "name": "Forgotten Crusade {@recharge 5}", "entries": ["The Forgotten Hero blurs into the flurry of techniques he once used to save the world, now turned to ending it. Each creature in a 15-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from him makes a {@dc 24} Dexterity saving throw. {@actSaveFail} 55 ({@damage 10d10}) Force damage, and one spell of level 5 or lower on the creature ends (as {@spell dispel magic|XPHB}). {@actSaveSuccess} Half damage. A creature reduced to 0 Hit Points by this damage is subject to Soul Cage."] }
+			],
+			"bonus": [
+				{ "name": "Heroic Step", "entries": ["The Forgotten Hero moves up to half his Speed without provoking Opportunity Attacks."] }
+			],
+			"reaction": [
+				{ "name": "Hollow Riposte", "entries": ["When a creature within 5 feet misses the Forgotten Hero with a melee attack, he makes one Sealed Sword attack against it."] }
+			],
+			"fluff": { "entries": [
+				{ "type": "entries", "name": "The Hero the World Forgot", "entries": ["He was the ideal hero—the paragon every later champion was measured against, the one who once sealed away the dark and was sung about until the songs themselves were forgotten. Then the chaos of the paradox found him, and it did the cruelest thing it knows: it kept the shape and hollowed out the soul. What walks now still gleams in a hero's plate and still moves with that flawless, practiced grace, but the light in the armor is wrong, and the blade he carries no longer saves the fallen—it cages them. He does not remember choosing this. He does not remember anything. He only remembers how to fight, and he does it perfectly."] },
+				{ "type": "entries", "name": "The Sealed Sword", "entries": ["The hero's holy blade was sealed by the chaos along with him, and corrupted in the sealing. Now every strike sunders magic (a built-in {@spell dispel magic|XPHB}), and every kill it makes drinks the slain soul into the steel ({@spell soul cage|XGE}). His own soul is in there too, the first one caged—which is why the curse has a key. Cast {@spell remove curse|XPHB} on the blade and the seal breaks: the trapped souls spill free, and the Forgotten Hero, freed at last, simply lets go."] },
+				{ "type": "entries", "name": "Design: CR 25 Glass-Cannon Minion", "entries": ["A 'minion-quality' boss: Challenge 25 offense (three Sealed Sword strikes a turn that each dispel a buff, Relentless Crusade chaining off kills, and the Forgotten Crusade burst) on minion-grade Hit Points (135). He is meant to threaten even a high-tier party hard and fast, then fall quickly to focused fire—use him as a brutal lieutenant, a wave enemy, or a duel that ends in a few rounds. Type is Aberration with the construct, humanoid, and paradox tags (chaos wearing a hero's body). The Soul Cage + Free the Soul pair gives a story-driven alternative to brute force: free his soul with remove curse and you both defeat and redeem him. No Legendary Actions or Legendary Resistance—he is fragile by design."] }
+			] }
+		}
+	]
+}
