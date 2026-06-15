@@ -4,7 +4,7 @@
 			{
 				"json": "ParadoxMaou",
 				"abbreviation": "PXM",
-				"full": "Paradox Maou Sama (Alice)",
+				"full": "Nyxariel, the Paradox Maou",
 				"authors": ["Ninja12749"],
 				"convertedBy": ["Ninja12749"],
 				"version": "2.0.0",
@@ -17,7 +17,7 @@
 	},
 	"monster": [
 		{
-			"name": "Paradox Maou Sama, the False Goddess (Illya)",
+			"name": "Nyxariel, the False Goddess",
 			"source": "ParadoxMaou",
 			"isNamedCreature": true,
 			"size": ["L"],
@@ -40,7 +40,7 @@
 				{ "name": "Legendary Resistance (3/Day)", "entries": ["If the False Goddess fails a saving throw, she can choose to succeed instead."] },
 				{ "name": "Aura of False Divinity", "entries": ["The False Goddess sheds Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. Her Radiant damage ignores Resistance to Radiant damage. (She has no antimagic aura—her power is the gaze, not its absence.)"] },
 				{ "name": "The Mask of Heaven", "entries": ["Divination and other magic that would discern her nature shows only a goddess; the demon lord beneath is hidden. She has Advantage on Charisma checks to deceive, and creatures have Disadvantage on Insight checks against her. Look closely, though, and her eyes are wrong—too many, and too dark for heaven."] },
-				{ "name": "Paradox Ascension (The Mask Shatters)", "entries": ["The first time she is reduced to 0 Hit Points, the mask of heaven shatters and her true, many-eyed self emerges: she rises as {@creature Paradox Maou Sama, Demon Lord Alice the Lamia|ParadoxMaou}, appearing in her space at that form's full Hit Points. Any conditions and ongoing effects on her end. Run all three forms as one boss; award XP once, when the final form falls."] }
+				{ "name": "Paradox Ascension (The Mask Shatters)", "entries": ["The first time she is reduced to 0 Hit Points, the mask of heaven shatters and her true, many-eyed self emerges: she rises as {@creature Nyxariel, the Demon Lord Lamia|ParadoxMaou}, appearing in her space at that form's full Hit Points. Any conditions and ongoing effects on her end. Run all three forms as one boss; award XP once, when the final form falls."] }
 			],
 			"spellcasting": [
 				{
@@ -83,12 +83,12 @@
 				{ "name": "Cast Judgment (Costs 2 Actions)", "entries": ["The False Goddess uses Heaven's Verdict if it is available."] }
 			],
 			"fluff": { "entries": [
-				{ "type": "entries", "name": "The Face She Wears First", "entries": ["Phase 1 references the goddess Ilias of Monster Girl Quest—but it is a lie. This radiant 'goddess' is the Paradox Maou, Alice, wearing heaven's face like a borrowed cloak, judging the party with eyes that flash holy light. The eyes are the tell: there are too many of them, and the light behind them is only painted over the dark. The mercy of the mask is that it dies first."] },
-				{ "type": "entries", "name": "Design: CR 28 Legendary Boss — Phase 1 of 3", "entries": ["The opening face of a three-phase campaign finale for four 20th-level characters with magic items. She fights as an eye-tyrant of false light: Eyes of Judgment fire three radiant rays a turn (damage + blind/stun/banish), backed by Heaven's Verdict and self-heal—like a beholder, but with no antimagic aura. At 0 Hit Points she becomes {@creature Paradox Maou Sama, Demon Lord Alice the Lamia|ParadoxMaou} (Phase 2), and the gaze turns to darkness."] }
+				{ "type": "entries", "name": "The Face She Wears First", "entries": ["This radiant 'goddess' is a lie—the Paradox Maou wearing heaven's face like a borrowed cloak, judging the party with eyes that flash holy light. The eyes are the tell: there are too many of them, and the light behind them is only painted over the dark. The mercy of the mask is that it dies first."] },
+				{ "type": "entries", "name": "Design: CR 28 Legendary Boss — Phase 1 of 3", "entries": ["The opening face of a three-phase campaign finale for four 20th-level characters with magic items. She fights as an eye-tyrant of false light: Eyes of Judgment fire three radiant rays a turn (damage + blind/stun/banish), backed by Heaven's Verdict and self-heal—like a beholder, but with no antimagic aura. At 0 Hit Points she becomes {@creature Nyxariel, the Demon Lord Lamia|ParadoxMaou} (Phase 2), and the gaze turns to darkness."] }
 			] }
 		},
 		{
-			"name": "Paradox Maou Sama, Demon Lord Alice the Lamia",
+			"name": "Nyxariel, the Demon Lord Lamia",
 			"source": "ParadoxMaou",
 			"isNamedCreature": true,
 			"size": ["H"],
@@ -113,7 +113,7 @@
 				{ "name": "Maddening Gaze", "entries": ["At the start of each of the Demon Lord's turns, she fixes one creature she can see within 60 feet that can see her eyes. That creature makes a {@dc 25} Wisdom saving throw or takes 22 ({@damage 4d10}) Psychic damage and has Disadvantage on saving throws against the Demon Lord's Eye Rays until the start of her next turn."] },
 				{ "name": "Demon Lord's Authority", "entries": ["Each enemy that starts its turn within 30 feet of the Demon Lord must succeed on a {@dc 25} Wisdom saving throw or have Disadvantage on attack rolls until the start of its next turn. {@i paradox}-tagged allies within 30 feet are immune to being {@condition charmed} or {@condition frightened}."] },
 				{ "name": "Serpent's Body", "entries": ["The Demon Lord can't be knocked {@condition prone}, has Advantage on saving throws against being {@condition grappled} or {@condition restrained}, and ignores Difficult Terrain."] },
-				{ "name": "Paradox Ascension (True Chaos)", "entries": ["When this form is reduced to 0 Hit Points, the paradox at her core blooms, fusing goddess, demon, and machine. She rises as {@creature Paradox Maou Sama, the Child of Chaos|ParadoxMaou}, appearing in her space at that form's full Hit Points; any conditions and ongoing effects on her end. This is her final transformation."] }
+				{ "name": "Paradox Ascension (True Chaos)", "entries": ["When this form is reduced to 0 Hit Points, the paradox at her core blooms, fusing goddess, demon, and machine. She rises as {@creature Nyxariel, the Child of Chaos|ParadoxMaou}, appearing in her space at that form's full Hit Points; any conditions and ongoing effects on her end. This is her final transformation."] }
 			],
 			"spellcasting": [
 				{
@@ -162,12 +162,12 @@
 				{ "name": "Dark Decree (Costs 2 Actions)", "entries": ["The Demon Lord casts a spell of level 6 or lower from her Spellcasting, or shoots two rays from her Eye Rays."] }
 			],
 			"fluff": { "entries": [
-				{ "type": "entries", "name": "The Eye-Tyrant of the Dark", "entries": ["Phase 2 references Alipheese 'Alice' Fateburn, the Monster Lord of Monster Girl Quest—here reimagined as a colossal lamia whose true power is her gaze. Eyes open all down her coils and in the shadows that pool around her, and the legends of the 'eye tyrant' and the 'monster lord' turn out to be the same Alice. She is the supreme mistress of dark magic, and she fights by looking at you: a ray to wither, a ray to bind, a ray to put you to sleep, a ray to make you hers. Like a beholder—but the dark obeys her, and there is no antimagic to hide behind."] },
-				{ "type": "entries", "name": "Design: CR 29 Legendary Boss — Phase 2 of 3 (Damage + Control)", "entries": ["The core of the rework: a dark eye-tyrant built around a damage-and-control gaze. Eye Rays fire three dark rays a turn (Withering / Disintegration for damage; Despair, Shadowbind, Slumber, Hex, Domination for control), Maddening Gaze softens a target's saves, and her shadow spellbook (Black Tentacles, Hunger of Hadar, Eyebite, Dominate Monster, Finger of Death) doubles down on lockdown. She has {@b no antimagic aura}. With legendary Eye Rays she can throw additional rays between turns—prioritize spreading control, then focus the disintegration/withering on whoever's exposed. At 0 Hit Points she fuses into {@creature Paradox Maou Sama, the Child of Chaos|ParadoxMaou}."] }
+				{ "type": "entries", "name": "The Eye-Tyrant of the Dark", "entries": ["This is the Paradox Maou's true shape: a colossal lamia whose real power is her gaze. Eyes open all down her coils and in the shadows that pool around her, and the legends of the 'eye tyrant' and the 'monster lord' turn out to be the same being. She is the supreme mistress of dark magic, and she fights by looking at you: a ray to wither, a ray to bind, a ray to put you to sleep, a ray to make you hers. Like a beholder—but the dark obeys her, and there is no antimagic to hide behind."] },
+				{ "type": "entries", "name": "Design: CR 29 Legendary Boss — Phase 2 of 3 (Damage + Control)", "entries": ["The core of the rework: a dark eye-tyrant built around a damage-and-control gaze. Eye Rays fire three dark rays a turn (Withering / Disintegration for damage; Despair, Shadowbind, Slumber, Hex, Domination for control), Maddening Gaze softens a target's saves, and her shadow spellbook (Black Tentacles, Hunger of Hadar, Eyebite, Dominate Monster, Finger of Death) doubles down on lockdown. She has {@b no antimagic aura}. With legendary Eye Rays she can throw additional rays between turns—prioritize spreading control, then focus the disintegration/withering on whoever's exposed. At 0 Hit Points she fuses into {@creature Nyxariel, the Child of Chaos|ParadoxMaou}."] }
 			] }
 		},
 		{
-			"name": "Paradox Maou Sama, the Child of Chaos",
+			"name": "Nyxariel, the Child of Chaos",
 			"source": "ParadoxMaou",
 			"isNamedCreature": true,
 			"size": ["G"],
@@ -236,7 +236,7 @@
 				{ "name": "Unmake (Costs 2 Actions)", "entries": ["The Child of Chaos uses World-Ending Chaos if available, or casts a spell of level 6 or lower from her Spellcasting."] }
 			],
 			"fluff": { "entries": [
-				{ "type": "entries", "name": "The Child of Chaos", "entries": ["Phase 3 references Chaos—the ultimate fusion of Monster Girl Quest Paradox, the union of the strongest light and the strongest dark (the same well of paradox that birthed Vorthrax). Alice's final shape is a Gargantuan being studded with eyes that judge, eyes that wither, and eyes that simply unmake, painting the field in a color the world has no name for. She no longer wears a face. She is all gaze, and she is the wound at the center of the corrupted region, awake at last."] },
+				{ "type": "entries", "name": "The Child of Chaos", "entries": ["The Child of Chaos is the union of the strongest light and the strongest dark—the same well of paradox that birthed Vorthrax. Nyxariel's final shape is a Gargantuan being studded with eyes that judge, eyes that wither, and eyes that simply unmake, painting the field in a color the world has no name for. She no longer wears a face. She is all gaze, and she is the wound at the center of the corrupted region, awake at last."] },
 				{ "type": "entries", "name": "Design: CR 30 Legendary Boss — Phase 3 of 3 (Campaign Finale)", "entries": ["The capstone: a Gargantuan eye-tyrant of Chaos that keeps the gaze of both prior forms and adds the forbidden color (Force ignoring Radiant/Necrotic/Force defenses), Eyes of Chaos (three rays a turn, damage + control), World-Ending Chaos, Time Stop, Power Word Kill, and Meteor Swarm, all behind a Three-Fold Ward that blunts 30 damage each round. She has {@b no antimagic aura}—the rework dropped it entirely. For four 20th-level characters with magic items this is the hardest fight in the book; the full three-phase gauntlet is mythic/raid-tier. Spread out to limit her eye rays and World-Ending Chaos, race the Three-Fold Ward with burst, and save your own counter-control for after her Legendary Resistances are gone."] }
 			] }
 		}
