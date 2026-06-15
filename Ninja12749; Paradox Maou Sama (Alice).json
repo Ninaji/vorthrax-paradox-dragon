@@ -1,0 +1,216 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "ParadoxMaou",
+				"abbreviation": "PXM",
+				"full": "Paradox Maou Sama (Alice)",
+				"authors": ["Ninja12749"],
+				"convertedBy": ["Ninja12749"],
+				"version": "1.0.0",
+				"color": "581c87"
+			}
+		],
+		"edition": "one",
+		"dateAdded": 1781568000,
+		"dateLastModified": 1781568000
+	},
+	"monster": [
+		{
+			"name": "Paradox Maou Sama, the False Goddess (Illya)",
+			"source": "ParadoxMaou",
+			"isNamedCreature": true,
+			"size": ["L"],
+			"type": { "type": "celestial", "tags": ["paradox"] },
+			"alignment": ["L", "E"],
+			"ac": [{ "ac": 22, "from": ["raiment of false divinity"] }],
+			"hp": { "average": 460, "formula": "40d10 + 240" },
+			"speed": { "walk": 40, "fly": 90, "canHover": true },
+			"str": 20, "dex": 22, "con": 22, "int": 22, "wis": 26, "cha": 28,
+			"save": { "con": "+14", "int": "+14", "wis": "+16", "cha": "+17" },
+			"skill": { "arcana": "+14", "insight": "+16", "perception": "+16", "religion": "+14" },
+			"senses": ["truesight 120 ft."],
+			"passive": 26,
+			"resist": ["cold", "fire", "lightning", "necrotic"],
+			"immune": ["radiant"],
+			"conditionImmune": ["blinded", "charmed", "frightened"],
+			"languages": ["all", "telepathy 120 ft."],
+			"cr": "28",
+			"trait": [
+				{ "name": "Legendary Resistance (3/Day)", "entries": ["If the False Goddess fails a saving throw, she can choose to succeed instead."] },
+				{ "name": "Aura of False Divinity", "entries": ["The False Goddess sheds Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. A creature that ends its turn in the Bright Light must succeed on a {@dc 25} Constitution saving throw or be {@condition blinded} until the end of its next turn. Her Radiant damage ignores Resistance to Radiant damage."] },
+				{ "name": "The Mask of Heaven", "entries": ["Divination and other magic that would discern her nature shows only a goddess; the demon lord beneath is hidden. She has Advantage on Charisma checks made to deceive, and creatures have Disadvantage on Insight checks against her."] },
+				{ "name": "Paradox Ascension (The Mask Shatters)", "entries": ["This radiant 'goddess' is only the first face the Maou wears. The first time she is reduced to 0 Hit Points, the mask of heaven shatters: her stolen divinity sloughs away and she rises in her true shape as {@creature Paradox Maou Sama, Demon Lord Alice the Lamia|ParadoxMaou}, appearing in her space at that form's full Hit Points. Any conditions and ongoing effects on her end. Run all three forms as one boss; award the encounter's XP a single time, when the final form falls."] }
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": ["The False Goddess casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 25}; {@hitYourSpellAttack +17 to hit with spell attacks}):"],
+					"will": ["{@spell sacred flame|XPHB}", "{@spell light|XPHB}", "{@spell fire bolt|XPHB}"],
+					"daily": {
+						"3e": ["{@spell flame strike|XPHB}", "{@spell spirit guardians|XPHB}", "{@spell guardian of faith|XPHB}"],
+						"2e": ["{@spell fire storm|XPHB}", "{@spell sunbeam|XPHB}", "{@spell banishment|XPHB}"],
+						"1e": ["{@spell sunburst|XPHB}", "{@spell holy aura|XPHB}", "{@spell divine word|XPHB}", "{@spell mass heal|XPHB}"]
+					},
+					"ability": "cha",
+					"displayAs": "action"
+				}
+			],
+			"action": [
+				{ "name": "Multiattack", "entries": ["The False Goddess casts a spell, or she makes two Punishing Light attacks."] },
+				{ "name": "Punishing Light", "entries": ["{@atkr m,r} {@hit 17}, reach 10 ft. or range 60 ft. {@h}33 ({@damage 6d8 + 6}) Radiant damage."] },
+				{ "name": "Heaven's Verdict {@recharge 5}", "entries": ["A pillar of judgment falls on a point the False Goddess can see within 120 feet. Each creature in a 30-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered there makes a {@dc 25} Dexterity saving throw. {@actSaveFail} 55 ({@damage 10d10}) Radiant damage, and the creature is {@condition blinded} until the end of its next turn. {@actSaveSuccess} Half damage."] },
+				{ "name": "Divine Word {@recharge 6}", "entries": ["The False Goddess speaks a word of false scripture at one creature she can see within 60 feet. {@actSave cha} {@dc 25}. {@actSaveFail} 44 ({@damage 8d10}) Psychic damage, and the target is {@condition stunned} until the end of its next turn. {@actSaveSuccess} Half damage."] }
+			],
+			"bonus": [
+				{ "name": "Ascendant Glide", "entries": ["The False Goddess flies up to 30 feet without provoking Opportunity Attacks, wreathed in radiance."] }
+			],
+			"reaction": [
+				{ "name": "Retributive Light", "entries": ["When a creature the False Goddess can see within 30 feet hits her with an attack, that creature takes 13 ({@damage 3d8}) Radiant damage."] }
+			],
+			"legendaryHeader": ["Legendary Action Uses: 3. Immediately after another creature's turn, the False Goddess can expend a use to take one of the following actions. She regains all expended uses at the start of each of her turns."],
+			"legendaryActions": 3,
+			"legendary": [
+				{ "name": "Smite", "entries": ["The False Goddess makes one Punishing Light attack."] },
+				{ "name": "Radiant Step", "entries": ["The False Goddess flies up to half her Speed without provoking Opportunity Attacks."] },
+				{ "name": "Cast Judgment (Costs 2 Actions)", "entries": ["The False Goddess uses Heaven's Verdict if it is available."] }
+			],
+			"fluff": { "entries": [
+				{ "type": "entries", "name": "The Face She Wears First", "entries": ["Phase 1 references the goddess Ilias of Monster Girl Quest—but it is a lie. This serene, radiant 'goddess' is the Paradox Maou herself, Alice, wearing heaven's face like a borrowed cloak. She greets the party as a deity come to pass judgment, healing and smiting and speaking false scripture, and most who kneel never learn what knelt back. The mercy of the mask is that it dies first."] },
+				{ "type": "entries", "name": "Design: CR 28 Legendary Boss — Phase 1 of 3", "entries": ["The opening face of a three-phase campaign finale for four 20th-level characters with magic items. The False Goddess fights as a radiant control-caster: blinding aura, Heaven's Verdict, the stunning Divine Word, and self-sustain via Mass Heal. At 0 Hit Points she does {@b not} die—she becomes {@creature Paradox Maou Sama, Demon Lord Alice the Lamia|ParadoxMaou} (Phase 2). This is a raid-tier set piece; consider letting the party catch their breath between forms, or run it across a session."] }
+			] }
+		},
+		{
+			"name": "Paradox Maou Sama, Demon Lord Alice the Lamia",
+			"source": "ParadoxMaou",
+			"isNamedCreature": true,
+			"size": ["H"],
+			"type": { "type": "fiend", "tags": ["paradox"] },
+			"alignment": ["L", "E"],
+			"ac": [{ "ac": 22, "from": ["scaled coils"] }],
+			"hp": { "average": 540, "formula": "40d12 + 280" },
+			"speed": { "walk": 50, "climb": 40, "swim": 40 },
+			"str": 28, "dex": 20, "con": 24, "int": 22, "wis": 22, "cha": 26,
+			"save": { "str": "+18", "con": "+16", "wis": "+15", "cha": "+17" },
+			"skill": { "arcana": "+15", "intimidation": "+17", "perception": "+15" },
+			"senses": ["truesight 120 ft."],
+			"passive": 25,
+			"resist": ["cold", "fire"],
+			"immune": ["necrotic", "poison"],
+			"conditionImmune": ["charmed", "frightened", "poisoned"],
+			"languages": ["all", "telepathy 120 ft."],
+			"cr": "29",
+			"trait": [
+				{ "name": "Legendary Resistance (3/Day)", "entries": ["If the Demon Lord fails a saving throw, she can choose to succeed instead."] },
+				{ "name": "Demon Lord's Authority", "entries": ["The Demon Lord is the sovereign of every monster. Each enemy that starts its turn within 30 feet of her must succeed on a {@dc 25} Wisdom saving throw or have Disadvantage on attack rolls and ability checks until the start of its next turn, cowed by her presence. {@i paradox}-tagged allies within 30 feet are immune to being {@condition charmed} or {@condition frightened} and deal an extra 9 ({@damage 2d8}) Necrotic damage with their attacks."] },
+				{ "name": "Serpent's Body", "entries": ["The Demon Lord can't be knocked {@condition prone}, has Advantage on saving throws against being {@condition grappled} or {@condition restrained}, and ignores Difficult Terrain."] },
+				{ "name": "Paradox Ascension (True Chaos)", "entries": ["When this form is reduced to 0 Hit Points, the demon lord does not fall—the paradox at her core blooms, fusing goddess, demon, and machine. She rises as {@creature Paradox Maou Sama, the Child of Chaos|ParadoxMaou}, appearing in her space at that form's full Hit Points; any conditions and ongoing effects on her end. This is her final transformation."] }
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": ["The Demon Lord casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 25}; {@hitYourSpellAttack +17 to hit with spell attacks}):"],
+					"will": ["{@spell chill touch|XPHB}", "{@spell ray of frost|XPHB}", "{@spell mind sliver|XPHB}"],
+					"daily": {
+						"3e": ["{@spell cone of cold|XPHB}", "{@spell hold monster|XPHB}", "{@spell wall of ice|XPHB}"],
+						"2e": ["{@spell finger of death|XPHB}", "{@spell eyebite|XPHB}", "{@spell dominate monster|XPHB}"],
+						"1e": ["{@spell power word stun|XPHB}", "{@spell weird|XPHB}"]
+					},
+					"ability": "cha",
+					"displayAs": "action"
+				}
+			],
+			"action": [
+				{ "name": "Multiattack", "entries": ["The Demon Lord makes one Constricting Tail attack and two Frost-Venom Bite attacks, or she casts a spell and makes one Frost-Venom Bite attack."] },
+				{ "name": "Constricting Tail", "entries": ["{@atkr m} {@hit 18}, reach 20 ft. {@h}32 ({@damage 4d10 + 10}) Bludgeoning damage. If the target is a Huge or smaller creature, it has the {@condition grappled} condition (escape {@dc 26}) and the {@condition restrained} condition until the grapple ends. The Demon Lord can grapple up to two creatures this way."] },
+				{ "name": "Frost-Venom Bite", "entries": ["{@atkr m} {@hit 18}, reach 10 ft. {@h}19 ({@damage 2d10 + 8}) Piercing damage plus 14 ({@damage 4d6}) Cold damage plus 14 ({@damage 4d6}) Necrotic damage."] },
+				{ "name": "Demon Lord's Nightmare {@recharge 5}", "entries": ["The Demon Lord exhales the cold of the abyss in a 60-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. {@actSave wis} {@dc 25}, each creature in the area. {@actSaveFail} 27 ({@damage 6d8}) Cold damage plus 27 ({@damage 6d8}) Necrotic damage, and the creature is {@condition frightened} of the Demon Lord for 1 minute (it repeats the save at the end of each of its turns, ending the effect on itself on a success). {@actSaveSuccess} Half damage and not Frightened."] }
+			],
+			"bonus": [
+				{ "name": "Slither", "entries": ["The Demon Lord moves up to half her Speed without provoking Opportunity Attacks."] }
+			],
+			"reaction": [
+				{ "name": "Coiling Retort", "entries": ["When a creature within 20 feet hits the Demon Lord with a melee attack, she makes one Constricting Tail attack against it."] }
+			],
+			"legendaryHeader": ["Legendary Action Uses: 3. Immediately after another creature's turn, the Demon Lord can expend a use to take one of the following actions. She regains all expended uses at the start of each of her turns."],
+			"legendaryActions": 3,
+			"legendary": [
+				{ "name": "Lash", "entries": ["The Demon Lord makes one Frost-Venom Bite attack."] },
+				{ "name": "Slither", "entries": ["The Demon Lord uses Slither."] },
+				{ "name": "Sovereign's Will (Costs 2 Actions)", "entries": ["The Demon Lord uses Demon Lord's Nightmare if available, or casts a spell of level 5 or lower from her Spellcasting."] }
+			],
+			"fluff": { "entries": [
+				{ "type": "entries", "name": "Her True Shape", "entries": ["Phase 2 references Alipheese 'Alice' Fateburn, the Monster Lord of Monster Girl Quest—a colossal lamia of scale and shadow, ancient and imperious. This is no longer a borrowed mask: this is the Maou herself, sovereign of every monster, who held the False Goddess's face only because it amused her. She fights with a crushing tail, a frost-and-venom bite, and the authority that makes lesser things kneel mid-swing."] },
+				{ "type": "entries", "name": "Design: CR 29 Legendary Boss — Phase 2 of 3", "entries": ["The brutal middle phase: a melee-and-control demon lord who grapples with her tail, debuffs the whole party with Demon Lord's Authority, and locks targets down with Nightmare, Hold Monster, and Dominate Monster. At 0 Hit Points she fuses into {@creature Paradox Maou Sama, the Child of Chaos|ParadoxMaou} (Phase 3, CR 30). Save the party's strongest control and burst for the final form."] }
+			] }
+		},
+		{
+			"name": "Paradox Maou Sama, the Child of Chaos",
+			"source": "ParadoxMaou",
+			"isNamedCreature": true,
+			"size": ["G"],
+			"type": { "type": "aberration", "tags": ["celestial", "construct", "fiend", "paradox"] },
+			"alignment": ["C", "E"],
+			"ac": [{ "ac": 23, "from": ["the forbidden color"] }],
+			"hp": { "average": 666, "formula": "36d20 + 288" },
+			"speed": { "walk": 60, "fly": 120, "canHover": true },
+			"str": 30, "dex": 22, "con": 26, "int": 24, "wis": 26, "cha": 30,
+			"save": { "str": "+19", "con": "+17", "int": "+16", "wis": "+17", "cha": "+19" },
+			"skill": { "arcana": "+16", "insight": "+17", "perception": "+17" },
+			"senses": ["truesight 120 ft."],
+			"passive": 27,
+			"resist": ["acid", "cold", "fire", "lightning", "thunder", { "resist": ["bludgeoning", "piercing", "slashing"], "note": "from nonmagical attacks" }],
+			"immune": ["necrotic", "poison", "radiant"],
+			"conditionImmune": ["blinded", "charmed", "exhaustion", "frightened", "paralyzed", "petrified", "poisoned", "stunned"],
+			"languages": ["all", "telepathy 120 ft."],
+			"cr": "30",
+			"trait": [
+				{ "name": "Legendary Resistance (3/Day)", "entries": ["If the Child of Chaos fails a saving throw, she can choose to succeed instead."] },
+				{ "name": "Chaos Incarnate", "entries": ["The Child of Chaos is the strongest light and the strongest dark fused into one impossible being—goddess, demon, and the machine of the paradox at once. Her Force damage is the 'forbidden color' (mixed Light and Shadow): it ignores Resistance and Immunity to Radiant, Necrotic, and Force damage. She is Immune to Radiant and Necrotic (already listed)."] },
+				{ "name": "Three-Fold Soul", "entries": ["She carries the auras of all three of her forms at once. At the start of each of her turns, each enemy within 30 feet takes 16 ({@damage 3d10}) Radiant or Necrotic damage (her choice) from her halo-and-horn, and the ground within 30 feet is {@quickref Difficult Terrain||3} as the gravity of the paradox bends toward her gear-heart. She can't be surprised."] },
+				{ "name": "Antimagic Susceptibility", "entries": ["The construct half of the Child of Chaos is bound by paradox engineering: while in an {@spell antimagic field|XPHB}, she has the {@condition Incapacitated} condition. This is the one seam in her perfection—and almost no power left in the world can open it."] },
+				{ "name": "The End of the Story", "entries": ["This is the final form; there is no fourth. When the Child of Chaos is reduced to 0 Hit Points, she is truly defeated and the paradox at the heart of the corrupted region closes. Award the entire encounter's XP now (treat the three-phase boss as a single CR 30 victory)."] }
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": ["The Child of Chaos casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 27}; {@hitYourSpellAttack +19 to hit with spell attacks}):"],
+					"will": ["{@spell sacred flame|XPHB}", "{@spell fire bolt|XPHB}", "{@spell chill touch|XPHB}"],
+					"daily": {
+						"3e": ["{@spell chain lightning|XPHB}", "{@spell finger of death|XPHB}", "{@spell sunburst|XPHB}"],
+						"2e": ["{@spell meteor swarm|XPHB}", "{@spell power word kill|XPHB}", "{@spell mass heal|XPHB}"],
+						"1e": ["{@spell time stop|XPHB}", "{@spell weird|XPHB}", "{@spell storm of vengeance|XPHB}"]
+					},
+					"ability": "cha",
+					"displayAs": "action"
+				}
+			],
+			"action": [
+				{ "name": "Multiattack", "entries": ["The Child of Chaos makes three Chaos Strikes, or she casts a spell and makes one Chaos Strike."] },
+				{ "name": "Chaos Strike", "entries": ["{@atkr m} {@hit 19}, reach 15 ft. {@h}23 ({@damage 3d8 + 10}) Force damage (the forbidden color; see Chaos Incarnate) plus 13 ({@damage 3d8}) Radiant damage plus 13 ({@damage 3d8}) Necrotic damage."] },
+				{ "name": "World-Ending Chaos {@recharge 5}", "entries": ["Reality tears open around a point the Child of Chaos can see within 150 feet. Each creature in a 40-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered there makes a {@dc 27} Constitution saving throw, taking 88 ({@damage 16d10}) Force damage (the forbidden color, ignoring Resistance and Immunity to Radiant, Necrotic, and Force) on a failed save, or half as much on a success. Where the sphere fades, a window of starry under-sky is left in the ground."] },
+				{ "name": "Chaos Cataclysm {@recharge 6}", "entries": ["The Child of Chaos hangs meteors over the field and wrenches gravity beneath it. Each creature within 60 feet of her makes a {@dc 27} Dexterity saving throw. {@actSaveFail} 66 ({@damage 12d10}) Force and Fire damage (half each), and the creature is knocked {@condition prone} and {@condition restrained} (escape {@dc 27}) by crushing gravity. {@actSaveSuccess} Half damage and no conditions."] }
+			],
+			"bonus": [
+				{ "name": "Fold Reality", "entries": ["The Child of Chaos teleports up to 60 feet to a space she can see, passing through any barrier, then her Three-Fold Soul aura triggers against any enemy now within 30 feet (no extra damage roll if it already triggered this turn)."] }
+			],
+			"reaction": [
+				{ "name": "Three-Fold Ward", "entries": ["When the Child of Chaos takes damage, she reduces that damage by 30 (the celestial, fiendish, and construct wards sharing the blow). She can use this reaction only once per round."] }
+			],
+			"legendaryHeader": ["Legendary Action Uses: 3. Immediately after another creature's turn, the Child of Chaos can expend a use to take one of the following actions. She regains all expended uses at the start of each of her turns."],
+			"legendaryActions": 3,
+			"legendary": [
+				{ "name": "Chaos Strike", "entries": ["The Child of Chaos makes one Chaos Strike."] },
+				{ "name": "Fold Reality", "entries": ["The Child of Chaos uses Fold Reality."] },
+				{ "name": "Unmake (Costs 2 Actions)", "entries": ["The Child of Chaos uses World-Ending Chaos or Chaos Cataclysm if available, or casts a spell of level 6 or lower from her Spellcasting."] }
+			],
+			"fluff": { "entries": [
+				{ "type": "entries", "name": "The Child of Chaos", "entries": ["Phase 3 references Chaos—the ultimate fusion of Monster Girl Quest Paradox, the union of the strongest light and the strongest dark (the same well of paradox that birthed Vorthrax). Here it is Alice's final shape: goddess, demon lord, and paradox-machine fused into one Gargantuan being that paints the battlefield in a color the world has no name for. She no longer wears a face. She is the wound at the center of the corrupted region, awake at last."] },
+				{ "type": "entries", "name": "Design: CR 30 Legendary Boss — Phase 3 of 3 (Campaign Finale)", "entries": ["The capstone of the whole setting—a CR 30 fusion that keeps the threat of both prior forms and adds the 'forbidden color' (Force that ignores Radiant/Necrotic/Force defenses), reality-warping AoE, Time Stop, Power Word Kill, and Meteor Swarm. For four 20th-level characters with magic items this is the hardest fight in the book; the full three-phase gauntlet is mythic/raid-tier. The single written-in weakness is Antimagic Susceptibility—if the party can land and hold an {@spell antimagic field|XPHB} (a {@spell wish|XPHB}, an artifact, a Mordenkainen's-tier resource), they can crack the construct seam and turn the fight. Otherwise, it is a war of attrition against the end of the world."] }
+			] }
+		}
+	]
+}
