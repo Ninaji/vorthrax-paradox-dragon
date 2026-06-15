@@ -1,0 +1,52 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "ParadoxKaeru",
+				"abbreviation": "PKR",
+				"full": "Paradox Kaeru",
+				"authors": ["Ninja12749"],
+				"convertedBy": ["Ninja12749"],
+				"version": "1.0.0",
+				"color": "16a34a"
+			}
+		],
+		"edition": "one",
+		"dateAdded": 1781740800,
+		"dateLastModified": 1781740800
+	},
+	"monster": [
+		{
+			"name": "Paradox Kaeru",
+			"source": "ParadoxKaeru",
+			"size": ["S"],
+			"type": { "type": "monstrosity", "tags": ["paradox"] },
+			"alignment": ["N", "E"],
+			"ac": [{ "ac": 16, "from": ["natural armor"] }],
+			"hp": { "average": 99, "formula": "18d6 + 36" },
+			"speed": { "walk": 20 },
+			"str": 20, "dex": 8, "con": 14, "int": 7, "wis": 14, "cha": 7,
+			"save": { "con": "+5", "wis": "+6" },
+			"skill": { "perception": "+6", "stealth": "+5" },
+			"senses": ["darkvision 60 ft."],
+			"passive": 16,
+			"resist": ["necrotic"],
+			"conditionImmune": ["frightened"],
+			"languages": ["understands Common but can't speak"],
+			"cr": "20",
+			"trait": [
+				{ "name": "Glass-Cannon Minion", "entries": ["The Paradox Kaeru is built to do exactly one thing: shuffle up to you and stab once, for every point of damage a Challenge 20 threat is allowed to deal—all of it loaded into a single blow. It has minion-grade Hit Points (99), only one attack, and a slow Speed, so a party that focuses it can drop the little thing before it ever arrives. Its CR reflects the terror of the knife, not its toughness. The joke is that it looks harmless and plods along so slowly... right up until it doesn't miss."] },
+				{ "name": "Inexorable", "entries": ["The Kaeru can't be {@condition frightened} and can't be knocked {@condition prone}, its Speed can't be reduced below 10 feet, and it always knows the location of the nearest creature it could stab. It comes forward, and it does not stop."] },
+				{ "name": "Grudge", "entries": ["The Kaeru remembers everyone who has hurt it. Its Chef's Knife deals an extra 5 ({@damage 1d10}) Necrotic damage to a target for each separate time that target has dealt damage to the Kaeru during this encounter, to a maximum of +27 ({@damage 5d10}). The more you strike it, the more its one strike will cost you."] },
+				{ "name": "Lantern", "entries": ["The Kaeru carries a small lantern that sheds Dim Light in a 10-foot radius. It never sets the lantern down."] }
+			],
+			"action": [
+				{ "name": "Chef's Knife", "entries": ["{@atkr m} {@hit 13}, reach 5 ft. {@h}120 ({@damage 20d10 + 10}) Piercing damage, plus the Grudge bonus (see the trait). The target must then succeed on a {@dc 18} Constitution saving throw or take an extra 36 ({@damage 8d8}) Necrotic damage as the Kaeru's grudge runs them through. This is the only thing the Kaeru does, and it is more than enough."] }
+			],
+			"fluff": { "entries": [
+				{ "type": "entries", "name": "It Is Already Walking Toward You", "entries": ["A small, hunched thing with reptilian skin, a green lantern in one hand and a kitchen knife in the other, shuffling across the battlefield one patient step at a time. It says nothing. It does not hurry. It does not flinch when you hit it, and it does not stop. Veterans of the corrupted region have a rule about the little lantern-bearers: you kill it before it reaches you, or you do not get a second opinion. Whatever it once was, the paradox left it with a single, perfect purpose and a very long memory."] },
+				{ "type": "entries", "name": "Design: CR 20 Glass-Cannon Minion (One Attack)", "entries": ["A 'minion-quality' boss that is pure offense in one swing: its entire CR 20 damage budget is poured into a single Chef's Knife (about 120, more like 156 on a failed save, and up to roughly 190 against whoever has been hitting it the most, thanks to Grudge). It has no Multiattack, no Legendary Actions, no Legendary Resistance, minion Hit Points, and a 20-foot Speed—so the counterplay writes itself: focus it down or kite it before it closes, and do NOT let your low-HP characters be the nearest target. Field one as a ticking-clock threat, or several to make the party choose who eats a knife. Slow, frail, and absolutely lethal if ignored."] }
+			] }
+		}
+	]
+}
