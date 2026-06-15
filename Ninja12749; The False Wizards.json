@@ -1,0 +1,266 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "FalseWizards",
+				"abbreviation": "FWZ",
+				"full": "The False Wizards (Os Falsos Magos)",
+				"authors": ["Ninja12749"],
+				"convertedBy": ["Ninja12749"],
+				"version": "1.0.0",
+				"color": "be123c"
+			}
+		],
+		"edition": "one",
+		"dateAdded": 1781827200,
+		"dateLastModified": 1781827200
+	},
+	"monster": [
+		{
+			"name": "False Purple Robes Wizard",
+			"source": "FalseWizards",
+			"size": ["M"],
+			"type": { "type": "fey", "tags": ["paradox"] },
+			"alignment": ["N", "E"],
+			"ac": [{ "ac": 18, "from": ["glamour ward"] }],
+			"hp": { "average": 315, "formula": "42d8 + 126" },
+			"speed": { "walk": 30, "fly": 30, "canHover": true },
+			"str": 10, "dex": 18, "con": 16, "int": 18, "wis": 16, "cha": 22,
+			"save": { "dex": "+10", "wis": "+9", "cha": "+13" },
+			"skill": { "deception": "+13", "performance": "+13", "persuasion": "+13", "perception": "+9" },
+			"senses": ["truesight 60 ft.", "darkvision 120 ft."],
+			"passive": 19,
+			"resist": ["psychic"],
+			"conditionImmune": ["charmed", "frightened"],
+			"languages": ["all", "telepathy 120 ft."],
+			"cr": "21",
+			"trait": [
+				{ "name": "Legendary Resistance (3/Day)", "entries": ["If the False Purple Robes Wizard fails a saving throw, it can choose to succeed instead."] },
+				{ "name": "Manufactured Image", "entries": ["The wizard is never seen as it truly is. It begins each combat with three illusory duplicates of itself (as the {@spell mirror image|XPHB} spell), and it can remake them with a Bonus Action if it has none."] },
+				{ "name": "Magic Resistance", "entries": ["The wizard has Advantage on saving throws against spells and other magical effects."] }
+			],
+			"spellcasting": [
+				{ "name": "Spellcasting", "type": "spellcasting", "headerEntries": ["The wizard casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 21}; {@hitYourSpellAttack +13 to hit with spell attacks}):"], "will": ["{@spell minor illusion|XPHB}", "{@spell vicious mockery|XPHB}", "{@spell friends|XPHB}"], "daily": { "3e": ["{@spell hypnotic pattern|XPHB}", "{@spell fear|XPHB}", "{@spell major image|XPHB}"], "2e": ["{@spell mass suggestion|XPHB}", "{@spell mislead|XPHB}", "{@spell seeming|XPHB}"], "1e": ["{@spell dominate monster|XPHB}", "{@spell project image|XPHB}", "{@spell weird|XPHB}"] }, "ability": "cha", "displayAs": "action" }
+			],
+			"action": [
+				{ "name": "Multiattack", "entries": ["The wizard casts a spell, or it makes two Glamoured Bolt attacks."] },
+				{ "name": "Glamoured Bolt", "entries": ["{@atkr r} {@hit 13}, range 120 ft. {@h}27 ({@damage 6d8}) Psychic damage, and the target can't tell the wizard's true location from its duplicates until the start of its next turn."] },
+				{ "name": "Viral Spotlight {@recharge 5}", "entries": ["The wizard turns the eyes of the world on a creature it can see within 120 feet. {@actSave cha} {@dc 21}. {@actSaveFail} 45 ({@damage 10d8}) Psychic damage and the creature has the {@condition charmed} condition for 1 minute, compelled to defend and praise the wizard (it repeats the save at the end of each of its turns). {@actSaveSuccess} Half damage. Each creature that can see a creature charmed this way must succeed on a DC 21 Wisdom saving throw or be {@condition frightened} until the end of its next turn—the hype spreads."] }
+			],
+			"bonus": [
+				{ "name": "Spin", "entries": ["The wizard teleports up to 30 feet to an unoccupied space it can see and remakes its Manufactured Image duplicates."] }
+			],
+			"reaction": [
+				{ "name": "Cancel", "entries": ["When a creature the wizard can see within 60 feet hits it with an attack, the wizard expends an illusory duplicate; the attack instead strikes the duplicate and the wizard takes no damage from it."] }
+			],
+			"legendaryHeader": ["Legendary Action Uses: 3. Immediately after another creature's turn, the wizard can expend a use to take one of the following actions. It regains all expended uses at the start of each of its turns."],
+			"legendaryActions": 3,
+			"legendary": [
+				{ "name": "Bolt", "entries": ["The wizard makes one Glamoured Bolt attack."] },
+				{ "name": "Suggestion", "entries": ["The wizard targets one creature it can see within 60 feet. That creature makes a {@dc 21} Wisdom saving throw or moves up to its Speed in a direction of the wizard's choice."] },
+				{ "name": "Encore (Costs 2 Actions)", "entries": ["The wizard uses Viral Spotlight if it is available."] }
+			],
+			"fluff": { "entries": [
+				{ "type": "entries", "name": "The Media Master, Inverted", "entries": ["The purple robes are the voice of the realm—the ones who spread the word, make the wonders known, and bring everyone to the table. Their false reflection does the opposite with the same tools: it manufactures hype out of lies, charms the crowd into adoring it, and 'cancels' anyone who looks past the glamour. You never fight the real one; you fight the version it wants you to see."] },
+				{ "type": "entries", "name": "Design: CR 21 Caster Boss (Fey, Paradox)", "entries": ["A one-phase legendary control caster built around illusion and charm—standard D&D enchantment/illusion with a light nod to a media/marketing role. Manufactured Image and Cancel make it slippery; Viral Spotlight turns an ally against the party and spreads fear. An Erased mirror of a server's promotion team."] }
+			] }
+		},
+		{
+			"name": "False Green Robes Wizard",
+			"source": "FalseWizards",
+			"size": ["M"],
+			"type": { "type": "fiend", "tags": ["paradox"] },
+			"alignment": ["L", "E"],
+			"ac": [{ "ac": 19, "from": ["robe of binding clauses"] }],
+			"hp": { "average": 340, "formula": "40d8 + 160" },
+			"speed": { "walk": 30 },
+			"str": 14, "dex": 16, "con": 18, "int": 20, "wis": 20, "cha": 22,
+			"save": { "con": "+11", "int": "+12", "wis": "+12", "cha": "+13" },
+			"skill": { "arcana": "+12", "insight": "+12", "persuasion": "+13" },
+			"senses": ["truesight 120 ft."],
+			"passive": 17,
+			"resist": ["cold", "fire"],
+			"immune": ["poison"],
+			"conditionImmune": ["charmed", "frightened", "poisoned"],
+			"languages": ["all", "telepathy 120 ft."],
+			"cr": "22",
+			"trait": [
+				{ "name": "Legendary Resistance (3/Day)", "entries": ["If the False Green Robes Wizard fails a saving throw, it can choose to succeed instead."] },
+				{ "name": "Magic Resistance", "entries": ["The wizard has Advantage on saving throws against spells and other magical effects."] },
+				{ "name": "Binding Clauses", "entries": ["The wizard's joyless house rules hang in the air around it. Each enemy that starts its turn within 30 feet of the wizard must obey one rule of the wizard's choice until the start of its next turn (for example, 'may not move closer,' 'may not cast spells of level 5 or higher,' or 'may not take the Disengage action'). A creature that breaks its rule takes 22 ({@damage 4d10}) Psychic damage and the wizard learns it did."] }
+			],
+			"spellcasting": [
+				{ "name": "Spellcasting", "type": "spellcasting", "headerEntries": ["The wizard casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 21}; {@hitYourSpellAttack +13 to hit with spell attacks}):"], "will": ["{@spell chill touch|XPHB}", "{@spell mind sliver|XPHB}", "{@spell vicious mockery|XPHB}"], "daily": { "3e": ["{@spell slow|XPHB}", "{@spell counterspell|XPHB}", "{@spell hold monster|XPHB}"], "2e": ["{@spell banishment|XPHB}", "{@spell bestow curse|XPHB}", "{@spell dominate monster|XPHB}"], "1e": ["{@spell geas|XPHB}", "{@spell power word stun|XPHB}"] }, "ability": "cha", "displayAs": "action" }
+			],
+			"action": [
+				{ "name": "Multiattack", "entries": ["The wizard casts a spell, or it uses Errata and makes one Gavel of Judgment attack."] },
+				{ "name": "Gavel of Judgment", "entries": ["{@atkr m,r} {@hit 13}, reach 5 ft. or range 60 ft. {@h}22 ({@damage 4d8 + 4}) Force damage plus 18 ({@damage 4d8}) Psychic damage."] },
+				{ "name": "Errata", "entries": ["The wizard rewrites a creature it can see within 60 feet by fiat. {@actSave int} {@dc 21}. {@actSaveFail} until the end of the wizard's next turn, the target is subject to a 'nerf' of the wizard's choice: Disadvantage on all attack rolls, OR its Speed is halved and it can't take Reactions, OR one class of action (Action, Bonus Action, or Reaction) is banned to it entirely. {@actSaveSuccess} The effect lasts only until the end of the target's next turn."] },
+				{ "name": "Banhammer {@recharge 6}", "entries": ["The wizard slams down a verdict in a 30-foot {@variantrule Cube [Area of Effect]|XPHB|Cube} it can see within 90 feet. {@actSave wis} {@dc 21}, each creature there. {@actSaveFail} 55 ({@damage 10d10}) Force damage and the creature is {@condition banished} (as {@spell banishment|XPHB}) until the end of the wizard's next turn. {@actSaveSuccess} Half damage and not banished."] }
+			],
+			"reaction": [
+				{ "name": "Rule Zero", "entries": ["When a creature the wizard can see within 60 feet succeeds on a saving throw or hits with an attack roll, the wizard can force it to reroll and use the new result. Once per round."] }
+			],
+			"legendaryHeader": ["Legendary Action Uses: 3. Immediately after another creature's turn, the wizard can expend a use to take one of the following actions. It regains all expended uses at the start of each of its turns."],
+			"legendaryActions": 3,
+			"legendary": [
+				{ "name": "Gavel", "entries": ["The wizard makes one Gavel of Judgment attack."] },
+				{ "name": "Errata", "entries": ["The wizard uses Errata."] },
+				{ "name": "Summary Judgment (Costs 2 Actions)", "entries": ["The wizard uses Banhammer if available, or casts a spell of level 5 or lower from its Spellcasting."] }
+			],
+			"fluff": { "entries": [
+				{ "type": "entries", "name": "The Rules-Keeper, Inverted", "entries": ["The green robes hold the rules so the game stays fair and fun for everyone. Their false reflection keeps the rules too—every petty, joyless, weaponized one of them. It is the lawgiver who reads the fine print to take your turn away, the referee who only ever calls fouls on you. Devils have always understood that a rule is a leash; this one simply forgot that rules were ever meant to be kind."] },
+				{ "type": "entries", "name": "Design: CR 22 Caster Boss (Fiend, Paradox)", "entries": ["A one-phase legendary controller—standard D&D abjuration/enchantment lockdown with a light nod to a rules-and-balance role. Binding Clauses and Errata strip the party's options, Rule Zero cancels their best rolls, and Banhammer removes a cluster from the fight. The Erased mirror of the people who keep a game fair."] }
+			] }
+		},
+		{
+			"name": "False Red Robes Wizard",
+			"source": "FalseWizards",
+			"size": ["M"],
+			"type": { "type": "aberration", "tags": ["humanoid", "paradox"] },
+			"alignment": ["N", "E"],
+			"ac": [{ "ac": 19, "from": ["robe of the archmage"] }],
+			"hp": { "average": 357, "formula": "42d8 + 168" },
+			"speed": { "walk": 30, "fly": 40, "canHover": true },
+			"str": 12, "dex": 18, "con": 18, "int": 22, "wis": 16, "cha": 18,
+			"save": { "dex": "+11", "con": "+11", "int": "+13", "wis": "+10" },
+			"skill": { "arcana": "+20", "history": "+13", "perception": "+10" },
+			"senses": ["truesight 60 ft.", "darkvision 120 ft."],
+			"passive": 20,
+			"resist": ["fire"],
+			"immune": ["necrotic"],
+			"conditionImmune": ["charmed", "frightened"],
+			"languages": ["all", "telepathy 120 ft."],
+			"cr": "23",
+			"trait": [
+				{ "name": "Legendary Resistance (3/Day)", "entries": ["If the False Red Robes Wizard fails a saving throw, it can choose to succeed instead."] },
+				{ "name": "Magic Resistance", "entries": ["The wizard has Advantage on saving throws against spells and other magical effects."] },
+				{ "name": "Master Evoker", "entries": ["When the wizard casts a spell that deals Acid, Cold, Fire, Force, Lightning, or Thunder damage, that damage ignores Resistance to its type, and the wizard can choose not to harm a number of creatures of its choice equal to its Intelligence modifier (6)."] },
+				{ "name": "Aura of Avarice", "entries": ["The wizard hoards every spark of power. The first time each turn an enemy within 30 feet casts a spell or expends a charge of a magic item, it takes 18 ({@damage 4d8}) Necrotic damage and the wizard gains that many Temporary Hit Points."] }
+			],
+			"spellcasting": [
+				{ "name": "Spellcasting", "type": "spellcasting", "headerEntries": ["The wizard casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 21}; {@hitYourSpellAttack +13 to hit with spell attacks}):"], "will": ["{@spell fire bolt|XPHB}", "{@spell ray of frost|XPHB}", "{@spell mind sliver|XPHB}"], "daily": { "3e": ["{@spell fireball|XPHB}", "{@spell lightning bolt|XPHB}", "{@spell fire storm|XPHB}"], "2e": ["{@spell disintegrate|XPHB}", "{@spell chain lightning|XPHB}", "{@spell cone of cold|XPHB}"], "1e": ["{@spell meteor swarm|XPHB}", "{@spell wall of force|XPHB}"] }, "ability": "int", "displayAs": "action" }
+			],
+			"action": [
+				{ "name": "Multiattack", "entries": ["The wizard casts a spell, or it makes two Evoker's Bolt attacks."] },
+				{ "name": "Evoker's Bolt", "entries": ["{@atkr r} {@hit 13}, range 150 ft. {@h}32 ({@damage 5d10 + 6}) Fire or Lightning damage (the wizard's choice)."] },
+				{ "name": "Arcane Tithe {@recharge 5}", "entries": ["The wizard collects what it is owed from one creature it can see within 90 feet. {@actSave con} {@dc 21}. {@actSaveFail} the target takes 44 ({@damage 8d10}) Force damage and loses one spell slot (the highest it has) or one charge of a magic item it carries; the wizard regains a spell slot of that level or 20 Hit Points. {@actSaveSuccess} Half damage and no loss."] },
+				{ "name": "Foreclosure", "entries": ["The wizard forecloses on a creature it can see within 60 feet, casting it out of its holdings. {@actSave cha} {@dc 21} or the target is {@condition banished} to a harmless demiplane (as {@spell banishment|XPHB}) for 1 minute (the target repeats the save at the end of each of its turns)."] }
+			],
+			"reaction": [
+				{ "name": "Counterspell", "entries": ["The wizard casts {@spell counterspell|XPHB} (level 5 version) in response to a creature within 60 feet casting a spell."] }
+			],
+			"legendaryHeader": ["Legendary Action Uses: 3. Immediately after another creature's turn, the wizard can expend a use to take one of the following actions. It regains all expended uses at the start of each of its turns."],
+			"legendaryActions": 3,
+			"legendary": [
+				{ "name": "Bolt", "entries": ["The wizard makes one Evoker's Bolt attack."] },
+				{ "name": "Levitate", "entries": ["The wizard flies up to half its Speed without provoking Opportunity Attacks."] },
+				{ "name": "Collect (Costs 2 Actions)", "entries": ["The wizard uses Arcane Tithe if available."] }
+			],
+			"fluff": { "entries": [
+				{ "type": "entries", "name": "The Patron, Inverted", "entries": ["The red robes keep the lights on—they fund the realm, pay its debts, and make sure the doors stay open for all who come. Their false reflection wears the same crimson, but where the true patron gives, this one only takes: it taxes every spell you cast, forecloses on those who can't pay, and hoards arcane power the way a dragon hoards gold. A tyrant-administrator who confused owning the realm with being owed by it."] },
+				{ "type": "entries", "name": "Design: CR 23 Caster Boss (Aberration/Humanoid, Paradox)", "entries": ["A one-phase legendary blaster in the Red-Wizard-of-Thay mold—standard D&D evocation, plus a resource-drain theme (Aura of Avarice, Arcane Tithe) as a light nod to an owner/funding role. Punishing against caster-heavy parties. The Erased mirror of the people who keep a server paid for and running."] }
+			] }
+		},
+		{
+			"name": "False Brown Robes Wizard",
+			"source": "FalseWizards",
+			"size": ["M"],
+			"type": { "type": "construct", "tags": ["paradox"] },
+			"alignment": ["L", "E"],
+			"ac": [{ "ac": 20, "from": ["rune-plated frame"] }],
+			"hp": { "average": 380, "formula": "40d8 + 200" },
+			"speed": { "walk": 30 },
+			"str": 18, "dex": 14, "con": 20, "int": 22, "wis": 16, "cha": 12,
+			"save": { "con": "+12", "int": "+13", "wis": "+10" },
+			"skill": { "arcana": "+13", "perception": "+10" },
+			"senses": ["truesight 120 ft.", "darkvision 120 ft."],
+			"passive": 20,
+			"immune": ["poison", "psychic"],
+			"conditionImmune": ["charmed", "exhaustion", "frightened", "paralyzed", "petrified", "poisoned"],
+			"languages": ["all", "telepathy 120 ft."],
+			"cr": "24",
+			"trait": [
+				{ "name": "Legendary Resistance (3/Day)", "entries": ["If the False Brown Robes Wizard fails a saving throw, it can choose to succeed instead."] },
+				{ "name": "Magic Resistance", "entries": ["The wizard has Advantage on saving throws against spells and other magical effects."] },
+				{ "name": "Patch Notes", "entries": ["At the start of each of its turns, the wizard rewrites one flaw in itself: it ends one condition affecting it and regains 20 Hit Points. Whatever you do to it, it simply edits the rune and tries again."] },
+				{ "name": "Runebound Automata", "entries": ["The wizard can maintain control of up to four construct minions it has Deployed at once (see Deploy Automaton). While within 60 feet of the wizard, those constructs add the wizard's Intelligence modifier (+6) to their damage rolls—the dread of every optimized fleet that works perfectly until it doesn't."] }
+			],
+			"spellcasting": [
+				{ "name": "Spellcasting", "type": "spellcasting", "headerEntries": ["The wizard casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 21}; {@hitYourSpellAttack +13 to hit with spell attacks}):"], "will": ["{@spell fire bolt|XPHB}", "{@spell mage hand|XPHB}", "{@spell mending|XPHB}"], "daily": { "3e": ["{@spell animate objects|XPHB}", "{@spell wall of force|XPHB}", "{@spell telekinesis|XPHB}"], "2e": ["{@spell bigby's hand|XPHB}", "{@spell polymorph|XPHB}", "{@spell dispel magic|XPHB}"], "1e": ["{@spell contingency|XPHB}", "{@spell true polymorph|XPHB}"] }, "ability": "int", "displayAs": "action" }
+			],
+			"action": [
+				{ "name": "Multiattack", "entries": ["The wizard makes two Rune Strike attacks, or it casts a spell and makes one Rune Strike attack."] },
+				{ "name": "Rune Strike", "entries": ["{@atkr m,r} {@hit 13}, reach 5 ft. or range 60 ft. {@h}23 ({@damage 3d10 + 7}) Force damage plus 18 ({@damage 4d8}) Lightning damage."] },
+				{ "name": "Deploy Automaton", "entries": ["The wizard inscribes a command-rune and a guardian construct unfolds in an unoccupied space within 30 feet. Use the statistics of a {@creature Helmed Horror|MM} (or any Large construct of CR 4 or lower), with the {@i paradox} tag. It acts on the wizard's initiative and obeys it. The wizard can have up to four such constructs at once (see Runebound Automata)."] },
+				{ "name": "Cascade Failure {@recharge 5}", "entries": ["The wizard introduces a catastrophic bug into the runes of reality in a 30-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} it can see within 120 feet. {@actSave dex} {@dc 21}, each creature there. {@actSaveFail} 55 ({@damage 10d10}) Lightning and Force damage (half each), and at the start of its next turn the creature must roll a {@dice d6}; on a 1–2 its action that turn simply fails (it 'crashes'). {@actSaveSuccess} Half damage and no crash."] }
+			],
+			"bonus": [
+				{ "name": "Hotfix", "entries": ["The wizard repairs itself or one construct it can see within 60 feet, restoring 40 Hit Points and ending one condition on the target."] }
+			],
+			"reaction": [
+				{ "name": "Rollback", "entries": ["When the wizard takes damage, it reverts to a previous state, reducing that damage by 40. Once per round."] }
+			],
+			"legendaryHeader": ["Legendary Action Uses: 3. Immediately after another creature's turn, the wizard can expend a use to take one of the following actions. It regains all expended uses at the start of each of its turns."],
+			"legendaryActions": 3,
+			"legendary": [
+				{ "name": "Strike", "entries": ["The wizard makes one Rune Strike attack, or one Deployed construct under its control makes one attack."] },
+				{ "name": "Hotfix", "entries": ["The wizard uses Hotfix."] },
+				{ "name": "Deploy (Costs 2 Actions)", "entries": ["The wizard uses Deploy Automaton."] }
+			],
+			"fluff": { "entries": [
+				{ "type": "entries", "name": "The Devmaster, Inverted", "entries": ["The brown robes are the ones who keep the gears turning—the quiet engineers who inscribe the command-runes, tune the tireless mission-golems, and patch a fault before anyone notices it. Their false reflection is what happens when the runework rots: a construct that no longer optimizes anything, only deploys broken automata, 'fixes' the world into shapes it was never meant to take, and rolls back any blow that lands. It works perfectly. That is the problem."] },
+				{ "type": "entries", "name": "Design: CR 24 Caster Boss (Construct, Paradox)", "entries": ["A one-phase legendary summoner-controller—standard D&D transmutation/conjuration with a medieval-arcane nod to a developer role (no actual code, only runes and automata). Patch Notes + Rollback make it grindy; Deploy Automaton + Runebound Automata flood the field with empowered minions; Cascade Failure can make a hero's turn simply fail. The Erased mirror of the people who keep the machine running—affectionately, the author's own kind."] }
+			] }
+		},
+		{
+			"name": "False Blue Robes Wizard",
+			"source": "FalseWizards",
+			"size": ["M"],
+			"type": { "type": "aberration", "tags": ["paradox"] },
+			"alignment": ["C", "E"],
+			"ac": [{ "ac": 21, "from": ["plot armor"] }],
+			"hp": { "average": 418, "formula": "44d8 + 220" },
+			"speed": { "walk": 30, "fly": 40, "canHover": true },
+			"str": 12, "dex": 20, "con": 20, "int": 24, "wis": 22, "cha": 20,
+			"save": { "dex": "+15", "int": "+15", "wis": "+14", "cha": "+13" },
+			"skill": { "arcana": "+15", "history": "+22", "insight": "+14", "perception": "+14" },
+			"senses": ["truesight 120 ft."],
+			"passive": 24,
+			"resist": ["psychic", "force"],
+			"immune": ["necrotic"],
+			"conditionImmune": ["charmed", "exhaustion", "frightened"],
+			"languages": ["all", "telepathy 120 ft."],
+			"cr": "25",
+			"trait": [
+				{ "name": "Legendary Resistance (3/Day)", "entries": ["If the False Blue Robes Wizard fails a saving throw, it can choose to succeed instead."] },
+				{ "name": "Magic Resistance", "entries": ["The wizard has Advantage on saving throws against spells and other magical effects."] },
+				{ "name": "Plot Armor", "entries": ["The wizard decides what is true, and the truth is that it survives. The first time the wizard would drop to 0 Hit Points during an encounter, it instead drops to 1 Hit Point and ends all conditions and effects on itself ('that didn't happen'). In addition, a Critical Hit against the wizard is treated as a normal hit."] },
+				{ "name": "Unreliable Narrator", "entries": ["The wizard's place in the story is never quite fixed. Attack rolls against it that don't come from a creature with Truesight are made with Disadvantage, and it can't be tracked or located by divination magic it doesn't permit."] }
+			],
+			"spellcasting": [
+				{ "name": "Spellcasting", "type": "spellcasting", "headerEntries": ["The wizard casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 23}; {@hitYourSpellAttack +15 to hit with spell attacks}):"], "will": ["{@spell mind sliver|XPHB}", "{@spell fire bolt|XPHB}", "{@spell message|XPHB}"], "daily": { "3e": ["{@spell counterspell|XPHB}", "{@spell dispel magic|XPHB}", "{@spell dimension door|XPHB}"], "2e": ["{@spell maze|XPHB}", "{@spell mislead|XPHB}", "{@spell project image|XPHB}"], "1e": ["{@spell time stop|XPHB}", "{@spell foresight|XPHB}", "{@spell weird|XPHB}"] }, "ability": "int", "displayAs": "action" }
+			],
+			"action": [
+				{ "name": "Multiattack", "entries": ["The wizard casts a spell, or it makes two Editing Bolt attacks and uses Not Canon."] },
+				{ "name": "Editing Bolt", "entries": ["{@atkr r} {@hit 15}, range 120 ft. {@h}31 ({@damage 5d8 + 9}) Psychic damage plus 18 ({@damage 4d8}) Force damage."] },
+				{ "name": "Not Canon", "entries": ["The wizard declares one creature it can see within 120 feet to be a continuity error. {@actSave cha} {@dc 23}. {@actSaveFail} the target is written out of the scene: it has the {@condition incapacitated} condition, is unable to be targeted or to take any action, and is removed from the battlefield until the end of the wizard's next turn, when it returns to its space (or the nearest space) remembering nothing of the lost time. {@actSaveSuccess} The target instead takes 44 ({@damage 8d10}) Psychic damage."] },
+				{ "name": "Rewrite the Scene {@recharge 5}", "entries": ["The wizard revises reality in a 60-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on itself. Each other creature there makes a {@dc 23} Wisdom saving throw. {@actSaveFail} 66 ({@damage 12d10}) Psychic damage and the wizard teleports the creature to any unoccupied space it chooses within the sphere (positions are rewritten). {@actSaveSuccess} Half damage and the creature chooses its new space."] }
+			],
+			"reaction": [
+				{ "name": "Retcon", "entries": ["When a creature the wizard can see within 60 feet hits with an attack, casts a spell, or deals damage, the wizard declares it never happened: that action is negated and has no effect (a spell is wasted as if {@spell counterspell|XPHB} succeeded; an attack misses; damage is prevented). Once per round."] }
+			],
+			"legendaryHeader": ["Legendary Action Uses: 3. Immediately after another creature's turn, the wizard can expend a use to take one of the following actions. It regains all expended uses at the start of each of its turns."],
+			"legendaryActions": 3,
+			"legendary": [
+				{ "name": "Edit", "entries": ["The wizard makes one Editing Bolt attack."] },
+				{ "name": "Not Canon", "entries": ["The wizard uses Not Canon."] },
+				{ "name": "Plot Twist (Costs 2 Actions)", "entries": ["The wizard uses Rewrite the Scene if available, or casts a spell of level 6 or lower from its Spellcasting."] }
+			],
+			"fluff": { "entries": [
+				{ "type": "entries", "name": "The Loremaster, Inverted", "entries": ["The blue robes are the keepers of the story—they decide what is canon, weave the lore into something whole, and make sure the world remembers itself truly. Their false reflection holds the same authority and uses it to lie: it retcons your victories into things that never were, declares your heroes 'not canon' and writes them out of the page, and edits the battlefield itself between sentences. It is the editor who deletes you from the manuscript and dares you to prove you were ever in it."] },
+				{ "type": "entries", "name": "Design: CR 25 Caster Boss (Aberration, Paradox)", "entries": ["A one-phase legendary control/skirmish caster and the strongest of the False Wizards—standard D&D divination/illusion plus reality-editing (Retcon, Not Canon, Rewrite the Scene, Plot Armor) as a nod to a lore/canon role, and the most on-theme for the paradox of Gaia. Retcon negates the party's best turn; Plot Armor gives it a second life; Not Canon temporarily removes a hero. The Erased mirror of the people who decide what is real."] }
+			] }
+		}
+	]
+}
