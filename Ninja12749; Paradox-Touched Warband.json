@@ -1,0 +1,751 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "ParadoxWarband",
+				"abbreviation": "PTW",
+				"full": "Paradox-Touched Warband",
+				"authors": [
+					"Ninja12749"
+				],
+				"convertedBy": [
+					"Ninja12749"
+				],
+				"version": "1.0.0",
+				"color": "7c3aed"
+			}
+		],
+		"edition": "one",
+		"dateAdded": 1781136000,
+		"dateLastModified": 1781136000
+	},
+	"monster": [
+		{
+			"name": "Paradox-Touched Goblin Cutter",
+			"source": "ParadoxWarband",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "fey",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"paradox-warded leather",
+						"shield"
+					]
+				}
+			],
+			"hp": {
+				"average": 36,
+				"formula": "8d6 + 8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 16,
+			"con": 12,
+			"int": 10,
+			"wis": 10,
+			"cha": 9,
+			"save": {
+				"dex": "+8"
+			},
+			"skill": {
+				"stealth": "+8"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"conditionImmune": [
+				"frightened"
+			],
+			"languages": [
+				"Common",
+				"Goblin"
+			],
+			"cr": "14",
+			"trait": [
+				{
+					"name": "Glass-Cannon Minion",
+					"entries": [
+						"This creature's attacks are calibrated to Challenge 14 (tier 3), but its Hit Points are deliberately minion-grade—it hits like an endgame threat and dies like a mook. Its listed CR reflects the danger of its attacks, not its durability: a single solid hit or area spell from a 14th-level character usually drops it. For encounter budgeting, treat it as far less durable than a true CR 14 monster (see the Paradox-Touched Goblin Hexer for roster math)."
+					]
+				},
+				{
+					"name": "Paradox-Touched",
+					"entries": [
+						"The goblin was recopied by the paradox around Vorthrax: its hide is tinted violet and its eyes shed faint starlight (Dim Light in a 5-foot radius). It has Advantage on saving throws against being {@condition frightened}—it has already seen the end of the world."
+					]
+				},
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"The goblin takes the {@action Disengage} or {@action Hide} action as a Bonus Action on each of its turns."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The goblin makes two Paradox Scimitar attacks."
+					]
+				},
+				{
+					"name": "Paradox Scimitar",
+					"entries": [
+						"{@atkr m} {@hit 11}, reach 5 ft. {@h}11 ({@damage 2d6 + 4}) Slashing damage plus 9 ({@damage 2d8}) Necrotic damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Unmade Flicker",
+					"entries": [
+						"When the goblin is reduced to 0 Hit Points, its body tears into a thumbnail of night sky and is gone. Each creature within 5 feet of it takes 5 ({@damage 2d4}) Necrotic damage from the imploding seam."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"A frontline cutter of the Recopied Warband—a violet shadow of a goblin that swings a blade edged in unmade dark. Part of the Recopied Warband; see the {@creature Paradox-Touched Goblin Hexer|ParadoxWarband} for the full encounter."
+				]
+			}
+		},
+		{
+			"name": "Paradox-Touched Goblin Stinger",
+			"source": "ParadoxWarband",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "fey",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"paradox-warded leather"
+					]
+				}
+			],
+			"hp": {
+				"average": 27,
+				"formula": "6d6 + 6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 20,
+			"con": 12,
+			"int": 10,
+			"wis": 13,
+			"cha": 8,
+			"save": {
+				"dex": "+10"
+			},
+			"skill": {
+				"stealth": "+10",
+				"perception": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 16,
+			"conditionImmune": [
+				"frightened"
+			],
+			"languages": [
+				"Common",
+				"Goblin"
+			],
+			"cr": "14",
+			"trait": [
+				{
+					"name": "Glass-Cannon Minion",
+					"entries": [
+						"This creature's attacks are calibrated to Challenge 14 (tier 3), but its Hit Points are deliberately minion-grade—it hits like an endgame threat and dies like a mook. Its listed CR reflects the danger of its attacks, not its durability: a single solid hit or area spell from a 14th-level character usually drops it. For encounter budgeting, treat it as far less durable than a true CR 14 monster (see the Paradox-Touched Goblin Hexer for roster math)."
+					]
+				},
+				{
+					"name": "Paradox-Touched",
+					"entries": [
+						"The goblin was recopied by the paradox around Vorthrax: its hide is tinted violet and its eyes shed faint starlight (Dim Light in a 5-foot radius). It has Advantage on saving throws against being {@condition frightened}—it has already seen the end of the world."
+					]
+				},
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"The goblin takes the {@action Disengage} or {@action Hide} action as a Bonus Action on each of its turns."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The goblin makes two Paradox Shortbow attacks."
+					]
+				},
+				{
+					"name": "Paradox Shortbow",
+					"entries": [
+						"{@atkr r} {@hit 11}, range 80/320 ft. {@h}12 ({@damage 2d6 + 5}) Piercing damage plus 9 ({@damage 2d8}) Force damage."
+					]
+				},
+				{
+					"name": "Starfall Volley {@recharge 5}",
+					"entries": [
+						"The goblin looses an arrow that bursts into falling starlight at a point it can see within 150 feet. {@actSave dex} {@dc 18}, each creature in a 15-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on that point. {@actSaveFail} 27 ({@damage 6d8}) Force damage. {@actSaveSuccess} Half damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Unmade Flicker",
+					"entries": [
+						"When the goblin is reduced to 0 Hit Points, its body tears into a thumbnail of night sky and is gone. Each creature within 5 feet of it takes 5 ({@damage 2d4}) Force damage from the imploding seam."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"A recopied skirmisher that fires arrows of bottled starlight from the edges of the fight. Part of the Recopied Warband; see the {@creature Paradox-Touched Goblin Hexer|ParadoxWarband} for the full encounter."
+				]
+			}
+		},
+		{
+			"name": "Paradox-Touched Goblin Hexer",
+			"source": "ParadoxWarband",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "fey",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"paradox ward"
+					]
+				}
+			],
+			"hp": {
+				"average": 38,
+				"formula": "7d6 + 14"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 14,
+			"con": 14,
+			"int": 12,
+			"wis": 18,
+			"cha": 13,
+			"save": {
+				"wis": "+9"
+			},
+			"skill": {
+				"perception": "+9",
+				"deception": "+6",
+				"stealth": "+7"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 19,
+			"conditionImmune": [
+				"frightened"
+			],
+			"languages": [
+				"Common",
+				"Goblin"
+			],
+			"cr": "14",
+			"trait": [
+				{
+					"name": "Glass-Cannon Minion",
+					"entries": [
+						"This creature's attacks and spells are calibrated to Challenge 14 (tier 3), but its Hit Points are deliberately minion-grade—it hits like an endgame threat and dies like a mook. Its listed CR reflects the danger of its magic, not its durability: a single solid hit or area spell from a 14th-level character usually drops it."
+					]
+				},
+				{
+					"name": "Paradox-Touched",
+					"entries": [
+						"The goblin was recopied by the paradox around Vorthrax: its hide is tinted violet and its eyes shed faint starlight (Dim Light in a 5-foot radius). It has Advantage on saving throws against being {@condition frightened}—it has already seen the end of the world."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"The goblin casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 19}; {@hitYourSpellAttack +11 to hit with spell attacks}):"
+					],
+					"will": [
+						"{@spell vicious mockery|XPHB}",
+						"{@spell mind sliver|XPHB}",
+						"{@spell toll the dead|XPHB}",
+						"{@spell minor illusion|XPHB}"
+					],
+					"daily": {
+						"2e": [
+							"{@spell hunger of hadar|XPHB}",
+							"{@spell fear|XPHB}",
+							"{@spell blindness/deafness|XPHB}"
+						],
+						"1e": [
+							"{@spell bestow curse|XPHB}",
+							"{@spell hold monster|XPHB}"
+						]
+					},
+					"ability": "wis",
+					"displayAs": "action"
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The goblin casts a spell or makes two Hex Bolt attacks."
+					]
+				},
+				{
+					"name": "Hex Bolt",
+					"entries": [
+						"{@atkr r} {@hit 11}, range 120 ft. {@h}22 ({@damage 4d8 + 4}) Necrotic damage, and the target can't regain Hit Points until the end of the goblin's next turn."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Curse of the Unmade",
+					"entries": [
+						"When a creature the goblin can see within 60 feet reduces it to 0 Hit Points, that creature must succeed on a {@dc 19} Wisdom saving throw or take 18 ({@damage 4d8}) Psychic damage and have Disadvantage on its next attack roll before the end of its next turn, as a stranger's memories flood in."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"name": "The Recopied Warband",
+						"entries": [
+							"This warband of goblins and kobolds wandered too long inside the violet ring around Vorthrax's sleeping-hollow, and the paradox recopied them. Each is the same creature it always was—just repainted for the end of the world: hide gone violet, eyes lit with stray starlight, every blow edged with a sliver of the unmade dark. They are louder, faster, and far deadlier than any goblin or kobold has a right to be... and just as fragile as they ever were. The hexer leads, because it remembers leading—over and over, in lives that no longer happened."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Design: Glass-Cannon Minions (CR 14)",
+						"entries": [
+							"Every member of the warband is built as a {@b glass cannon}: its attacks, save DCs, and damage are calibrated to Challenge 14 (tier 3), so a single one is a genuine threat to a 14th-level character—but its Hit Points are minion-grade, so it drops to almost any solid hit or area spell. The CR 14 label is the threat of the attack, not the toughness of the body.",
+							"This breaks the normal CR-to-XP math on purpose. By the book, six CR 14 monsters would be an apocalyptic 69,000 XP; in practice these die so fast that the effective difficulty is roughly that of treating each as a {@b CR 4–5} creature. Budget by their fragility, not their label.",
+							"The six variants: {@creature Paradox-Touched Goblin Cutter|ParadoxWarband} and {@creature Paradox-Touched Kobold Clawfoot|ParadoxWarband} (melee warriors), {@creature Paradox-Touched Goblin Stinger|ParadoxWarband} and {@creature Paradox-Touched Kobold Slinger|ParadoxWarband} (archers), and the {@creature Paradox-Touched Goblin Hexer|ParadoxWarband} and {@creature Paradox-Touched Kobold Star-Scale|ParadoxWarband} (casters)."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Running It for Four 14th-Level Characters",
+						"entries": [
+							"Because they are glass cannons, this fight is {@b swingy}: whoever lands the first big turn shapes it. Suggested rosters:",
+							{
+								"type": "list",
+								"items": [
+									"{@b Sharp brawl (recommended):} 1 caster + 1 archer + 2 warriors (4 total)—a tense, fast 2–3 round fight that ends when the party's area damage lands.",
+									"{@b The full warband:} both casters + 2 archers + 4 warriors (8 total)—genuinely dangerous in round 1, then collapses quickly. Open with the casters' control and the archers' Volley/Scatter before the party scatters them.",
+									"{@b Endless tide:} feed them in waves of 3–4 each round to evoke the region recopying its dead—thematically perfect, and it lets you dial lethality live."
+								]
+							},
+							"Tactics: casters open with {@spell hunger of hadar|XPHB}, {@spell fear|XPHB}, or {@spell hold monster|XPHB} to pin the party; archers spend {@b Starfall Volley}/{@b Scatter Shot} on clusters; warriors use Nimble Escape and Pack Tactics to gang a single isolated character. Lean into the {@b Unmade Flicker} death bursts—every minion that dies stings whoever killed it, so melee characters take a slow toll wading through the horde.",
+							"Flavor note: these are the literal punchline of the campaign's running joke—the level-20 goblin in a different color. When the party recognizes the silhouette of a common goblin and then it hits like a CR 14, that dissonance is the point."
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Paradox-Touched Kobold Clawfoot",
+			"source": "ParadoxWarband",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"kobold"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"paradox-warded scraps"
+					]
+				}
+			],
+			"hp": {
+				"average": 32,
+				"formula": "7d6 + 7"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 18,
+			"con": 12,
+			"int": 8,
+			"wis": 9,
+			"cha": 9,
+			"save": {
+				"dex": "+9"
+			},
+			"skill": {
+				"stealth": "+9"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"conditionImmune": [
+				"frightened"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"cr": "14",
+			"trait": [
+				{
+					"name": "Glass-Cannon Minion",
+					"entries": [
+						"This creature's attacks are calibrated to Challenge 14 (tier 3), but its Hit Points are deliberately minion-grade—it hits like an endgame threat and dies like a mook. Its listed CR reflects the danger of its attacks, not its durability: a single solid hit or area spell from a 14th-level character usually drops it. For encounter budgeting, treat it as far less durable than a true CR 14 monster (see the Paradox-Touched Goblin Hexer for roster math)."
+					]
+				},
+				{
+					"name": "Paradox-Touched",
+					"entries": [
+						"The kobold was recopied by the paradox around Vorthrax: its scales are tinted violet and its eyes shed faint starlight (Dim Light in a 5-foot radius). It has Advantage on saving throws against being {@condition frightened}, and the recopying has burned away its kind's usual Sunlight Sensitivity."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The kobold has Advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally doesn't have the {@condition Incapacitated} condition."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The kobold makes two Paradox Claw attacks."
+					]
+				},
+				{
+					"name": "Paradox Claw",
+					"entries": [
+						"{@atkr m} {@hit 11}, reach 5 ft. {@h}11 ({@damage 2d6 + 4}) Slashing damage plus 7 ({@damage 2d6}) Necrotic damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Skitter",
+					"entries": [
+						"The kobold takes the {@action Disengage} action."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Unmade Flicker",
+					"entries": [
+						"When the kobold is reduced to 0 Hit Points, its body tears into a thumbnail of night sky and is gone. Each creature within 5 feet of it takes 5 ({@damage 2d4}) Necrotic damage from the imploding seam."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"A recopied kobold that fights in violet packs, claws trailing unmade dark. Part of the Recopied Warband; see the {@creature Paradox-Touched Goblin Hexer|ParadoxWarband} for the full encounter."
+				]
+			}
+		},
+		{
+			"name": "Paradox-Touched Kobold Slinger",
+			"source": "ParadoxWarband",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"kobold"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"paradox-warded scraps"
+					]
+				}
+			],
+			"hp": {
+				"average": 27,
+				"formula": "6d6 + 6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 19,
+			"con": 12,
+			"int": 8,
+			"wis": 10,
+			"cha": 8,
+			"save": {
+				"dex": "+9"
+			},
+			"skill": {
+				"stealth": "+9"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"conditionImmune": [
+				"frightened"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"cr": "14",
+			"trait": [
+				{
+					"name": "Glass-Cannon Minion",
+					"entries": [
+						"This creature's attacks are calibrated to Challenge 14 (tier 3), but its Hit Points are deliberately minion-grade—it hits like an endgame threat and dies like a mook. Its listed CR reflects the danger of its attacks, not its durability: a single solid hit or area spell from a 14th-level character usually drops it. For encounter budgeting, treat it as far less durable than a true CR 14 monster (see the Paradox-Touched Goblin Hexer for roster math)."
+					]
+				},
+				{
+					"name": "Paradox-Touched",
+					"entries": [
+						"The kobold was recopied by the paradox around Vorthrax: its scales are tinted violet and its eyes shed faint starlight (Dim Light in a 5-foot radius). It has Advantage on saving throws against being {@condition frightened}, and the recopying has burned away its kind's usual Sunlight Sensitivity."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The kobold has Advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally doesn't have the {@condition Incapacitated} condition."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The kobold makes two Paradox Sling attacks."
+					]
+				},
+				{
+					"name": "Paradox Sling",
+					"entries": [
+						"{@atkr m,r} {@hit 11}, reach 5 ft. or range 30/120 ft. {@h}11 ({@damage 2d6 + 4}) Bludgeoning damage plus 7 ({@damage 2d6}) Force damage."
+					]
+				},
+				{
+					"name": "Scatter Shot {@recharge 5}",
+					"entries": [
+						"The kobold whirls a spray of starlit shot in a 30-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. {@actSave dex} {@dc 17}, each creature in that area. {@actSaveFail} 21 ({@damage 6d6}) Force damage. {@actSaveSuccess} Half damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Unmade Flicker",
+					"entries": [
+						"When the kobold is reduced to 0 Hit Points, its body tears into a thumbnail of night sky and is gone. Each creature within 5 feet of it takes 5 ({@damage 2d4}) Force damage from the imploding seam."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"A recopied kobold that pelts the party with bottled starlight from behind its packmates. Part of the Recopied Warband; see the {@creature Paradox-Touched Goblin Hexer|ParadoxWarband} for the full encounter."
+				]
+			}
+		},
+		{
+			"name": "Paradox-Touched Kobold Star-Scale",
+			"source": "ParadoxWarband",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"kobold"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"paradox ward"
+					]
+				}
+			],
+			"hp": {
+				"average": 33,
+				"formula": "6d6 + 12"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 16,
+			"con": 14,
+			"int": 10,
+			"wis": 11,
+			"cha": 18,
+			"save": {
+				"cha": "+9"
+			},
+			"skill": {
+				"arcana": "+5",
+				"stealth": "+8"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"conditionImmune": [
+				"frightened"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"cr": "14",
+			"trait": [
+				{
+					"name": "Glass-Cannon Minion",
+					"entries": [
+						"This creature's spells are calibrated to Challenge 14 (tier 3), but its Hit Points are deliberately minion-grade—it hits like an endgame threat and dies like a mook. Its listed CR reflects the danger of its magic, not its durability: a single solid hit or area spell from a 14th-level character usually drops it."
+					]
+				},
+				{
+					"name": "Paradox-Touched",
+					"entries": [
+						"The kobold was recopied by the paradox around Vorthrax: its scales are tinted violet and its eyes shed faint starlight (Dim Light in a 5-foot radius). It has Advantage on saving throws against being {@condition frightened}, and the recopying has burned away its kind's usual Sunlight Sensitivity."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The kobold has Advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally doesn't have the {@condition Incapacitated} condition."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"The kobold casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 19}; {@hitYourSpellAttack +11 to hit with spell attacks}):"
+					],
+					"will": [
+						"{@spell sorcerous burst|XPHB}",
+						"{@spell light|XPHB}",
+						"{@spell chill touch|XPHB}",
+						"{@spell prestidigitation|XPHB}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell magic missile|XPHB}",
+							"{@spell shield|XPHB}"
+						],
+						"2e": [
+							"{@spell scorching ray|XPHB}",
+							"{@spell misty step|XPHB}"
+						],
+						"1e": [
+							"{@spell fireball|XPHB} (cast as \"Starburst\"; Force damage)"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "action"
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The kobold makes two Star Bolt attacks."
+					]
+				},
+				{
+					"name": "Star Bolt",
+					"entries": [
+						"{@atkr r} {@hit 11}, range 120 ft. {@h}18 ({@damage 4d8}) Force damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Unmade Flicker",
+					"entries": [
+						"When the kobold is reduced to 0 Hit Points, its body tears into a thumbnail of night sky and is gone. Each creature within 5 feet of it takes 5 ({@damage 2d4}) Force damage from the imploding seam."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"A recopied scale-sorcerer whose bloodline magic now burns in the colors of the unmade sky—its 1/day {@b Starburst} (a Force-damage {@spell fireball|XPHB}) is the warband's deadliest single moment. Part of the Recopied Warband; see the {@creature Paradox-Touched Goblin Hexer|ParadoxWarband} for the full encounter."
+				]
+			}
+		}
+	]
+}
