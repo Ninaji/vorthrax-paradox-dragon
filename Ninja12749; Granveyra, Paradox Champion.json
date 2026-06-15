@@ -1,0 +1,141 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "ParadoxChampion",
+				"abbreviation": "PXC",
+				"full": "Granveyra, the Paradox Champion",
+				"authors": ["Ninja12749"],
+				"convertedBy": ["Ninja12749"],
+				"version": "1.0.0",
+				"color": "b91c1c"
+			}
+		],
+		"edition": "one",
+		"dateAdded": 1781395200,
+		"dateLastModified": 1781395200
+	},
+	"monster": [
+		{
+			"name": "Granveyra, the Half-Dragon Paradox Champion",
+			"source": "ParadoxChampion",
+			"isNamedCreature": true,
+			"size": ["M"],
+			"type": { "type": "dragon", "tags": ["paradox"] },
+			"alignment": ["L", "N"],
+			"ac": [{ "ac": 21, "from": ["draconic scales", "blade dance"] }],
+			"hp": { "average": 420, "formula": "40d8 + 240" },
+			"speed": { "walk": 40 },
+			"str": 24, "dex": 20, "con": 22, "int": 14, "wis": 16, "cha": 20,
+			"save": { "str": "+15", "dex": "+13", "con": "+14", "wis": "+11" },
+			"skill": { "athletics": "+15", "intimidation": "+13", "perception": "+11" },
+			"senses": ["blindsight 30 ft.", "darkvision 120 ft."],
+			"passive": 21,
+			"resist": ["necrotic"],
+			"immune": ["fire"],
+			"conditionImmune": ["charmed", "frightened"],
+			"languages": ["Common", "Draconic"],
+			"cr": "25",
+			"trait": [
+				{ "name": "Legendary Resistance (3/Day)", "entries": ["If Granveyra fails a saving throw, she can choose to succeed instead."] },
+				{ "name": "Burning Resolve", "entries": ["At the start of each of her turns, Granveyra ends one of the following conditions affecting her: {@condition blinded}, {@condition deafened}, {@condition paralyzed}, {@condition restrained}, or {@condition stunned}. Her will is a forge nothing dampens for long."] },
+				{ "name": "Sword-Saint", "entries": ["Granveyra's weapon attacks are magical, she can't be disarmed against her will, and she has Advantage on saving throws against effects that would move her or knock her {@condition prone}."] },
+				{ "name": "Draconic Wrath", "entries": ["While Granveyra has 210 Hit Points or fewer, each of her blade attacks deals an extra 9 ({@damage 2d8}) Fire damage, and the recharge die of Cut Through Reality and World-Ending Slash succeeds on a roll of 4–6 instead of 5–6 (6 for World-Ending Slash). Cornered, she fights like the end of the world."] },
+				{ "name": "Paradox Ascension", "entries": ["Granveyra cannot simply be cut down. The first time she is reduced to 0 Hit Points, she doesn't die: she sheds her broken body in a pillar of violet fire and rises as {@creature Granveyra Ascendant, the Paradox Spellblade|ParadoxChampion}, which appears in her space at its full Hit Points with several spells already in effect (see that form's Enters Ascended trait). Any conditions and ongoing effects on Granveyra end. This happens only once; the battle is won only when the Ascendant form falls. Award the encounter's XP a single time, when the second form is defeated (run the pair as a single CR 25 legendary boss with two life bars)."] },
+				{ "name": "Paradox Corruption (Curse)", "entries": ["Some of Granveyra's strikes inflict Paradox Corruption. A cursed creature gains 1 Corruption level, its skin spreading with violet starlight. Each level imposes a cumulative {@b −2} penalty to its attack rolls, saving throws, and spell save DCs, and while it has any Corruption level it can't regain Hit Points. If a creature reaches 5 levels, it is recopied into a paradox-touched thrall under the GM's control (removed from play). {@spell greater restoration|XPHB} or {@spell remove curse|XPHB} (cast with a level 5+ slot) removes one level; {@spell wish|XPHB} removes all."] }
+			],
+			"action": [
+				{ "name": "Multiattack", "entries": ["Granveyra makes three Vermilion Dragon Blade attacks, or she uses Vaporising Rebellion Sword. She can replace one of these attacks with Cut Through Reality or World-Ending Slash if it is available."] },
+				{ "name": "Vermilion Dragon Blade", "entries": ["{@atkr m} {@hit 17}, reach 10 ft. {@h}18 ({@damage 2d10 + 7}) Slashing damage plus 10 ({@damage 3d6}) Fire damage."] },
+				{ "name": "Vaporising Rebellion Sword", "entries": ["Granveyra blurs across the battlefield, cutting through up to three different creatures she can see within 30 feet (chosen at random if the GM prefers). She makes one melee attack roll, {@hit 17}, against each chosen target. {@h}18 ({@damage 2d10 + 7}) Slashing damage plus 14 ({@damage 4d6}) Fire damage."] },
+				{ "name": "World-Ending Slash {@recharge 6}", "entries": ["Granveyra raises her blade and brings down a stroke meant to end everything on one creature she can see within 10 feet. This attack hits automatically. The target takes 44 ({@damage 8d10}) Slashing damage plus 36 ({@damage 8d8}) Necrotic damage, then makes a {@dc 24} Constitution saving throw. On a failed save, roll {@dice d100}: {@b 01–10}, the target dies (Death); {@b 11–35}, the target gains 1 level of Paradox Corruption (Corruption); {@b 36–00}, no additional effect. On a successful save, the target takes only half the Necrotic damage and isn't subject to the d100 roll."] },
+				{ "name": "Cut Through Reality {@recharge 5}", "entries": ["Granveyra severs the space between herself and one creature she can see within 30 feet, ignoring cover and barriers of magical force (such as {@spell wall of force|XPHB}). The target makes a {@dc 24} Dexterity saving throw, taking 88 ({@damage 16d10}) Force damage on a failed save, or half as much on a successful one."] }
+			],
+			"bonus": [
+				{ "name": "Crimson Accel", "entries": ["Granveyra moves up to her Speed without provoking Opportunity Attacks and makes one Vermilion Dragon Blade attack."] }
+			],
+			"reaction": [
+				{ "name": "Heavenly Demon Riposte", "entries": ["When a creature within 10 feet misses Granveyra with a melee attack, she makes one Vermilion Dragon Blade attack against it."] }
+			],
+			"legendaryHeader": ["Legendary Action Uses: 3. Immediately after another creature's turn, Granveyra can expend a use to take one of the following actions. She regains all expended uses at the start of each of her turns."],
+			"legendaryActions": 3,
+			"legendary": [
+				{ "name": "Blade Strike", "entries": ["Granveyra makes one Vermilion Dragon Blade attack."] },
+				{ "name": "Crimson Step", "entries": ["Granveyra moves up to half her Speed without provoking Opportunity Attacks."] },
+				{ "name": "Rebellion Flourish (Costs 2 Actions)", "entries": ["Granveyra uses Vaporising Rebellion Sword."] }
+			],
+			"fluff": { "entries": [
+				{ "type": "entries", "name": "The Sword-Saint Who Would Not Fall", "entries": ["Granveyra was the greatest blade of her age—a half-dragon champion of fire and honor, sworn to a throne now swallowed by the violet ring around Vorthrax's hollow. When the paradox came for her, it could not unmake a will like hers; it could only fold it. Now she guards the deepest scar of the corrupted region, and she fights the way she always has: forward, blade first, asking no quarter and offering a clean death she can no longer give. Inspired by Granberia, the dragonkin sword-saint of Monster Girl Quest Paradox—her ferocity intact, her cause turned to ash."] },
+				{ "type": "entries", "name": "Design: CR 25 Legendary Boss — Phase 1 of 2", "entries": ["Granveyra is a two-phase legendary capstone for four well-equipped 17th-level characters (the Vorthrax party). This is her {@b martial phase}: relentless blade pressure, the multi-target Vaporising Rebellion Sword, the auto-hit World-Ending Slash (Death/Corruption), and the cover-ignoring Cut Through Reality. When she drops to 0, she does {@b not} die—she ascends to {@creature Granveyra Ascendant, the Paradox Spellblade|ParadoxChampion} (Phase 2), so expect a long, escalating fight comparable to Vorthrax. Run both forms as one boss; award XP once."] }
+			] }
+		},
+		{
+			"name": "Granveyra Ascendant, the Paradox Spellblade",
+			"source": "ParadoxChampion",
+			"isNamedCreature": true,
+			"size": ["M"],
+			"type": { "type": "dragon", "tags": ["paradox"] },
+			"alignment": ["L", "N"],
+			"ac": [{ "ac": 22, "from": ["draconic scales", "Haste", "blade dance"] }],
+			"hp": { "average": 399, "formula": "38d8 + 228" },
+			"speed": { "walk": 60, "fly": 60 },
+			"str": 24, "dex": 20, "con": 22, "int": 14, "wis": 16, "cha": 26,
+			"save": { "str": "+15", "dex": "+13", "con": "+14", "cha": "+16" },
+			"skill": { "arcana": "+13", "athletics": "+15", "perception": "+11" },
+			"senses": ["blindsight 30 ft.", "darkvision 120 ft."],
+			"passive": 21,
+			"resist": ["cold", "necrotic", { "resist": ["bludgeoning", "piercing", "slashing"], "note": "from nonmagical attacks" }],
+			"immune": ["fire"],
+			"conditionImmune": ["charmed", "frightened"],
+			"languages": ["Common", "Draconic", "Celestial"],
+			"cr": "25",
+			"trait": [
+				{ "name": "Legendary Resistance (3/Day)", "entries": ["If Granveyra Ascendant fails a saving throw, she can choose to succeed instead. (This form's uses are fresh, separate from her first form's.)"] },
+				{ "name": "Enters Ascended", "entries": ["When this form rises from Granveyra's Paradox Ascension, the following spells are {@b already in effect} on her and are baked into her statistics: {@spell aid|XPHB} (her Hit Point maximum and current Hit Points are already increased), {@spell haste|XPHB} (already reflected in her AC, doubled Speed, and the extra action noted below), {@spell fire shield|XPHB} (warm—a creature that hits her with a melee attack takes 11 ({@damage 2d10}) Fire damage; she has Resistance to Cold, already listed), {@spell mirror image|XPHB} (she begins with {@b 3 duplicates}), and {@spell stoneskin|XPHB} (Resistance to nonmagical Bludgeoning, Piercing, and Slashing, already listed). If a benefit is dispelled or ends, remove it.", "{@b Hasted Action:} On each of her turns, Granveyra Ascendant can take one additional action, which she can use only to make one weapon attack, Dash, Disengage, Hide, or Use an Object (per the Haste effect)."] },
+				{ "name": "Burning Resolve", "entries": ["At the start of each of her turns, Granveyra Ascendant ends one of the following conditions affecting her: {@condition blinded}, {@condition deafened}, {@condition paralyzed}, {@condition restrained}, or {@condition stunned}."] },
+				{ "name": "Sword-Saint", "entries": ["Her weapon attacks are magical, she can't be disarmed against her will, and she has Advantage on saving throws against effects that would move her or knock her {@condition prone}."] },
+				{ "name": "Draconic Wrath", "entries": ["While Granveyra Ascendant has 200 Hit Points or fewer, each of her blade attacks deals an extra 9 ({@damage 2d8}) Fire damage, and she can cast a spell using her Hasted Action (not only make an attack)."] },
+				{ "name": "Paradox Corruption (Curse)", "entries": ["A creature struck by World-Ending Slash and cursed gains 1 Corruption level: a cumulative {@b −2} penalty to attack rolls, saving throws, and spell save DCs, and it can't regain Hit Points while cursed. At 5 levels it is recopied into a paradox-touched thrall (removed from play). {@spell greater restoration|XPHB} or level-5+ {@spell remove curse|XPHB} removes one level; {@spell wish|XPHB} removes all."] }
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": ["Granveyra Ascendant casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 24}; {@hitYourSpellAttack +16 to hit with spell attacks}). This is the war-magic she always carried behind the blade—draconic fire and champion's light, unleashed at last:"],
+					"will": ["{@spell fire bolt|XPHB}", "{@spell sacred flame|XPHB}", "{@spell light|XPHB}", "{@spell mind sliver|XPHB}"],
+					"daily": {
+						"3e": ["{@spell shield|XPHB}", "{@spell misty step|XPHB}", "{@spell mirror image|XPHB}"],
+						"2e": ["{@spell fireball|XPHB} (level 7 version)", "{@spell scorching ray|XPHB} (level 6 version)", "{@spell haste|XPHB}", "{@spell aid|XPHB}"],
+						"1e": ["{@spell meteor swarm|XPHB}", "{@spell fire storm|XPHB}", "{@spell sunburst|XPHB}", "{@spell wall of fire|XPHB}", "{@spell globe of invulnerability|XPHB}"]
+					},
+					"ability": "cha",
+					"displayAs": "action"
+				}
+			],
+			"action": [
+				{ "name": "Multiattack", "entries": ["Granveyra Ascendant makes three Vermilion Dragon Blade attacks, or she uses Vaporising Rebellion Sword. She can replace one of these attacks with a casting of a cantrip, Cut Through Reality, or World-Ending Slash if available. (She may also cast a spell with her Hasted Action—see Enters Ascended / Draconic Wrath.)"] },
+				{ "name": "Vermilion Dragon Blade", "entries": ["{@atkr m} {@hit 17}, reach 10 ft. {@h}18 ({@damage 2d10 + 7}) Slashing damage plus 13 ({@damage 3d8}) Fire damage."] },
+				{ "name": "Vaporising Rebellion Sword", "entries": ["Granveyra Ascendant blurs through up to three different creatures she can see within 30 feet (chosen at random if the GM prefers). She makes one melee attack roll, {@hit 17}, against each chosen target. {@h}18 ({@damage 2d10 + 7}) Slashing damage plus 14 ({@damage 4d6}) Fire damage."] },
+				{ "name": "World-Ending Slash {@recharge 6}", "entries": ["One creature Granveyra Ascendant can see within 10 feet. This attack hits automatically. The target takes 44 ({@damage 8d10}) Slashing damage plus 36 ({@damage 8d8}) Necrotic damage, then makes a {@dc 24} Constitution saving throw. On a failed save, roll {@dice d100}: {@b 01–10}, the target dies; {@b 11–35}, the target gains 1 level of Paradox Corruption; {@b 36–00}, no additional effect. On a successful save, the target takes only half the Necrotic damage and isn't subject to the d100 roll."] },
+				{ "name": "Cut Through Reality {@recharge 5}", "entries": ["Granveyra Ascendant severs the space between herself and one creature she can see within 30 feet, ignoring cover and barriers of magical force. The target makes a {@dc 24} Dexterity saving throw, taking 88 ({@damage 16d10}) Force damage on a failed save, or half as much on a successful one."] }
+			],
+			"bonus": [
+				{ "name": "Crimson Accel", "entries": ["Granveyra Ascendant moves up to her Speed without provoking Opportunity Attacks and makes one Vermilion Dragon Blade attack."] }
+			],
+			"reaction": [
+				{ "name": "Heavenly Demon Riposte", "entries": ["When a creature within 10 feet misses her with a melee attack, Granveyra Ascendant makes one Vermilion Dragon Blade attack against it, or casts {@spell shield|XPHB}."] }
+			],
+			"legendaryHeader": ["Legendary Action Uses: 3. Immediately after another creature's turn, Granveyra Ascendant can expend a use to take one of the following actions. She regains all expended uses at the start of each of her turns."],
+			"legendaryActions": 3,
+			"legendary": [
+				{ "name": "Blade Strike", "entries": ["Granveyra Ascendant makes one Vermilion Dragon Blade attack."] },
+				{ "name": "Weave Flame", "entries": ["Granveyra Ascendant casts a cantrip."] },
+				{ "name": "Spell Surge (Costs 2 Actions)", "entries": ["Granveyra Ascendant casts a spell of level 5 or lower from her Spellcasting, or uses Rebellion Flourish (Vaporising Rebellion Sword)."] }
+			],
+			"fluff": { "entries": [
+				{ "type": "entries", "name": "The Magic She Hid Behind the Blade", "entries": ["Granveyra always believed a true warrior settled matters with steel—so the vast war-magic in her dragon blood went unspoken, a shameful softness she buried under the sword. When the paradox finally breaks her body, that pride breaks with it, and everything she refused to use comes out at once: champion's fire, draconic storms, the radiant light of an oath she can't remember swearing. This is the serious face of the 'magical girl' job that Granberia wields as a gag in Monster Girl Quest Paradox—here it is no joke, but a sword-saint's last, furious confession."] },
+				{ "type": "entries", "name": "Design: CR 25 Legendary Boss — Phase 2 of 2", "entries": ["Phase 2 keeps every technique of the first form and adds high-level Spellcasting, and she {@b enters mid-fight already buffed} (Aid, Haste, Fire Shield, Mirror Image, Stoneskin—all baked in), which is brutal: the party meets a fresh 399-HP spellblade with 3 mirror images, an extra hasted action, and resistance to most damage. Lead with Meteor Swarm or Fire Storm, fence with the blade techniques, and spend Legendary Actions on cantrips and Spell Surge. Together the two forms are a Vorthrax-tier capstone; for four 17th-level PCs this is High/Deadly—give the party room to use legendary items, and consider letting them whittle Phase 1 with resources they'll miss in Phase 2."] }
+			] }
+		}
+	]
+}
