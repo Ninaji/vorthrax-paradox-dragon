@@ -7,13 +7,13 @@
 				"full": "Paradox Maou Sama (Alice)",
 				"authors": ["Ninja12749"],
 				"convertedBy": ["Ninja12749"],
-				"version": "1.0.0",
+				"version": "2.0.0",
 				"color": "581c87"
 			}
 		],
 		"edition": "one",
 		"dateAdded": 1781568000,
-		"dateLastModified": 1781568000
+		"dateLastModified": 1781654400
 	},
 	"monster": [
 		{
@@ -38,9 +38,9 @@
 			"cr": "28",
 			"trait": [
 				{ "name": "Legendary Resistance (3/Day)", "entries": ["If the False Goddess fails a saving throw, she can choose to succeed instead."] },
-				{ "name": "Aura of False Divinity", "entries": ["The False Goddess sheds Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. A creature that ends its turn in the Bright Light must succeed on a {@dc 25} Constitution saving throw or be {@condition blinded} until the end of its next turn. Her Radiant damage ignores Resistance to Radiant damage."] },
-				{ "name": "The Mask of Heaven", "entries": ["Divination and other magic that would discern her nature shows only a goddess; the demon lord beneath is hidden. She has Advantage on Charisma checks made to deceive, and creatures have Disadvantage on Insight checks against her."] },
-				{ "name": "Paradox Ascension (The Mask Shatters)", "entries": ["This radiant 'goddess' is only the first face the Maou wears. The first time she is reduced to 0 Hit Points, the mask of heaven shatters: her stolen divinity sloughs away and she rises in her true shape as {@creature Paradox Maou Sama, Demon Lord Alice the Lamia|ParadoxMaou}, appearing in her space at that form's full Hit Points. Any conditions and ongoing effects on her end. Run all three forms as one boss; award the encounter's XP a single time, when the final form falls."] }
+				{ "name": "Aura of False Divinity", "entries": ["The False Goddess sheds Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. Her Radiant damage ignores Resistance to Radiant damage. (She has no antimagic aura—her power is the gaze, not its absence.)"] },
+				{ "name": "The Mask of Heaven", "entries": ["Divination and other magic that would discern her nature shows only a goddess; the demon lord beneath is hidden. She has Advantage on Charisma checks to deceive, and creatures have Disadvantage on Insight checks against her. Look closely, though, and her eyes are wrong—too many, and too dark for heaven."] },
+				{ "name": "Paradox Ascension (The Mask Shatters)", "entries": ["The first time she is reduced to 0 Hit Points, the mask of heaven shatters and her true, many-eyed self emerges: she rises as {@creature Paradox Maou Sama, Demon Lord Alice the Lamia|ParadoxMaou}, appearing in her space at that form's full Hit Points. Any conditions and ongoing effects on her end. Run all three forms as one boss; award XP once, when the final form falls."] }
 			],
 			"spellcasting": [
 				{
@@ -49,36 +49,42 @@
 					"headerEntries": ["The False Goddess casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 25}; {@hitYourSpellAttack +17 to hit with spell attacks}):"],
 					"will": ["{@spell sacred flame|XPHB}", "{@spell light|XPHB}", "{@spell fire bolt|XPHB}"],
 					"daily": {
-						"3e": ["{@spell flame strike|XPHB}", "{@spell spirit guardians|XPHB}", "{@spell guardian of faith|XPHB}"],
-						"2e": ["{@spell fire storm|XPHB}", "{@spell sunbeam|XPHB}", "{@spell banishment|XPHB}"],
-						"1e": ["{@spell sunburst|XPHB}", "{@spell holy aura|XPHB}", "{@spell divine word|XPHB}", "{@spell mass heal|XPHB}"]
+						"2e": ["{@spell flame strike|XPHB}", "{@spell spirit guardians|XPHB}", "{@spell banishment|XPHB}"],
+						"1e": ["{@spell sunburst|XPHB}", "{@spell holy aura|XPHB}", "{@spell mass heal|XPHB}"]
 					},
 					"ability": "cha",
 					"displayAs": "action"
 				}
 			],
 			"action": [
-				{ "name": "Multiattack", "entries": ["The False Goddess casts a spell, or she makes two Punishing Light attacks."] },
-				{ "name": "Punishing Light", "entries": ["{@atkr m,r} {@hit 17}, reach 10 ft. or range 60 ft. {@h}33 ({@damage 6d8 + 6}) Radiant damage."] },
-				{ "name": "Heaven's Verdict {@recharge 5}", "entries": ["A pillar of judgment falls on a point the False Goddess can see within 120 feet. Each creature in a 30-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered there makes a {@dc 25} Dexterity saving throw. {@actSaveFail} 55 ({@damage 10d10}) Radiant damage, and the creature is {@condition blinded} until the end of its next turn. {@actSaveSuccess} Half damage."] },
-				{ "name": "Divine Word {@recharge 6}", "entries": ["The False Goddess speaks a word of false scripture at one creature she can see within 60 feet. {@actSave cha} {@dc 25}. {@actSaveFail} 44 ({@damage 8d10}) Psychic damage, and the target is {@condition stunned} until the end of its next turn. {@actSaveSuccess} Half damage."] }
+				{ "name": "Multiattack", "entries": ["The False Goddess uses Eyes of Judgment, or she casts a spell."] },
+				{ "name": "Eyes of Judgment", "entries": ["The False Goddess shoots three of the following magical eye rays, each at a different creature she can see within 120 feet. Each ray's save DC is 25.", {
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{ "type": "item", "name": "1. Searing Ray.", "entry": "{@actSave dex} {@dc 25}, taking 44 ({@damage 8d10}) Radiant damage on a failure, or half as much on a success." },
+						{ "type": "item", "name": "2. Blinding Ray.", "entry": "{@actSave con} {@dc 25} or the target is {@condition blinded} for 1 minute (repeats the save at the end of each of its turns)." },
+						{ "type": "item", "name": "3. Word of Stillness.", "entry": "{@actSave wis} {@dc 25} or the target is {@condition stunned} until the end of its next turn." },
+						{ "type": "item", "name": "4. Banishing Ray.", "entry": "{@actSave cha} {@dc 25} or the target is sent to a harmless demiplane (the {@condition incapacitated} condition, and it can't be targeted) until the end of the False Goddess's next turn." },
+						{ "type": "item", "name": "5. Withering Judgment.", "entry": "{@actSave con} {@dc 25}, taking 36 ({@damage 8d8}) Radiant damage and being unable to regain Hit Points until the end of its next turn on a failure, or half damage on a success." },
+						{ "type": "item", "name": "6. Humbling Ray.", "entry": "{@actSave str} {@dc 25} or the target is knocked {@condition prone} and its Speed is 0 until the end of its next turn, pressed down by the weight of false grace." }
+					]
+				}] },
+				{ "name": "Heaven's Verdict {@recharge 5}", "entries": ["A pillar of judgment falls on a point within 120 feet. Each creature in a 30-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} makes a {@dc 25} Dexterity saving throw, taking 55 ({@damage 10d10}) Radiant damage and being {@condition blinded} until the end of its next turn on a failure, or half damage on a success."] }
 			],
 			"bonus": [
-				{ "name": "Ascendant Glide", "entries": ["The False Goddess flies up to 30 feet without provoking Opportunity Attacks, wreathed in radiance."] }
-			],
-			"reaction": [
-				{ "name": "Retributive Light", "entries": ["When a creature the False Goddess can see within 30 feet hits her with an attack, that creature takes 13 ({@damage 3d8}) Radiant damage."] }
+				{ "name": "Ascendant Glide", "entries": ["The False Goddess flies up to 30 feet without provoking Opportunity Attacks."] }
 			],
 			"legendaryHeader": ["Legendary Action Uses: 3. Immediately after another creature's turn, the False Goddess can expend a use to take one of the following actions. She regains all expended uses at the start of each of her turns."],
 			"legendaryActions": 3,
 			"legendary": [
-				{ "name": "Smite", "entries": ["The False Goddess makes one Punishing Light attack."] },
+				{ "name": "Eye Ray", "entries": ["The False Goddess uses one ray from her Eyes of Judgment."] },
 				{ "name": "Radiant Step", "entries": ["The False Goddess flies up to half her Speed without provoking Opportunity Attacks."] },
 				{ "name": "Cast Judgment (Costs 2 Actions)", "entries": ["The False Goddess uses Heaven's Verdict if it is available."] }
 			],
 			"fluff": { "entries": [
-				{ "type": "entries", "name": "The Face She Wears First", "entries": ["Phase 1 references the goddess Ilias of Monster Girl Quest—but it is a lie. This serene, radiant 'goddess' is the Paradox Maou herself, Alice, wearing heaven's face like a borrowed cloak. She greets the party as a deity come to pass judgment, healing and smiting and speaking false scripture, and most who kneel never learn what knelt back. The mercy of the mask is that it dies first."] },
-				{ "type": "entries", "name": "Design: CR 28 Legendary Boss — Phase 1 of 3", "entries": ["The opening face of a three-phase campaign finale for four 20th-level characters with magic items. The False Goddess fights as a radiant control-caster: blinding aura, Heaven's Verdict, the stunning Divine Word, and self-sustain via Mass Heal. At 0 Hit Points she does {@b not} die—she becomes {@creature Paradox Maou Sama, Demon Lord Alice the Lamia|ParadoxMaou} (Phase 2). This is a raid-tier set piece; consider letting the party catch their breath between forms, or run it across a session."] }
+				{ "type": "entries", "name": "The Face She Wears First", "entries": ["Phase 1 references the goddess Ilias of Monster Girl Quest—but it is a lie. This radiant 'goddess' is the Paradox Maou, Alice, wearing heaven's face like a borrowed cloak, judging the party with eyes that flash holy light. The eyes are the tell: there are too many of them, and the light behind them is only painted over the dark. The mercy of the mask is that it dies first."] },
+				{ "type": "entries", "name": "Design: CR 28 Legendary Boss — Phase 1 of 3", "entries": ["The opening face of a three-phase campaign finale for four 20th-level characters with magic items. She fights as an eye-tyrant of false light: Eyes of Judgment fire three radiant rays a turn (damage + blind/stun/banish), backed by Heaven's Verdict and self-heal—like a beholder, but with no antimagic aura. At 0 Hit Points she becomes {@creature Paradox Maou Sama, Demon Lord Alice the Lamia|ParadoxMaou} (Phase 2), and the gaze turns to darkness."] }
 			] }
 		},
 		{
@@ -91,11 +97,11 @@
 			"ac": [{ "ac": 22, "from": ["scaled coils"] }],
 			"hp": { "average": 540, "formula": "40d12 + 280" },
 			"speed": { "walk": 50, "climb": 40, "swim": 40 },
-			"str": 28, "dex": 20, "con": 24, "int": 22, "wis": 22, "cha": 26,
-			"save": { "str": "+18", "con": "+16", "wis": "+15", "cha": "+17" },
-			"skill": { "arcana": "+15", "intimidation": "+17", "perception": "+15" },
-			"senses": ["truesight 120 ft."],
-			"passive": 25,
+			"str": 26, "dex": 22, "con": 24, "int": 26, "wis": 24, "cha": 26,
+			"save": { "con": "+16", "int": "+17", "wis": "+16", "cha": "+17" },
+			"skill": { "arcana": "+17", "intimidation": "+17", "perception": "+16" },
+			"senses": ["truesight 120 ft.", "darkvision 240 ft."],
+			"passive": 26,
 			"resist": ["cold", "fire"],
 			"immune": ["necrotic", "poison"],
 			"conditionImmune": ["charmed", "frightened", "poisoned"],
@@ -103,47 +109,61 @@
 			"cr": "29",
 			"trait": [
 				{ "name": "Legendary Resistance (3/Day)", "entries": ["If the Demon Lord fails a saving throw, she can choose to succeed instead."] },
-				{ "name": "Demon Lord's Authority", "entries": ["The Demon Lord is the sovereign of every monster. Each enemy that starts its turn within 30 feet of her must succeed on a {@dc 25} Wisdom saving throw or have Disadvantage on attack rolls and ability checks until the start of its next turn, cowed by her presence. {@i paradox}-tagged allies within 30 feet are immune to being {@condition charmed} or {@condition frightened} and deal an extra 9 ({@damage 2d8}) Necrotic damage with their attacks."] },
+				{ "name": "Master of the Dark", "entries": ["The Demon Lord is the supreme mistress of shadow magic. Her Necrotic damage ignores Resistance to Necrotic damage, and creatures she can see don't benefit from being in Darkness against her (she sees and strikes through it). She has no antimagic aura—her dominion is the dark and the dozens of eyes that open along her coils and in the shadows around her."] },
+				{ "name": "Maddening Gaze", "entries": ["At the start of each of the Demon Lord's turns, she fixes one creature she can see within 60 feet that can see her eyes. That creature makes a {@dc 25} Wisdom saving throw or takes 22 ({@damage 4d10}) Psychic damage and has Disadvantage on saving throws against the Demon Lord's Eye Rays until the start of her next turn."] },
+				{ "name": "Demon Lord's Authority", "entries": ["Each enemy that starts its turn within 30 feet of the Demon Lord must succeed on a {@dc 25} Wisdom saving throw or have Disadvantage on attack rolls until the start of its next turn. {@i paradox}-tagged allies within 30 feet are immune to being {@condition charmed} or {@condition frightened}."] },
 				{ "name": "Serpent's Body", "entries": ["The Demon Lord can't be knocked {@condition prone}, has Advantage on saving throws against being {@condition grappled} or {@condition restrained}, and ignores Difficult Terrain."] },
-				{ "name": "Paradox Ascension (True Chaos)", "entries": ["When this form is reduced to 0 Hit Points, the demon lord does not fall—the paradox at her core blooms, fusing goddess, demon, and machine. She rises as {@creature Paradox Maou Sama, the Child of Chaos|ParadoxMaou}, appearing in her space at that form's full Hit Points; any conditions and ongoing effects on her end. This is her final transformation."] }
+				{ "name": "Paradox Ascension (True Chaos)", "entries": ["When this form is reduced to 0 Hit Points, the paradox at her core blooms, fusing goddess, demon, and machine. She rises as {@creature Paradox Maou Sama, the Child of Chaos|ParadoxMaou}, appearing in her space at that form's full Hit Points; any conditions and ongoing effects on her end. This is her final transformation."] }
 			],
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
 					"type": "spellcasting",
-					"headerEntries": ["The Demon Lord casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 25}; {@hitYourSpellAttack +17 to hit with spell attacks}):"],
-					"will": ["{@spell chill touch|XPHB}", "{@spell ray of frost|XPHB}", "{@spell mind sliver|XPHB}"],
+					"headerEntries": ["The Demon Lord casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 25}; {@hitYourSpellAttack +17 to hit with spell attacks}). Her repertoire is shadow and ruin:"],
+					"will": ["{@spell chill touch|XPHB}", "{@spell mind sliver|XPHB}", "{@spell darkness|XPHB}"],
 					"daily": {
-						"3e": ["{@spell cone of cold|XPHB}", "{@spell hold monster|XPHB}", "{@spell wall of ice|XPHB}"],
-						"2e": ["{@spell finger of death|XPHB}", "{@spell eyebite|XPHB}", "{@spell dominate monster|XPHB}"],
-						"1e": ["{@spell power word stun|XPHB}", "{@spell weird|XPHB}"]
+						"3e": ["{@spell hunger of hadar|XPHB}", "{@spell evard's black tentacles|XPHB}", "{@spell hold monster|XPHB}"],
+						"2e": ["{@spell circle of death|XPHB}", "{@spell eyebite|XPHB}", "{@spell dominate monster|XPHB}"],
+						"1e": ["{@spell finger of death|XPHB}", "{@spell power word stun|XPHB}", "{@spell weird|XPHB}"]
 					},
 					"ability": "cha",
 					"displayAs": "action"
 				}
 			],
 			"action": [
-				{ "name": "Multiattack", "entries": ["The Demon Lord makes one Constricting Tail attack and two Frost-Venom Bite attacks, or she casts a spell and makes one Frost-Venom Bite attack."] },
-				{ "name": "Constricting Tail", "entries": ["{@atkr m} {@hit 18}, reach 20 ft. {@h}32 ({@damage 4d10 + 10}) Bludgeoning damage. If the target is a Huge or smaller creature, it has the {@condition grappled} condition (escape {@dc 26}) and the {@condition restrained} condition until the grapple ends. The Demon Lord can grapple up to two creatures this way."] },
-				{ "name": "Frost-Venom Bite", "entries": ["{@atkr m} {@hit 18}, reach 10 ft. {@h}19 ({@damage 2d10 + 8}) Piercing damage plus 14 ({@damage 4d6}) Cold damage plus 14 ({@damage 4d6}) Necrotic damage."] },
-				{ "name": "Demon Lord's Nightmare {@recharge 5}", "entries": ["The Demon Lord exhales the cold of the abyss in a 60-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. {@actSave wis} {@dc 25}, each creature in the area. {@actSaveFail} 27 ({@damage 6d8}) Cold damage plus 27 ({@damage 6d8}) Necrotic damage, and the creature is {@condition frightened} of the Demon Lord for 1 minute (it repeats the save at the end of each of its turns, ending the effect on itself on a success). {@actSaveSuccess} Half damage and not Frightened."] }
+				{ "name": "Multiattack", "entries": ["The Demon Lord uses Eye Rays. She can replace Eye Rays with a casting of a spell, and she can make one Constricting Tail attack as part of this action."] },
+				{ "name": "Eye Rays", "entries": ["The Demon Lord shoots three of the following magical eye rays, each at a different creature she can see within 120 feet (no ray used more than once per turn). Each ray's save DC is 25. This is the heart of her power: meet her eyes and something happens.", {
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{ "type": "item", "name": "1. Withering Ray.", "entry": "{@actSave con} {@dc 25}, taking 44 ({@damage 8d10}) Necrotic damage on a failure (half on a success). On a failure, the target's Hit Point maximum is reduced by the damage taken until it finishes a Long Rest." },
+						{ "type": "item", "name": "2. Disintegration Ray.", "entry": "{@actSave dex} {@dc 25}, taking 55 ({@damage 10d10}) Force damage on a failure, or half as much on a success." },
+						{ "type": "item", "name": "3. Ray of Despair.", "entry": "{@actSave wis} {@dc 25} or the target is {@condition frightened} of the Demon Lord for 1 minute (repeats the save at the end of each of its turns)." },
+						{ "type": "item", "name": "4. Shadowbind Ray.", "entry": "{@actSave str} {@dc 25} or the target is {@condition restrained} by grasping shadow for 1 minute (repeats the save at the end of each of its turns)." },
+						{ "type": "item", "name": "5. Enervation Ray.", "entry": "{@actSave con} {@dc 25}, taking 36 ({@damage 8d8}) Necrotic damage and being unable to regain Hit Points until the end of its next turn on a failure, or half damage on a success." },
+						{ "type": "item", "name": "6. Slumber Ray.", "entry": "{@actSave wis} {@dc 25} or the target falls {@condition unconscious} for 1 minute (the effect ends if the target takes damage or another creature uses an action to wake it)." },
+						{ "type": "item", "name": "7. Hexing Ray.", "entry": "{@actSave cha} {@dc 25} or the target is cursed for 1 minute, having Disadvantage on attack rolls and saving throws (repeats the save at the end of each of its turns)." },
+						{ "type": "item", "name": "8. Domination Ray.", "entry": "{@actSave wis} {@dc 25} or the target is {@condition charmed} and obeys the Demon Lord's commands until the end of her next turn." }
+					]
+				}] },
+				{ "name": "Constricting Tail", "entries": ["{@atkr m} {@hit 18}, reach 20 ft. {@h}32 ({@damage 4d10 + 10}) Bludgeoning damage. If the target is Huge or smaller, it has the {@condition grappled} condition (escape {@dc 26}) and the {@condition restrained} condition until the grapple ends. She can grapple up to two creatures this way."] }
 			],
 			"bonus": [
 				{ "name": "Slither", "entries": ["The Demon Lord moves up to half her Speed without provoking Opportunity Attacks."] }
 			],
 			"reaction": [
-				{ "name": "Coiling Retort", "entries": ["When a creature within 20 feet hits the Demon Lord with a melee attack, she makes one Constricting Tail attack against it."] }
+				{ "name": "Veil of Shadow", "entries": ["When the Demon Lord is targeted by an attack, she wraps herself in darkness; the attacker has Disadvantage on that attack roll. She can use this reaction only once per round."] }
 			],
 			"legendaryHeader": ["Legendary Action Uses: 3. Immediately after another creature's turn, the Demon Lord can expend a use to take one of the following actions. She regains all expended uses at the start of each of her turns."],
 			"legendaryActions": 3,
 			"legendary": [
-				{ "name": "Lash", "entries": ["The Demon Lord makes one Frost-Venom Bite attack."] },
+				{ "name": "Eye Ray", "entries": ["The Demon Lord uses one ray from her Eye Rays."] },
 				{ "name": "Slither", "entries": ["The Demon Lord uses Slither."] },
-				{ "name": "Sovereign's Will (Costs 2 Actions)", "entries": ["The Demon Lord uses Demon Lord's Nightmare if available, or casts a spell of level 5 or lower from her Spellcasting."] }
+				{ "name": "Dark Decree (Costs 2 Actions)", "entries": ["The Demon Lord casts a spell of level 6 or lower from her Spellcasting, or shoots two rays from her Eye Rays."] }
 			],
 			"fluff": { "entries": [
-				{ "type": "entries", "name": "Her True Shape", "entries": ["Phase 2 references Alipheese 'Alice' Fateburn, the Monster Lord of Monster Girl Quest—a colossal lamia of scale and shadow, ancient and imperious. This is no longer a borrowed mask: this is the Maou herself, sovereign of every monster, who held the False Goddess's face only because it amused her. She fights with a crushing tail, a frost-and-venom bite, and the authority that makes lesser things kneel mid-swing."] },
-				{ "type": "entries", "name": "Design: CR 29 Legendary Boss — Phase 2 of 3", "entries": ["The brutal middle phase: a melee-and-control demon lord who grapples with her tail, debuffs the whole party with Demon Lord's Authority, and locks targets down with Nightmare, Hold Monster, and Dominate Monster. At 0 Hit Points she fuses into {@creature Paradox Maou Sama, the Child of Chaos|ParadoxMaou} (Phase 3, CR 30). Save the party's strongest control and burst for the final form."] }
+				{ "type": "entries", "name": "The Eye-Tyrant of the Dark", "entries": ["Phase 2 references Alipheese 'Alice' Fateburn, the Monster Lord of Monster Girl Quest—here reimagined as a colossal lamia whose true power is her gaze. Eyes open all down her coils and in the shadows that pool around her, and the legends of the 'eye tyrant' and the 'monster lord' turn out to be the same Alice. She is the supreme mistress of dark magic, and she fights by looking at you: a ray to wither, a ray to bind, a ray to put you to sleep, a ray to make you hers. Like a beholder—but the dark obeys her, and there is no antimagic to hide behind."] },
+				{ "type": "entries", "name": "Design: CR 29 Legendary Boss — Phase 2 of 3 (Damage + Control)", "entries": ["The core of the rework: a dark eye-tyrant built around a damage-and-control gaze. Eye Rays fire three dark rays a turn (Withering / Disintegration for damage; Despair, Shadowbind, Slumber, Hex, Domination for control), Maddening Gaze softens a target's saves, and her shadow spellbook (Black Tentacles, Hunger of Hadar, Eyebite, Dominate Monster, Finger of Death) doubles down on lockdown. She has {@b no antimagic aura}. With legendary Eye Rays she can throw additional rays between turns—prioritize spreading control, then focus the disintegration/withering on whoever's exposed. At 0 Hit Points she fuses into {@creature Paradox Maou Sama, the Child of Chaos|ParadoxMaou}."] }
 			] }
 		},
 		{
@@ -159,7 +179,7 @@
 			"str": 30, "dex": 22, "con": 26, "int": 24, "wis": 26, "cha": 30,
 			"save": { "str": "+19", "con": "+17", "int": "+16", "wis": "+17", "cha": "+19" },
 			"skill": { "arcana": "+16", "insight": "+17", "perception": "+17" },
-			"senses": ["truesight 120 ft."],
+			"senses": ["truesight 120 ft.", "darkvision 240 ft."],
 			"passive": 27,
 			"resist": ["acid", "cold", "fire", "lightning", "thunder", { "resist": ["bludgeoning", "piercing", "slashing"], "note": "from nonmagical attacks" }],
 			"immune": ["necrotic", "poison", "radiant"],
@@ -168,9 +188,9 @@
 			"cr": "30",
 			"trait": [
 				{ "name": "Legendary Resistance (3/Day)", "entries": ["If the Child of Chaos fails a saving throw, she can choose to succeed instead."] },
-				{ "name": "Chaos Incarnate", "entries": ["The Child of Chaos is the strongest light and the strongest dark fused into one impossible being—goddess, demon, and the machine of the paradox at once. Her Force damage is the 'forbidden color' (mixed Light and Shadow): it ignores Resistance and Immunity to Radiant, Necrotic, and Force damage. She is Immune to Radiant and Necrotic (already listed)."] },
-				{ "name": "Three-Fold Soul", "entries": ["She carries the auras of all three of her forms at once. At the start of each of her turns, each enemy within 30 feet takes 16 ({@damage 3d10}) Radiant or Necrotic damage (her choice) from her halo-and-horn, and the ground within 30 feet is {@quickref Difficult Terrain||3} as the gravity of the paradox bends toward her gear-heart. She can't be surprised."] },
-				{ "name": "Antimagic Susceptibility", "entries": ["The construct half of the Child of Chaos is bound by paradox engineering: while in an {@spell antimagic field|XPHB}, she has the {@condition Incapacitated} condition. This is the one seam in her perfection—and almost no power left in the world can open it."] },
+				{ "name": "Chaos Incarnate", "entries": ["The strongest light and the strongest dark fused into one being. Her Force damage is the 'forbidden color' (mixed Light and Shadow): it ignores Resistance and Immunity to Radiant, Necrotic, and Force damage. Her Necrotic and Radiant damage ignore Resistance to those types. She has no antimagic aura."] },
+				{ "name": "Eyes Beyond Counting", "entries": ["The Child of Chaos opens with the gaze of all her selves—divine, demonic, and unmade. At the start of each of her turns, each enemy within 30 feet that can see her makes a {@dc 27} Wisdom saving throw or takes 22 ({@damage 4d10}) Psychic damage and has Disadvantage on saving throws against her Eyes of Chaos until the start of her next turn. The ground within 30 feet is also {@quickref Difficult Terrain||3} as gravity bows toward her."] },
+				{ "name": "Three-Fold Ward", "entries": ["The celestial, fiendish, and construct halves of the Child of Chaos share every blow. The first time each round she takes damage, she reduces it by 30."] },
 				{ "name": "The End of the Story", "entries": ["This is the final form; there is no fourth. When the Child of Chaos is reduced to 0 Hit Points, she is truly defeated and the paradox at the heart of the corrupted region closes. Award the entire encounter's XP now (treat the three-phase boss as a single CR 30 victory)."] }
 			],
 			"spellcasting": [
@@ -178,9 +198,9 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": ["The Child of Chaos casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 27}; {@hitYourSpellAttack +19 to hit with spell attacks}):"],
-					"will": ["{@spell sacred flame|XPHB}", "{@spell fire bolt|XPHB}", "{@spell chill touch|XPHB}"],
+					"will": ["{@spell sacred flame|XPHB}", "{@spell chill touch|XPHB}", "{@spell darkness|XPHB}"],
 					"daily": {
-						"3e": ["{@spell chain lightning|XPHB}", "{@spell finger of death|XPHB}", "{@spell sunburst|XPHB}"],
+						"3e": ["{@spell chain lightning|XPHB}", "{@spell finger of death|XPHB}", "{@spell circle of death|XPHB}"],
 						"2e": ["{@spell meteor swarm|XPHB}", "{@spell power word kill|XPHB}", "{@spell mass heal|XPHB}"],
 						"1e": ["{@spell time stop|XPHB}", "{@spell weird|XPHB}", "{@spell storm of vengeance|XPHB}"]
 					},
@@ -189,27 +209,35 @@
 				}
 			],
 			"action": [
-				{ "name": "Multiattack", "entries": ["The Child of Chaos makes three Chaos Strikes, or she casts a spell and makes one Chaos Strike."] },
+				{ "name": "Multiattack", "entries": ["The Child of Chaos uses Eyes of Chaos, then makes one Chaos Strike. She can replace Eyes of Chaos with a casting of a spell."] },
 				{ "name": "Chaos Strike", "entries": ["{@atkr m} {@hit 19}, reach 15 ft. {@h}23 ({@damage 3d8 + 10}) Force damage (the forbidden color; see Chaos Incarnate) plus 13 ({@damage 3d8}) Radiant damage plus 13 ({@damage 3d8}) Necrotic damage."] },
-				{ "name": "World-Ending Chaos {@recharge 5}", "entries": ["Reality tears open around a point the Child of Chaos can see within 150 feet. Each creature in a 40-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered there makes a {@dc 27} Constitution saving throw, taking 88 ({@damage 16d10}) Force damage (the forbidden color, ignoring Resistance and Immunity to Radiant, Necrotic, and Force) on a failed save, or half as much on a success. Where the sphere fades, a window of starry under-sky is left in the ground."] },
-				{ "name": "Chaos Cataclysm {@recharge 6}", "entries": ["The Child of Chaos hangs meteors over the field and wrenches gravity beneath it. Each creature within 60 feet of her makes a {@dc 27} Dexterity saving throw. {@actSaveFail} 66 ({@damage 12d10}) Force and Fire damage (half each), and the creature is knocked {@condition prone} and {@condition restrained} (escape {@dc 27}) by crushing gravity. {@actSaveSuccess} Half damage and no conditions."] }
+				{ "name": "Eyes of Chaos", "entries": ["The Child of Chaos shoots three of the following magical eye rays, each at a different creature she can see within 120 feet (no ray used more than once per turn). Each ray's save DC is 27.", {
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{ "type": "item", "name": "1. Unmaking Ray.", "entry": "{@actSave dex} {@dc 27}, taking 66 ({@damage 12d10}) Force damage (forbidden color, ignoring Resistance and Immunity to Radiant, Necrotic, and Force) on a failure, or half as much on a success." },
+						{ "type": "item", "name": "2. Oblivion Ray.", "entry": "{@actSave con} {@dc 27}, taking 44 ({@damage 8d10}) Necrotic damage on a failure; if this leaves the target below 50 Hit Points, it is also {@condition stunned} until the end of its next turn." },
+						{ "type": "item", "name": "3. Radiant Searing Ray.", "entry": "{@actSave dex} {@dc 27}, taking 45 ({@damage 10d8}) Radiant damage on a failure (half on a success), and {@condition blinded} until the end of its next turn on a failure." },
+						{ "type": "item", "name": "4. Binding Ray.", "entry": "{@actSave str} {@dc 27} or the target is {@condition restrained} by gravity and shadow for 1 minute (repeats the save at the end of each of its turns)." },
+						{ "type": "item", "name": "5. Maddening Ray.", "entry": "{@actSave wis} {@dc 27} or the target is {@condition frightened} and cursed (Disadvantage on attack rolls) for 1 minute (repeats the save at the end of each of its turns)." },
+						{ "type": "item", "name": "6. Domination Ray.", "entry": "{@actSave wis} {@dc 27} or the target is {@condition charmed} and obeys the Child of Chaos until the end of her next turn." }
+					]
+				}] },
+				{ "name": "World-Ending Chaos {@recharge 5}", "entries": ["Reality tears open around a point within 150 feet. Each creature in a 40-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} makes a {@dc 27} Constitution saving throw, taking 88 ({@damage 16d10}) Force damage (forbidden color, ignoring Resistance and Immunity to Radiant, Necrotic, and Force) on a failure, or half on a success. Where the sphere fades, a window of starry under-sky is left in the ground."] }
 			],
 			"bonus": [
-				{ "name": "Fold Reality", "entries": ["The Child of Chaos teleports up to 60 feet to a space she can see, passing through any barrier, then her Three-Fold Soul aura triggers against any enemy now within 30 feet (no extra damage roll if it already triggered this turn)."] }
-			],
-			"reaction": [
-				{ "name": "Three-Fold Ward", "entries": ["When the Child of Chaos takes damage, she reduces that damage by 30 (the celestial, fiendish, and construct wards sharing the blow). She can use this reaction only once per round."] }
+				{ "name": "Fold Reality", "entries": ["The Child of Chaos teleports up to 60 feet to a space she can see, passing through any barrier."] }
 			],
 			"legendaryHeader": ["Legendary Action Uses: 3. Immediately after another creature's turn, the Child of Chaos can expend a use to take one of the following actions. She regains all expended uses at the start of each of her turns."],
 			"legendaryActions": 3,
 			"legendary": [
-				{ "name": "Chaos Strike", "entries": ["The Child of Chaos makes one Chaos Strike."] },
+				{ "name": "Eye Ray", "entries": ["The Child of Chaos uses one ray from her Eyes of Chaos."] },
 				{ "name": "Fold Reality", "entries": ["The Child of Chaos uses Fold Reality."] },
-				{ "name": "Unmake (Costs 2 Actions)", "entries": ["The Child of Chaos uses World-Ending Chaos or Chaos Cataclysm if available, or casts a spell of level 6 or lower from her Spellcasting."] }
+				{ "name": "Unmake (Costs 2 Actions)", "entries": ["The Child of Chaos uses World-Ending Chaos if available, or casts a spell of level 6 or lower from her Spellcasting."] }
 			],
 			"fluff": { "entries": [
-				{ "type": "entries", "name": "The Child of Chaos", "entries": ["Phase 3 references Chaos—the ultimate fusion of Monster Girl Quest Paradox, the union of the strongest light and the strongest dark (the same well of paradox that birthed Vorthrax). Here it is Alice's final shape: goddess, demon lord, and paradox-machine fused into one Gargantuan being that paints the battlefield in a color the world has no name for. She no longer wears a face. She is the wound at the center of the corrupted region, awake at last."] },
-				{ "type": "entries", "name": "Design: CR 30 Legendary Boss — Phase 3 of 3 (Campaign Finale)", "entries": ["The capstone of the whole setting—a CR 30 fusion that keeps the threat of both prior forms and adds the 'forbidden color' (Force that ignores Radiant/Necrotic/Force defenses), reality-warping AoE, Time Stop, Power Word Kill, and Meteor Swarm. For four 20th-level characters with magic items this is the hardest fight in the book; the full three-phase gauntlet is mythic/raid-tier. The single written-in weakness is Antimagic Susceptibility—if the party can land and hold an {@spell antimagic field|XPHB} (a {@spell wish|XPHB}, an artifact, a Mordenkainen's-tier resource), they can crack the construct seam and turn the fight. Otherwise, it is a war of attrition against the end of the world."] }
+				{ "type": "entries", "name": "The Child of Chaos", "entries": ["Phase 3 references Chaos—the ultimate fusion of Monster Girl Quest Paradox, the union of the strongest light and the strongest dark (the same well of paradox that birthed Vorthrax). Alice's final shape is a Gargantuan being studded with eyes that judge, eyes that wither, and eyes that simply unmake, painting the field in a color the world has no name for. She no longer wears a face. She is all gaze, and she is the wound at the center of the corrupted region, awake at last."] },
+				{ "type": "entries", "name": "Design: CR 30 Legendary Boss — Phase 3 of 3 (Campaign Finale)", "entries": ["The capstone: a Gargantuan eye-tyrant of Chaos that keeps the gaze of both prior forms and adds the forbidden color (Force ignoring Radiant/Necrotic/Force defenses), Eyes of Chaos (three rays a turn, damage + control), World-Ending Chaos, Time Stop, Power Word Kill, and Meteor Swarm, all behind a Three-Fold Ward that blunts 30 damage each round. She has {@b no antimagic aura}—the rework dropped it entirely. For four 20th-level characters with magic items this is the hardest fight in the book; the full three-phase gauntlet is mythic/raid-tier. Spread out to limit her eye rays and World-Ending Chaos, race the Three-Fold Ward with burst, and save your own counter-control for after her Legendary Resistances are gone."] }
 			] }
 		}
 	]
