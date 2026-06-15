@@ -129,7 +129,7 @@
 				{
 					"name": "Annihilation Gaze {@recharge 5}",
 					"entries": [
-						"Both of the tyrannosaur's eyes blaze, and it sweeps a beam of searing starlight in a {@variantrule Line [Area of Effect]|XPHB|Line} 120 feet long and 10 feet wide. {@actSave dex} {@dc 19}, each creature in the Line. {@actSaveFail} 55 ({@damage 10d10}) Radiant damage. {@actSaveSuccess} Half damage. A creature reduced to 0 Hit Points by this damage is disintegrated, leaving only a smear of violet ash and a thumbnail of night sky where it stood."
+						"Both of the tyrannosaur's eyes blaze, and it sweeps a beam of searing starlight in a {@variantrule Line [Area of Effect]|XPHB|Line} 120 feet long and 10 feet wide. {@actSave dex} {@dc 19}, each creature in the Line. {@actSaveFail} 55 ({@damage 10d10}) Radiant damage. {@actSaveSuccess} Half damage. Where the beam sweeps, the ground is left scorched violet and faintly starlit."
 					]
 				}
 			],
