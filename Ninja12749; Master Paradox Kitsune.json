@@ -1,0 +1,146 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "ParadoxKitsune",
+				"abbreviation": "PXK",
+				"full": "Master Paradox Kitsune",
+				"authors": ["Ninja12749"],
+				"convertedBy": ["Ninja12749"],
+				"version": "1.0.0",
+				"color": "b45309"
+			}
+		],
+		"edition": "one",
+		"dateAdded": 1781481600,
+		"dateLastModified": 1781481600
+	},
+	"monster": [
+		{
+			"name": "Master Paradox Kitsune (Diminished Form)",
+			"source": "ParadoxKitsune",
+			"isNamedCreature": true,
+			"size": ["S"],
+			"type": { "type": "fey", "tags": ["paradox"] },
+			"alignment": ["N"],
+			"ac": [{ "ac": 19, "from": ["foxfire ward"] }],
+			"hp": { "average": 340, "formula": "40d6 + 200" },
+			"speed": { "walk": 30, "fly": 30, "canHover": true },
+			"str": 8, "dex": 16, "con": 20, "int": 18, "wis": 18, "cha": 24,
+			"save": { "con": "+12", "int": "+11", "wis": "+11", "cha": "+14" },
+			"skill": { "arcana": "+11", "history": "+11", "insight": "+11", "perception": "+11" },
+			"senses": ["truesight 60 ft.", "darkvision 120 ft."],
+			"passive": 21,
+			"resist": ["acid", "cold", "fire", "lightning", "thunder"],
+			"conditionImmune": ["charmed", "frightened"],
+			"languages": ["Common", "Sylvan", "Primordial", "telepathy 120 ft."],
+			"cr": "24",
+			"trait": [
+				{ "name": "Legendary Resistance (3/Day)", "entries": ["If the Kitsune fails a saving throw, she can choose to succeed instead."] },
+				{ "name": "Elemental Mastery", "entries": ["The Kitsune commands the four great spirits—Salamander (fire), Undine (water and cold), Sylph (wind and lightning), and Gnome (earth and stone). Her Acid, Cold, Fire, Lightning, and Thunder damage ignores Resistance to those types and treats Immunity to them as Resistance. She is herself Resistant to all five (already listed)."] },
+				{ "name": "Gravity Well", "entries": ["The Kitsune bends weight toward herself. The ground within 15 feet of her is {@quickref Difficult Terrain||3} for her enemies, and a flying creature that starts its turn there must succeed on a {@dc 22} Strength saving throw or be pulled 20 feet straight down (it doesn't fall, but its flight is dragged earthward)."] },
+				{ "name": "Paradox Ascension", "entries": ["This palm-sized fox is only a fraction of what she is. The first time the Diminished Form is reduced to 0 Hit Points, she doesn't die: nine tails unfurl in a spiral of foxfire and she rises as {@creature Master Paradox Kitsune (True Form)|ParadoxKitsune}, appearing in her space at that form's full Hit Points with several spells already in effect (see its Ascends trait). Any conditions and ongoing effects on the Diminished Form end. This happens only once; the battle is won only when the True Form falls. Run the pair as a single boss and award XP once, for the True Form."] }
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": ["The Kitsune casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 22}; {@hitYourSpellAttack +14 to hit with spell attacks}):"],
+					"will": ["{@spell fire bolt|XPHB}", "{@spell ray of frost|XPHB}", "{@spell shocking grasp|XPHB}", "{@spell acid splash|XPHB}", "{@spell mage hand|XPHB}", "{@spell prestidigitation|XPHB}"],
+					"daily": {
+						"3e": ["{@spell fireball|XPHB}", "{@spell lightning bolt|XPHB}", "{@spell ice storm|XPHB}"],
+						"2e": ["{@spell wall of stone|XPHB}", "{@spell cone of cold|XPHB}", "{@spell telekinesis|XPHB}", "{@spell wall of fire|XPHB}"],
+						"1e": ["{@spell reverse gravity|XPHB}", "{@spell earthquake|XPHB}", "{@spell chain lightning|XPHB}", "{@spell fire storm|XPHB}"]
+					},
+					"ability": "cha",
+					"displayAs": "action"
+				}
+			],
+			"action": [
+				{ "name": "Multiattack", "entries": ["The Kitsune uses Call the Spirits twice. She can replace one use with Meteor or Gnome's Gravity if it is available. (Alternatively, she takes the Spellcasting action to cast one leveled spell.)"] },
+				{ "name": "Call the Spirits", "entries": ["{@atkr r} {@hit 14}, range 120 ft. {@h}22 ({@damage 4d10}) damage of a type set by the spirit she channels: Fire (Salamander), Cold (Undine), Lightning (Sylph), or Acid (Gnome)."] },
+				{ "name": "Meteor {@recharge 5}", "entries": ["The Kitsune pulls a falling star down on a point she can see within 120 feet. Each creature in a 20-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered there makes a {@dc 22} Dexterity saving throw, taking 36 ({@damage 8d8}) Fire damage plus 18 ({@damage 4d8}) Bludgeoning damage on a failed save, or half as much on a success. The area becomes a field of {@quickref Difficult Terrain||3} rubble."] },
+				{ "name": "Gnome's Gravity {@recharge 5}", "entries": ["The Kitsune wrenches gravity around one creature she can see within 60 feet. {@actSave con} {@dc 22}. {@actSaveFail} 44 ({@damage 8d10}) Force damage, and the target is crushed down: it has the {@condition prone} condition and the {@condition restrained} condition (escape {@dc 22}) until it climbs free of the weight. {@actSaveSuccess} Half damage and no conditions."] }
+			],
+			"bonus": [
+				{ "name": "Foxstep", "entries": ["The Kitsune teleports up to 30 feet to an unoccupied space she can see, leaving a curl of blue foxfire behind."] }
+			],
+			"legendaryHeader": ["Legendary Action Uses: 3. Immediately after another creature's turn, the Kitsune can expend a use to take one of the following actions. She regains all expended uses at the start of each of her turns."],
+			"legendaryActions": 3,
+			"legendary": [
+				{ "name": "Call the Spirits", "entries": ["The Kitsune uses Call the Spirits."] },
+				{ "name": "Foxstep", "entries": ["The Kitsune uses Foxstep."] },
+				{ "name": "Cataclysm (Costs 2 Actions)", "entries": ["The Kitsune uses Meteor or Gnome's Gravity if it is available."] }
+			],
+			"fluff": { "entries": [
+				{ "type": "entries", "name": "The Nine-Tailed Master of Elements", "entries": ["Inspired by Tamamo (Tamamo no Mae), the nine-tailed fox of Monster Girl Quest—the ancient earth-and-gravity sage who commands the four great spirits and pulls meteors from an empty sky. Drawn into the violet ring around Vorthrax's hollow, she let the paradox bind the greater part of her away, and now she meets challengers as a small, almost cute fox spirit, palm-sized and patient. It is a courtesy. It is also a trap: when the little fox is struck down, the binding breaks."] },
+				{ "type": "entries", "name": "Design: CR 24 Full-Caster Boss — Phase 1 of 2", "entries": ["The Diminished Form is a legendary full caster (Charisma) with the four spirits, gravity control, and a thrown Meteor. She is built to out-magic a lich, and she is {@b Phase 1}: at 0 Hit Points she ascends to {@creature Master Paradox Kitsune (True Form)|ParadoxKitsune} (CR 27). Run both as one boss for four well-equipped 17th-level characters; expect a Vorthrax-tier fight. Lead with Gravity Well positioning, fence at range with Call the Spirits, and spend slots on earthquake / reverse gravity / chain lightning."] }
+			] }
+		},
+		{
+			"name": "Master Paradox Kitsune (True Form)",
+			"source": "ParadoxKitsune",
+			"isNamedCreature": true,
+			"size": ["M"],
+			"type": { "type": "fey", "tags": ["paradox"] },
+			"alignment": ["N"],
+			"ac": [{ "ac": 21, "from": ["foxfire ward", "Stoneskin"] }],
+			"hp": { "average": 430, "formula": "41d8 + 246" },
+			"speed": { "walk": 40, "fly": 60, "canHover": true },
+			"str": 12, "dex": 18, "con": 22, "int": 20, "wis": 20, "cha": 26,
+			"save": { "con": "+14", "int": "+13", "wis": "+13", "cha": "+16" },
+			"skill": { "arcana": "+13", "history": "+13", "insight": "+13", "perception": "+13" },
+			"senses": ["truesight 120 ft.", "darkvision 120 ft."],
+			"passive": 23,
+			"resist": ["acid", "cold", "fire", "lightning", "thunder", { "resist": ["bludgeoning", "piercing", "slashing"], "note": "from nonmagical attacks (Stoneskin)" }],
+			"conditionImmune": ["charmed", "frightened", "prone"],
+			"languages": ["Common", "Sylvan", "Primordial", "telepathy 120 ft."],
+			"cr": "27",
+			"trait": [
+				{ "name": "Legendary Resistance (3/Day)", "entries": ["If the Kitsune fails a saving throw, she can choose to succeed instead. (This form's uses are fresh, separate from her Diminished Form's.)"] },
+				{ "name": "Elemental Mastery", "entries": ["The Kitsune commands the four great spirits—Salamander, Undine, Sylph, and Gnome. Her Acid, Cold, Fire, Lightning, and Thunder damage ignores Resistance to those types and treats Immunity to them as Resistance. She is Resistant to all five (already listed)."] },
+				{ "name": "Beyond the Lich's Art", "entries": ["The Kitsune's mastery eclipses any lich's spell mastery. She can cast {@spell fireball|XPHB} and {@spell lightning bolt|XPHB} at will (as level 5 versions, spell save {@dc 24}), spending no spell slots."] },
+				{ "name": "Crushing Gravity", "entries": ["Weight bows toward her true form. The ground within 20 feet of her is {@quickref Difficult Terrain||3} for her enemies; a creature that starts its turn there has its Speed halved until the start of its next turn, and a flying creature there must succeed on a {@dc 24} Strength saving throw or be pulled 30 feet straight down."] },
+				{ "name": "Ascends", "entries": ["When this form rises from Paradox Ascension, the following spells are {@b already in effect} on her and are baked into her statistics: {@spell stoneskin|XPHB} (Resistance to nonmagical Bludgeoning, Piercing, and Slashing, already listed), {@spell globe of invulnerability|XPHB} (a 10-foot Emanation that moves with her; spells of level 5 or lower can't affect her or anything inside it), and {@spell mirror image|XPHB} (she begins with {@b 3 duplicates}). If a benefit is dispelled or ends, remove it."] }
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": ["The Kitsune casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 24}; {@hitYourSpellAttack +16 to hit with spell attacks}):"],
+					"will": ["{@spell fire bolt|XPHB}", "{@spell ray of frost|XPHB}", "{@spell shocking grasp|XPHB}", "{@spell acid splash|XPHB}", "{@spell sorcerous burst|XPHB}", "{@spell prestidigitation|XPHB}"],
+					"daily": {
+						"3e": ["{@spell ice storm|XPHB}", "{@spell cone of cold|XPHB}", "{@spell wall of stone|XPHB}"],
+						"2e": ["{@spell chain lightning|XPHB}", "{@spell reverse gravity|XPHB}", "{@spell fire storm|XPHB}", "{@spell earthquake|XPHB}"],
+						"1e": ["{@spell meteor swarm|XPHB}", "{@spell storm of vengeance|XPHB}", "{@spell tsunami|XPHB}", "{@spell control weather|XPHB}"]
+					},
+					"ability": "cha",
+					"displayAs": "action"
+				}
+			],
+			"action": [
+				{ "name": "Multiattack", "entries": ["The Kitsune uses Call the Spirits twice. She can replace one use with Meteor Shower or Gnome's Gravity if it is available. (Alternatively, she takes the Spellcasting action to cast one leveled spell, or casts {@spell fireball|XPHB} or {@spell lightning bolt|XPHB} at will.)"] },
+				{ "name": "Call the Spirits", "entries": ["{@atkr r} {@hit 16}, range 120 ft. {@h}27 ({@damage 5d10}) damage of a type set by the spirit she channels: Fire (Salamander), Cold (Undine), Lightning (Sylph), or Acid (Gnome)."] },
+				{ "name": "Meteor Shower {@recharge 5}", "entries": ["The Kitsune calls down a storm of falling stars on two points she can see within 150 feet. Each creature in a 20-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on either point makes a {@dc 24} Dexterity saving throw, taking 45 ({@damage 10d8}) Fire damage plus 27 ({@damage 6d8}) Bludgeoning damage on a failed save, or half as much on a success. A creature in both areas is affected only once. Each area becomes {@quickref Difficult Terrain||3} rubble."] },
+				{ "name": "Gnome's Gravity {@recharge 5}", "entries": ["The Kitsune crushes gravity around up to two creatures she can see within 60 feet. {@actSave con} {@dc 24}. {@actSaveFail} 55 ({@damage 10d10}) Force damage, and the target has the {@condition prone} and {@condition restrained} conditions (escape {@dc 24}) until it climbs free of the weight. {@actSaveSuccess} Half damage and no conditions."] }
+			],
+			"bonus": [
+				{ "name": "Foxstep", "entries": ["The Kitsune teleports up to 60 feet to an unoccupied space she can see, leaving a curl of blue foxfire behind."] }
+			],
+			"reaction": [
+				{ "name": "Spirit Ward", "entries": ["When the Kitsune is hit by an attack, she expends one of her Mirror Image duplicates (if any remain) to redirect the blow into foxfire, taking no damage from that attack."] }
+			],
+			"legendaryHeader": ["Legendary Action Uses: 3. Immediately after another creature's turn, the Kitsune can expend a use to take one of the following actions. She regains all expended uses at the start of each of her turns."],
+			"legendaryActions": 3,
+			"legendary": [
+				{ "name": "Call the Spirits", "entries": ["The Kitsune uses Call the Spirits."] },
+				{ "name": "Foxstep", "entries": ["The Kitsune uses Foxstep."] },
+				{ "name": "Cataclysm (Costs 2 Actions)", "entries": ["The Kitsune uses Meteor Shower or Gnome's Gravity if available, or casts {@spell fireball|XPHB} or {@spell lightning bolt|XPHB} at will."] }
+			],
+			"fluff": { "entries": [
+				{ "type": "entries", "name": "Tamamo no Mae, Unbound", "entries": ["This is the fox the legends feared: nine tails of starlit fire, the marshaled wills of Salamander, Undine, Sylph, and Gnome, and a casual command of gravity that lets her hang meteors over a battlefield like lanterns. Inspired by Tamamo of Monster Girl Quest, here she is the Master of the Elements—older than the kingdoms, patient as stone, and, by every scholar's reckoning, a match for any lich that ever cheated death. The little fox was the mercy. This is the answer."] },
+				{ "type": "entries", "name": "Design: CR 27 Full-Caster Boss — Phase 2 of 2", "entries": ["The True Form keeps every signature of the Diminished Form and raises the ceiling: at-will fireball and lightning bolt, 8th- and 9th-level spells (Meteor Swarm, Storm of Vengeance, Tsunami, Earthquake), a two-point Meteor Shower, and a two-target Gnome's Gravity—plus she {@b enters already warded} (Stoneskin, Globe of Invulnerability, Mirror Image). She is meant to be 'stronger than a lich' on the page; for four 17th-level characters the full two-phase fight is High/Deadly, a true campaign capstone. Pull her out of her Globe with forced movement, save high-level spells for after her Legendary Resistances are spent, and beware Gravity Well/Crushing Gravity locking the melee down."] }
+			] }
+		}
+	]
+}
