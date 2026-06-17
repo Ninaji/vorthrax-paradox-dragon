@@ -11,13 +11,13 @@
                                       "convertedBy":  [
                                                           "Ninja12749"
                                                       ],
-                                      "version":  "2.0.0",
+                                      "version":  "2.1.0",
                                       "color":  "7c3aed"
                                   }
                               ],
                   "edition":  "one",
                   "dateAdded":  1781827200,
-                  "dateLastModified":  1782000000
+                  "dateLastModified":  1782100000
               },
     "monster":  [
                     {
@@ -1312,13 +1312,13 @@
                                       {
                                           "name":  "The Mask of Heaven",
                                           "entries":  [
-                                                          "Divination and other magic that would discern her nature shows only a goddess; the demon lord beneath is hidden. She has Advantage on Charisma checks to deceive, and creatures have Disadvantage on Insight checks against her. Look closely, though, and her eyes are wrong—too many, and too dark for heaven."
+                                                          "Divination and other magic that would discern her nature shows only a goddess; the Maou beneath is hidden. She has Advantage on Charisma checks to deceive, and creatures have Disadvantage on Insight checks against her. Look closely, though, and her eyes are wrong—too many, and too dark for heaven."
                                                       ]
                                       },
                                       {
                                           "name":  "Paradox Ascension (The Mask Shatters)",
                                           "entries":  [
-                                                          "The first time she is reduced to 0 Hit Points, the mask of heaven shatters and her true, many-eyed self emerges: she rises as {@creature Nyxariel, the Demon Lord Lamia|VorthraxParadox}, appearing in her space at that form\u0027s full Hit Points. Any conditions and ongoing effects on her end. Run all three forms as one boss; award XP once, when the final form falls."
+                                                          "The first time she is reduced to 0 Hit Points, the mask of heaven shatters and her true, many-eyed self emerges: she rises as {@creature Nyxariel, the Maou Sama Lamia|VorthraxParadox}, appearing in her space at that form\u0027s full Hit Points. Any conditions and ongoing effects on her end. Run all three forms as one boss; award XP once, when the final form falls."
                                                       ]
                                       }
                                   ],
@@ -1451,14 +1451,14 @@
                                                           "type":  "entries",
                                                           "name":  "Design: CR 28 Legendary Boss — Phase 1 of 3",
                                                           "entries":  [
-                                                                          "The opening face of a three-phase campaign finale for four 20th-level characters with magic items. She fights as an eye-tyrant of false light: Eyes of Judgment fire three radiant rays a turn (damage + blind/stun/banish), backed by Heaven\u0027s Verdict and self-heal—like a beholder, but with no antimagic aura. At 0 Hit Points she becomes {@creature Nyxariel, the Demon Lord Lamia|VorthraxParadox} (Phase 2), and the gaze turns to darkness."
+                                                                          "The opening face of a three-phase campaign finale for four 20th-level characters with magic items. She fights as an eye-tyrant of false light: Eyes of Judgment fire three radiant rays a turn (damage + blind/stun/banish), backed by Heaven\u0027s Verdict and self-heal—like a beholder, but with no antimagic aura. At 0 Hit Points she becomes {@creature Nyxariel, the Maou Sama Lamia|VorthraxParadox} (Phase 2), and the gaze turns to darkness."
                                                                       ]
                                                       }
                                                   ]
                                   }
                     },
                     {
-                        "name":  "Nyxariel, the Demon Lord Lamia",
+                        "name":  "Nyxariel, the Maou Sama Lamia",
                         "source":  "VorthraxParadox",
                         "isNamedCreature":  true,
                         "size":  [
@@ -1535,31 +1535,31 @@
                                       {
                                           "name":  "Legendary Resistance (3/Day)",
                                           "entries":  [
-                                                          "If the Demon Lord fails a saving throw, she can choose to succeed instead."
+                                                          "If Maou Sama fails a saving throw, she can choose to succeed instead."
                                                       ]
                                       },
                                       {
                                           "name":  "Master of the Dark",
                                           "entries":  [
-                                                          "The Demon Lord is the supreme mistress of shadow magic. Her Necrotic damage ignores Resistance to Necrotic damage, and creatures she can see don\u0027t benefit from being in Darkness against her (she sees and strikes through it). She has no antimagic aura—her dominion is the dark and the dozens of eyes that open along her coils and in the shadows around her."
+                                                          "Maou Sama is the supreme mistress of shadow magic. Her Necrotic damage ignores Resistance to Necrotic damage, and creatures she can see don\u0027t benefit from being in Darkness against her (she sees and strikes through it). She has no antimagic aura—her dominion is the dark and the dozens of eyes that open along her coils and in the shadows around her."
                                                       ]
                                       },
                                       {
                                           "name":  "Maddening Gaze",
                                           "entries":  [
-                                                          "At the start of each of the Demon Lord\u0027s turns, she fixes one creature she can see within 60 feet that can see her eyes. That creature makes a {@dc 25} Wisdom saving throw or takes 22 ({@damage 4d10}) Psychic damage and has Disadvantage on saving throws against the Demon Lord\u0027s Eye Rays until the start of her next turn."
+                                                          "At the start of each of Maou Sama\u0027s turns, she fixes one creature she can see within 60 feet that can see her eyes. That creature makes a {@dc 25} Wisdom saving throw or takes 22 ({@damage 4d10}) Psychic damage and has Disadvantage on saving throws against Maou Sama\u0027s Eye Rays until the start of her next turn."
                                                       ]
                                       },
                                       {
-                                          "name":  "Demon Lord\u0027s Authority",
+                                          "name":  "Maou Sama\u0027s Authority",
                                           "entries":  [
-                                                          "Each enemy that starts its turn within 30 feet of the Demon Lord must succeed on a {@dc 25} Wisdom saving throw or have Disadvantage on attack rolls until the start of its next turn. {@i paradox}-tagged allies within 30 feet are immune to being {@condition charmed} or {@condition frightened}."
+                                                          "Each enemy that starts its turn within 30 feet of Maou Sama must succeed on a {@dc 25} Wisdom saving throw or have Disadvantage on attack rolls until the start of its next turn. {@i paradox}-tagged allies within 30 feet are immune to being {@condition charmed} or {@condition frightened}."
                                                       ]
                                       },
                                       {
                                           "name":  "Serpent\u0027s Body",
                                           "entries":  [
-                                                          "The Demon Lord can\u0027t be knocked {@condition prone}, has Advantage on saving throws against being {@condition grappled} or {@condition restrained}, and ignores Difficult Terrain."
+                                                          "Maou Sama can\u0027t be knocked {@condition prone}, has Advantage on saving throws against being {@condition grappled} or {@condition restrained}, and ignores Difficult Terrain."
                                                       ]
                                       },
                                       {
@@ -1574,7 +1574,7 @@
                                                  "name":  "Spellcasting",
                                                  "type":  "spellcasting",
                                                  "headerEntries":  [
-                                                                       "The Demon Lord casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 25}; {@hitYourSpellAttack +17 to hit with spell attacks}). Her repertoire is shadow and ruin:"
+                                                                       "Maou Sama casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 25}; {@hitYourSpellAttack +17 to hit with spell attacks}). Her repertoire is shadow and ruin:"
                                                                    ],
                                                  "will":  [
                                                               "{@spell chill touch|XPHB}",
@@ -1606,13 +1606,13 @@
                                        {
                                            "name":  "Multiattack",
                                            "entries":  [
-                                                           "The Demon Lord uses Eye Rays. She can replace Eye Rays with a casting of a spell, and she can make one Constricting Tail attack as part of this action."
+                                                           "Maou Sama uses Eye Rays. She can replace Eye Rays with a casting of a spell, and she can make one Constricting Tail attack as part of this action."
                                                        ]
                                        },
                                        {
                                            "name":  "Eye Rays",
                                            "entries":  [
-                                                           "The Demon Lord shoots three of the following magical eye rays, each at a different creature she can see within 120 feet (no ray used more than once per turn). Each ray\u0027s save DC is 25. This is the heart of her power: meet her eyes and something happens.",
+                                                           "Maou Sama shoots three of the following magical eye rays, each at a different creature she can see within 120 feet (no ray used more than once per turn). Each ray\u0027s save DC is 25. This is the heart of her power: meet her eyes and something happens.",
                                                            {
                                                                "type":  "list",
                                                                "style":  "list-hang-notitle",
@@ -1630,7 +1630,7 @@
                                                                              {
                                                                                  "type":  "item",
                                                                                  "name":  "3. Ray of Despair.",
-                                                                                 "entry":  "{@actSave wis} {@dc 25} or the target is {@condition frightened} of the Demon Lord for 1 minute (repeats the save at the end of each of its turns)."
+                                                                                 "entry":  "{@actSave wis} {@dc 25} or the target is {@condition frightened} of Maou Sama for 1 minute (repeats the save at the end of each of its turns)."
                                                                              },
                                                                              {
                                                                                  "type":  "item",
@@ -1655,7 +1655,7 @@
                                                                              {
                                                                                  "type":  "item",
                                                                                  "name":  "8. Domination Ray.",
-                                                                                 "entry":  "{@actSave wis} {@dc 25} or the target is {@condition charmed} and obeys the Demon Lord\u0027s commands until the end of her next turn."
+                                                                                 "entry":  "{@actSave wis} {@dc 25} or the target is {@condition charmed} and obeys Maou Sama\u0027s commands until the end of her next turn."
                                                                              }
                                                                          ]
                                                            }
@@ -1672,7 +1672,7 @@
                                       {
                                           "name":  "Slither",
                                           "entries":  [
-                                                          "The Demon Lord moves up to half her Speed without provoking Opportunity Attacks."
+                                                          "Maou Sama moves up to half her Speed without provoking Opportunity Attacks."
                                                       ]
                                       }
                                   ],
@@ -1680,31 +1680,31 @@
                                          {
                                              "name":  "Veil of Shadow",
                                              "entries":  [
-                                                             "When the Demon Lord is targeted by an attack, she wraps herself in darkness; the attacker has Disadvantage on that attack roll. She can use this reaction only once per round."
+                                                             "When Maou Sama is targeted by an attack, she wraps herself in darkness; the attacker has Disadvantage on that attack roll. She can use this reaction only once per round."
                                                          ]
                                          }
                                      ],
                         "legendaryHeader":  [
-                                                "Legendary Action Uses: 3. Immediately after another creature\u0027s turn, the Demon Lord can expend a use to take one of the following actions. She regains all expended uses at the start of each of her turns."
+                                                "Legendary Action Uses: 3. Immediately after another creature\u0027s turn, Maou Sama can expend a use to take one of the following actions. She regains all expended uses at the start of each of her turns."
                                             ],
                         "legendaryActions":  3,
                         "legendary":  [
                                           {
                                               "name":  "Eye Ray",
                                               "entries":  [
-                                                              "The Demon Lord uses one ray from her Eye Rays."
+                                                              "Maou Sama uses one ray from her Eye Rays."
                                                           ]
                                           },
                                           {
                                               "name":  "Slither",
                                               "entries":  [
-                                                              "The Demon Lord uses Slither."
+                                                              "Maou Sama uses Slither."
                                                           ]
                                           },
                                           {
                                               "name":  "Dark Decree (Costs 2 Actions)",
                                               "entries":  [
-                                                              "The Demon Lord casts a spell of level 6 or lower from her Spellcasting, or shoots two rays from her Eye Rays."
+                                                              "Maou Sama casts a spell of level 6 or lower from her Spellcasting, or shoots two rays from her Eye Rays."
                                                           ]
                                           }
                                       ],
@@ -1793,14 +1793,9 @@
                                        "fire",
                                        "lightning",
                                        "thunder",
-                                       {
-                                           "resist":  [
-                                                          "bludgeoning",
-                                                          "piercing",
-                                                          "slashing"
-                                                      ],
-                                           "note":  "from nonmagical attacks"
-                                       }
+                                       "bludgeoning",
+                                       "piercing",
+                                       "slashing"
                                    ],
                         "immune":  [
                                        "necrotic",
