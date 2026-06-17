@@ -2,8 +2,8 @@
     "_meta":  {
                   "sources":  [
                                   {
-                                      "json":  "BonfireParadox",
-                                      "abbreviation":  "BFP",
+                                      "json":  "VorthraxParadox",
+                                      "abbreviation":  "VPX",
                                       "full":  "Bonfire Paradox: Os Verdadeiros Viloes de Gaia",
                                       "authors":  [
                                                       "Ninja12749"
@@ -11,148 +11,18 @@
                                       "convertedBy":  [
                                                           "Ninja12749"
                                                       ],
-                                      "version":  "1.1.0",
-                                      "color":  "9333ea"
-                                  },
-                                  {
-                                      "json":  "AstralTyrant",
-                                      "abbreviation":  "AST",
-                                      "full":  "Astral Tyrannosaur",
-                                      "authors":  [
-                                                      "Ninja12749"
-                                                  ],
-                                      "convertedBy":  [
-                                                          "Ninja12749"
-                                                      ],
-                                      "version":  "1.0.0",
-                                      "color":  "4338ca"
-                                  },
-                                  {
-                                      "json":  "ForgottenHero",
-                                      "abbreviation":  "CCH",
-                                      "full":  "Chaos Consumed Forgotten Hero",
-                                      "authors":  [
-                                                      "Ninja12749"
-                                                  ],
-                                      "convertedBy":  [
-                                                          "Ninja12749"
-                                                      ],
-                                      "version":  "1.0.0",
-                                      "color":  "713f12"
-                                  },
-                                  {
-                                      "json":  "ParadoxChampion",
-                                      "abbreviation":  "PXC",
-                                      "full":  "Granveyra, the Paradox Champion",
-                                      "authors":  [
-                                                      "Ninja12749"
-                                                  ],
-                                      "convertedBy":  [
-                                                          "Ninja12749"
-                                                      ],
-                                      "version":  "1.0.0",
-                                      "color":  "b91c1c"
-                                  },
-                                  {
-                                      "json":  "ParadoxKitsune",
-                                      "abbreviation":  "PXK",
-                                      "full":  "Master Paradox Kitsune",
-                                      "authors":  [
-                                                      "Ninja12749"
-                                                  ],
-                                      "convertedBy":  [
-                                                          "Ninja12749"
-                                                      ],
-                                      "version":  "1.0.0",
-                                      "color":  "b45309"
-                                  },
-                                  {
-                                      "json":  "ParadoxMaou",
-                                      "abbreviation":  "PXM",
-                                      "full":  "Nyxariel, the Paradox Maou",
-                                      "authors":  [
-                                                      "Ninja12749"
-                                                  ],
-                                      "convertedBy":  [
-                                                          "Ninja12749"
-                                                      ],
                                       "version":  "2.0.0",
-                                      "color":  "581c87"
-                                  },
-                                  {
-                                      "json":  "ParadoxApoptosis",
-                                      "abbreviation":  "PXA",
-                                      "full":  "Paradox Apoptosis (Os Apagados)",
-                                      "authors":  [
-                                                      "Ninja12749"
-                                                  ],
-                                      "convertedBy":  [
-                                                          "Ninja12749"
-                                                      ],
-                                      "version":  "1.0.0",
                                       "color":  "7c3aed"
-                                  },
-                                  {
-                                      "json":  "ParadoxKaeru",
-                                      "abbreviation":  "PKR",
-                                      "full":  "Paradox Kaeru",
-                                      "authors":  [
-                                                      "Ninja12749"
-                                                  ],
-                                      "convertedBy":  [
-                                                          "Ninja12749"
-                                                      ],
-                                      "version":  "1.0.0",
-                                      "color":  "16a34a"
-                                  },
-                                  {
-                                      "json":  "ParadoxWarband",
-                                      "abbreviation":  "PTW",
-                                      "full":  "Paradox-Touched Warband",
-                                      "authors":  [
-                                                      "Ninja12749"
-                                                  ],
-                                      "convertedBy":  [
-                                                          "Ninja12749"
-                                                      ],
-                                      "version":  "1.1.0",
-                                      "color":  "7c3aed"
-                                  },
-                                  {
-                                      "json":  "FalseWizards",
-                                      "abbreviation":  "FWZ",
-                                      "full":  "The False Wizards (Os Falsos Magos)",
-                                      "authors":  [
-                                                      "Ninja12749"
-                                                  ],
-                                      "convertedBy":  [
-                                                          "Ninja12749"
-                                                      ],
-                                      "version":  "1.0.0",
-                                      "color":  "be123c"
-                                  },
-                                  {
-                                      "json":  "VorthraxParadox",
-                                      "abbreviation":  "VPX",
-                                      "full":  "Vorthrax, the Paradox of Dawn and Dusk",
-                                      "authors":  [
-                                                      "Ninja12749"
-                                                  ],
-                                      "convertedBy":  [
-                                                          "Ninja12749"
-                                                      ],
-                                      "version":  "1.0.0",
-                                      "color":  "6d28d9"
                                   }
                               ],
                   "edition":  "one",
                   "dateAdded":  1781827200,
-                  "dateLastModified":  1781913600
+                  "dateLastModified":  1782000000
               },
     "monster":  [
                     {
                         "name":  "Astral Tyrannosaur",
-                        "source":  "AstralTyrant",
+                        "source":  "VorthraxParadox",
                         "size":  [
                                      "H"
                                  ],
@@ -303,7 +173,7 @@
                     },
                     {
                         "name":  "Chaos Consumed Forgotten Hero",
-                        "source":  "ForgottenHero",
+                        "source":  "VorthraxParadox",
                         "isNamedCreature":  true,
                         "size":  [
                                      "M"
@@ -461,7 +331,7 @@
                     },
                     {
                         "name":  "Granveyra, the Half-Dragon Paradox Champion",
-                        "source":  "ParadoxChampion",
+                        "source":  "VorthraxParadox",
                         "isNamedCreature":  true,
                         "size":  [
                                      "M"
@@ -557,7 +427,7 @@
                                       {
                                           "name":  "Paradox Ascension",
                                           "entries":  [
-                                                          "Granveyra cannot simply be cut down. The first time she is reduced to 0 Hit Points, she doesn\u0027t die: she sheds her broken body in a pillar of violet fire and rises as {@creature Granveyra Ascendant, the Paradox Spellblade|ParadoxChampion}, which appears in her space at its full Hit Points with several spells already in effect (see that form\u0027s Enters Ascended trait). Any conditions and ongoing effects on Granveyra end. This happens only once; the battle is won only when the Ascendant form falls. Award the encounter\u0027s XP a single time, when the second form is defeated (run the pair as a single CR 25 legendary boss with two life bars)."
+                                                          "Granveyra cannot simply be cut down. The first time she is reduced to 0 Hit Points, she doesn\u0027t die: she sheds her broken body in a pillar of violet fire and rises as {@creature Granveyra Ascendant, the Paradox Spellblade|VorthraxParadox}, which appears in her space at its full Hit Points with several spells already in effect (see that form\u0027s Enters Ascended trait). Any conditions and ongoing effects on Granveyra end. This happens only once; the battle is won only when the Ascendant form falls. Award the encounter\u0027s XP a single time, when the second form is defeated (run the pair as a single CR 25 legendary boss with two life bars)."
                                                       ]
                                       },
                                       {
@@ -652,7 +522,7 @@
                                                           "type":  "entries",
                                                           "name":  "Design: CR 25 Legendary Boss — Phase 1 of 2",
                                                           "entries":  [
-                                                                          "Granveyra is a two-phase legendary capstone for four well-equipped 17th-level characters (the Vorthrax party). This is her {@b martial phase}: relentless blade pressure, the multi-target Vaporising Rebellion Sword, the auto-hit World-Ending Slash (Death/Corruption), and the cover-ignoring Cut Through Reality. When she drops to 0, she does {@b not} die—she ascends to {@creature Granveyra Ascendant, the Paradox Spellblade|ParadoxChampion} (Phase 2), so expect a long, escalating fight comparable to Vorthrax. Run both forms as one boss; award XP once."
+                                                                          "Granveyra is a two-phase legendary capstone for four well-equipped 17th-level characters (the Vorthrax party). This is her {@b martial phase}: relentless blade pressure, the multi-target Vaporising Rebellion Sword, the auto-hit World-Ending Slash (Death/Corruption), and the cover-ignoring Cut Through Reality. When she drops to 0, she does {@b not} die—she ascends to {@creature Granveyra Ascendant, the Paradox Spellblade|VorthraxParadox} (Phase 2), so expect a long, escalating fight comparable to Vorthrax. Run both forms as one boss; award XP once."
                                                                       ]
                                                       }
                                                   ]
@@ -660,7 +530,7 @@
                     },
                     {
                         "name":  "Granveyra Ascendant, the Paradox Spellblade",
-                        "source":  "ParadoxChampion",
+                        "source":  "VorthraxParadox",
                         "isNamedCreature":  true,
                         "size":  [
                                      "M"
@@ -718,14 +588,9 @@
                         "resist":  [
                                        "cold",
                                        "necrotic",
-                                       {
-                                           "resist":  [
-                                                          "bludgeoning",
-                                                          "piercing",
-                                                          "slashing"
-                                                      ],
-                                           "note":  "from nonmagical attacks"
-                                       }
+                                       "bludgeoning",
+                                       "piercing",
+                                       "slashing"
                                    ],
                         "immune":  [
                                        "fire"
@@ -750,7 +615,7 @@
                                       {
                                           "name":  "Enters Ascended",
                                           "entries":  [
-                                                          "When this form rises from Granveyra\u0027s Paradox Ascension, the following spells are {@b already in effect} on her and are baked into her statistics: {@spell aid|XPHB} (her Hit Point maximum and current Hit Points are already increased), {@spell haste|XPHB} (already reflected in her AC, doubled Speed, and the extra action noted below), {@spell fire shield|XPHB} (warm—a creature that hits her with a melee attack takes 11 ({@damage 2d10}) Fire damage; she has Resistance to Cold, already listed), {@spell mirror image|XPHB} (she begins with {@b 3 duplicates}), and {@spell stoneskin|XPHB} (Resistance to nonmagical Bludgeoning, Piercing, and Slashing, already listed). If a benefit is dispelled or ends, remove it.",
+                                                          "When this form rises from Granveyra\u0027s Paradox Ascension, the following spells are {@b already in effect} on her and are baked into her statistics: {@spell aid|XPHB} (her Hit Point maximum and current Hit Points are already increased), {@spell haste|XPHB} (already reflected in her AC, doubled Speed, and the extra action noted below), {@spell fire shield|XPHB} (warm—a creature that hits her with a melee attack takes 11 ({@damage 2d10}) Fire damage; she has Resistance to Cold, already listed), {@spell mirror image|XPHB} (she begins with {@b 3 duplicates}), and {@spell stoneskin|XPHB} (Resistance to Bludgeoning, Piercing, and Slashing, already listed). If a benefit is dispelled or ends, remove it.",
                                                           "{@b Hasted Action:} On each of her turns, Granveyra Ascendant can take one additional action, which she can use only to make one weapon attack, Dash, Disengage, Hide, or Use an Object (per the Haste effect)."
                                                       ]
                                       },
@@ -909,7 +774,7 @@
                     },
                     {
                         "name":  "Master Paradox Kitsune (Diminished Form)",
-                        "source":  "ParadoxKitsune",
+                        "source":  "VorthraxParadox",
                         "isNamedCreature":  true,
                         "size":  [
                                      "S"
@@ -1003,7 +868,7 @@
                                       {
                                           "name":  "Paradox Ascension",
                                           "entries":  [
-                                                          "This palm-sized fox is only a fraction of what she is. The first time the Diminished Form is reduced to 0 Hit Points, she doesn\u0027t die: nine tails unfurl in a spiral of foxfire and she rises as {@creature Master Paradox Kitsune (True Form)|ParadoxKitsune}, appearing in her space at that form\u0027s full Hit Points with several spells already in effect (see its Ascends trait). Any conditions and ongoing effects on the Diminished Form end. This happens only once; the battle is won only when the True Form falls. Run the pair as a single boss and award XP once, for the True Form."
+                                                          "This palm-sized fox is only a fraction of what she is. The first time the Diminished Form is reduced to 0 Hit Points, she doesn\u0027t die: nine tails unfurl in a spiral of foxfire and she rises as {@creature Master Paradox Kitsune (True Form)|VorthraxParadox}, appearing in her space at that form\u0027s full Hit Points with several spells already in effect (see its Ascends trait). Any conditions and ongoing effects on the Diminished Form end. This happens only once; the battle is won only when the True Form falls. Run the pair as a single boss and award XP once, for the True Form."
                                                       ]
                                       }
                                   ],
@@ -1116,7 +981,7 @@
                                                           "type":  "entries",
                                                           "name":  "Design: CR 24 Full-Caster Boss — Phase 1 of 2",
                                                           "entries":  [
-                                                                          "The Diminished Form is a legendary full caster (Charisma) with the four spirits, gravity control, and a thrown Meteor. She is built to out-magic a lich, and she is {@b Phase 1}: at 0 Hit Points she ascends to {@creature Master Paradox Kitsune (True Form)|ParadoxKitsune} (CR 27). Run both as one boss for four well-equipped 17th-level characters; expect a Vorthrax-tier fight. Lead with Gravity Well positioning, fence at range with Call the Spirits, and spend slots on earthquake / reverse gravity / chain lightning."
+                                                                          "The Diminished Form is a legendary full caster (Charisma) with the four spirits, gravity control, and a thrown Meteor. She is built to out-magic a lich, and she is {@b Phase 1}: at 0 Hit Points she ascends to {@creature Master Paradox Kitsune (True Form)|VorthraxParadox} (CR 27). Run both as one boss for four well-equipped 17th-level characters; expect a Vorthrax-tier fight. Lead with Gravity Well positioning, fence at range with Call the Spirits, and spend slots on earthquake / reverse gravity / chain lightning."
                                                                       ]
                                                       }
                                                   ]
@@ -1124,7 +989,7 @@
                     },
                     {
                         "name":  "Master Paradox Kitsune (True Form)",
-                        "source":  "ParadoxKitsune",
+                        "source":  "VorthraxParadox",
                         "isNamedCreature":  true,
                         "size":  [
                                      "M"
@@ -1185,14 +1050,9 @@
                                        "fire",
                                        "lightning",
                                        "thunder",
-                                       {
-                                           "resist":  [
-                                                          "bludgeoning",
-                                                          "piercing",
-                                                          "slashing"
-                                                      ],
-                                           "note":  "from nonmagical attacks (Stoneskin)"
-                                       }
+                                       "bludgeoning",
+                                       "piercing",
+                                       "slashing"
                                    ],
                         "conditionImmune":  [
                                                 "charmed",
@@ -1234,7 +1094,7 @@
                                       {
                                           "name":  "Ascends",
                                           "entries":  [
-                                                          "When this form rises from Paradox Ascension, the following spells are {@b already in effect} on her and are baked into her statistics: {@spell stoneskin|XPHB} (Resistance to nonmagical Bludgeoning, Piercing, and Slashing, already listed), {@spell globe of invulnerability|XPHB} (a 10-foot Emanation that moves with her; spells of level 5 or lower can\u0027t affect her or anything inside it), and {@spell mirror image|XPHB} (she begins with {@b 3 duplicates}). If a benefit is dispelled or ends, remove it."
+                                                          "When this form rises from Paradox Ascension, the following spells are {@b already in effect} on her and are baked into her statistics: {@spell stoneskin|XPHB} (Resistance to Bludgeoning, Piercing, and Slashing, already listed), {@spell globe of invulnerability|XPHB} (a 10-foot Emanation that moves with her; spells of level 5 or lower can\u0027t affect her or anything inside it), and {@spell mirror image|XPHB} (she begins with {@b 3 duplicates}). If a benefit is dispelled or ends, remove it."
                                                       ]
                                       }
                                   ],
@@ -1363,7 +1223,7 @@
                     },
                     {
                         "name":  "Nyxariel, the False Goddess",
-                        "source":  "ParadoxMaou",
+                        "source":  "VorthraxParadox",
                         "isNamedCreature":  true,
                         "size":  [
                                      "L"
@@ -1458,7 +1318,7 @@
                                       {
                                           "name":  "Paradox Ascension (The Mask Shatters)",
                                           "entries":  [
-                                                          "The first time she is reduced to 0 Hit Points, the mask of heaven shatters and her true, many-eyed self emerges: she rises as {@creature Nyxariel, the Demon Lord Lamia|ParadoxMaou}, appearing in her space at that form\u0027s full Hit Points. Any conditions and ongoing effects on her end. Run all three forms as one boss; award XP once, when the final form falls."
+                                                          "The first time she is reduced to 0 Hit Points, the mask of heaven shatters and her true, many-eyed self emerges: she rises as {@creature Nyxariel, the Demon Lord Lamia|VorthraxParadox}, appearing in her space at that form\u0027s full Hit Points. Any conditions and ongoing effects on her end. Run all three forms as one boss; award XP once, when the final form falls."
                                                       ]
                                       }
                                   ],
@@ -1591,7 +1451,7 @@
                                                           "type":  "entries",
                                                           "name":  "Design: CR 28 Legendary Boss — Phase 1 of 3",
                                                           "entries":  [
-                                                                          "The opening face of a three-phase campaign finale for four 20th-level characters with magic items. She fights as an eye-tyrant of false light: Eyes of Judgment fire three radiant rays a turn (damage + blind/stun/banish), backed by Heaven\u0027s Verdict and self-heal—like a beholder, but with no antimagic aura. At 0 Hit Points she becomes {@creature Nyxariel, the Demon Lord Lamia|ParadoxMaou} (Phase 2), and the gaze turns to darkness."
+                                                                          "The opening face of a three-phase campaign finale for four 20th-level characters with magic items. She fights as an eye-tyrant of false light: Eyes of Judgment fire three radiant rays a turn (damage + blind/stun/banish), backed by Heaven\u0027s Verdict and self-heal—like a beholder, but with no antimagic aura. At 0 Hit Points she becomes {@creature Nyxariel, the Demon Lord Lamia|VorthraxParadox} (Phase 2), and the gaze turns to darkness."
                                                                       ]
                                                       }
                                                   ]
@@ -1599,7 +1459,7 @@
                     },
                     {
                         "name":  "Nyxariel, the Demon Lord Lamia",
-                        "source":  "ParadoxMaou",
+                        "source":  "VorthraxParadox",
                         "isNamedCreature":  true,
                         "size":  [
                                      "H"
@@ -1705,7 +1565,7 @@
                                       {
                                           "name":  "Paradox Ascension (True Chaos)",
                                           "entries":  [
-                                                          "When this form is reduced to 0 Hit Points, the paradox at her core blooms, fusing goddess, demon, and machine. She rises as {@creature Nyxariel, the Child of Chaos|ParadoxMaou}, appearing in her space at that form\u0027s full Hit Points; any conditions and ongoing effects on her end. This is her final transformation."
+                                                          "When this form is reduced to 0 Hit Points, the paradox at her core blooms, fusing goddess, demon, and machine. She rises as {@creature Nyxariel, the Child of Chaos|VorthraxParadox}, appearing in her space at that form\u0027s full Hit Points; any conditions and ongoing effects on her end. This is her final transformation."
                                                       ]
                                       }
                                   ],
@@ -1861,7 +1721,7 @@
                                                           "type":  "entries",
                                                           "name":  "Design: CR 29 Legendary Boss — Phase 2 of 3 (Damage + Control)",
                                                           "entries":  [
-                                                                          "The core of the rework: a dark eye-tyrant built around a damage-and-control gaze. Eye Rays fire three dark rays a turn (Withering / Disintegration for damage; Despair, Shadowbind, Slumber, Hex, Domination for control), Maddening Gaze softens a target\u0027s saves, and her shadow spellbook (Black Tentacles, Hunger of Hadar, Eyebite, Dominate Monster, Finger of Death) doubles down on lockdown. She has {@b no antimagic aura}. With legendary Eye Rays she can throw additional rays between turns—prioritize spreading control, then focus the disintegration/withering on whoever\u0027s exposed. At 0 Hit Points she fuses into {@creature Nyxariel, the Child of Chaos|ParadoxMaou}."
+                                                                          "The core of the rework: a dark eye-tyrant built around a damage-and-control gaze. Eye Rays fire three dark rays a turn (Withering / Disintegration for damage; Despair, Shadowbind, Slumber, Hex, Domination for control), Maddening Gaze softens a target\u0027s saves, and her shadow spellbook (Black Tentacles, Hunger of Hadar, Eyebite, Dominate Monster, Finger of Death) doubles down on lockdown. She has {@b no antimagic aura}. With legendary Eye Rays she can throw additional rays between turns—prioritize spreading control, then focus the disintegration/withering on whoever\u0027s exposed. At 0 Hit Points she fuses into {@creature Nyxariel, the Child of Chaos|VorthraxParadox}."
                                                                       ]
                                                       }
                                                   ]
@@ -1869,7 +1729,7 @@
                     },
                     {
                         "name":  "Nyxariel, the Child of Chaos",
-                        "source":  "ParadoxMaou",
+                        "source":  "VorthraxParadox",
                         "isNamedCreature":  true,
                         "size":  [
                                      "G"
@@ -2142,7 +2002,7 @@
                     },
                     {
                         "name":  "The Eraser",
-                        "source":  "ParadoxApoptosis",
+                        "source":  "VorthraxParadox",
                         "size":  [
                                      "M"
                                  ],
@@ -2275,7 +2135,7 @@
                     },
                     {
                         "name":  "White Choir",
-                        "source":  "ParadoxApoptosis",
+                        "source":  "VorthraxParadox",
                         "size":  [
                                      "L"
                                  ],
@@ -2399,7 +2259,7 @@
                     },
                     {
                         "name":  "The Unfinished Queen",
-                        "source":  "ParadoxApoptosis",
+                        "source":  "VorthraxParadox",
                         "size":  [
                                      "G"
                                  ],
@@ -2547,7 +2407,7 @@
                     },
                     {
                         "name":  "Redaction Effigy",
-                        "source":  "ParadoxApoptosis",
+                        "source":  "VorthraxParadox",
                         "size":  [
                                      "L"
                                  ],
@@ -2672,7 +2532,7 @@
                     },
                     {
                         "name":  "Twin-Star Reliquary",
-                        "source":  "ParadoxApoptosis",
+                        "source":  "VorthraxParadox",
                         "size":  [
                                      "L"
                                  ],
@@ -2791,7 +2651,7 @@
                     },
                     {
                         "name":  "Mirror Sentinel",
-                        "source":  "ParadoxApoptosis",
+                        "source":  "VorthraxParadox",
                         "size":  [
                                      "L"
                                  ],
@@ -2913,7 +2773,7 @@
                     },
                     {
                         "name":  "Gilded Seraph",
-                        "source":  "ParadoxApoptosis",
+                        "source":  "VorthraxParadox",
                         "size":  [
                                      "L"
                                  ],
@@ -3034,7 +2894,7 @@
                     },
                     {
                         "name":  "Unwritten Angel",
-                        "source":  "ParadoxApoptosis",
+                        "source":  "VorthraxParadox",
                         "size":  [
                                      "L"
                                  ],
@@ -3181,7 +3041,7 @@
                     },
                     {
                         "name":  "The Sundered Archangel",
-                        "source":  "ParadoxApoptosis",
+                        "source":  "VorthraxParadox",
                         "size":  [
                                      "H"
                                  ],
@@ -3324,7 +3184,7 @@
                     },
                     {
                         "name":  "Ink Fiend",
-                        "source":  "ParadoxApoptosis",
+                        "source":  "VorthraxParadox",
                         "size":  [
                                      "L"
                                  ],
@@ -3460,7 +3320,7 @@
                     },
                     {
                         "name":  "Executioner of the Second",
-                        "source":  "ParadoxApoptosis",
+                        "source":  "VorthraxParadox",
                         "size":  [
                                      "L"
                                  ],
@@ -3588,7 +3448,7 @@
                     },
                     {
                         "name":  "Princeling of the Primordial Dark",
-                        "source":  "ParadoxApoptosis",
+                        "source":  "VorthraxParadox",
                         "size":  [
                                      "H"
                                  ],
@@ -3756,7 +3616,7 @@
                     },
                     {
                         "name":  "Paradox Kaeru",
-                        "source":  "ParadoxKaeru",
+                        "source":  "VorthraxParadox",
                         "size":  [
                                      "S"
                                  ],
@@ -3868,7 +3728,7 @@
                     },
                     {
                         "name":  "Paradox-Touched Goblin Cutter",
-                        "source":  "ParadoxWarband",
+                        "source":  "VorthraxParadox",
                         "size":  [
                                      "S"
                                  ],
@@ -3966,13 +3826,13 @@
                                      ],
                         "fluff":  {
                                       "entries":  [
-                                                      "A frontline cutter of the Recopied Warband—a violet shadow of a goblin that swings a blade edged in unmade dark. Part of the Recopied Warband; see the {@creature Paradox-Touched Goblin Hexer|ParadoxWarband} for the full encounter."
+                                                      "A frontline cutter of the Recopied Warband—a violet shadow of a goblin that swings a blade edged in unmade dark. Part of the Recopied Warband; see the {@creature Paradox-Touched Goblin Hexer|VorthraxParadox} for the full encounter."
                                                   ]
                                   }
                     },
                     {
                         "name":  "Paradox-Touched Goblin Stinger",
-                        "source":  "ParadoxWarband",
+                        "source":  "VorthraxParadox",
                         "size":  [
                                      "S"
                                  ],
@@ -4076,13 +3936,13 @@
                                      ],
                         "fluff":  {
                                       "entries":  [
-                                                      "A recopied skirmisher that fires arrows of bottled starlight from the edges of the fight. Part of the Recopied Warband; see the {@creature Paradox-Touched Goblin Hexer|ParadoxWarband} for the full encounter."
+                                                      "A recopied skirmisher that fires arrows of bottled starlight from the edges of the fight. Part of the Recopied Warband; see the {@creature Paradox-Touched Goblin Hexer|VorthraxParadox} for the full encounter."
                                                   ]
                                   }
                     },
                     {
                         "name":  "Paradox-Touched Goblin Hexer",
-                        "source":  "ParadoxWarband",
+                        "source":  "VorthraxParadox",
                         "size":  [
                                      "S"
                                  ],
@@ -4216,7 +4076,7 @@
                                                           "entries":  [
                                                                           "Every member of the warband is built as a {@b glass cannon}: its attacks, save DCs, and damage are calibrated to Challenge 17 (tier 4), so a single one is a genuine threat to a well-equipped 17th-level character—but its Hit Points are minion-grade (45–66), so it drops to almost any focused hit or area spell. The CR 17 label is the threat of the attack, not the toughness of the body. They have just enough Hit Points to survive the alpha strike of a tier-4 party and take one real turn—which is exactly when they bite.",
                                                                           "This breaks the normal CR-to-XP math on purpose. By the book, six CR 17 monsters would be an absurd 108,000 XP; in practice these die so fast that the effective difficulty is roughly that of treating each as a {@b CR 6–7} creature. Budget by their fragility, not their label.",
-                                                                          "The six variants: {@creature Paradox-Touched Goblin Cutter|ParadoxWarband} and {@creature Paradox-Touched Kobold Clawfoot|ParadoxWarband} (melee warriors), {@creature Paradox-Touched Goblin Stinger|ParadoxWarband} and {@creature Paradox-Touched Kobold Slinger|ParadoxWarband} (archers), and the {@creature Paradox-Touched Goblin Hexer|ParadoxWarband} and {@creature Paradox-Touched Kobold Star-Scale|ParadoxWarband} (casters)."
+                                                                          "The six variants: {@creature Paradox-Touched Goblin Cutter|VorthraxParadox} and {@creature Paradox-Touched Kobold Clawfoot|VorthraxParadox} (melee warriors), {@creature Paradox-Touched Goblin Stinger|VorthraxParadox} and {@creature Paradox-Touched Kobold Slinger|VorthraxParadox} (archers), and the {@creature Paradox-Touched Goblin Hexer|VorthraxParadox} and {@creature Paradox-Touched Kobold Star-Scale|VorthraxParadox} (casters)."
                                                                       ]
                                                       },
                                                       {
@@ -4241,7 +4101,7 @@
                     },
                     {
                         "name":  "Paradox-Touched Kobold Clawfoot",
-                        "source":  "ParadoxWarband",
+                        "source":  "VorthraxParadox",
                         "size":  [
                                      "S"
                                  ],
@@ -4346,13 +4206,13 @@
                                      ],
                         "fluff":  {
                                       "entries":  [
-                                                      "A recopied kobold that fights in violet packs, claws trailing unmade dark. Part of the Recopied Warband; see the {@creature Paradox-Touched Goblin Hexer|ParadoxWarband} for the full encounter."
+                                                      "A recopied kobold that fights in violet packs, claws trailing unmade dark. Part of the Recopied Warband; see the {@creature Paradox-Touched Goblin Hexer|VorthraxParadox} for the full encounter."
                                                   ]
                                   }
                     },
                     {
                         "name":  "Paradox-Touched Kobold Slinger",
-                        "source":  "ParadoxWarband",
+                        "source":  "VorthraxParadox",
                         "size":  [
                                      "S"
                                  ],
@@ -4455,13 +4315,13 @@
                                      ],
                         "fluff":  {
                                       "entries":  [
-                                                      "A recopied kobold that pelts the party with bottled starlight from behind its packmates. Part of the Recopied Warband; see the {@creature Paradox-Touched Goblin Hexer|ParadoxWarband} for the full encounter."
+                                                      "A recopied kobold that pelts the party with bottled starlight from behind its packmates. Part of the Recopied Warband; see the {@creature Paradox-Touched Goblin Hexer|VorthraxParadox} for the full encounter."
                                                   ]
                                   }
                     },
                     {
                         "name":  "Paradox-Touched Kobold Star-Scale",
-                        "source":  "ParadoxWarband",
+                        "source":  "VorthraxParadox",
                         "size":  [
                                      "S"
                                  ],
@@ -4589,13 +4449,13 @@
                                      ],
                         "fluff":  {
                                       "entries":  [
-                                                      "A recopied scale-sorcerer whose bloodline magic now burns in the colors of the unmade sky—its 1/day {@b Starburst} (a Force-damage {@spell fireball|XPHB}) is the warband\u0027s deadliest single moment. Part of the Recopied Warband; see the {@creature Paradox-Touched Goblin Hexer|ParadoxWarband} for the full encounter."
+                                                      "A recopied scale-sorcerer whose bloodline magic now burns in the colors of the unmade sky—its 1/day {@b Starburst} (a Force-damage {@spell fireball|XPHB}) is the warband\u0027s deadliest single moment. Part of the Recopied Warband; see the {@creature Paradox-Touched Goblin Hexer|VorthraxParadox} for the full encounter."
                                                   ]
                                   }
                     },
                     {
                         "name":  "False Purple Robes Wizard",
-                        "source":  "FalseWizards",
+                        "source":  "VorthraxParadox",
                         "size":  [
                                      "M"
                                  ],
@@ -4794,7 +4654,7 @@
                     },
                     {
                         "name":  "False Green Robes Wizard",
-                        "source":  "FalseWizards",
+                        "source":  "VorthraxParadox",
                         "size":  [
                                      "M"
                                  ],
@@ -4992,7 +4852,7 @@
                     },
                     {
                         "name":  "False Red Robes Wizard",
-                        "source":  "FalseWizards",
+                        "source":  "VorthraxParadox",
                         "size":  [
                                      "M"
                                  ],
@@ -5198,7 +5058,7 @@
                     },
                     {
                         "name":  "False Brown Robes Wizard",
-                        "source":  "FalseWizards",
+                        "source":  "VorthraxParadox",
                         "size":  [
                                      "M"
                                  ],
@@ -5409,7 +5269,7 @@
                     },
                     {
                         "name":  "False Blue Robes Wizard",
-                        "source":  "FalseWizards",
+                        "source":  "VorthraxParadox",
                         "size":  [
                                      "M"
                                  ],

@@ -92,7 +92,7 @@
 			"skill": { "arcana": "+13", "history": "+13", "insight": "+13", "perception": "+13" },
 			"senses": ["truesight 120 ft.", "darkvision 120 ft."],
 			"passive": 23,
-			"resist": ["acid", "cold", "fire", "lightning", "thunder", { "resist": ["bludgeoning", "piercing", "slashing"], "note": "from nonmagical attacks (Stoneskin)" }],
+			"resist": ["acid", "cold", "fire", "lightning", "thunder", "bludgeoning", "piercing", "slashing"],
 			"conditionImmune": ["charmed", "frightened", "prone"],
 			"languages": ["Common", "Sylvan", "Primordial", "telepathy 120 ft."],
 			"cr": "27",
@@ -101,7 +101,7 @@
 				{ "name": "Elemental Mastery", "entries": ["The Kitsune commands the four great spirits—Salamander, Undine, Sylph, and Gnome. Her Acid, Cold, Fire, Lightning, and Thunder damage ignores Resistance to those types and treats Immunity to them as Resistance. She is Resistant to all five (already listed)."] },
 				{ "name": "Beyond the Lich's Art", "entries": ["The Kitsune's mastery eclipses any lich's spell mastery. She can cast {@spell fireball|XPHB} and {@spell lightning bolt|XPHB} at will (as level 5 versions, spell save {@dc 24}), spending no spell slots."] },
 				{ "name": "Crushing Gravity", "entries": ["Weight bows toward her true form. The ground within 20 feet of her is {@quickref Difficult Terrain||3} for her enemies; a creature that starts its turn there has its Speed halved until the start of its next turn, and a flying creature there must succeed on a {@dc 24} Strength saving throw or be pulled 30 feet straight down."] },
-				{ "name": "Ascends", "entries": ["When this form rises from Paradox Ascension, the following spells are {@b already in effect} on her and are baked into her statistics: {@spell stoneskin|XPHB} (Resistance to nonmagical Bludgeoning, Piercing, and Slashing, already listed), {@spell globe of invulnerability|XPHB} (a 10-foot Emanation that moves with her; spells of level 5 or lower can't affect her or anything inside it), and {@spell mirror image|XPHB} (she begins with {@b 3 duplicates}). If a benefit is dispelled or ends, remove it."] }
+				{ "name": "Ascends", "entries": ["When this form rises from Paradox Ascension, the following spells are {@b already in effect} on her and are baked into her statistics: {@spell stoneskin|XPHB} (Resistance to Bludgeoning, Piercing, and Slashing, already listed), {@spell globe of invulnerability|XPHB} (a 10-foot Emanation that moves with her; spells of level 5 or lower can't affect her or anything inside it), and {@spell mirror image|XPHB} (she begins with {@b 3 duplicates}). If a benefit is dispelled or ends, remove it."] }
 			],
 			"spellcasting": [
 				{
