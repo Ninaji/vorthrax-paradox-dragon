@@ -11,13 +11,13 @@
                                       "convertedBy":  [
                                                           "Ninja12749"
                                                       ],
-                                      "version":  "2.1.0",
+                                      "version":  "2.2.0",
                                       "color":  "7c3aed"
                                   }
                               ],
                   "edition":  "one",
                   "dateAdded":  1781827200,
-                  "dateLastModified":  1782100000
+                  "dateLastModified":  1782200000
               },
     "monster":  [
                     {
@@ -5465,6 +5465,691 @@
                                                           "name":  "Design: CR 25 Caster Boss (Aberration, Paradox)",
                                                           "entries":  [
                                                                           "A one-phase legendary control/skirmish caster and the strongest of the False Wizards—standard D\u0026D divination/illusion plus reality-editing (Retcon, Not Canon, Rewrite the Scene, Plot Armor) as a nod to a lore/canon role, and the most on-theme for the paradox of Gaia. Retcon negates the party\u0027s best turn; Plot Armor gives it a second life; Not Canon temporarily removes a hero. The Erased mirror of the people who decide what is real."
+                                                                      ]
+                                                      }
+                                                  ]
+                                  }
+                    },
+                    {
+                        "name":  "Vaelroot, the Verdant Dawn",
+                        "source":  "VorthraxParadox",
+                        "isNamedCreature":  true,
+                        "size":  [
+                                     "L"
+                                 ],
+                        "type":  {
+                                     "type":  "plant",
+                                     "tags":  [
+                                                  "paradox"
+                                              ]
+                                 },
+                        "alignment":  [
+                                          "N",
+                                          "E"
+                                      ],
+                        "ac":  [
+                                   {
+                                       "ac":  18,
+                                       "from":  [
+                                                    "bark and bloom"
+                                                ]
+                                   }
+                               ],
+                        "hp":  {
+                                   "average":  285,
+                                   "formula":  "30d10 + 120"
+                               },
+                        "speed":  {
+                                      "walk":  30,
+                                      "climb":  30
+                                  },
+                        "str":  18,
+                        "dex":  14,
+                        "con":  18,
+                        "int":  12,
+                        "wis":  20,
+                        "cha":  16,
+                        "save":  {
+                                     "con":  "+9",
+                                     "wis":  "+10",
+                                     "cha":  "+8"
+                                 },
+                        "skill":  {
+                                      "nature":  "+6",
+                                      "perception":  "+10",
+                                      "stealth":  "+7"
+                                  },
+                        "senses":  [
+                                       "darkvision 60 ft.",
+                                       "tremorsense 30 ft."
+                                   ],
+                        "passive":  20,
+                        "resist":  [
+                                       "radiant"
+                                   ],
+                        "conditionImmune":  [
+                                                "charmed",
+                                                "frightened"
+                                            ],
+                        "languages":  [
+                                          "Common",
+                                          "Druidic",
+                                          "Sylvan"
+                                      ],
+                        "cr":  "15",
+                        "trait":  [
+                                      {
+                                          "name":  "Legendary Resistance (3/Day)",
+                                          "entries":  [
+                                                          "If Vaelroot fails a saving throw, it can choose to succeed instead."
+                                                      ]
+                                      },
+                                      {
+                                          "name":  "Verdant Paradox",
+                                          "entries":  [
+                                                          "The ground within 20 feet of Vaelroot churns with too-eager, violet-tinged growth: it is {@quickref Difficult Terrain||3} for Vaelroot\u0027s enemies. Vaelroot always has terrain to work with—if no natural feature is nearby, it can pull one (a stone, a tree, a patch of grass) up out of the under-sky with Reshape the Scene."
+                                                      ]
+                                      },
+                                      {
+                                          "name":  "Radiant Bloom",
+                                          "entries":  [
+                                                          "Vaelroot sheds Bright Light in a 20-foot radius and Dim Light for another 20 feet. Its Radiant damage ignores Resistance to Radiant damage."
+                                                      ]
+                                      },
+                                      {
+                                          "name":  "Servant of the Paradox",
+                                          "entries":  [
+                                                          "Vorthrax made Vaelroot to tend the corrupted region, and the paradox will not let its gardener die easily. The first time Vaelroot is reduced to 0 Hit Points, it doesn\u0027t die: the light drains out of it and the grove darkens as it rises in its shadow aspect, {@creature Vaelroot, the Withering Dusk|VorthraxParadox}, in its space at that form\u0027s full Hit Points, with all conditions and effects on it ended. Run all three forms as one boss; award the encounter\u0027s XP only when the final form falls."
+                                                      ]
+                                      }
+                                  ],
+                        "spellcasting":  [
+                                             {
+                                                 "name":  "Spellcasting",
+                                                 "type":  "spellcasting",
+                                                 "headerEntries":  [
+                                                                       "Vaelroot casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 18}; {@hitYourSpellAttack +10 to hit with spell attacks}):"
+                                                                   ],
+                                                 "will":  [
+                                                              "{@spell druidcraft|XPHB}",
+                                                              "{@spell thorn whip|XPHB}",
+                                                              "{@spell sacred flame|XPHB}"
+                                                          ],
+                                                 "daily":  {
+                                                               "3e":  [
+                                                                          "{@spell moonbeam|XPHB}",
+                                                                          "{@spell spike growth|XPHB}",
+                                                                          "{@spell spirit guardians|XPHB}"
+                                                                      ],
+                                                               "1e":  [
+                                                                          "{@spell sunbeam|XPHB}",
+                                                                          "{@spell wall of thorns|XPHB}",
+                                                                          "{@spell plant growth|XPHB}"
+                                                                      ]
+                                                           },
+                                                 "ability":  "wis",
+                                                 "displayAs":  "action"
+                                             }
+                                         ],
+                        "action":  [
+                                       {
+                                           "name":  "Multiattack",
+                                           "entries":  [
+                                                           "Vaelroot makes two Bramble Lash attacks, or it casts a spell and makes one Bramble Lash attack."
+                                                       ]
+                                       },
+                                       {
+                                           "name":  "Bramble Lash",
+                                           "entries":  [
+                                                           "{@atkr m} {@hit 9}, reach 15 ft. {@h}13 ({@damage 2d8 + 4}) Slashing damage plus 9 ({@damage 2d8}) Radiant damage, and the target is pulled up to 10 feet toward Vaelroot."
+                                                       ]
+                                       },
+                                       {
+                                           "name":  "Reshape the Scene",
+                                           "entries":  [
+                                                           "Vaelroot bends a feature of the battlefield to the paradox. Choose one within 60 feet; the feature is left violet and humming, faintly wrong:",
+                                                           {
+                                                               "type":  "list",
+                                                               "style":  "list-hang-notitle",
+                                                               "items":  [
+                                                                             {
+                                                                                 "type":  "item",
+                                                                                 "name":  "A stone or boulder.",
+                                                                                 "entry":  "Vaelroot hurls it—{@atkr r} {@hit 9}, range 60 ft., {@h}18 ({@damage 4d8}) Bludgeoning plus 9 ({@damage 2d8}) Radiant damage—or raises it into a 15-foot wall of stone (each 5-ft section AC 17, 30 HP)."
+                                                                             },
+                                                                             {
+                                                                                 "type":  "item",
+                                                                                 "name":  "A tree or large plant.",
+                                                                                 "entry":  "It blooms violently: each creature within 10 feet of the plant makes a {@dc 18} Dexterity saving throw, taking 22 ({@damage 4d10}) Bludgeoning and Radiant damage (half each) on a failure, or half as much on a success. The plant becomes a thicket ({@quickref Difficult Terrain||3})."
+                                                                             },
+                                                                             {
+                                                                                 "type":  "item",
+                                                                                 "name":  "Grass, undergrowth, or soil.",
+                                                                                 "entry":  "Vines erupt in a 15-foot square: each creature there makes a {@dc 18} Strength saving throw or is {@condition restrained} (escape {@dc 18}). The grass then bleaches blank white—a creature that ends its turn in that square takes 7 ({@damage 2d6}) Psychic damage and can\u0027t take Reactions until the end of its next turn."
+                                                                             },
+                                                                             {
+                                                                                 "type":  "item",
+                                                                                 "name":  "No feature present?",
+                                                                                 "entry":  "Vaelroot pulls one out of the under-sky—a stone, tree, or patch of grass erupts in an unoccupied space within 60 feet—then immediately uses one option above."
+                                                                             }
+                                                                         ]
+                                                           }
+                                                       ]
+                                       },
+                                       {
+                                           "name":  "Bloomburst {@recharge 5}",
+                                           "entries":  [
+                                                           "Radiant flowers erupt across a 20-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} within 90 feet. {@actSave con} {@dc 18}, each creature there. {@actSaveFail} 36 ({@damage 8d8}) Radiant damage. {@actSaveSuccess} Half damage. The area becomes thorned {@quickref Difficult Terrain||3} until the end of Vaelroot\u0027s next turn."
+                                                       ]
+                                       }
+                                   ],
+                        "bonus":  [
+                                      {
+                                          "name":  "Sapway Step",
+                                          "entries":  [
+                                                          "Vaelroot melds into a plant or stone within 5 feet and steps out of another plant or stone it can see within 60 feet, through Gaia\u0027s scorched veins, leaving a seam of under-sky where it appears."
+                                                      ]
+                                      }
+                                  ],
+                        "reaction":  [
+                                         {
+                                             "name":  "Thorned Retort",
+                                             "entries":  [
+                                                             "When a creature within 15 feet hits Vaelroot with a melee attack, that creature takes 9 ({@damage 2d8}) Piercing damage from lashing brambles."
+                                                         ]
+                                         }
+                                     ],
+                        "legendaryHeader":  [
+                                                "Legendary Action Uses: 3. Immediately after another creature\u0027s turn, Vaelroot can expend a use to take one of the following actions. It regains all expended uses at the start of each of its turns."
+                                            ],
+                        "legendaryActions":  3,
+                        "legendary":  [
+                                          {
+                                              "name":  "Lash",
+                                              "entries":  [
+                                                              "Vaelroot makes one Bramble Lash attack."
+                                                          ]
+                                          },
+                                          {
+                                              "name":  "Sapway Step",
+                                              "entries":  [
+                                                              "Vaelroot uses Sapway Step."
+                                                          ]
+                                          },
+                                          {
+                                              "name":  "Reshape (Costs 2 Actions)",
+                                              "entries":  [
+                                                              "Vaelroot uses Reshape the Scene."
+                                                          ]
+                                          }
+                                      ],
+                        "fluff":  {
+                                      "entries":  [
+                                                      {
+                                                          "type":  "entries",
+                                                          "name":  "The Gardener of the Wound",
+                                                          "entries":  [
+                                                                          "Vaelroot was a druid of Gaia before the violet ring took the grove—and then Vorthrax remade it as the corrupted region\u0027s gardener. It still loves the land; it simply loves it wrong now, tending rot like a flowerbed and blooming the under-sky where soil used to be. In its first aspect, the Verdant Dawn, it wears the face of spring: radiant overgrowth, blossoms that hurt, a forest in too-bright flower. Kill that, and the season turns."
+                                                                      ]
+                                                      }
+                                                  ]
+                                  }
+                    },
+                    {
+                        "name":  "Vaelroot, the Withering Dusk",
+                        "source":  "VorthraxParadox",
+                        "isNamedCreature":  true,
+                        "size":  [
+                                     "L"
+                                 ],
+                        "type":  {
+                                     "type":  "fey",
+                                     "tags":  [
+                                                  "paradox"
+                                              ]
+                                 },
+                        "alignment":  [
+                                          "N",
+                                          "E"
+                                      ],
+                        "ac":  [
+                                   {
+                                       "ac":  18,
+                                       "from":  [
+                                                    "blackened bark"
+                                                ]
+                                   }
+                               ],
+                        "hp":  {
+                                   "average":  294,
+                                   "formula":  "28d10 + 140"
+                               },
+                        "speed":  {
+                                      "walk":  30,
+                                      "climb":  30
+                                  },
+                        "str":  18,
+                        "dex":  16,
+                        "con":  20,
+                        "int":  12,
+                        "wis":  22,
+                        "cha":  18,
+                        "save":  {
+                                     "con":  "+10",
+                                     "wis":  "+11",
+                                     "cha":  "+9"
+                                 },
+                        "skill":  {
+                                      "nature":  "+6",
+                                      "perception":  "+11",
+                                      "stealth":  "+8"
+                                  },
+                        "senses":  [
+                                       "darkvision 120 ft.",
+                                       "tremorsense 30 ft."
+                                   ],
+                        "passive":  21,
+                        "resist":  [
+                                       "cold",
+                                       "necrotic"
+                                   ],
+                        "conditionImmune":  [
+                                                "charmed",
+                                                "frightened",
+                                                "poisoned"
+                                            ],
+                        "languages":  [
+                                          "Common",
+                                          "Druidic",
+                                          "Sylvan"
+                                      ],
+                        "cr":  "16",
+                        "trait":  [
+                                      {
+                                          "name":  "Legendary Resistance (3/Day)",
+                                          "entries":  [
+                                                          "If Vaelroot fails a saving throw, it can choose to succeed instead. (This form\u0027s uses are fresh.)"
+                                                      ]
+                                      },
+                                      {
+                                          "name":  "Verdant Paradox",
+                                          "entries":  [
+                                                          "The ground within 20 feet of Vaelroot is choked with dead, grasping growth—{@quickref Difficult Terrain||3} for its enemies. If no natural feature is nearby, Vaelroot pulls one out of the under-sky with Reshape the Scene."
+                                                      ]
+                                      },
+                                      {
+                                          "name":  "Withering Aura",
+                                          "entries":  [
+                                                          "Bright Light within 30 feet of Vaelroot becomes Dim Light, and a creature that ends its turn within 10 feet of Vaelroot can\u0027t regain Hit Points until the start of its next turn."
+                                                      ]
+                                      },
+                                      {
+                                          "name":  "Servant of the Paradox",
+                                          "entries":  [
+                                                          "When this form is reduced to 0 Hit Points, Vaelroot doesn\u0027t die: the dusk tears open and raw paradox pours out as it rises as {@creature Vaelroot, the Unmade Bloom|VorthraxParadox}, in its space at that form\u0027s full Hit Points, with all conditions and effects on it ended. This is its final transformation."
+                                                      ]
+                                      }
+                                  ],
+                        "spellcasting":  [
+                                             {
+                                                 "name":  "Spellcasting",
+                                                 "type":  "spellcasting",
+                                                 "headerEntries":  [
+                                                                       "Vaelroot casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 19}; {@hitYourSpellAttack +11 to hit with spell attacks}):"
+                                                                   ],
+                                                 "will":  [
+                                                              "{@spell chill touch|XPHB}",
+                                                              "{@spell thorn whip|XPHB}",
+                                                              "{@spell poison spray|XPHB}"
+                                                          ],
+                                                 "daily":  {
+                                                               "3e":  [
+                                                                          "{@spell spike growth|XPHB}",
+                                                                          "{@spell sleet storm|XPHB}",
+                                                                          "{@spell hunger of hadar|XPHB}"
+                                                                      ],
+                                                               "2e":  [
+                                                                          "{@spell blight|XPHB}",
+                                                                          "{@spell contagion|XPHB}",
+                                                                          "{@spell insect plague|XPHB}"
+                                                                      ],
+                                                               "1e":  [
+                                                                          "{@spell circle of death|XPHB}"
+                                                                      ]
+                                                           },
+                                                 "ability":  "wis",
+                                                 "displayAs":  "action"
+                                             }
+                                         ],
+                        "action":  [
+                                       {
+                                           "name":  "Multiattack",
+                                           "entries":  [
+                                                           "Vaelroot makes two Withering Claw attacks, or it casts a spell and makes one Withering Claw attack."
+                                                       ]
+                                       },
+                                       {
+                                           "name":  "Withering Claw",
+                                           "entries":  [
+                                                           "{@atkr m} {@hit 10}, reach 15 ft. {@h}15 ({@damage 2d10 + 4}) Slashing damage plus 18 ({@damage 4d8}) Necrotic damage, and the target can\u0027t regain Hit Points until the end of its next turn."
+                                                       ]
+                                       },
+                                       {
+                                           "name":  "Reshape the Scene",
+                                           "entries":  [
+                                                           "Vaelroot rots a feature of the battlefield. Choose one within 60 feet; the feature is left blackened and weeping dark sap:",
+                                                           {
+                                                               "type":  "list",
+                                                               "style":  "list-hang-notitle",
+                                                               "items":  [
+                                                                             {
+                                                                                 "type":  "item",
+                                                                                 "name":  "A stone or boulder.",
+                                                                                 "entry":  "It crumbles into a grasping cairn that lurches at a creature—{@atkr m,r} {@hit 10}, reach 10 ft. or range 60 ft., {@h}18 ({@damage 4d8}) Bludgeoning plus 13 ({@damage 3d8}) Necrotic damage—or rises as a 15-foot wall of dead stone (each 5-ft section AC 17, 30 HP)."
+                                                                             },
+                                                                             {
+                                                                                 "type":  "item",
+                                                                                 "name":  "A tree or large plant.",
+                                                                                 "entry":  "It withers and lashes: each creature within 10 feet makes a {@dc 19} Dexterity saving throw, taking 27 ({@damage 6d8}) Necrotic damage on a failure, or half on a success, and the tree\u0027s dead branches make the area {@quickref Difficult Terrain||3}."
+                                                                             },
+                                                                             {
+                                                                                 "type":  "item",
+                                                                                 "name":  "Grass, undergrowth, or soil.",
+                                                                                 "entry":  "Dead roots erupt in a 15-foot square: each creature there makes a {@dc 19} Strength saving throw or is {@condition restrained} (escape {@dc 19}). The grass bleaches to blank white—a creature that ends its turn there takes 10 ({@damage 3d6}) Psychic damage and forgets it has any allies it can\u0027t currently see until the start of its next turn."
+                                                                             },
+                                                                             {
+                                                                                 "type":  "item",
+                                                                                 "name":  "No feature present?",
+                                                                                 "entry":  "Vaelroot pulls one out of the under-sky in an unoccupied space within 60 feet, then immediately uses one option above."
+                                                                             }
+                                                                         ]
+                                                           }
+                                                       ]
+                                       },
+                                       {
+                                           "name":  "Withering Gale {@recharge 5}",
+                                           "entries":  [
+                                                           "A cold, rotting wind howls in a 60-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. {@actSave con} {@dc 19}, each creature there. {@actSaveFail} 45 ({@damage 10d8}) Necrotic damage, and the creature is {@condition frightened} of Vaelroot for 1 minute (it repeats the save at the end of each of its turns). {@actSaveSuccess} Half damage and not Frightened."
+                                                       ]
+                                       }
+                                   ],
+                        "bonus":  [
+                                      {
+                                          "name":  "Sapway Step",
+                                          "entries":  [
+                                                          "Vaelroot melds into a plant or stone within 5 feet and steps out of another plant or stone it can see within 60 feet, leaving a seam of under-sky where it appears."
+                                                      ]
+                                      }
+                                  ],
+                        "legendaryHeader":  [
+                                                "Legendary Action Uses: 3. Immediately after another creature\u0027s turn, Vaelroot can expend a use to take one of the following actions. It regains all expended uses at the start of each of its turns."
+                                            ],
+                        "legendaryActions":  3,
+                        "legendary":  [
+                                          {
+                                              "name":  "Claw",
+                                              "entries":  [
+                                                              "Vaelroot makes one Withering Claw attack."
+                                                          ]
+                                          },
+                                          {
+                                              "name":  "Sapway Step",
+                                              "entries":  [
+                                                              "Vaelroot uses Sapway Step."
+                                                          ]
+                                          },
+                                          {
+                                              "name":  "Reshape (Costs 2 Actions)",
+                                              "entries":  [
+                                                              "Vaelroot uses Reshape the Scene."
+                                                          ]
+                                          }
+                                      ],
+                        "fluff":  {
+                                      "entries":  [
+                                                      {
+                                                          "type":  "entries",
+                                                          "name":  "The Season Turns",
+                                                          "entries":  [
+                                                                          "Cut down the spring and the grove answers with winter. The Withering Dusk is Vaelroot grieving its first death the only way the paradox left it able to: by killing everything green. It drinks the light, rots the trees it once tended, and turns the grass to blank white where the dead forget the living. The land it loved is now the weapon it loves you with."
+                                                                      ]
+                                                      }
+                                                  ]
+                                  }
+                    },
+                    {
+                        "name":  "Vaelroot, the Unmade Bloom",
+                        "source":  "VorthraxParadox",
+                        "isNamedCreature":  true,
+                        "size":  [
+                                     "L"
+                                 ],
+                        "type":  {
+                                     "type":  "aberration",
+                                     "tags":  [
+                                                  "paradox"
+                                              ]
+                                 },
+                        "alignment":  [
+                                          "C",
+                                          "E"
+                                      ],
+                        "ac":  [
+                                   {
+                                       "ac":  19,
+                                       "from":  [
+                                                    "the forbidden color"
+                                                ]
+                                   }
+                               ],
+                        "hp":  {
+                                   "average":  315,
+                                   "formula":  "30d10 + 150"
+                               },
+                        "speed":  {
+                                      "walk":  40,
+                                      "climb":  40,
+                                      "fly":  30,
+                                      "canHover":  true
+                                  },
+                        "str":  18,
+                        "dex":  18,
+                        "con":  20,
+                        "int":  14,
+                        "wis":  22,
+                        "cha":  20,
+                        "save":  {
+                                     "con":  "+11",
+                                     "int":  "+8",
+                                     "wis":  "+12",
+                                     "cha":  "+11"
+                                 },
+                        "skill":  {
+                                      "arcana":  "+8",
+                                      "nature":  "+8",
+                                      "perception":  "+12"
+                                  },
+                        "senses":  [
+                                       "truesight 60 ft.",
+                                       "darkvision 120 ft."
+                                   ],
+                        "passive":  22,
+                        "resist":  [
+                                       "radiant",
+                                       "necrotic"
+                                   ],
+                        "conditionImmune":  [
+                                                "charmed",
+                                                "frightened",
+                                                "stunned"
+                                            ],
+                        "languages":  [
+                                          "Common",
+                                          "Druidic",
+                                          "Sylvan",
+                                          "Deep Speech"
+                                      ],
+                        "cr":  "17",
+                        "trait":  [
+                                      {
+                                          "name":  "Legendary Resistance (3/Day)",
+                                          "entries":  [
+                                                          "If Vaelroot fails a saving throw, it can choose to succeed instead. (This form\u0027s uses are fresh.)"
+                                                      ]
+                                      },
+                                      {
+                                          "name":  "Forbidden Color",
+                                          "entries":  [
+                                                          "Vaelroot\u0027s Force damage is the raw paradox of mixed light and shadow: it ignores Resistance and Immunity to Radiant, Necrotic, and Force damage. Its Radiant and Necrotic damage ignore Resistance to those types."
+                                                      ]
+                                      },
+                                      {
+                                          "name":  "Unmade Ground",
+                                          "entries":  [
+                                                          "Vaelroot is barely anchored to one place now. The ground within 20 feet of it is {@quickref Difficult Terrain||3} of buckling, half-real earth, and it can pull terrain out of the under-sky with Reshape the Scene from anywhere it can see. It can\u0027t be {@condition surprised}."
+                                                      ]
+                                      },
+                                      {
+                                          "name":  "The End of the Grove",
+                                          "entries":  [
+                                                          "This is the final form. When the Unmade Bloom is reduced to 0 Hit Points, Vaelroot is truly destroyed and the violet growth it spread begins, slowly, to wilt. Award the entire three-phase encounter\u0027s XP now."
+                                                      ]
+                                      }
+                                  ],
+                        "spellcasting":  [
+                                             {
+                                                 "name":  "Spellcasting",
+                                                 "type":  "spellcasting",
+                                                 "headerEntries":  [
+                                                                       "Vaelroot casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 20}; {@hitYourSpellAttack +12 to hit with spell attacks}):"
+                                                                   ],
+                                                 "will":  [
+                                                              "{@spell sorcerous burst|XPHB}",
+                                                              "{@spell thorn whip|XPHB}",
+                                                              "{@spell mind sliver|XPHB}"
+                                                          ],
+                                                 "daily":  {
+                                                               "2e":  [
+                                                                          "{@spell chain lightning|XPHB}",
+                                                                          "{@spell sleet storm|XPHB}",
+                                                                          "{@spell spike growth|XPHB}"
+                                                                      ],
+                                                               "1e":  [
+                                                                          "{@spell earthquake|XPHB}",
+                                                                          "{@spell reverse gravity|XPHB}",
+                                                                          "{@spell storm of vengeance|XPHB}"
+                                                                      ]
+                                                           },
+                                                 "ability":  "wis",
+                                                 "displayAs":  "action"
+                                             }
+                                         ],
+                        "action":  [
+                                       {
+                                           "name":  "Multiattack",
+                                           "entries":  [
+                                                           "Vaelroot makes two Paradox Lash attacks, or it casts a spell and makes one Paradox Lash attack."
+                                                       ]
+                                       },
+                                       {
+                                           "name":  "Paradox Lash",
+                                           "entries":  [
+                                                           "{@atkr m} {@hit 12}, reach 15 ft. {@h}15 ({@damage 2d10 + 4}) Force damage (the forbidden color; see that trait) plus 13 ({@damage 3d8}) Radiant or Necrotic damage (Vaelroot\u0027s choice)."
+                                                       ]
+                                       },
+                                       {
+                                           "name":  "Reshape the Scene",
+                                           "entries":  [
+                                                           "Vaelroot tears a feature of the battlefield into raw paradox. Choose one within 90 feet; where it stood, a seam of starry under-sky is left in the ground:",
+                                                           {
+                                                               "type":  "list",
+                                                               "style":  "list-hang-notitle",
+                                                               "items":  [
+                                                                             {
+                                                                                 "type":  "item",
+                                                                                 "name":  "A stone or boulder.",
+                                                                                 "entry":  "It detonates into the forbidden color: each creature within 15 feet makes a {@dc 20} Dexterity saving throw, taking 33 ({@damage 6d10}) Force damage on a failure, or half on a success."
+                                                                             },
+                                                                             {
+                                                                                 "type":  "item",
+                                                                                 "name":  "A tree or large plant.",
+                                                                                 "entry":  "It unmakes upward into a 20-foot-high pillar of grasping under-sky: each creature within 10 feet makes a {@dc 20} Strength saving throw or is pulled in and {@condition restrained} (escape {@dc 20}), taking 18 ({@damage 4d8}) Force damage; the space becomes {@quickref Difficult Terrain||3}."
+                                                                             },
+                                                                             {
+                                                                                 "type":  "item",
+                                                                                 "name":  "Grass, undergrowth, or soil.",
+                                                                                 "entry":  "A 15-foot square is erased to blank white under-sky: it becomes {@quickref Difficult Terrain||3}, and a creature that ends its turn there takes 14 ({@damage 4d6}) Psychic damage and must succeed on a {@dc 20} Wisdom saving throw or be {@condition incapacitated} until the end of its next turn as it briefly forgets where—and that—it is."
+                                                                             },
+                                                                             {
+                                                                                 "type":  "item",
+                                                                                 "name":  "No feature present?",
+                                                                                 "entry":  "Vaelroot rips one out of the under-sky in an unoccupied space within 90 feet, then immediately uses one option above."
+                                                                             }
+                                                                         ]
+                                                           }
+                                                       ]
+                                       },
+                                       {
+                                           "name":  "Unmaking Bloom {@recharge 5}",
+                                           "entries":  [
+                                                           "A flower of pure paradox opens at a point within 150 feet and collapses. Each creature in a 40-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} makes a {@dc 20} Constitution saving throw, taking 66 ({@damage 12d10}) Force damage (the forbidden color) on a failure, or half on a success. The area is left as buckled under-sky {@quickref Difficult Terrain||3} until the end of Vaelroot\u0027s next turn."
+                                                       ]
+                                       }
+                                   ],
+                        "bonus":  [
+                                      {
+                                          "name":  "Sapway Step",
+                                          "entries":  [
+                                                          "Vaelroot melds into the ground and steps out of any unoccupied space it can see within 90 feet through the under-sky, leaving a seam of stars where it appears."
+                                                      ]
+                                      }
+                                  ],
+                        "reaction":  [
+                                         {
+                                             "name":  "Recoil into the Veins",
+                                             "entries":  [
+                                                             "When Vaelroot takes damage, it can use Sapway Step, melding away from the blow before it lands fully (it still takes the damage). Once per round."
+                                                         ]
+                                         }
+                                     ],
+                        "legendaryHeader":  [
+                                                "Legendary Action Uses: 3. Immediately after another creature\u0027s turn, Vaelroot can expend a use to take one of the following actions. It regains all expended uses at the start of each of its turns."
+                                            ],
+                        "legendaryActions":  3,
+                        "legendary":  [
+                                          {
+                                              "name":  "Lash",
+                                              "entries":  [
+                                                              "Vaelroot makes one Paradox Lash attack."
+                                                          ]
+                                          },
+                                          {
+                                              "name":  "Sapway Step",
+                                              "entries":  [
+                                                              "Vaelroot uses Sapway Step."
+                                                          ]
+                                          },
+                                          {
+                                              "name":  "Unmake (Costs 2 Actions)",
+                                              "entries":  [
+                                                              "Vaelroot uses Reshape the Scene, or Unmaking Bloom if it is available."
+                                                          ]
+                                          }
+                                      ],
+                        "fluff":  {
+                                      "entries":  [
+                                                      {
+                                                          "type":  "entries",
+                                                          "name":  "Neither Light nor Shadow — Only the Wound",
+                                                          "entries":  [
+                                                                          "In its last aspect, Vaelroot stops pretending to be a season at all. The druid burns away into the raw paradox at its core—the forbidden color, the under-sky, the blank white nothing of the Apagados—and the battlefield itself becomes its body. Stones detonate, trees unmake into pillars of stars, and the grass simply stops existing. It is not light and it is not shadow. It is the wound Vorthrax opened, blooming."
+                                                                      ]
+                                                      },
+                                                      {
+                                                          "type":  "entries",
+                                                          "name":  "Design: Three-Phase Boss for Six 15th-Level Heroes",
+                                                          "entries":  [
+                                                                          "Vaelroot is one boss in three forms—Verdant Dawn (Plant, CR 15) → Withering Dusk (Fey, CR 16) → Unmade Bloom (Aberration, CR 17)—each rising at full Hit Points when the last falls. Tuned for {@b six} 15th-level characters equipped with a rare and a very rare item each: the full gauntlet sits around the {@b High} XP budget for that party, so expect a hard, climactic, but winnable fight of roughly 5–7 rounds. Legendary Resistance and legendary actions keep it relevant against six action economies, and the real engine is Reshape the Scene + Sapway Step: Vaelroot weaponizes whatever is on the map (a stone, a tree, the grass), and if you fight it on bare ground it just pulls terrain out of the under-sky. To make it easier, drop a phase or cut ~20% HP; to make it brutal, give it a lair full of stones and trees to reshape. Heavy battlefield control—keep moving, don\u0027t cluster, and watch the bleaching grass."
                                                                       ]
                                                       }
                                                   ]
