@@ -57,7 +57,11 @@ cicatriz permanente de céu noturno e derretendo o xilema de Gaia, a Árvore-Mun
 ```
 https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/Ninja12749%3B%20Vorthrax%2C%20the%20Paradox%20of%20Dawn%20and%20Dusk.json
 ```
-
+ ou para o bestiario completo
+```
+https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/Ninja12749%3B%20Bonfire%20Paradox%20-%20Os%20Verdadeiros%20Viloes%20de%20Gaia.json
+```
+ 
 **Opção B — por arquivo:** baixe o `.json` deste repositório e use **Manage Homebrew → Upload File**.
 
 O Vorthrax aparece no Bestiário sob a fonte **VPX** (*Vorthrax, the Paradox of Dawn and Dusk*).
