@@ -1,5 +1,7 @@
 # Vorthrax, the Paradox of Dawn and Dusk
 
+![Vorthrax, the Paradox of Dawn and Dusk — arquidraco de luz e sombra, asas de libélula, as três Pedras orbitando e o chão rachado mostrando o sub-céu estrelado](art/Vorthrax.png)
+
 > Boss solo de CR 25 (duas fases) para **D&D 5ª edição — regras de 2024**, no formato de homebrew
 > do [5e.tools](https://5e.tools). Calibrado para 4 aventureiros de nível 17 com itens muito raros
 > e lendários.
