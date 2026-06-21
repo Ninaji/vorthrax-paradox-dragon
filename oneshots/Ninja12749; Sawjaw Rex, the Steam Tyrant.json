@@ -7,7 +7,7 @@
 				"full": "Sawjaw Rex, the Steam Tyrant",
 				"authors": ["Ninja12749"],
 				"convertedBy": ["Ninja12749"],
-				"version": "1.1.0",
+				"version": "1.2.0",
 				"color": "c2410c"
 			}
 		],
@@ -54,7 +54,7 @@
 				{ "name": "Tail Sweep (Costs 2 Actions)", "entries": ["Sawjaw Rex sweeps its tail in a wide arc. Each creature within 10 feet makes a {@dc 15} Dexterity saving throw, taking 13 ({@damage 2d6 + 6}) Bludgeoning damage and being knocked {@condition prone} on a failed save, or taking half damage on a success."] }
 			],
 			"fluff": { "entries": [
-				{ "type": "entries", "name": "The Steam-Smith's War-Beast", "entries": ["A captured young tyrannosaur, rebuilt by a steam-smith into a walking siege engine: the right forelimb sawn off and replaced with a roaring chainsaw, a great pressure-boiler bolted to its back as both fuel-pack and cannon, and the throat lined to let it spit kindled fire. In life it is a maddened, augmented predator that charges anything that moves. But the boiler is more than a weapon—it is a dead-man's rig. When the beast finally falls, the machine does not."] }
+				{ "type": "entries", "name": "The Steam-Smith's War-Beast", "entries": ["A captured young tyrannosaur, rebuilt by a steam-smith into a walking siege engine: the right forelimb sawn off and replaced with a roaring chainsaw, a great pressure-boiler bolted to its back as both fuel-pack and cannon, and the throat lined to let it spit kindled fire. In life it is a maddened, augmented predator that charges anything that moves. But the boiler is more than a weapon—it is a dead-man's rig. When the beast finally falls, the machine does not. It was commissioned—and is guarded—by a company of merchant Musketeers who treat it as their most valuable, most dangerous piece of stock."] }
 			] }
 		},
 		{
@@ -99,7 +99,95 @@
 			],
 			"fluff": { "entries": [
 				{ "type": "entries", "name": "The Machine Outlives the Beast", "entries": ["The tyrant is dead; the engine is not. Pistons drive the slack limbs, the chainsaw still screams, and the over-stoked boiler floods the wreck with scalding steam as it lurches forward on borrowed legs. It no longer hunts—it just keeps going, hotter and hotter, until something cracks the boiler or it simply blows itself apart."] },
-				{ "type": "entries", "name": "Design: Two-Stage Solo Boss — Hard Encounter for 4 Level-8 PCs", "entries": ["Built for a well-equipped, optimally built party of four 8th-level characters (Paladin tank, Life Cleric, Hunter/Ranger, Sorcerer). One boss in two stages: {@creature Sawjaw Rex, the Steam Tyrant|SawjawRex} (Monstrosity, CR 11) → at 0 HP it rises as the Runaway Boiler (Construct, CR 12) at full Hit Points. The two stages total about 15,600 XP, between the {@b Moderate} and {@b High} budgets for that party in the 2024 DMG—i.e. a genuine {@b Hard} fight that a strong party should win at a cost. CRs are kept moderate on purpose so the attack bonuses (+10), save DCs (15–16), and per-hit damage stay {@b fair} for level 8; the difficulty comes from the second life, high Hit Points, and Legendary Actions, not from unfair numbers.", "{@b Anti-rocket-tag guards (built in).} Repeatable legendary attacks are capped at twice per round (Cannon Blast in Stage 1, Saw in Stage 2) so the boss can't dump its whole legendary pool onto one PC and one-shot a caster. Stage 2 is fire-{@i resistant} (not immune), so a fire Sorcerer still contributes—but Cold is the boss's weakness and the smart pivot.", "The {@b boiler} is the puzzle and a genuine shortcut: 40 HP, vulnerable to Cold, and it does {@i not} share the construct's b/p/s resistance, so martials and the Ranger can chip it directly. Cracking it skips the construct's remaining Hit Points, but it then melts down and detonates at the start of the boss's {@i next} turn (28 fire, 20 ft)—a telegraphed 'crack it, then scatter' play rather than a punish on whoever lands the blow. The Sorcerer's Cold spells both exploit the vulnerability and shut off the boss's Reactions and Legendary Actions for a round (Cold-Shock). The Life Cleric should pre-heal before Spit Fire / Overloaded Cannon and answer the Chainsaw's Bleeding Wound (any magical healing ends it); the Paladin's Aura of Protection is the linchpin against the many Dex/Con saves—keep the party inside it.", "{@b DM dials.} Too hard: drop Legendary Action Uses to 2, cut the boiler to 25 HP, or reduce Spit Fire / Overloaded Cannon to 6d6. Too easy (e.g. the party hard-locks the mindless construct after its Legendary Resistances are gone): give the construct a 3rd Legendary Resistance, raise the boiler to 55 HP, or restore Stage 2 to 228 HP. The detonation is telegraphed on purpose—reward players who reposition."] }
+				{ "type": "entries", "name": "Design: Two-Stage Solo Boss — Hard Encounter for 4 Level-8 PCs", "entries": ["Built for a well-equipped, optimally built party of four 8th-level characters (Paladin tank, Life Cleric, Hunter/Ranger, Sorcerer). One boss in two stages: {@creature Sawjaw Rex, the Steam Tyrant|SawjawRex} (Monstrosity, CR 11) → at 0 HP it rises as the Runaway Boiler (Construct, CR 12) at full Hit Points. The two stages total about 15,600 XP, between the {@b Moderate} and {@b High} budgets for that party in the 2024 DMG—i.e. a genuine {@b Hard} fight that a strong party should win at a cost. CRs are kept moderate on purpose so the attack bonuses (+10), save DCs (15–16), and per-hit damage stay {@b fair} for level 8; the difficulty comes from the second life, high Hit Points, and Legendary Actions, not from unfair numbers.", "{@b Anti-rocket-tag guards (built in).} Repeatable legendary attacks are capped at twice per round (Cannon Blast in Stage 1, Saw in Stage 2) so the boss can't dump its whole legendary pool onto one PC and one-shot a caster. Stage 2 is fire-{@i resistant} (not immune), so a fire Sorcerer still contributes—but Cold is the boss's weakness and the smart pivot.", "The {@b boiler} is the puzzle and a genuine shortcut: 40 HP, vulnerable to Cold, and it does {@i not} share the construct's b/p/s resistance, so martials and the Ranger can chip it directly. Cracking it skips the construct's remaining Hit Points, but it then melts down and detonates at the start of the boss's {@i next} turn (28 fire, 20 ft)—a telegraphed 'crack it, then scatter' play rather than a punish on whoever lands the blow. The Sorcerer's Cold spells both exploit the vulnerability and shut off the boss's Reactions and Legendary Actions for a round (Cold-Shock). The Life Cleric should pre-heal before Spit Fire / Overloaded Cannon and answer the Chainsaw's Bleeding Wound (any magical healing ends it); the Paladin's Aura of Protection is the linchpin against the many Dex/Con saves—keep the party inside it.", "{@b Adding the Musketeers.} Sawjaw Rex alone is already Hard, so don't simply pile minions on top. Pick one: (1) run the {@creature Merchant Musketeer|SawjawRex}s and {@creature Merchant Bombardier|SawjawRex}s as a {@b warm-up wave} before the beast is loosed; (2) add only {@b 2–3} of them alongside the boss and drop the boss's Legendary Action Uses by 1 (or skip the Runaway Boiler stage); or (3) have them arrive as {@b mid-fight reinforcements} once the boss hits its second stage. The {@creature Merchant Captain|SawjawRex} is an elite—treat one Captain as roughly a whole extra encounter slot.", "{@b DM dials.} Too hard: drop Legendary Action Uses to 2, cut the boiler to 25 HP, or reduce Spit Fire / Overloaded Cannon to 6d6. Too easy (e.g. the party hard-locks the mindless construct after its Legendary Resistances are gone): give the construct a 3rd Legendary Resistance, raise the boiler to 55 HP, or restore Stage 2 to 228 HP. The detonation is telegraphed on purpose—reward players who reposition."] }
+			] }
+		},
+		{
+			"name": "Merchant Musketeer",
+			"source": "SawjawRex",
+			"size": ["M"],
+			"type": { "type": "humanoid", "tags": ["human"] },
+			"alignment": ["N"],
+			"ac": [{ "ac": 15, "from": ["studded leather and buff coat"] }],
+			"hp": { "average": 33, "formula": "6d8 + 6" },
+			"speed": { "walk": 30 },
+			"str": 11, "dex": 16, "con": 12, "int": 12, "wis": 13, "cha": 14,
+			"save": { "dex": "+5" },
+			"skill": { "perception": "+3", "persuasion": "+4" },
+			"passive": 13,
+			"languages": ["Common", "one trade tongue"],
+			"cr": "2",
+			"trait": [
+				{ "name": "Steady Aim", "entries": ["If the musketeer doesn't move during its turn, its Musket shots deal an extra 3 ({@damage 1d6}) Piercing damage."] }
+			],
+			"action": [
+				{ "name": "Musket", "entries": ["{@atkr r} {@hit 5}, range 40/120 ft. {@h}10 ({@damage 2d6 + 3}) Piercing damage from a loud black-powder shot (an extra 3 ({@damage 1d6}) if the musketeer held position this turn; see Steady Aim)."] },
+				{ "name": "Bayonet Rapier", "entries": ["{@atkr m} {@hit 5}, reach 5 ft. {@h}7 ({@damage 1d8 + 3}) Piercing damage."] }
+			],
+			"bonus": [
+				{ "name": "Smoke Pellet (1/Day)", "entries": ["The musketeer drops a smoke pellet, lightly obscuring a 5-foot-radius area around itself until the start of its next turn, and can then move up to half its Speed without provoking Opportunity Attacks."] }
+			],
+			"fluff": { "entries": [
+				{ "type": "entries", "name": "Merchants with Muskets", "entries": ["The hired guns of a wealthy trade company—usually human, always well-paid—who escort caravans and, lately, a steam-driven war-beast. They fight from range in disciplined lines, planting their feet to steady the shot, and slip away behind smoke when the line breaks."] }
+			] }
+		},
+		{
+			"name": "Merchant Bombardier",
+			"source": "SawjawRex",
+			"size": ["M"],
+			"type": { "type": "humanoid", "tags": ["human"] },
+			"alignment": ["N"],
+			"ac": [{ "ac": 13, "from": ["leather and tools"] }],
+			"hp": { "average": 39, "formula": "6d8 + 12" },
+			"speed": { "walk": 30 },
+			"str": 12, "dex": 14, "con": 14, "int": 14, "wis": 12, "cha": 12,
+			"save": { "dex": "+4" },
+			"skill": { "sleight of hand": "+4", "perception": "+3" },
+			"passive": 13,
+			"languages": ["Common", "one trade tongue"],
+			"cr": "3",
+			"trait": [
+				{ "name": "Volatile Satchel", "entries": ["When the bombardier drops to 0 Hit Points, its satchel of bombs goes off. Each creature within 10 feet makes a {@dc 13} Dexterity saving throw, taking 10 ({@damage 3d6}) Fire damage on a failed save, or half as much on a success."] }
+			],
+			"action": [
+				{ "name": "Bomb", "entries": ["The bombardier hurls a bomb at a point it can see within 60 feet. Each creature in a 10-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} makes a {@dc 13} Dexterity saving throw, taking 10 ({@damage 3d6}) Fire damage on a failed save, or half as much on a success."] },
+				{ "name": "Hatchet", "entries": ["{@atkr m,r} {@hit 4}, reach 5 ft. or range 20/60 ft. {@h}5 ({@damage 1d6 + 2}) Slashing damage."] },
+				{ "name": "Smoke Bomb {@recharge 5}", "entries": ["The bombardier throws a smoke bomb at a point within 60 feet. A 20-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} of thick smoke spreads there, heavily obscuring the area until the start of the bombardier's next turn."] }
+			],
+			"fluff": { "entries": [
+				{ "type": "entries", "name": "Alchemy for Sale", "entries": ["Where the line of muskets can't reach, the company sends a bombardier—part chemist, part smuggler—lobbing alchemical bombs over cover and laying smoke to break line of sight. Killing one is risky: the satchel still has a few live bombs in it."] }
+			] }
+		},
+		{
+			"name": "Merchant Captain",
+			"source": "SawjawRex",
+			"size": ["M"],
+			"type": { "type": "humanoid", "tags": ["human"] },
+			"alignment": ["N"],
+			"ac": [{ "ac": 16, "from": ["breastplate"] }],
+			"hp": { "average": 78, "formula": "12d8 + 24" },
+			"speed": { "walk": 30 },
+			"str": 12, "dex": 16, "con": 14, "int": 14, "wis": 13, "cha": 16,
+			"save": { "dex": "+6", "cha": "+6" },
+			"skill": { "perception": "+4", "persuasion": "+6", "intimidation": "+6" },
+			"passive": 14,
+			"languages": ["Common", "two trade tongues"],
+			"cr": "5",
+			"trait": [
+				{ "name": "Steady Aim", "entries": ["If the captain doesn't move during its turn, its Fine Musket shots deal an extra 3 ({@damage 1d6}) Piercing damage."] },
+				{ "name": "Well-Paid Nerves", "entries": ["The captain and its allies within 30 feet of it have Advantage on saving throws against being {@condition frightened}."] }
+			],
+			"action": [
+				{ "name": "Multiattack", "entries": ["The captain makes two attacks, using Fine Musket or Saber in any combination."] },
+				{ "name": "Fine Musket", "entries": ["{@atkr r} {@hit 6}, range 40/120 ft. {@h}10 ({@damage 2d6 + 3}) Piercing damage (an extra 3 ({@damage 1d6}) with Steady Aim)."] },
+				{ "name": "Saber", "entries": ["{@atkr m} {@hit 6}, reach 5 ft. {@h}7 ({@damage 1d8 + 3}) Slashing damage."] },
+				{ "name": "Grapeshot Blast {@recharge 5}", "entries": ["The captain fires a blunderbuss in a 15-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. {@actSave dex} {@dc 14}, each creature there. {@actSaveFail} 14 ({@damage 4d6}) Piercing damage. {@actSaveSuccess} Half damage."] }
+			],
+			"bonus": [
+				{ "name": "Fire by Ranks (1/Turn)", "entries": ["The captain barks a firing order. Up to three allied {@creature Merchant Musketeer|SawjawRex}s or {@creature Merchant Bombardier|SawjawRex}s within 30 feet that can see or hear the captain can each use their Reaction to immediately make one ranged attack (a Musket shot or a thrown Bomb). Each ally can be commanded by Fire by Ranks only once per round."] }
+			],
+			"fluff": { "entries": [
+				{ "type": "entries", "name": "The Quartermaster", "entries": ["Every merchant company has one: the quartermaster who signs the contracts, prices the cargo, and—when negotiations fail—commands the firing line. The captain rarely needs to shoot much personally; one shouted order turns the whole company into a single volley.", "{@b Encounter use:} a Captain is an elite, not a mook—count it as roughly a full extra encounter slot. With Fire by Ranks it sharply raises the threat of a group of Musketeers/Bombardiers, so add it only when you want the merchant company to be the {@i main} fight, or pair one Captain with 2–4 mooks rather than fielding it alongside Sawjaw Rex at full strength."] }
 			] }
 		}
 	]
