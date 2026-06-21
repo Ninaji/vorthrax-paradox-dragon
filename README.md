@@ -34,6 +34,15 @@ cicatriz permanente de céu noturno e derretendo o xilema de Gaia, a Árvore-Mun
 | [`PARADOXO.pt-BR.md`](PARADOXO.pt-BR.md) | Tratado de cenário: o que é o paradoxo, bolsas/demiplanos e o xilema, o céu no chão, luz+sombra, espaços de paradoxo, deuses, anjos, demônios e aberrações (português) |
 | [`VAELROOT.pt-BR.md`](VAELROOT.pt-BR.md) | Lore do **Vaelroot, o Jardineiro da Ferida** — quem era o druida de Gaia, a corrupção em "jardineiro" do Vorthrax, as três estações (Luz → Sombra → Energia), como ele usa o cenário (pedra/árvore/grama + sub-céu) e o papel dele entre Vorthrax e Os Apagados; com ganchos e dicas de mesa (português) |
 
+## Bônus — fichas avulsas (fora do tema paradoxo)
+
+Criaturas de *oneshot* que **não** fazem parte da facção de Gaia, guardadas aqui por conveniência.
+Têm **fonte própria** e **não** entram no bestiário combinado `VPX` (ficam em `oneshots/`).
+
+| Arquivo | O que é |
+|---|---|
+| [`oneshots/Ninja12749; Sawjaw Rex, the Steam Tyrant.json`](oneshots/Ninja12749%3B%20Sawjaw%20Rex%2C%20the%20Steam%20Tyrant.json) | **2 fichas** (fonte SJR): **Sawjaw Rex** — tiranossauro *steampunk* com serra elétrica no braço direito, canhão-caldeira a vapor nas costas (mochila) e cuspe de fogo. Boss de **2 estágios**: vivo (Monstruosidade CR 11) → ao morrer a caldeira pilota o cadáver como **construto** "Runaway Boiler" (CR 12) com **ponto fraco destrutível** (a caldeira: 40 PV, vulnerável a frio, detona ao quebrar). Encontro **Difícil** para 4 PCs nível 8 bem equipados (paladino/clérigo da vida/caçador/feiticeiro). *Tema steampunk — fora do cânone medieval do Gaia.* |
+
 ## Destaques da ficha
 
 - **CR 25 (26 no covil)** — 487 PV por vida, CA 22, deslocamento 36 m (120 ft) + teleporte bônus
