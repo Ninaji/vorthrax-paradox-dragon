@@ -121,7 +121,7 @@
 				{ "name": "Steady Aim", "entries": ["If the musketeer doesn't move during its turn, its Musket shots deal an extra 3 ({@damage 1d6}) Piercing damage."] }
 			],
 			"action": [
-				{ "name": "Musket", "entries": ["{@atkr r} {@hit 5}, range 40/120 ft. {@h}10 ({@damage 2d6 + 3}) Piercing damage from a loud black-powder shot (an extra 3 ({@damage 1d6}) if the musketeer held position this turn; see Steady Aim)."] },
+				{ "name": "Musket", "entries": ["{@atkr r} {@hit 5}, range 60/220 ft. {@h}10 ({@damage 2d6 + 3}) Piercing damage from a loud black-powder shot (an extra 3 ({@damage 1d6}) if the musketeer held position this turn; see Steady Aim)."] },
 				{ "name": "Bayonet Rapier", "entries": ["{@atkr m} {@hit 5}, reach 5 ft. {@h}7 ({@damage 1d8 + 3}) Piercing damage."] }
 			],
 			"bonus": [
@@ -179,7 +179,7 @@
 			],
 			"action": [
 				{ "name": "Multiattack", "entries": ["The captain makes two attacks, using Fine Musket or Saber in any combination."] },
-				{ "name": "Fine Musket", "entries": ["{@atkr r} {@hit 6}, range 40/120 ft. {@h}10 ({@damage 2d6 + 3}) Piercing damage (an extra 3 ({@damage 1d6}) with Steady Aim)."] },
+				{ "name": "Fine Musket", "entries": ["{@atkr r} {@hit 6}, range 60/220 ft. {@h}10 ({@damage 2d6 + 3}) Piercing damage (an extra 3 ({@damage 1d6}) with Steady Aim)."] },
 				{ "name": "Saber", "entries": ["{@atkr m} {@hit 6}, reach 5 ft. {@h}7 ({@damage 1d8 + 3}) Slashing damage."] },
 				{ "name": "Grapeshot Blast {@recharge 5}", "entries": ["The captain fires a blunderbuss in a 15-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. {@actSave dex} {@dc 14}, each creature there. {@actSaveFail} 14 ({@damage 4d6}) Piercing damage. {@actSaveSuccess} Half damage."] }
 			],
