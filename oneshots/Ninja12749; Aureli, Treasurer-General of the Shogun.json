@@ -1,0 +1,120 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "AureliShogun",
+				"abbreviation": "AUR",
+				"full": "Aureli, Treasurer-General of the Shogun",
+				"authors": ["Ninja12749"],
+				"convertedBy": ["Ninja12749"],
+				"version": "1.1.0",
+				"color": "ca8a04"
+			}
+		],
+		"edition": "one",
+		"dateAdded": 1782500000,
+		"dateLastModified": 1782500000
+	},
+	"monster": [
+		{
+			"name": "Aureli, Treasurer-General of the Shogun",
+			"source": "AureliShogun",
+			"isNamedCreature": true,
+			"size": ["M"],
+			"type": { "type": "humanoid", "tags": ["elf"] },
+			"alignment": ["L", "N"],
+			"ac": [{ "ac": 18, "from": ["war silks"] }],
+			"hp": { "average": 225, "formula": "30d8 + 90" },
+			"speed": { "walk": 30 },
+			"str": 10, "dex": 18, "con": 16, "int": 16, "wis": 14, "cha": 20,
+			"save": { "dex": "+9", "con": "+8", "wis": "+7", "cha": "+10" },
+			"skill": { "performance": "+10", "persuasion": "+10", "history": "+8", "perception": "+7" },
+			"senses": ["darkvision 60 ft."],
+			"passive": 17,
+			"resist": ["radiant"],
+			"conditionImmune": ["charmed", "frightened"],
+			"languages": ["Common", "Elvish", "Celestial", "the Imperial tongue"],
+			"cr": "15",
+			"trait": [
+				{ "name": "Legendary Resistance (3/Day)", "entries": ["If Aureli fails a saving throw, she can choose to succeed instead."] },
+				{ "name": "Sunlit Heritage", "entries": ["Aureli is a sun elf wreathed in daylight. She sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet, has Resistance to Radiant damage (already listed), and can't be {@condition blinded}."] },
+				{ "name": "Floating Tanegashima", "entries": ["Five spectral matchlock muskets orbit Aureli's back and fire at a thought. She makes Floating Musket attacks without needing a free hand, ignores their loading time, and can fire them in any direction."] },
+				{ "name": "Inspiring War Banner", "entries": ["Aureli's command banner is a Large object planted in her space or an adjacent space (AC 15, 40 Hit Points, {@b immune} to Poison and Psychic damage, {@b vulnerable} to Fire damage). While the banner stands, allied creatures within 30 feet of it—including those Aureli summons—add 1d6 to their attack rolls. If the banner is destroyed, this benefit ends; Aureli can plant a fresh banner with a Bonus Action (Plant the Banner)."] }
+			],
+			"spellcasting": [
+				{ "name": "Spellcasting", "type": "spellcasting", "headerEntries": ["Aureli casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 18}; {@hitYourSpellAttack +10}):"], "will": ["{@spell vicious mockery|XPHB}", "{@spell light|XPHB}", "{@spell minor illusion|XPHB}", "{@spell dancing lights|XPHB}"], "daily": { "3e": ["{@spell hold person|XPHB}", "{@spell hypnotic pattern|XPHB}", "{@spell dissonant whispers|XPHB}"], "1e": ["{@spell mass suggestion|XPHB}", "{@spell confusion|XPHB}"] }, "ability": "cha" }
+			],
+			"action": [
+				{ "name": "Multiattack", "entries": ["Aureli makes three Floating Musket attacks, or she casts a spell and makes one Floating Musket attack."] },
+				{ "name": "Floating Musket", "entries": ["{@atkr r} {@hit 9}, range 60/220 ft. {@h}11 ({@damage 2d6 + 4}) Piercing damage plus 3 ({@damage 1d6}) Radiant damage."] },
+				{ "name": "Sunfire Volley {@recharge 5}", "entries": ["All five muskets fire at once. Aureli makes five Floating Musket attacks, distributed among any creatures she can see (no more than two attacks against the same creature)."] },
+				{ "name": "Conjure Treasury Statue", "entries": ["Aureli raises a momentary statue of precious metal—a Large object—in an unoccupied space within 30 feet. It lasts 1 minute, until destroyed, or until she dismisses it (no action). She can have only one statue at a time; raising a new one ends the previous. Choose one:", {
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{ "type": "item", "name": "Adamantine Bulwark.", "entry": "AC 20, 80 Hit Points, immovable. It fully blocks its space (Total Cover) and is immune to the extra damage of Critical Hits. A defensive wall—note it blocks Aureli's own line of sight too, so she places it with care." },
+						{ "type": "item", "name": "Mithral Striker.", "entry": "AC 17, 30 Hit Points. At the start of each of Aureli's turns it can move up to 30 feet and make one slam: {@atkr m} {@hit 9}, reach 5 ft., 13 ({@damage 2d8 + 4}) Bludgeoning damage." },
+						{ "type": "item", "name": "Silver Idol.", "entry": "AC 13, 20 Hit Points. While it stands, a creature within 15 feet of it that regains Hit Points regains 1d6 fewer (minimum 1 Hit Point is still regained). Aureli can raise the Silver Idol only once per encounter." },
+						{ "type": "item", "name": "Gilded Effigy.", "entry": "AC 15, 30 Hit Points. When it is destroyed or its duration ends, it bursts into molten gold and light: each creature within 15 feet makes a {@dc 18} Dexterity saving throw, taking 27 ({@damage 6d8}) damage—half Radiant, half Fire—on a failure, or half as much on a success." }
+					]
+				}] },
+				{ "name": "Summon the Shadow Kensei (2/Day)", "entries": ["Aureli sweeps her war fan and calls her guard out of the dark. One {@creature Solar Elf Shadow Kensei|AureliShogun} appears in an unoccupied space within 30 feet that is in Dim Light or Darkness (or any unoccupied space within 30 feet if none qualify) and acts on Aureli's initiative, immediately after her turn. Aureli can't have more than three Kensei active at once."] }
+			],
+			"bonus": [
+				{ "name": "Sunburst Pellet {@recharge 4}", "entries": ["Aureli hurls a bomb of packed daylight at a point within 60 feet. Each creature within a 10-foot radius makes a {@dc 18} Constitution saving throw. On a failure, it takes 7 ({@damage 2d6}) Radiant damage and is {@condition blinded} until the end of its next turn; on a success, half damage and not Blinded."] },
+				{ "name": "Plant the Banner", "entries": ["If her Inspiring War Banner is not currently standing, Aureli plants a fresh one in her space or an adjacent space."] }
+			],
+			"reaction": [
+				{ "name": "Deflecting Fan", "entries": ["When Aureli is hit by a ranged attack, she flicks her war fan and turns the hit into a miss (she can deflect arrows and bullets alike). She can use this reaction only once per round, so a creature making several ranged attacks loses only one of them to it."] }
+			],
+			"legendaryHeader": ["Legendary Action Uses: 2. Immediately after another creature's turn, Aureli can expend a use to take one of the following actions. She regains all expended uses at the start of each of her turns."],
+			"legendaryActions": 2,
+			"legendary": [
+				{ "name": "Snap Shot", "entries": ["Aureli makes one Floating Musket attack. She can use Snap Shot no more than once per round, and not at all on a round she has used Sunfire Volley."] },
+				{ "name": "Field Command", "entries": ["One allied creature within 30 feet that can see or hear Aureli uses its Reaction to either move up to its Speed or make one weapon attack."] },
+				{ "name": "Raise Statue (Costs 2 Uses)", "entries": ["Aureli uses Conjure Treasury Statue."] }
+			],
+			"fluff": { "entries": [
+				{ "type": "entries", "name": "The Shogun's Golden Hand", "entries": ["Aureli is a sun elf who keeps the Shogun's war-chest and the Shogun's war-plans in the same ledger—Treasurer-General and War-Counselor both. On the field she fights like an accountant balances a book: every shot, every conjured statue, every soldier called from the dark is an entry placed exactly where it pays best. She carries a command banner that steadies her troops and a feathered war fan that flicks arrows out of the air, and five spectral matchlock muskets drift at her back, firing wherever her attention falls. From her open hand she spends the treasury itself—momentary idols of adamantine, mithral, silver, and gold—as freely as another commander spends coin."] },
+				{ "type": "entries", "name": "Design: Elite Commander for 5 Level-11 PCs (3 Clerics, 2 Rangers)", "entries": ["Aureli (CR 15) plus the {@creature Solar Elf Shadow Kensei|AureliShogun}s she summons (CR 6 each) are tuned to be a reliable {@b Hard} set-piece for five well-equipped 11th-level characters whose party is three Clerics and two Rangers (a Beast Master with a pet and a long-range archer). 2024 DMG budgets for 5x level 11: Low 14,500 / Moderate 25,000 / High 36,000 XP.", "{@b Default presentation = Hard.} Open with Aureli + 2 Kensei (~17,600 fielded XP) and let her Summon (2/Day, one at a time, max 3 Kensei active) top the field back up to three. Keep fielded value around 17,600–19,900 for Hard. The XP math {@i undercounts} this fight because the banner (+1d6 to-hit on every ally), the summons (restored action economy), and the legendary muskets are force-multipliers the budget doesn't capture—so the levers below are written conservatively on purpose.", "{@b The counters are deliberate taxes, all partial against this party.} Deflecting Fan stops only one ranged hit per round, so a Ranger with multiple attacks loses just one shot (and it no longer redirects at allies—no friendly fire). Sunburst Pellet (now on a recharge, not every round) Blinds only on a failed Con save and only for one turn—Lesser Restoration, spreading out, or closing to melee all answer it. Aureli {@i resists} Radiant rather than being immune, and the Kensei no longer resist Radiant at all, so the three Clerics keep full damage against the minions and half against the boss. The Silver Idol now subtracts only 1d6 from each heal (minimum 1), is a soft AC-13/20-HP object, and she can raise it only once per fight. Each lever taxes; none erases a class's turn.", "{@b The banner and statues are the puzzle.} Destroying the Inspiring War Banner (40 HP, vulnerable to Fire) strips +1d6 to-hit from every Kensei at once—high-value for the archer. The Adamantine Bulwark blocks line of sight and fire (for Aureli too); the Gilded Effigy is a delayed bomb (move away before it pops); the Mithral Striker chases the backline; the Silver Idol pins healing once. She holds only one statue at a time, choosing what hurts the party most that round.", "{@b Escalation to Deadly (only if the 3 Clerics are visibly out-sustaining her):} field a 3rd–4th Kensei, keep the Silver Idol standing, raise Legendary Action Uses to 3, and have the Kensei Shadow-Step onto the archers every round. {@b Ease it} by skipping the Silver Idol, summoning once, and going light on Darkness so the Kensei can't teleport freely (their Shadow Step needs Dim Light or Darkness—a party that lights the field shuts it off)."] }
+			] }
+		},
+		{
+			"name": "Solar Elf Shadow Kensei",
+			"source": "AureliShogun",
+			"size": ["M"],
+			"type": { "type": "humanoid", "tags": ["elf"] },
+			"alignment": ["L", "N"],
+			"ac": [{ "ac": 17, "from": ["unarmored defense"] }],
+			"hp": { "average": 78, "formula": "12d8 + 24" },
+			"speed": { "walk": 40 },
+			"str": 12, "dex": 18, "con": 14, "int": 12, "wis": 16, "cha": 12,
+			"save": { "dex": "+7", "wis": "+6" },
+			"skill": { "acrobatics": "+7", "stealth": "+7", "perception": "+6" },
+			"senses": ["darkvision 60 ft."],
+			"passive": 16,
+			"languages": ["Common", "Elvish"],
+			"cr": "6",
+			"trait": [
+				{ "name": "Shadow Step", "entries": ["While in Dim Light or Darkness, the kensei can take a Bonus Action to teleport up to 60 feet to an unoccupied space it can see that is also in Dim Light or Darkness. It then has Advantage on the first melee attack it makes before the end of this turn."] },
+				{ "name": "Solar Resilience", "entries": ["The kensei has Advantage on saving throws against being {@condition blinded} (Aureli's light bombs don't blind her own guard)."] },
+				{ "name": "Steady Aim", "entries": ["If the kensei doesn't move during its turn, it has Advantage on its Tanegashima Musket attack rolls and those shots deal an extra 3 ({@damage 1d6}) Piercing damage."] },
+				{ "name": "Martial Arts", "entries": ["The kensei uses Dexterity for its unarmed strikes and kensei weapons, and can make one unarmed strike as a Bonus Action (see Flurry of Blows)."] }
+			],
+			"action": [
+				{ "name": "Multiattack", "entries": ["The kensei makes two attacks, using Moonlit Katana or Tanegashima Musket in any combination."] },
+				{ "name": "Moonlit Katana", "entries": ["{@atkr m} {@hit 7}, reach 5 ft. {@h}8 ({@damage 1d8 + 4}) Slashing damage plus 4 ({@damage 1d8}) Necrotic damage from its shadow-honed edge."] },
+				{ "name": "Tanegashima Musket", "entries": ["{@atkr r} {@hit 7}, range 60/220 ft. {@h}11 ({@damage 2d6 + 4}) Piercing damage."] }
+			],
+			"bonus": [
+				{ "name": "Flurry of Blows", "entries": ["The kensei makes two unarmed strikes: {@atkr m} {@hit 7}, reach 5 ft., 7 ({@damage 1d6 + 4}) Bludgeoning damage each. (It can use Flurry of Blows or Shadow Step on a turn, not both.)"] }
+			],
+			"reaction": [
+				{ "name": "Deflect Shot", "entries": ["When the kensei is hit by a ranged attack, it reduces the damage by 12 ({@damage 1d10 + 7})."] }
+			],
+			"fluff": { "entries": [
+				{ "type": "entries", "name": "Sun-Blooded, Shadow-Trained", "entries": ["Aureli's personal guard: sun elves who took the Way of Shadow, fighting from the dark with shadow-edged katana, bursts of unarmed strikes, and matchlock muskets identical to the merchants' issue. They step from shadow to shadow across the battlefield, appearing at a flank, firing, and vanishing before a bowstring can answer—and the sunlight in their blood keeps Aureli's own blinding light from touching them."] }
+			] }
+		}
+	]
+}
