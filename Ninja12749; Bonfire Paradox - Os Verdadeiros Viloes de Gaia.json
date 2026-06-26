@@ -11,13 +11,13 @@
                                       "convertedBy":  [
                                                           "Ninja12749"
                                                       ],
-                                      "version":  "2.4.2",
+                                      "version":  "2.4.3",
                                       "color":  "7c3aed"
                                   }
                               ],
                   "edition":  "one",
                   "dateAdded":  1781827200,
-                  "dateLastModified":  1782502000
+                  "dateLastModified":  1782503000
               },
     "monster":  [
                     {
@@ -6947,6 +6947,12 @@
                                           "name":  "Plant the Banner",
                                           "entries":  [
                                                           "If her Inspiring War Banner is not currently standing, Aureli plants a fresh one in her space or an adjacent space."
+                                                      ]
+                                      },
+                                      {
+                                          "name":  "Fey Step (3/Day)",
+                                          "entries":  [
+                                                          "Aureli teleports up to 30 feet to an unoccupied space she can see, vanishing in a flicker of daylight. (She still takes only one Bonus Action per turn, choosing among Fey Step, Sunburst Pellet, and Plant the Banner.)"
                                                       ]
                                       }
                                   ],

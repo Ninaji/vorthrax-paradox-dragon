@@ -62,7 +62,8 @@
 			],
 			"bonus": [
 				{ "name": "Sunburst Pellet {@recharge 4}", "entries": ["Aureli hurls a bomb of packed daylight at a point within 60 feet. Each creature within a 10-foot radius makes a {@dc 18} Constitution saving throw. On a failure, it takes 7 ({@damage 2d6}) Radiant damage and is {@condition blinded} until the end of its next turn; on a success, half damage and not Blinded."] },
-				{ "name": "Plant the Banner", "entries": ["If her Inspiring War Banner is not currently standing, Aureli plants a fresh one in her space or an adjacent space."] }
+				{ "name": "Plant the Banner", "entries": ["If her Inspiring War Banner is not currently standing, Aureli plants a fresh one in her space or an adjacent space."] },
+				{ "name": "Fey Step (3/Day)", "entries": ["Aureli teleports up to 30 feet to an unoccupied space she can see, vanishing in a flicker of daylight. (She still takes only one Bonus Action per turn, choosing among Fey Step, Sunburst Pellet, and Plant the Banner.)"] }
 			],
 			"reaction": [
 				{ "name": "Deflecting Fan", "entries": ["When Aureli is hit by a ranged attack, she flicks her war fan and turns the hit into a miss (she can deflect arrows and bullets alike). She can use this reaction only once per round, so a creature making several ranged attacks loses only one of them to it."] }
