@@ -11,13 +11,13 @@
                                       "convertedBy":  [
                                                           "Ninja12749"
                                                       ],
-                                      "version":  "2.4.1",
+                                      "version":  "2.4.2",
                                       "color":  "7c3aed"
                                   }
                               ],
                   "edition":  "one",
                   "dateAdded":  1781827200,
-                  "dateLastModified":  1782501000
+                  "dateLastModified":  1782502000
               },
     "monster":  [
                     {
@@ -6894,7 +6894,7 @@
                                        {
                                            "name":  "Sunfire Volley {@recharge 5}",
                                            "entries":  [
-                                                           "All five muskets fire at once. Aureli makes five Floating Musket attacks, distributed among any creatures she can see (no more than two attacks against the same creature)."
+                                                           "All five muskets fire as one, raking the field with sunfire in a {@variantrule Line [Area of Effect]|XPHB|Line} 120 feet long and 30 feet wide, originating from Aureli. {@actSave dex} {@dc 18}, each creature in that area. {@actSaveFail} 42 ({@damage 12d6}) Radiant damage. {@actSaveSuccess} Half damage. Aureli\u0027s own allies caught in the line are affected normally—she sweeps it where it pays best."
                                                        ]
                                        },
                                        {

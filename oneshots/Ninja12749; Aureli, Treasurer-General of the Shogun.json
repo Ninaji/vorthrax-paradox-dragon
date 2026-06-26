@@ -47,7 +47,7 @@
 			"action": [
 				{ "name": "Multiattack", "entries": ["Aureli makes three Floating Musket attacks, or she casts a spell and makes one Floating Musket attack."] },
 				{ "name": "Floating Musket", "entries": ["{@atkr r} {@hit 9}, range 60/220 ft. {@h}11 ({@damage 2d6 + 4}) Piercing damage plus 3 ({@damage 1d6}) Radiant damage."] },
-				{ "name": "Sunfire Volley {@recharge 5}", "entries": ["All five muskets fire at once. Aureli makes five Floating Musket attacks, distributed among any creatures she can see (no more than two attacks against the same creature)."] },
+				{ "name": "Sunfire Volley {@recharge 5}", "entries": ["All five muskets fire as one, raking the field with sunfire in a {@variantrule Line [Area of Effect]|XPHB|Line} 120 feet long and 30 feet wide, originating from Aureli. {@actSave dex} {@dc 18}, each creature in that area. {@actSaveFail} 42 ({@damage 12d6}) Radiant damage. {@actSaveSuccess} Half damage. Aureli's own allies caught in the line are affected normally—she sweeps it where it pays best."] },
 				{ "name": "Conjure Treasury Statue", "entries": ["Aureli raises a momentary statue of precious metal—a Large object—in an unoccupied space within 30 feet. It lasts 1 minute, until destroyed, or until she dismisses it (no action). She can have only one statue at a time; raising a new one ends the previous. Choose one:", {
 					"type": "list",
 					"style": "list-hang-notitle",
