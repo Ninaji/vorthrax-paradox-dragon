@@ -18,7 +18,7 @@ cicatriz permanente de céu noturno e derretendo o xilema de Gaia, a Árvore-Mun
 
 | Arquivo | O que é |
 |---|---|
-| ⭐ [`Ninja12749; Bonfire Paradox - Os Verdadeiros Viloes de Gaia.json`](Ninja12749%3B%20Bonfire%20Paradox%20-%20Os%20Verdadeiros%20Viloes%20de%20Gaia.json) | **TODAS as 40 criaturas num só arquivo**, agora sob a **fonte única `VPX`** (do CR 1 ao 30) — toda a coleção aparece com a mesma sigla no Roll20/5e.tools. Importe só este e o bestiário inteiro do Paradoxo de Gaia aparece de uma vez. Use **ESTE _ou_ os arquivos separados abaixo** — não os dois juntos (evita conflito de fontes duplicadas) |
+| ⭐ [`Ninja12749; Bonfire Paradox - Os Verdadeiros Viloes de Gaia.json`](Ninja12749%3B%20Bonfire%20Paradox%20-%20Os%20Verdadeiros%20Viloes%20de%20Gaia.json) | **TODAS as 45 criaturas num só arquivo** (inclui o set steampunk do Sawjaw Rex), sob a **fonte única `VPX`** (do CR 1 ao 30) — toda a coleção aparece com a mesma sigla no Roll20/5e.tools. Importe só este e o bestiário inteiro do Paradoxo de Gaia aparece de uma vez. Use **ESTE _ou_ os arquivos separados abaixo** — não os dois juntos (evita conflito de fontes duplicadas) |
 | [`Ninja12749; Vorthrax, the Paradox of Dawn and Dusk.json`](Ninja12749%3B%20Vorthrax%2C%20the%20Paradox%20of%20Dawn%20and%20Dusk.json) | **4 fichas** (inglês), formato 5e.tools, edição 2024: Vorthrax + as 3 esferas (Dawnwheel, Duskwheel, Voidwheel) |
 | [`Ninja12749; Paradox-Touched Warband.json`](Ninja12749%3B%20Paradox-Touched%20Warband.json) | **6 fichas** (fonte PTW): goblins e kobolds tocados-pelo-paradoxo — guerreiro / arqueiro / conjurador de cada — como *glass-cannon minions* CR 17 (batem como tier 4, morrem como mooks), afinados para o mesmo grupo do Vorthrax (4 PCs nível 17 bem equipados). Plano de encontro embutido na lore do Goblin Hexer |
 | [`Ninja12749; Astral Tyrannosaur.json`](Ninja12749%3B%20Astral%20Tyrannosaur.json) | **1 ficha** (fonte AST): T-Rex tocado-pelo-paradoxo com olhos-estrela que disparam laser (feixe único à vontade + *Annihilation Gaze* em linha) e que se teleporta o tempo todo (Blinkstep + Phase Out). Elite CR 18 **sem ações lendárias** — mini-boss ideal para liderar a warband |
@@ -37,7 +37,8 @@ cicatriz permanente de céu noturno e derretendo o xilema de Gaia, a Árvore-Mun
 ## Bônus — fichas avulsas (fora do tema paradoxo)
 
 Criaturas de *oneshot* que **não** fazem parte da facção de Gaia, guardadas aqui por conveniência.
-Têm **fonte própria** e **não** entram no bestiário combinado `VPX` (ficam em `oneshots/`).
+A pasta `oneshots/` mantém o arquivo **avulso** (fonte própria **SJR**) para import isolado; o set
+também já está **incluído no bestiário combinado `VPX`** (consolidado como VPX, junto das demais).
 
 | Arquivo | O que é |
 |---|---|

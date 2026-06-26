@@ -11,13 +11,13 @@
                                       "convertedBy":  [
                                                           "Ninja12749"
                                                       ],
-                                      "version":  "2.2.0",
+                                      "version":  "2.3.0",
                                       "color":  "7c3aed"
                                   }
                               ],
                   "edition":  "one",
                   "dateAdded":  1781827200,
-                  "dateLastModified":  1782200000
+                  "dateLastModified":  1782400000
               },
     "monster":  [
                     {
@@ -6754,6 +6754,617 @@
                                       "entries":  [
                                                       "The Voidwheel is the seam between Vorthrax\u0027s two halves—the cut itself, given mass. It never quite agrees on where it is, skipping a frame ahead of the present, and while it spins he borrows that same stutter to fold the distance his steps must cross.",
                                                       "Run the Voidwheel as part of the Vorthrax encounter; the wheels grant no XP of their own."
+                                                  ]
+                                  }
+                    },
+                    {
+                        "name":  "Sawjaw Rex, the Steam Tyrant",
+                        "source":  "VorthraxParadox",
+                        "isNamedCreature":  true,
+                        "size":  [
+                                     "L"
+                                 ],
+                        "type":  {
+                                     "type":  "monstrosity",
+                                     "tags":  [
+                                                  "titan"
+                                              ]
+                                 },
+                        "alignment":  [
+                                          "unaligned"
+                                      ],
+                        "ac":  [
+                                   {
+                                       "ac":  17,
+                                       "from":  [
+                                                    "scaled hide and bolted iron plates"
+                                                ]
+                                   }
+                               ],
+                        "hp":  {
+                                   "average":  209,
+                                   "formula":  "22d10 + 88"
+                               },
+                        "speed":  {
+                                      "walk":  40
+                                  },
+                        "str":  22,
+                        "dex":  12,
+                        "con":  18,
+                        "int":  4,
+                        "wis":  12,
+                        "cha":  8,
+                        "save":  {
+                                     "str":  "+10",
+                                     "dex":  "+5",
+                                     "con":  "+8"
+                                 },
+                        "skill":  {
+                                      "athletics":  "+10",
+                                      "perception":  "+5"
+                                  },
+                        "senses":  [
+                                       "darkvision 60 ft."
+                                   ],
+                        "passive":  15,
+                        "resist":  [
+                                       "fire"
+                                   ],
+                        "languages":  [
+                                          "understands the shouted commands of its handler but can\u0027t speak"
+                                      ],
+                        "cr":  "11",
+                        "trait":  [
+                                      {
+                                          "name":  "Legendary Resistance (2/Day)",
+                                          "entries":  [
+                                                          "If Sawjaw Rex fails a saving throw, it can choose to succeed instead. (Its Runaway Boiler form receives its own, separate uses.)"
+                                                      ]
+                                      },
+                                      {
+                                          "name":  "Scalding Exhaust",
+                                          "entries":  [
+                                                          "The boiler on its back vents constantly. A creature that ends its turn within 5 feet of Sawjaw Rex, or that hits it with a melee attack from within 5 feet, takes 4 ({@damage 1d8}) Fire damage."
+                                                      ]
+                                      },
+                                      {
+                                          "name":  "Reignition",
+                                          "entries":  [
+                                                          "Sawjaw Rex is a living beast piloting—and piloted by—the machine bolted to it. The first time it is reduced to 0 Hit Points, it doesn\u0027t die: the boiler roars, clamps onto the failing body, and seizes control of the corpse. At the start of what would have been its next turn (on the same initiative count), it rises as {@creature Sawjaw Rex, the Runaway Boiler|VorthraxParadox} in the same space, at that form\u0027s full Hit Points, with all conditions on it ended. Run both forms as one boss; award the encounter\u0027s XP only when the construct form is destroyed."
+                                                      ]
+                                      }
+                                  ],
+                        "action":  [
+                                       {
+                                           "name":  "Multiattack",
+                                           "entries":  [
+                                                           "Sawjaw Rex makes one Chainsaw Arm attack and one Bite attack. It can replace the Bite with one Steam Cannon attack."
+                                                       ]
+                                       },
+                                       {
+                                           "name":  "Chainsaw Arm",
+                                           "entries":  [
+                                                           "{@atkr m} {@hit 10}, reach 10 ft. {@h}17 ({@damage 2d10 + 6}) Slashing damage, and the grinding teeth open a Bleeding Wound: at the start of each of the target\u0027s turns it loses 5 ({@damage 1d10}) Hit Points until it receives any magical healing or a creature uses an action to make a {@dc 13} Wisdom ({@skill Medicine}) check to stanch it. Multiple Bleeding Wounds on the same target don\u0027t stack."
+                                                       ]
+                                       },
+                                       {
+                                           "name":  "Bite",
+                                           "entries":  [
+                                                           "{@atkr m} {@hit 10}, reach 5 ft. {@h}15 ({@damage 2d8 + 6}) Piercing damage."
+                                                       ]
+                                       },
+                                       {
+                                           "name":  "Steam Cannon",
+                                           "entries":  [
+                                                           "{@atkr r} {@hit 8}, range 80/240 ft. {@h}14 ({@damage 3d8 + 1}) Fire damage, and the target must succeed on a {@dc 15} Strength saving throw or be pushed up to 10 feet away and knocked {@condition prone} by the blast of scalding air."
+                                                       ]
+                                       },
+                                       {
+                                           "name":  "Spit Fire {@recharge 5}",
+                                           "entries":  [
+                                                           "Sawjaw Rex belches a gout of fire in a 30-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. {@actSave dex} {@dc 15}, each creature in the area. {@actSaveFail} 28 ({@damage 8d6}) Fire damage. {@actSaveSuccess} Half damage."
+                                                       ]
+                                       }
+                                   ],
+                        "legendaryHeader":  [
+                                                "Legendary Action Uses: 3. Immediately after another creature\u0027s turn, Sawjaw Rex can expend a use to take one of the following actions. It regains all expended uses at the start of each of its turns."
+                                            ],
+                        "legendaryActions":  3,
+                        "legendary":  [
+                                          {
+                                              "name":  "Cannon Blast",
+                                              "entries":  [
+                                                              "Sawjaw Rex makes one Steam Cannon attack. It can\u0027t use Cannon Blast more than twice per round."
+                                                          ]
+                                          },
+                                          {
+                                              "name":  "Vent Steam",
+                                              "entries":  [
+                                                              "Pressurized steam screams out. Each creature within 10 feet of Sawjaw Rex makes a {@dc 15} Constitution saving throw, taking 5 ({@damage 2d4}) Fire damage on a failed save, or half as much on a success."
+                                                          ]
+                                          },
+                                          {
+                                              "name":  "Tail Sweep (Costs 2 Actions)",
+                                              "entries":  [
+                                                              "Sawjaw Rex sweeps its tail in a wide arc. Each creature within 10 feet makes a {@dc 15} Dexterity saving throw, taking 13 ({@damage 2d6 + 6}) Bludgeoning damage and being knocked {@condition prone} on a failed save, or taking half damage on a success."
+                                                          ]
+                                          }
+                                      ],
+                        "fluff":  {
+                                      "entries":  [
+                                                      {
+                                                          "type":  "entries",
+                                                          "name":  "The Steam-Smith\u0027s War-Beast",
+                                                          "entries":  [
+                                                                          "A captured young tyrannosaur, rebuilt by a steam-smith into a walking siege engine: the right forelimb sawn off and replaced with a roaring chainsaw, a great pressure-boiler bolted to its back as both fuel-pack and cannon, and the throat lined to let it spit kindled fire. In life it is a maddened, augmented predator that charges anything that moves. But the boiler is more than a weapon—it is a dead-man\u0027s rig. When the beast finally falls, the machine does not. It was commissioned—and is guarded—by a company of merchant Musketeers who treat it as their most valuable, most dangerous piece of stock."
+                                                                      ]
+                                                      }
+                                                  ]
+                                  }
+                    },
+                    {
+                        "name":  "Sawjaw Rex, the Runaway Boiler",
+                        "source":  "VorthraxParadox",
+                        "isNamedCreature":  true,
+                        "size":  [
+                                     "L"
+                                 ],
+                        "type":  {
+                                     "type":  "construct"
+                                 },
+                        "alignment":  [
+                                          "unaligned"
+                                      ],
+                        "ac":  [
+                                   {
+                                       "ac":  18,
+                                       "from":  [
+                                                    "riveted plating",
+                                                    "exposed pistons"
+                                                ]
+                                   }
+                               ],
+                        "hp":  {
+                                   "average":  199,
+                                   "formula":  "21d10 + 84"
+                               },
+                        "speed":  {
+                                      "walk":  30
+                                  },
+                        "str":  22,
+                        "dex":  8,
+                        "con":  18,
+                        "int":  1,
+                        "wis":  8,
+                        "cha":  1,
+                        "save":  {
+                                     "str":  "+10",
+                                     "con":  "+8"
+                                 },
+                        "senses":  [
+                                       "blindsight 30 ft.",
+                                       "darkvision 60 ft."
+                                   ],
+                        "passive":  9,
+                        "resist":  [
+                                       "fire",
+                                       "bludgeoning",
+                                       "piercing",
+                                       "slashing"
+                                   ],
+                        "immune":  [
+                                       "poison",
+                                       "psychic"
+                                   ],
+                        "vulnerable":  [
+                                           "cold"
+                                       ],
+                        "conditionImmune":  [
+                                                "charmed",
+                                                "exhaustion",
+                                                "frightened",
+                                                "paralyzed",
+                                                "petrified",
+                                                "poisoned"
+                                            ],
+                        "languages":  [
+
+                                      ],
+                        "cr":  "12",
+                        "trait":  [
+                                      {
+                                          "name":  "Legendary Resistance (2/Day)",
+                                          "entries":  [
+                                                          "If the construct fails a saving throw, it can choose to succeed instead. (This form\u0027s uses are fresh, separate from the Steam Tyrant\u0027s.)"
+                                                      ]
+                                      },
+                                      {
+                                          "name":  "Overpressured Boiler",
+                                          "entries":  [
+                                                          "The boiler riding the corpse\u0027s back is a separate Large object in the construct\u0027s space: AC 15, 40 Hit Points, {@b vulnerable} to Cold damage. The boiler does not share the construct\u0027s damage resistances—attacks against it use only its own defenses. A creature can choose to attack the boiler instead of the construct (it is an exposed target on the construct\u0027s back, in plain reach of melee and ranged attackers alike). While the boiler has Hit Points, the construct is in {@b overdrive}: its weapon attacks deal an extra 7 ({@damage 2d6}) Fire damage (included below) and it has 4 Legendary Action Uses instead of 3. If the boiler is reduced to 0 Hit Points, the construct enters {@b meltdown}: it loses the overdrive bonuses immediately, and at the start of its next turn it uses Boiler Detonation and is destroyed (the boiler whines and gushes steam in the meantime—a clear, full-round warning to clear the blast)."
+                                                      ]
+                                      },
+                                      {
+                                          "name":  "Scalding Cloud",
+                                          "entries":  [
+                                                          "At the start of each of the construct\u0027s turns, steam floods the space around it. Each creature within 10 feet makes a {@dc 16} Constitution saving throw, taking 7 ({@damage 2d6}) Fire damage on a failed save, or half as much on a success. This area is lightly obscured to creatures that rely on sight."
+                                                      ]
+                                      },
+                                      {
+                                          "name":  "Cold-Shock Vulnerability",
+                                          "entries":  [
+                                                          "The boiler runs dangerously hot. Whenever the construct or its boiler takes Cold damage, the construct can\u0027t take {@b Reactions} or {@b Legendary Actions} until the end of its next turn as its overheated plates seize and crack."
+                                                      ]
+                                      }
+                                  ],
+                        "action":  [
+                                       {
+                                           "name":  "Multiattack",
+                                           "entries":  [
+                                                           "The construct makes one Chainsaw Arm attack and one Ram attack."
+                                                       ]
+                                       },
+                                       {
+                                           "name":  "Chainsaw Arm",
+                                           "entries":  [
+                                                           "{@atkr m} {@hit 10}, reach 10 ft. {@h}17 ({@damage 2d10 + 6}) Slashing damage plus 7 ({@damage 2d6}) Fire damage (from overdrive; the Fire damage is lost while the boiler is destroyed/in meltdown)."
+                                                       ]
+                                       },
+                                       {
+                                           "name":  "Ram",
+                                           "entries":  [
+                                                           "{@atkr m} {@hit 10}, reach 5 ft. {@h}15 ({@damage 2d8 + 6}) Bludgeoning damage plus 7 ({@damage 2d6}) Fire damage (from overdrive), and the target must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+                                                       ]
+                                       },
+                                       {
+                                           "name":  "Overloaded Cannon {@recharge 5}",
+                                           "entries":  [
+                                                           "The boiler-cannon over-fires a roaring shell of superheated air at a point the construct can see within 120 feet. Each creature in a 15-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} makes a {@dc 16} Dexterity saving throw, taking 35 ({@damage 10d6}) Fire damage on a failed save, or half as much on a success. The area becomes {@quickref Difficult Terrain||3} of smoldering slag until the end of the construct\u0027s next turn."
+                                                       ]
+                                       },
+                                       {
+                                           "name":  "Boiler Detonation",
+                                           "entries":  [
+                                                           "{@b Triggered—not an action the construct chooses.} {@b If the construct drops to 0 Hit Points}, the boiler ruptures immediately as the wreck collapses. {@b If instead the boiler is destroyed} (see Overpressured Boiler), the construct doesn\u0027t explode at once—it enters meltdown and the boiler ruptures at the start of its next turn, giving everyone a full round to scatter. When it ruptures, each creature within 20 feet makes a {@dc 16} Dexterity saving throw, taking 28 ({@damage 8d6}) Fire damage on a failed save, or half as much on a success. The construct is then destroyed, collapsing into inert, burning scrap."
+                                                       ]
+                                       }
+                                   ],
+                        "legendaryHeader":  [
+                                                "Legendary Action Uses: 3 (4 while the boiler is intact). Immediately after another creature\u0027s turn, the construct can expend a use to take one of the following actions. It regains all expended uses at the start of each of its turns. (It can\u0027t take Legendary Actions on a turn after it has taken Cold damage; see Cold-Shock Vulnerability.)"
+                                            ],
+                        "legendaryActions":  3,
+                        "legendary":  [
+                                          {
+                                              "name":  "Saw",
+                                              "entries":  [
+                                                              "The construct makes one Chainsaw Arm attack. It can\u0027t use Saw more than twice per round."
+                                                          ]
+                                          },
+                                          {
+                                              "name":  "Vent Burst",
+                                              "entries":  [
+                                                              "A jet of steam erupts in a 15-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. {@actSave dex} {@dc 16}, each creature there. {@actSaveFail} 10 ({@damage 3d6}) Fire damage. {@actSaveSuccess} Half damage."
+                                                          ]
+                                          },
+                                          {
+                                              "name":  "Lurch (Costs 2 Actions)",
+                                              "entries":  [
+                                                              "The construct moves up to its Speed without provoking Opportunity Attacks and can make one Ram attack at any point during the move."
+                                                          ]
+                                          }
+                                      ],
+                        "fluff":  {
+                                      "entries":  [
+                                                      {
+                                                          "type":  "entries",
+                                                          "name":  "The Machine Outlives the Beast",
+                                                          "entries":  [
+                                                                          "The tyrant is dead; the engine is not. Pistons drive the slack limbs, the chainsaw still screams, and the over-stoked boiler floods the wreck with scalding steam as it lurches forward on borrowed legs. It no longer hunts—it just keeps going, hotter and hotter, until something cracks the boiler or it simply blows itself apart."
+                                                                      ]
+                                                      },
+                                                      {
+                                                          "type":  "entries",
+                                                          "name":  "Design: Two-Stage Solo Boss — Hard Encounter for 4 Level-8 PCs",
+                                                          "entries":  [
+                                                                          "Built for a well-equipped, optimally built party of four 8th-level characters (Paladin tank, Life Cleric, Hunter/Ranger, Sorcerer). One boss in two stages: {@creature Sawjaw Rex, the Steam Tyrant|VorthraxParadox} (Monstrosity, CR 11) → at 0 HP it rises as the Runaway Boiler (Construct, CR 12) at full Hit Points. The two stages total about 15,600 XP, between the {@b Moderate} and {@b High} budgets for that party in the 2024 DMG—i.e. a genuine {@b Hard} fight that a strong party should win at a cost. CRs are kept moderate on purpose so the attack bonuses (+10), save DCs (15–16), and per-hit damage stay {@b fair} for level 8; the difficulty comes from the second life, high Hit Points, and Legendary Actions, not from unfair numbers.",
+                                                                          "{@b Anti-rocket-tag guards (built in).} Repeatable legendary attacks are capped at twice per round (Cannon Blast in Stage 1, Saw in Stage 2) so the boss can\u0027t dump its whole legendary pool onto one PC and one-shot a caster. Stage 2 is fire-{@i resistant} (not immune), so a fire Sorcerer still contributes—but Cold is the boss\u0027s weakness and the smart pivot.",
+                                                                          "The {@b boiler} is the puzzle and a genuine shortcut: 40 HP, vulnerable to Cold, and it does {@i not} share the construct\u0027s b/p/s resistance, so martials and the Ranger can chip it directly. Cracking it skips the construct\u0027s remaining Hit Points, but it then melts down and detonates at the start of the boss\u0027s {@i next} turn (28 fire, 20 ft)—a telegraphed \u0027crack it, then scatter\u0027 play rather than a punish on whoever lands the blow. The Sorcerer\u0027s Cold spells both exploit the vulnerability and shut off the boss\u0027s Reactions and Legendary Actions for a round (Cold-Shock). The Life Cleric should pre-heal before Spit Fire / Overloaded Cannon and answer the Chainsaw\u0027s Bleeding Wound (any magical healing ends it); the Paladin\u0027s Aura of Protection is the linchpin against the many Dex/Con saves—keep the party inside it.",
+                                                                          "{@b Adding the Musketeers.} Sawjaw Rex alone is already Hard, so don\u0027t simply pile minions on top. Pick one: (1) run the {@creature Merchant Musketeer|VorthraxParadox}s and {@creature Merchant Bombardier|VorthraxParadox}s as a {@b warm-up wave} before the beast is loosed; (2) add only {@b 2–3} of them alongside the boss and drop the boss\u0027s Legendary Action Uses by 1 (or skip the Runaway Boiler stage); or (3) have them arrive as {@b mid-fight reinforcements} once the boss hits its second stage. The {@creature Merchant Captain|VorthraxParadox} is an elite—treat one Captain as roughly a whole extra encounter slot.",
+                                                                          "{@b DM dials.} Too hard: drop Legendary Action Uses to 2, cut the boiler to 25 HP, or reduce Spit Fire / Overloaded Cannon to 6d6. Too easy (e.g. the party hard-locks the mindless construct after its Legendary Resistances are gone): give the construct a 3rd Legendary Resistance, raise the boiler to 55 HP, or restore Stage 2 to 228 HP. The detonation is telegraphed on purpose—reward players who reposition."
+                                                                      ]
+                                                      }
+                                                  ]
+                                  }
+                    },
+                    {
+                        "name":  "Merchant Musketeer",
+                        "source":  "VorthraxParadox",
+                        "size":  [
+                                     "M"
+                                 ],
+                        "type":  {
+                                     "type":  "humanoid",
+                                     "tags":  [
+                                                  "human"
+                                              ]
+                                 },
+                        "alignment":  [
+                                          "N"
+                                      ],
+                        "ac":  [
+                                   {
+                                       "ac":  15,
+                                       "from":  [
+                                                    "studded leather and buff coat"
+                                                ]
+                                   }
+                               ],
+                        "hp":  {
+                                   "average":  33,
+                                   "formula":  "6d8 + 6"
+                               },
+                        "speed":  {
+                                      "walk":  30
+                                  },
+                        "str":  11,
+                        "dex":  16,
+                        "con":  12,
+                        "int":  12,
+                        "wis":  13,
+                        "cha":  14,
+                        "save":  {
+                                     "dex":  "+5"
+                                 },
+                        "skill":  {
+                                      "perception":  "+3",
+                                      "persuasion":  "+4"
+                                  },
+                        "passive":  13,
+                        "languages":  [
+                                          "Common",
+                                          "one trade tongue"
+                                      ],
+                        "cr":  "2",
+                        "trait":  [
+                                      {
+                                          "name":  "Steady Aim",
+                                          "entries":  [
+                                                          "If the musketeer doesn\u0027t move during its turn, it has Advantage on its Musket attack rolls and those shots deal an extra 3 ({@damage 1d6}) Piercing damage."
+                                                      ]
+                                      }
+                                  ],
+                        "action":  [
+                                       {
+                                           "name":  "Musket",
+                                           "entries":  [
+                                                           "{@atkr r} {@hit 5}, range 60/220 ft. {@h}10 ({@damage 2d6 + 3}) Piercing damage from a loud black-powder shot (an extra 3 ({@damage 1d6}) if the musketeer held position this turn; see Steady Aim)."
+                                                       ]
+                                       },
+                                       {
+                                           "name":  "Bayonet Rapier",
+                                           "entries":  [
+                                                           "{@atkr m} {@hit 5}, reach 5 ft. {@h}7 ({@damage 1d8 + 3}) Piercing damage."
+                                                       ]
+                                       }
+                                   ],
+                        "bonus":  [
+                                      {
+                                          "name":  "Smoke Pellet (1/Day)",
+                                          "entries":  [
+                                                          "The musketeer drops a smoke pellet, lightly obscuring a 5-foot-radius area around itself until the start of its next turn, and can then move up to half its Speed without provoking Opportunity Attacks."
+                                                      ]
+                                      }
+                                  ],
+                        "fluff":  {
+                                      "entries":  [
+                                                      {
+                                                          "type":  "entries",
+                                                          "name":  "Merchants with Muskets",
+                                                          "entries":  [
+                                                                          "The hired guns of a wealthy trade company—usually human, always well-paid—who escort caravans and, lately, a steam-driven war-beast. They fight from range in disciplined lines, planting their feet to steady the shot, and slip away behind smoke when the line breaks."
+                                                                      ]
+                                                      }
+                                                  ]
+                                  }
+                    },
+                    {
+                        "name":  "Merchant Bombardier",
+                        "source":  "VorthraxParadox",
+                        "size":  [
+                                     "M"
+                                 ],
+                        "type":  {
+                                     "type":  "humanoid",
+                                     "tags":  [
+                                                  "human"
+                                              ]
+                                 },
+                        "alignment":  [
+                                          "N"
+                                      ],
+                        "ac":  [
+                                   {
+                                       "ac":  13,
+                                       "from":  [
+                                                    "leather and tools"
+                                                ]
+                                   }
+                               ],
+                        "hp":  {
+                                   "average":  39,
+                                   "formula":  "6d8 + 12"
+                               },
+                        "speed":  {
+                                      "walk":  30
+                                  },
+                        "str":  12,
+                        "dex":  14,
+                        "con":  14,
+                        "int":  14,
+                        "wis":  12,
+                        "cha":  12,
+                        "save":  {
+                                     "dex":  "+4"
+                                 },
+                        "skill":  {
+                                      "sleight of hand":  "+4",
+                                      "perception":  "+3"
+                                  },
+                        "passive":  13,
+                        "languages":  [
+                                          "Common",
+                                          "one trade tongue"
+                                      ],
+                        "cr":  "3",
+                        "trait":  [
+                                      {
+                                          "name":  "Volatile Satchel",
+                                          "entries":  [
+                                                          "When the bombardier drops to 0 Hit Points, its satchel of bombs goes off. Each creature within 10 feet makes a {@dc 13} Dexterity saving throw, taking 10 ({@damage 3d6}) Fire damage on a failed save, or half as much on a success."
+                                                      ]
+                                      }
+                                  ],
+                        "action":  [
+                                       {
+                                           "name":  "Bomb",
+                                           "entries":  [
+                                                           "The bombardier hurls a bomb at a point it can see within 60 feet. Each creature in a 10-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} makes a {@dc 13} Dexterity saving throw, taking 10 ({@damage 3d6}) Fire damage on a failed save, or half as much on a success."
+                                                       ]
+                                       },
+                                       {
+                                           "name":  "Hatchet",
+                                           "entries":  [
+                                                           "{@atkr m,r} {@hit 4}, reach 5 ft. or range 20/60 ft. {@h}5 ({@damage 1d6 + 2}) Slashing damage."
+                                                       ]
+                                       },
+                                       {
+                                           "name":  "Smoke Bomb {@recharge 5}",
+                                           "entries":  [
+                                                           "The bombardier throws a smoke bomb at a point within 60 feet. A 20-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} of thick smoke spreads there, heavily obscuring the area until the start of the bombardier\u0027s next turn."
+                                                       ]
+                                       }
+                                   ],
+                        "fluff":  {
+                                      "entries":  [
+                                                      {
+                                                          "type":  "entries",
+                                                          "name":  "Alchemy for Sale",
+                                                          "entries":  [
+                                                                          "Where the line of muskets can\u0027t reach, the company sends a bombardier—part chemist, part smuggler—lobbing alchemical bombs over cover and laying smoke to break line of sight. Killing one is risky: the satchel still has a few live bombs in it."
+                                                                      ]
+                                                      }
+                                                  ]
+                                  }
+                    },
+                    {
+                        "name":  "Merchant Captain",
+                        "source":  "VorthraxParadox",
+                        "size":  [
+                                     "M"
+                                 ],
+                        "type":  {
+                                     "type":  "humanoid",
+                                     "tags":  [
+                                                  "human"
+                                              ]
+                                 },
+                        "alignment":  [
+                                          "N"
+                                      ],
+                        "ac":  [
+                                   {
+                                       "ac":  16,
+                                       "from":  [
+                                                    "breastplate"
+                                                ]
+                                   }
+                               ],
+                        "hp":  {
+                                   "average":  78,
+                                   "formula":  "12d8 + 24"
+                               },
+                        "speed":  {
+                                      "walk":  30
+                                  },
+                        "str":  12,
+                        "dex":  16,
+                        "con":  14,
+                        "int":  14,
+                        "wis":  13,
+                        "cha":  16,
+                        "save":  {
+                                     "dex":  "+6",
+                                     "cha":  "+6"
+                                 },
+                        "skill":  {
+                                      "perception":  "+4",
+                                      "persuasion":  "+6",
+                                      "intimidation":  "+6"
+                                  },
+                        "passive":  14,
+                        "languages":  [
+                                          "Common",
+                                          "two trade tongues"
+                                      ],
+                        "cr":  "5",
+                        "trait":  [
+                                      {
+                                          "name":  "Steady Aim",
+                                          "entries":  [
+                                                          "If the captain doesn\u0027t move during its turn, it has Advantage on its Fine Musket attack rolls and those shots deal an extra 3 ({@damage 1d6}) Piercing damage."
+                                                      ]
+                                      },
+                                      {
+                                          "name":  "Well-Paid Nerves",
+                                          "entries":  [
+                                                          "The captain and its allies within 30 feet of it have Advantage on saving throws against being {@condition frightened}."
+                                                      ]
+                                      }
+                                  ],
+                        "action":  [
+                                       {
+                                           "name":  "Multiattack",
+                                           "entries":  [
+                                                           "The captain makes two attacks, using Fine Musket or Saber in any combination."
+                                                       ]
+                                       },
+                                       {
+                                           "name":  "Fine Musket",
+                                           "entries":  [
+                                                           "{@atkr r} {@hit 6}, range 60/220 ft. {@h}10 ({@damage 2d6 + 3}) Piercing damage (an extra 3 ({@damage 1d6}) with Steady Aim)."
+                                                       ]
+                                       },
+                                       {
+                                           "name":  "Saber",
+                                           "entries":  [
+                                                           "{@atkr m} {@hit 6}, reach 5 ft. {@h}7 ({@damage 1d8 + 3}) Slashing damage."
+                                                       ]
+                                       },
+                                       {
+                                           "name":  "Grapeshot Blast {@recharge 5}",
+                                           "entries":  [
+                                                           "The captain fires a blunderbuss in a 15-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. {@actSave dex} {@dc 14}, each creature there. {@actSaveFail} 14 ({@damage 4d6}) Piercing damage. {@actSaveSuccess} Half damage."
+                                                       ]
+                                       }
+                                   ],
+                        "bonus":  [
+                                      {
+                                          "name":  "Fire by Ranks (1/Turn)",
+                                          "entries":  [
+                                                          "The captain barks a firing order. Up to three allied {@creature Merchant Musketeer|VorthraxParadox}s or {@creature Merchant Bombardier|VorthraxParadox}s within 30 feet that can see or hear the captain can each use their Reaction to immediately make one ranged attack (a Musket shot or a thrown Bomb). Each ally can be commanded by Fire by Ranks only once per round."
+                                                      ]
+                                      }
+                                  ],
+                        "fluff":  {
+                                      "entries":  [
+                                                      {
+                                                          "type":  "entries",
+                                                          "name":  "The Quartermaster",
+                                                          "entries":  [
+                                                                          "Every merchant company has one: the quartermaster who signs the contracts, prices the cargo, and—when negotiations fail—commands the firing line. The captain rarely needs to shoot much personally; one shouted order turns the whole company into a single volley.",
+                                                                          "{@b Encounter use:} a Captain is an elite, not a mook—count it as roughly a full extra encounter slot. With Fire by Ranks it sharply raises the threat of a group of Musketeers/Bombardiers, so add it only when you want the merchant company to be the {@i main} fight, or pair one Captain with 2–4 mooks rather than fielding it alongside Sawjaw Rex at full strength."
+                                                                      ]
+                                                      }
                                                   ]
                                   }
                     }
