@@ -102,13 +102,17 @@
 				{ "name": "Steady Aim", "entries": ["If the kensei doesn't move during its turn, it has Advantage on its Tanegashima Musket attack rolls and those shots deal an extra 3 ({@damage 1d6}) Piercing damage."] },
 				{ "name": "Martial Arts", "entries": ["The kensei uses Dexterity for its unarmed strikes and kensei weapons, and can make one unarmed strike as a Bonus Action (see Flurry of Blows)."] }
 			],
+			"spellcasting": [
+				{ "name": "Shadow Arts", "type": "spellcasting", "headerEntries": ["The kensei channels shadow ki to cast the following spells, requiring no spell components and using Wisdom as the spellcasting ability. It can see normally through any magical Darkness it creates:"], "daily": { "2e": ["{@spell darkness|XPHB}"], "1e": ["{@spell pass without trace|XPHB}", "{@spell silence|XPHB}"] }, "ability": "wis" }
+			],
 			"action": [
 				{ "name": "Multiattack", "entries": ["The kensei makes two attacks, using Moonlit Katana or Tanegashima Musket in any combination."] },
 				{ "name": "Moonlit Katana", "entries": ["{@atkr m} {@hit 7}, reach 5 ft. {@h}8 ({@damage 1d8 + 4}) Slashing damage plus 4 ({@damage 1d8}) Necrotic damage from its shadow-honed edge."] },
 				{ "name": "Tanegashima Musket", "entries": ["{@atkr r} {@hit 7}, range 60/220 ft. {@h}11 ({@damage 2d6 + 4}) Piercing damage."] }
 			],
 			"bonus": [
-				{ "name": "Flurry of Blows", "entries": ["The kensei makes two unarmed strikes: {@atkr m} {@hit 7}, reach 5 ft., 7 ({@damage 1d6 + 4}) Bludgeoning damage each. (It can use Flurry of Blows or Shadow Step on a turn, not both.)"] }
+				{ "name": "Flurry of Blows", "entries": ["The kensei makes two unarmed strikes: {@atkr m} {@hit 7}, reach 5 ft., 7 ({@damage 1d6 + 4}) Bludgeoning damage each."] },
+				{ "name": "Vanish", "entries": ["The kensei takes the {@action Hide} action—trivial to pull off inside its own {@spell darkness|XPHB} or any Dim Light. (It takes only one Bonus Action per turn: Flurry of Blows, Shadow Step, or Vanish.)"] }
 			],
 			"reaction": [
 				{ "name": "Deflect Shot", "entries": ["When the kensei is hit by a ranged attack, it reduces the damage by 12 ({@damage 1d10 + 7})."] }

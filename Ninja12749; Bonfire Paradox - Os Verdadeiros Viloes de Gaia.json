@@ -11,13 +11,13 @@
                                       "convertedBy":  [
                                                           "Ninja12749"
                                                       ],
-                                      "version":  "2.4.3",
+                                      "version":  "2.4.4",
                                       "color":  "7c3aed"
                                   }
                               ],
                   "edition":  "one",
                   "dateAdded":  1781827200,
-                  "dateLastModified":  1782503000
+                  "dateLastModified":  1782504000
               },
     "monster":  [
                     {
@@ -7092,6 +7092,25 @@
                                                       ]
                                       }
                                   ],
+                        "spellcasting":  [
+                                             {
+                                                 "name":  "Shadow Arts",
+                                                 "type":  "spellcasting",
+                                                 "headerEntries":  [
+                                                                       "The kensei channels shadow ki to cast the following spells, requiring no spell components and using Wisdom as the spellcasting ability. It can see normally through any magical Darkness it creates:"
+                                                                   ],
+                                                 "daily":  {
+                                                               "2e":  [
+                                                                          "{@spell darkness|XPHB}"
+                                                                      ],
+                                                               "1e":  [
+                                                                          "{@spell pass without trace|XPHB}",
+                                                                          "{@spell silence|XPHB}"
+                                                                      ]
+                                                           },
+                                                 "ability":  "wis"
+                                             }
+                                         ],
                         "action":  [
                                        {
                                            "name":  "Multiattack",
@@ -7116,7 +7135,13 @@
                                       {
                                           "name":  "Flurry of Blows",
                                           "entries":  [
-                                                          "The kensei makes two unarmed strikes: {@atkr m} {@hit 7}, reach 5 ft., 7 ({@damage 1d6 + 4}) Bludgeoning damage each. (It can use Flurry of Blows or Shadow Step on a turn, not both.)"
+                                                          "The kensei makes two unarmed strikes: {@atkr m} {@hit 7}, reach 5 ft., 7 ({@damage 1d6 + 4}) Bludgeoning damage each."
+                                                      ]
+                                      },
+                                      {
+                                          "name":  "Vanish",
+                                          "entries":  [
+                                                          "The kensei takes the {@action Hide} action—trivial to pull off inside its own {@spell darkness|XPHB} or any Dim Light. (It takes only one Bonus Action per turn: Flurry of Blows, Shadow Step, or Vanish.)"
                                                       ]
                                       }
                                   ],
