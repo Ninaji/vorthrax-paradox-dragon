@@ -105,8 +105,8 @@
 			"trait": [
 				{ "name": "Legendary Resistance (2/Day)", "entries": ["If she fails a saving throw, she can choose to succeed instead. (This form's uses are fresh.)"] },
 				{ "name": "The End (Final Form)", "entries": ["This is the Paradox Succubus's last form. When the Unbound is reduced to 0 Hit Points, she is destroyed for good."] },
-				{ "name": "Unmaking Aura", "entries": ["Holy and fiendish energy boil off her. Each creature that starts its turn within 10 feet of her makes a {@dc 21} Constitution saving throw, taking 18 ({@damage 4d8}) Force damage on a failure, or half as much on a success."] },
-				{ "name": "Unmade Energy", "entries": ["In her Unbound form the holy and fiendish energies have fully merged: her Open Palm Strikes, Unmaking Aura, and Annihilation Palm all deal Force damage, and that Force damage ignores Resistance to Force, Radiant, and Necrotic damage."] },
+				{ "name": "Beguiling Aura", "entries": ["Her presence is overwhelming. At the start of each of its turns, a creature within 10 feet of the Paradox Succubus makes a {@dc 22} Wisdom saving throw. On a failure, it is {@condition charmed} by her until the start of its next turn; while charmed this way it can't attack her or target her with harmful abilities or spells (and she becomes a valid target for her own Draining Kiss and Nightmare). A creature that succeeds is unaffected by this aura until the start of its next turn."] },
+				{ "name": "Unmade Energy", "entries": ["In her Unbound form the holy and fiendish energies have fully merged: her Open Palm Strikes and Annihilation Palm deal Force damage, and that Force damage ignores Resistance to Force, Radiant, and Necrotic damage."] },
 				{ "name": "Diamond Soul", "entries": ["She is proficient in all saving throws (already included)."] },
 				{ "name": "Evasion", "entries": ["When she makes a Dexterity saving throw to take half damage, she instead takes none on a success and only half on a failure."] },
 				{ "name": "Telepathic Bond", "entries": ["While on the same plane as a creature she has Charmed, Dominated, or kissed, she can communicate with it telepathically over any distance."] },

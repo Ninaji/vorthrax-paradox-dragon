@@ -11,13 +11,13 @@
                                       "convertedBy":  [
                                                           "Ninja12749"
                                                       ],
-                                      "version":  "2.6.2",
+                                      "version":  "2.6.3",
                                       "color":  "7c3aed"
                                   }
                               ],
                   "edition":  "one",
                   "dateAdded":  1781827200,
-                  "dateLastModified":  1782702000
+                  "dateLastModified":  1782703000
               },
     "monster":  [
                     {
@@ -4091,15 +4091,15 @@
                                                       ]
                                       },
                                       {
-                                          "name":  "Unmaking Aura",
+                                          "name":  "Beguiling Aura",
                                           "entries":  [
-                                                          "Holy and fiendish energy boil off her. Each creature that starts its turn within 10 feet of her makes a {@dc 21} Constitution saving throw, taking 18 ({@damage 4d8}) Force damage on a failure, or half as much on a success."
+                                                          "Her presence is overwhelming. At the start of each of its turns, a creature within 10 feet of the Paradox Succubus makes a {@dc 22} Wisdom saving throw. On a failure, it is {@condition charmed} by her until the start of its next turn; while charmed this way it can\u0027t attack her or target her with harmful abilities or spells (and she becomes a valid target for her own Draining Kiss and Nightmare). A creature that succeeds is unaffected by this aura until the start of its next turn."
                                                       ]
                                       },
                                       {
                                           "name":  "Unmade Energy",
                                           "entries":  [
-                                                          "In her Unbound form the holy and fiendish energies have fully merged: her Open Palm Strikes, Unmaking Aura, and Annihilation Palm all deal Force damage, and that Force damage ignores Resistance to Force, Radiant, and Necrotic damage."
+                                                          "In her Unbound form the holy and fiendish energies have fully merged: her Open Palm Strikes and Annihilation Palm deal Force damage, and that Force damage ignores Resistance to Force, Radiant, and Necrotic damage."
                                                       ]
                                       },
                                       {
