@@ -1,0 +1,83 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "ParadoxSuccubus",
+				"abbreviation": "PXS",
+				"full": "Paradox Succubus, Master of the Open Palm",
+				"authors": ["Ninja12749"],
+				"convertedBy": ["Ninja12749"],
+				"version": "1.0.0",
+				"color": "be185d"
+			}
+		],
+		"edition": "one",
+		"dateAdded": 1782600000,
+		"dateLastModified": 1782600000
+	},
+	"monster": [
+		{
+			"name": "Paradox Succubus",
+			"source": "ParadoxSuccubus",
+			"isNamedCreature": true,
+			"size": ["M"],
+			"type": { "type": "fiend", "tags": ["paradox"] },
+			"alignment": ["N", "E"],
+			"ac": [{ "ac": 21, "from": ["Unarmored Defense and flowing grace"] }],
+			"hp": { "average": 313, "formula": "33d8 + 165" },
+			"speed": { "walk": 60, "fly": 60, "canHover": true },
+			"str": 12, "dex": 22, "con": 20, "int": 16, "wis": 20, "cha": 22,
+			"save": { "str": "+8", "dex": "+13", "con": "+12", "int": "+10", "wis": "+12", "cha": "+13" },
+			"skill": { "acrobatics": "+13", "deception": "+13", "insight": "+12", "perception": "+12", "persuasion": "+13", "stealth": "+13" },
+			"senses": ["darkvision 120 ft."],
+			"passive": 22,
+			"resist": ["cold", "fire", "lightning", "necrotic", "poison"],
+			"conditionImmune": ["charmed", "frightened"],
+			"languages": ["Abyssal", "Common", "Infernal", "telepathy 60 ft."],
+			"cr": "21",
+			"trait": [
+				{ "name": "Legendary Resistance (3/Day)", "entries": ["If the Paradox Succubus fails a saving throw, she can choose to succeed instead."] },
+				{ "name": "Two Natures (Monk and Fiend)", "entries": ["The Paradox Succubus is a master of the Way of the Open Palm who is also a true fiend. Each turn she can fight as a {@b monk} (Multiattack and Flurry of Blows), as a {@b succubus} (Charm, Draining Kiss, Etherealness, Shape-Shift), or blend the two—nothing limits her to one style. Run her however best presses the party that round."] },
+				{ "name": "Channel Duality", "entries": ["She channels holy ki through one open palm and her fiend nature through the other, so her unarmed strikes carry both Radiant and Necrotic energy (included below). Her Radiant and Necrotic damage ignores Resistance to those types."] },
+				{ "name": "Diamond Soul", "entries": ["The Paradox Succubus is proficient in all saving throws (already included)."] },
+				{ "name": "Evasion", "entries": ["When she makes a Dexterity saving throw to take half damage, she instead takes none on a success and only half on a failure."] },
+				{ "name": "Shapechanger", "entries": ["As a Bonus Action, she can shape-shift into a Small or Medium Humanoid she has seen, or back into her true fiend form. Her statistics are the same in each form, except she loses her flying Speed while in Humanoid form. Anything she is wearing or carrying transforms with her. She reverts to her true form if she dies."] },
+				{ "name": "Telepathic Bond", "entries": ["While on the same plane of existence as a creature she has Charmed, the Paradox Succubus can communicate with it telepathically over any distance."] },
+				{ "name": "Paradox Corruption (Curse)", "entries": ["A creature cursed by her Annihilation Palm gains 1 Corruption level: a cumulative {@b −2} penalty to attack rolls, saving throws, and spell save DCs, and it can't regain Hit Points while cursed. At 5 levels it is recopied into a paradox-touched thrall (removed from play). {@spell greater restoration|XPHB} or level-5+ {@spell remove curse|XPHB} removes one level; {@spell wish|XPHB} removes all."] }
+			],
+			"action": [
+				{ "name": "Multiattack", "entries": ["The Paradox Succubus makes two Open Palm Strikes. She can replace one of them with Charm or Draining Kiss, or with Annihilation Palm if it is available."] },
+				{ "name": "Open Palm Strike", "entries": ["{@atkr m} {@hit 13}, reach 5 ft. {@h}12 ({@damage 1d12 + 6}) Bludgeoning damage plus 3 ({@damage 1d6}) Radiant damage and 3 ({@damage 1d6}) Necrotic damage."] },
+				{ "name": "Charm", "entries": ["The Paradox Succubus targets one Humanoid she can see within 30 feet. The target makes a {@dc 21} Wisdom saving throw. On a failure, it is {@condition charmed} for 1 day or until she dies or is more than 1 mile from it. The charmed target obeys her telepathic and verbal commands but won't attack its own allies; it repeats the save if it takes damage or is asked to do something obviously harmful to itself or its allies, ending the effect on a success (and becoming immune to this Charm for 24 hours)."] },
+				{ "name": "Draining Kiss", "entries": ["The Paradox Succubus kisses a creature {@condition charmed} by her, or a creature that is {@condition grappled} by her, {@condition incapacitated}, or willing, within 5 feet. {@actSave con} {@dc 21}. {@actSaveFail} 33 ({@damage 6d10}) Psychic damage; {@actSaveSuccess} half as much. The target's Hit Point maximum is reduced by an amount equal to the damage taken (until it finishes a Long Rest), and the Paradox Succubus regains Hit Points equal to that amount. The target dies if this reduces its Hit Point maximum to 0."] },
+				{ "name": "Annihilation Palm {@recharge 6}", "entries": ["The Paradox Succubus brings both palms together on one creature within 5 feet, and holy and fiendish energy meet and annihilate. {@b This attack hits automatically}, and on the turn she uses it she can't also use Flurry of Blows. The target takes 36 ({@damage 8d8}) Radiant damage plus 36 ({@damage 8d8}) Necrotic damage, then makes two saving throws:", {
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{ "type": "item", "name": "Constitution {@dc 20} (the curse / death).", "entry": "On a failure, roll {@dice d100}: {@b 01–10}, the target dies (Death); {@b 11–35}, the target gains 1 level of Paradox Corruption (Curse; see trait); {@b 36–00}, no additional effect. On a success, the target takes only half the total energy damage and isn't subject to the d100 roll." },
+						{ "type": "item", "name": "Strength {@dc 20} (the impact).", "entry": "On a failure, the target is hurled 100 feet straight away from her and knocked {@condition prone}; if it strikes a solid surface or another creature before traveling the full distance, it stops there and takes an extra 14 ({@damage 4d6}) Bludgeoning damage (and a creature it hits makes the same Strength save or is also knocked {@condition prone})." }
+					]
+				}] },
+				{ "name": "Etherealness", "entries": ["The Paradox Succubus enters the Ethereal Plane from the Material Plane, or vice versa. She remains in the Border Ethereal, where she can see and move but can't affect or be affected by anything on the other plane."] }
+			],
+			"bonus": [
+				{ "name": "Flurry of Blows", "entries": ["The Paradox Succubus makes three Open Palm Strikes. Each creature hit by one of these strikes makes a {@dc 20} Dexterity saving throw or suffers one effect of her choice (chosen per target): knocked {@condition prone}; pushed up to 15 feet; or unable to take {@b Reactions} until the end of its next turn."] },
+				{ "name": "Step of the Wind", "entries": ["The Paradox Succubus takes the {@action Dash} and {@action Disengage} actions, and her jump distance is doubled for the turn."] }
+			],
+			"reaction": [
+				{ "name": "Evasive Flow", "entries": ["When a creature the Paradox Succubus can see makes an attack roll against her, she moves up to half her Speed without provoking Opportunity Attacks. If this movement takes her out of the attack's reach or range, the attack misses (and is wasted); otherwise, the attacker has Disadvantage on that attack. She can use this reaction only once per round."] }
+			],
+			"legendaryHeader": ["Legendary Action Uses: 3. Immediately after another creature's turn, the Paradox Succubus can expend a use to take one of the following actions. She regains all expended uses at the start of each of her turns."],
+			"legendaryActions": 3,
+			"legendary": [
+				{ "name": "Flowing Step", "entries": ["The Paradox Succubus moves up to her Speed without provoking Opportunity Attacks."] },
+				{ "name": "Palm", "entries": ["The Paradox Succubus makes one Open Palm Strike. She can use Palm no more than once per round."] },
+				{ "name": "Beguile (Costs 2 Actions)", "entries": ["The Paradox Succubus uses Charm."] }
+			],
+			"fluff": { "entries": [
+				{ "type": "entries", "name": "The Open Palm of Heaven and Ruin", "entries": ["She was a succubus—an incubus, a lover, a liar, whatever the dream required—until she walked into a paradox-corrupted monastery and stayed to learn. She mastered the Way of the Open Palm and learned to draw holy ki through her fiend's hands, and the paradox rewarded the contradiction: now one palm shines and the other rots, and when she claps them together the two energies meet and unmake whatever is between them. She still seduces, still drinks hearts dry, still slips between worlds—but mostly she fights, beautifully, like a saint and a devil sharing one body."] },
+				{ "type": "entries", "name": "Design: CR 21 Solo Boss for a Legendary-Equipped Level-17 Party", "entries": ["Built as a hard solo for four 17th-level characters kitted with legendary items (2024 DMG: 4x level 17 budgets are roughly Low 18,000 / Moderate 28,800 / High 46,800 XP; a CR 21 solo is ~33,000, a solid {@b Hard}). She wins by never standing still: AC 21, Evasion, Diamond Soul, an Evasive Flow reaction that can waste a single-attack turn, and 60-foot fly speed make her hard to pin.", "{@b She fights in three modes (Two Natures), the GM's choice each round:} {@b Monk}—Multiattack (2 Open Palm Strikes) plus Flurry of Blows (3 more) for up to five 1d12+Radiant+Necrotic hits with Open Hand riders (prone / push / no reactions); {@b Succubus}—Charm a frontliner, Draining Kiss to heal off it, Shape-Shift and Etherealness to escape and reposition; or {@b mixed}—Charm someone, then beat down the rest. Lean monk against a martial party, succubus against a squishy/caster party.", "{@b Annihilation Palm (recharge 6)} is her finisher and mirrors Granveyra's World-Ending Slash: an auto-hit that deals 72 split Radiant/Necrotic 'annihilation' energy, then a Constitution save against the {@b same} d100 (Death / Paradox Corruption curse) and a Strength save to avoid being launched 100 feet and knocked prone. Telegraph it (she draws her palms apart, light and shadow screaming) so the party can spend a Legendary-Resistance-style item, ready a counter, or simply not be the one standing next to her.", "{@b Built-in anti-TPK guards} (so she lands on Hard, not a kill-pace): the legendary Palm fires at most once per round (ceiling of 6 strikes, not 8); she can't use Flurry of Blows on the turn she uses Annihilation Palm (so the finisher can't be stacked with the full flurry onto one PC); and Charm can't turn a PC against its own allies. {@b DM dials.} Too hard: drop her to 2 Legendary Resistances, cut Annihilation Palm's d100 Death band (treat 01–10 as Corruption instead—kept as the Granveyra-parity option the player asked for), or remove the legendary Beguile. Too easy: give her a second Flurry via a 4th Legendary Action use, or let Draining Kiss heal her past her maximum as temporary Hit Points. Against three-plus dedicated healers, remember Paradox Corruption stops the cursed PC from being healed at all."] }
+			] }
+		}
+	]
+}
