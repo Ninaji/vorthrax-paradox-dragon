@@ -11,13 +11,13 @@
                                       "convertedBy":  [
                                                           "Ninja12749"
                                                       ],
-                                      "version":  "2.6.3",
+                                      "version":  "2.6.4",
                                       "color":  "7c3aed"
                                   }
                               ],
                   "edition":  "one",
                   "dateAdded":  1781827200,
-                  "dateLastModified":  1782703000
+                  "dateLastModified":  1782704000
               },
     "monster":  [
                     {
@@ -3896,7 +3896,7 @@
                                        {
                                            "name":  "Annihilation Palm {@recharge 6}",
                                            "entries":  [
-                                                           "The Paradox Succubus brings both palms together on one creature within 5 feet, and holy and fiendish energy meet and annihilate. {@b This attack hits automatically}, and on the turn she uses it she can\u0027t also use Flurry of Blows. The target takes 72 ({@damage 16d8}) Force damage—the raw energy where her radiant and necrotic palms meet and annihilate—then makes two saving throws:",
+                                                           "The Paradox Succubus brings both palms together on one creature within 5 feet, and holy and fiendish energy meet and annihilate. {@b This attack hits automatically}, and on the turn she uses it she can\u0027t also use Flurry of Blows. The target takes 91 ({@damage 26d6}) Force damage—the raw energy where her radiant and necrotic palms meet and annihilate, a blast to rival an ancient dragon\u0027s breath—then makes two saving throws:",
                                                            {
                                                                "type":  "list",
                                                                "style":  "list-hang-notitle",
@@ -3988,7 +3988,7 @@
                                                           "name":  "Design: Two-Phase Solo Boss for a Legendary-Equipped Level-17 Party",
                                                           "entries":  [
                                                                           "Built as a hard two-phase solo for four 17th-level characters with legendary items. {@b Phase 1} (this block, CR 21) is the disciplined monk-fiend; at 0 HP she ascends (Paradox Ascension) to {@creature Paradox Succubus, Unbound|VorthraxParadox} ({@b Phase 2}, CR 23) at full Hit Points. Run both as one boss; expect a Vorthrax-tier set-piece. 2024 DMG: 4x level 17 budgets are Low 18,000 / Moderate 28,800 / High 46,800 XP; the two phases together sit well past High, which is the point of a climactic two-life boss.",
-                                                                          "{@b She carries the full Succubus + Incubus kit} (2025 Monster Manual): Fiendish Touch (succubus) and Nightmare Touch (incubus) as fiendish strikes; Dominate (the 2025 Charm, upgraded to {@spell dominate monster|XPHB}); Draining Kiss (heals her, needs a charmed/dominated/grappled target); Nightmare (the incubus dream-haunt—psychic, or sleep if already charmed); plus Shape-Shift, Telepathic Bond, and Etherealness. On top of that she is an Open Hand monk: up to five 1d12+Radiant+Necrotic strikes a round (Multiattack + Flurry, with prone/push/no-reaction riders) and the auto-hit Annihilation Palm finisher (72 Force, the Granveyra-parity d100 Death/Corruption curse, plus a Strength save vs a 100-ft launch).",
+                                                                          "{@b She carries the full Succubus + Incubus kit} (2025 Monster Manual): Fiendish Touch (succubus) and Nightmare Touch (incubus) as fiendish strikes; Dominate (the 2025 Charm, upgraded to {@spell dominate monster|XPHB}); Draining Kiss (heals her, needs a charmed/dominated/grappled target); Nightmare (the incubus dream-haunt—psychic, or sleep if already charmed); plus Shape-Shift, Telepathic Bond, and Etherealness. On top of that she is an Open Hand monk: up to five 1d12+Radiant+Necrotic strikes a round (Multiattack + Flurry, with prone/push/no-reaction riders) and the auto-hit Annihilation Palm finisher (91 Force—ancient-dragon-breath magnitude—the Granveyra-parity d100 Death/Corruption curse, plus a Strength save vs a 100-ft launch; single-target, halved on the Con save).",
                                                                           "{@b Built-in anti-TPK guards (after adversarial playtest tuning):} 2 Legendary Resistances per phase (not 3); legendary Palm fires at most once per round; she can\u0027t Flurry on the turn she uses Annihilation Palm; Phase 2 keeps the 5-strike cadence (2 Multiattack + 3 Flurry) and {@i resists} Radiant rather than being immune, so radiant builds still matter; Annihilation Palm is recharge 6 in both phases; and Nightmare\u0027s sleep lasts at most 1 minute with a save every turn (no free encounter-removal via Dominate + sleep). {@b DM dials.} Too hard for a standard party: treat Annihilation\u0027s 01–10 as Corruption instead of Death (the d100 Death is kept on by default as the requested Granveyra-parity finisher), or skip the Phase-2 ascension. Too easy: restore 3 Legendary Resistances and Phase 2\u0027s 6-strike Multiattack, or have her open with Dominate on the party\u0027s striker."
                                                                       ]
                                                       }
@@ -4167,7 +4167,7 @@
                                        {
                                            "name":  "Annihilation Palm {@recharge 6}",
                                            "entries":  [
-                                                           "She brings both palms together on one creature within 5 feet. {@b This attack hits automatically}, and on the turn she uses it she can\u0027t also use Flurry of Blows. The target takes 81 ({@damage 18d8}) Force damage—holy and fiendish energy annihilating—then makes two saving throws:",
+                                                           "She brings both palms together on one creature within 5 feet. {@b This attack hits automatically}, and on the turn she uses it she can\u0027t also use Flurry of Blows. The target takes 98 ({@damage 28d6}) Force damage—holy and fiendish energy annihilating—then makes two saving throws:",
                                                            {
                                                                "type":  "list",
                                                                "style":  "list-hang-notitle",
