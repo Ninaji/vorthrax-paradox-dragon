@@ -11,13 +11,13 @@
                                       "convertedBy":  [
                                                           "Ninja12749"
                                                       ],
-                                      "version":  "2.6.1",
+                                      "version":  "2.6.2",
                                       "color":  "7c3aed"
                                   }
                               ],
                   "edition":  "one",
                   "dateAdded":  1781827200,
-                  "dateLastModified":  1782701000
+                  "dateLastModified":  1782702000
               },
     "monster":  [
                     {
@@ -4097,9 +4097,9 @@
                                                       ]
                                       },
                                       {
-                                          "name":  "Channel Duality",
+                                          "name":  "Unmade Energy",
                                           "entries":  [
-                                                          "Her unarmed strikes carry both Radiant and Necrotic energy (included below), ignoring Resistance to those types."
+                                                          "In her Unbound form the holy and fiendish energies have fully merged: her Open Palm Strikes, Unmaking Aura, and Annihilation Palm all deal Force damage, and that Force damage ignores Resistance to Force, Radiant, and Necrotic damage."
                                                       ]
                                       },
                                       {
@@ -4137,7 +4137,7 @@
                                        {
                                            "name":  "Open Palm Strike",
                                            "entries":  [
-                                                           "{@atkr m} {@hit 14}, reach 5 ft. {@h}13 ({@damage 1d12 + 7}) Bludgeoning damage plus 4 ({@damage 1d8}) Radiant damage and 4 ({@damage 1d8}) Necrotic damage."
+                                                           "{@atkr m} {@hit 14}, reach 5 ft. {@h}23 ({@damage 3d10 + 7}) Force damage—the merged annihilation energy of her two palms."
                                                        ]
                                        },
                                        {

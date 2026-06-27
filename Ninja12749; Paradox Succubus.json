@@ -106,7 +106,7 @@
 				{ "name": "Legendary Resistance (2/Day)", "entries": ["If she fails a saving throw, she can choose to succeed instead. (This form's uses are fresh.)"] },
 				{ "name": "The End (Final Form)", "entries": ["This is the Paradox Succubus's last form. When the Unbound is reduced to 0 Hit Points, she is destroyed for good."] },
 				{ "name": "Unmaking Aura", "entries": ["Holy and fiendish energy boil off her. Each creature that starts its turn within 10 feet of her makes a {@dc 21} Constitution saving throw, taking 18 ({@damage 4d8}) Force damage on a failure, or half as much on a success."] },
-				{ "name": "Channel Duality", "entries": ["Her unarmed strikes carry both Radiant and Necrotic energy (included below), ignoring Resistance to those types."] },
+				{ "name": "Unmade Energy", "entries": ["In her Unbound form the holy and fiendish energies have fully merged: her Open Palm Strikes, Unmaking Aura, and Annihilation Palm all deal Force damage, and that Force damage ignores Resistance to Force, Radiant, and Necrotic damage."] },
 				{ "name": "Diamond Soul", "entries": ["She is proficient in all saving throws (already included)."] },
 				{ "name": "Evasion", "entries": ["When she makes a Dexterity saving throw to take half damage, she instead takes none on a success and only half on a failure."] },
 				{ "name": "Telepathic Bond", "entries": ["While on the same plane as a creature she has Charmed, Dominated, or kissed, she can communicate with it telepathically over any distance."] },
@@ -114,7 +114,7 @@
 			],
 			"action": [
 				{ "name": "Multiattack", "entries": ["The Unbound makes two attacks, in any combination of Open Palm Strike, Fiendish Touch, and Nightmare Touch. She can replace one of those attacks with Dominate or Draining Kiss, or with Annihilation Palm if it is available."] },
-				{ "name": "Open Palm Strike", "entries": ["{@atkr m} {@hit 14}, reach 5 ft. {@h}13 ({@damage 1d12 + 7}) Bludgeoning damage plus 4 ({@damage 1d8}) Radiant damage and 4 ({@damage 1d8}) Necrotic damage."] },
+				{ "name": "Open Palm Strike", "entries": ["{@atkr m} {@hit 14}, reach 5 ft. {@h}23 ({@damage 3d10 + 7}) Force damage—the merged annihilation energy of her two palms."] },
 				{ "name": "Fiendish Touch", "entries": ["{@atkr m} {@hit 14}, reach 5 ft. {@h}18 ({@damage 2d10 + 7}) Psychic damage."] },
 				{ "name": "Nightmare Touch", "entries": ["{@atkr m} {@hit 14}, reach 5 ft. {@h}17 ({@damage 3d6 + 7}) Psychic damage, and a {@condition charmed} target can't take Reactions until the end of its next turn."] },
 				{ "name": "Dominate", "entries": ["She casts {@spell dominate monster|XPHB} (no Material components), spell save {@dc 22}, on one creature she can see within 60 feet (requires Concentration)."] },
