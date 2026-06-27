@@ -11,13 +11,13 @@
                                       "convertedBy":  [
                                                           "Ninja12749"
                                                       ],
-                                      "version":  "2.5.0",
+                                      "version":  "2.5.1",
                                       "color":  "7c3aed"
                                   }
                               ],
                   "edition":  "one",
                   "dateAdded":  1781827200,
-                  "dateLastModified":  1782600000
+                  "dateLastModified":  1782601000
               },
     "monster":  [
                     {
@@ -3877,7 +3877,7 @@
                                        {
                                            "name":  "Annihilation Palm {@recharge 6}",
                                            "entries":  [
-                                                           "The Paradox Succubus brings both palms together on one creature within 5 feet, and holy and fiendish energy meet and annihilate. {@b This attack hits automatically}, and on the turn she uses it she can\u0027t also use Flurry of Blows. The target takes 36 ({@damage 8d8}) Radiant damage plus 36 ({@damage 8d8}) Necrotic damage, then makes two saving throws:",
+                                                           "The Paradox Succubus brings both palms together on one creature within 5 feet, and holy and fiendish energy meet and annihilate. {@b This attack hits automatically}, and on the turn she uses it she can\u0027t also use Flurry of Blows. The target takes 72 ({@damage 16d8}) Force damage—the raw energy where her radiant and necrotic palms meet and annihilate—then makes two saving throws:",
                                                            {
                                                                "type":  "list",
                                                                "style":  "list-hang-notitle",
@@ -3964,7 +3964,7 @@
                                                           "entries":  [
                                                                           "Built as a hard solo for four 17th-level characters kitted with legendary items (2024 DMG: 4x level 17 budgets are roughly Low 18,000 / Moderate 28,800 / High 46,800 XP; a CR 21 solo is ~33,000, a solid {@b Hard}). She wins by never standing still: AC 21, Evasion, Diamond Soul, an Evasive Flow reaction that can waste a single-attack turn, and 60-foot fly speed make her hard to pin.",
                                                                           "{@b She fights in three modes (Two Natures), the GM\u0027s choice each round:} {@b Monk}—Multiattack (2 Open Palm Strikes) plus Flurry of Blows (3 more) for up to five 1d12+Radiant+Necrotic hits with Open Hand riders (prone / push / no reactions); {@b Succubus}—Charm a frontliner, Draining Kiss to heal off it, Shape-Shift and Etherealness to escape and reposition; or {@b mixed}—Charm someone, then beat down the rest. Lean monk against a martial party, succubus against a squishy/caster party.",
-                                                                          "{@b Annihilation Palm (recharge 6)} is her finisher and mirrors Granveyra\u0027s World-Ending Slash: an auto-hit that deals 72 split Radiant/Necrotic \u0027annihilation\u0027 energy, then a Constitution save against the {@b same} d100 (Death / Paradox Corruption curse) and a Strength save to avoid being launched 100 feet and knocked prone. Telegraph it (she draws her palms apart, light and shadow screaming) so the party can spend a Legendary-Resistance-style item, ready a counter, or simply not be the one standing next to her.",
+                                                                          "{@b Annihilation Palm (recharge 6)} is her finisher and mirrors Granveyra\u0027s World-Ending Slash: an auto-hit that deals 72 Force \u0027annihilation\u0027 energy (her radiant and necrotic palms meeting), then a Constitution save against the {@b same} d100 (Death / Paradox Corruption curse) and a Strength save to avoid being launched 100 feet and knocked prone. Telegraph it (she draws her palms apart, light and shadow screaming) so the party can spend a Legendary-Resistance-style item, ready a counter, or simply not be the one standing next to her.",
                                                                           "{@b Built-in anti-TPK guards} (so she lands on Hard, not a kill-pace): the legendary Palm fires at most once per round (ceiling of 6 strikes, not 8); she can\u0027t use Flurry of Blows on the turn she uses Annihilation Palm (so the finisher can\u0027t be stacked with the full flurry onto one PC); and Charm can\u0027t turn a PC against its own allies. {@b DM dials.} Too hard: drop her to 2 Legendary Resistances, cut Annihilation Palm\u0027s d100 Death band (treat 01–10 as Corruption instead—kept as the Granveyra-parity option the player asked for), or remove the legendary Beguile. Too easy: give her a second Flurry via a 4th Legendary Action use, or let Draining Kiss heal her past her maximum as temporary Hit Points. Against three-plus dedicated healers, remember Paradox Corruption stops the cursed PC from being healed at all."
                                                                       ]
                                                       }
