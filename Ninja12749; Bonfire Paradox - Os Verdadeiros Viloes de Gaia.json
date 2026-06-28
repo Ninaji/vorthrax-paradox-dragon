@@ -11,13 +11,13 @@
                                       "convertedBy":  [
                                                           "Ninja12749"
                                                       ],
-                                      "version":  "2.8.2",
+                                      "version":  "2.8.3",
                                       "color":  "7c3aed"
                                   }
                               ],
                   "edition":  "one",
                   "dateAdded":  1781827200,
-                  "dateLastModified":  1782902000
+                  "dateLastModified":  1782903000
               },
     "monster":  [
                     {
@@ -863,7 +863,7 @@
                                       {
                                           "name":  "Burning Resolve",
                                           "entries":  [
-                                                          "At the start of each of her turns, Granveyra ends one of the following conditions affecting her: {@condition blinded}, {@condition deafened}, {@condition paralyzed}, {@condition restrained}, or {@condition stunned}. Her will is a forge nothing dampens for long."
+                                                          "At the start of each of her turns, Granveyra ends one of the following conditions affecting her: {@condition blinded}, {@condition deafened}, {@condition incapacitated}, {@condition paralyzed}, {@condition restrained}, or {@condition stunned}. Her will is a forge nothing dampens for long."
                                                       ]
                                       },
                                       {
@@ -1076,7 +1076,7 @@
                                       {
                                           "name":  "Burning Resolve",
                                           "entries":  [
-                                                          "At the start of each of her turns, Granveyra Ascendant ends one of the following conditions affecting her: {@condition blinded}, {@condition deafened}, {@condition paralyzed}, {@condition restrained}, or {@condition stunned}."
+                                                          "At the start of each of her turns, Granveyra Ascendant ends one of the following conditions affecting her: {@condition blinded}, {@condition deafened}, {@condition incapacitated}, {@condition paralyzed}, {@condition restrained}, or {@condition stunned}."
                                                       ]
                                       },
                                       {
