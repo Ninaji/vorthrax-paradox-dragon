@@ -11,13 +11,13 @@
                                       "convertedBy":  [
                                                           "Ninja12749"
                                                       ],
-                                      "version":  "2.7.0",
+                                      "version":  "2.7.1",
                                       "color":  "7c3aed"
                                   }
                               ],
                   "edition":  "one",
                   "dateAdded":  1781827200,
-                  "dateLastModified":  1782800000
+                  "dateLastModified":  1782801000
               },
     "monster":  [
                     {
@@ -395,7 +395,9 @@
                                                 "prone"
                                             ],
                         "languages":  [
-
+                                          "Common",
+                                          "Primordial",
+                                          "Deep Speech"
                                       ],
                         "cr":  "9",
                         "trait":  [
@@ -415,6 +417,12 @@
                                           "name":  "Amorphous",
                                           "entries":  [
                                                           "The slimeling can move through a space as narrow as 1 inch without squeezing, and it can move into and share another creature\u0027s space (see Engulf)."
+                                                      ]
+                                      },
+                                      {
+                                          "name":  "Shape Pseudo-Anatomy",
+                                          "entries":  [
+                                                          "As a Bonus Action (or freely outside combat), the slimeling can extrude crude arms, legs, and a working mouth from its mass—letting it stand and walk, grasp and use objects or weapons, or {@b speak} the languages it knows—and reabsorb them just as easily. It can speak only while a mouth is shaped."
                                                       ]
                                       },
                                       {
@@ -537,7 +545,9 @@
                                                 "stunned"
                                             ],
                         "languages":  [
-
+                                          "Common",
+                                          "Primordial",
+                                          "Deep Speech"
                                       ],
                         "cr":  "17",
                         "trait":  [
@@ -581,6 +591,12 @@
                                           "name":  "Amorphous",
                                           "entries":  [
                                                           "The Swarm Lord can move through a space as narrow as 1 foot without squeezing, and moving through its space costs no extra effort for it."
+                                                      ]
+                                      },
+                                      {
+                                          "name":  "Shape Pseudo-Anatomy",
+                                          "entries":  [
+                                                          "As a Bonus Action (or freely outside combat), the Swarm Lord can raise crude arms, legs, and a great working mouth out of its mass—to grasp and crush, haul itself along, or {@b speak} the languages it knows in a wet, many-throated voice—and reabsorb them at will. It can speak only while a mouth is shaped."
                                                       ]
                                       }
                                   ],

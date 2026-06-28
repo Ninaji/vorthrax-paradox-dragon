@@ -34,12 +34,13 @@
 			"immune": ["acid", "poison"],
 			"vulnerable": ["cold"],
 			"conditionImmune": ["blinded", "charmed", "deafened", "exhaustion", "frightened", "prone"],
-			"languages": [],
+			"languages": ["Common", "Primordial", "Deep Speech"],
 			"cr": "9",
 			"trait": [
 				{ "name": "Galaxy Within (Elemental Portals)", "entries": ["The slimeling's body holds tiny galaxies that open onto the Elemental Planes of Fire, Air (lightning), Earth, and Water (acid). At the start of each of its turns it chooses one of those elements; until the start of its next turn, the elemental damage of its attacks and Elemental Surge is that type (Earth = Bludgeoning, Air = Lightning, Fire = Fire, Water = Acid)."] },
 				{ "name": "Force Solvent", "entries": ["Reality made of Force comes apart against it. A {@spell wall of force|XPHB} or similar Force barrier it touches is destroyed; effects such as {@spell forcecage|XPHB} that contact it end; and a creature within 5 feet of it can't gain the benefit of the {@spell shield|XPHB} spell or of half cover provided by a Force effect. Nonmagical objects that touch it (and aren't being worn or carried) dissolve at the GM's discretion."] },
 				{ "name": "Amorphous", "entries": ["The slimeling can move through a space as narrow as 1 inch without squeezing, and it can move into and share another creature's space (see Engulf)."] },
+				{ "name": "Shape Pseudo-Anatomy", "entries": ["As a Bonus Action (or freely outside combat), the slimeling can extrude crude arms, legs, and a working mouth from its mass—letting it stand and walk, grasp and use objects or weapons, or {@b speak} the languages it knows—and reabsorb them just as easily. It can speak only while a mouth is shaped."] },
 				{ "name": "Erupts", "entries": ["When the Galaxy Slimeling is reduced to 0 Hit Points, it doesn't die: its skin fails and the galaxies pour out. At the start of the next round it becomes {@creature Galaxy Swarm Lord|GalaxySlime} (Gargantuan), centered on its space, at that form's full Hit Points. Run both forms as one boss; award the encounter's XP only when the Swarm Lord falls."] }
 			],
 			"action": [
@@ -70,7 +71,7 @@
 			"immune": ["acid", "poison"],
 			"vulnerable": ["cold"],
 			"conditionImmune": ["blinded", "charmed", "deafened", "exhaustion", "frightened", "grappled", "paralyzed", "petrified", "prone", "restrained", "stunned"],
-			"languages": [],
+			"languages": ["Common", "Primordial", "Deep Speech"],
 			"cr": "17",
 			"trait": [
 				{ "name": "Legendary Resistance (3/Day)", "entries": ["If the Swarm Lord fails a saving throw, it can choose to succeed instead."] },
@@ -79,7 +80,8 @@
 				{ "name": "Force Solvent", "entries": ["A {@spell wall of force|XPHB} or other Force barrier the Swarm Lord touches is destroyed; {@spell forcecage|XPHB} and similar effects that contact it end; and a creature within 15 feet can't gain the benefit of the {@spell shield|XPHB} spell or of half cover from a Force effect."] },
 				{ "name": "Mitosis (Budding Stars)", "entries": ["The Swarm Lord multiplies like a hydra, but slowly enough to fight. Whenever it takes 40 or more damage from a single source, or whenever an {@creature Elemental Galaxy Slime|GalaxySlime} it spawned is reduced to 0 Hit Points, it buds {@b one} Elemental Galaxy Slime (a random element) in an unoccupied space within 15 feet at the end of that turn. It buds at most {@b once per round} and can have at most {@b 6} spawned slimes active at once. {@b Cold, Force, or Radiant damage closes the portals:} a triggering hit of one of those types, or a bud reduced to 0 by one of those types, causes no budding at all. When the Swarm Lord drops to 0 Hit Points, every slime it spawned collapses into an inert puddle."] },
 				{ "name": "Suffocating Mass", "entries": ["A creature that ends its turn in the Swarm Lord's space is engulfed: it has the {@condition restrained} condition (escape {@dc 15}, using Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}), with Advantage after its first failed attempt as the mass loosens), it can't breathe (it begins suffocating), and it takes 21 ({@damage 6d6}) damage of a random element at the start of each of the Swarm Lord's turns."] },
-				{ "name": "Amorphous", "entries": ["The Swarm Lord can move through a space as narrow as 1 foot without squeezing, and moving through its space costs no extra effort for it."] }
+				{ "name": "Amorphous", "entries": ["The Swarm Lord can move through a space as narrow as 1 foot without squeezing, and moving through its space costs no extra effort for it."] },
+				{ "name": "Shape Pseudo-Anatomy", "entries": ["As a Bonus Action (or freely outside combat), the Swarm Lord can raise crude arms, legs, and a great working mouth out of its mass—to grasp and crush, haul itself along, or {@b speak} the languages it knows in a wet, many-throated voice—and reabsorb them at will. It can speak only while a mouth is shaped."] }
 			],
 			"action": [
 				{ "name": "Multiattack", "entries": ["The Swarm Lord makes two Pseudopod attacks (each may be a different element)."] },
