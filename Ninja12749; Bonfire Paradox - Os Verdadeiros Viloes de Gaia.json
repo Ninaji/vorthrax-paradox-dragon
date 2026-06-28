@@ -11,13 +11,13 @@
                                       "convertedBy":  [
                                                           "Ninja12749"
                                                       ],
-                                      "version":  "2.6.4",
+                                      "version":  "2.6.5",
                                       "color":  "7c3aed"
                                   }
                               ],
                   "edition":  "one",
                   "dateAdded":  1781827200,
-                  "dateLastModified":  1782704000
+                  "dateLastModified":  1782705000
               },
     "monster":  [
                     {
@@ -3752,7 +3752,7 @@
                                },
                         "speed":  {
                                       "walk":  60,
-                                      "fly":  60,
+                                      "fly":  90,
                                       "canHover":  true
                                   },
                         "str":  12,
@@ -3896,7 +3896,7 @@
                                        {
                                            "name":  "Annihilation Palm {@recharge 6}",
                                            "entries":  [
-                                                           "The Paradox Succubus brings both palms together on one creature within 5 feet, and holy and fiendish energy meet and annihilate. {@b This attack hits automatically}, and on the turn she uses it she can\u0027t also use Flurry of Blows. The target takes 91 ({@damage 26d6}) Force damage—the raw energy where her radiant and necrotic palms meet and annihilate, a blast to rival an ancient dragon\u0027s breath—then makes two saving throws:",
+                                                           "The Paradox Succubus brings both palms together on one creature within 5 feet, and holy and fiendish energy meet and annihilate. {@b This attack hits automatically} (but is never a Critical Hit, even against a {@condition prone} or {@condition unconscious} target), and on the turn she uses it she can\u0027t also use Flurry of Blows. The target takes 91 ({@damage 26d6}) Force damage—the raw energy where her radiant and necrotic palms meet and annihilate, a blast to rival an ancient dragon\u0027s breath—then makes two saving throws:",
                                                            {
                                                                "type":  "list",
                                                                "style":  "list-hang-notitle",
@@ -4025,8 +4025,8 @@
                                    "formula":  "40d8 + 200"
                                },
                         "speed":  {
-                                      "walk":  60,
-                                      "fly":  90,
+                                      "walk":  70,
+                                      "fly":  100,
                                       "canHover":  true
                                   },
                         "str":  14,
@@ -4167,7 +4167,7 @@
                                        {
                                            "name":  "Annihilation Palm {@recharge 6}",
                                            "entries":  [
-                                                           "She brings both palms together on one creature within 5 feet. {@b This attack hits automatically}, and on the turn she uses it she can\u0027t also use Flurry of Blows. The target takes 98 ({@damage 28d6}) Force damage—holy and fiendish energy annihilating—then makes two saving throws:",
+                                                           "She brings both palms together on one creature within 5 feet. {@b This attack hits automatically} (but is never a Critical Hit, even against a {@condition prone} or {@condition unconscious} target), and on the turn she uses it she can\u0027t also use Flurry of Blows. The target takes 98 ({@damage 28d6}) Force damage—holy and fiendish energy annihilating—then makes two saving throws:",
                                                            {
                                                                "type":  "list",
                                                                "style":  "list-hang-notitle",

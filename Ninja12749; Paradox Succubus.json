@@ -25,7 +25,7 @@
 			"alignment": ["N", "E"],
 			"ac": [{ "ac": 21, "from": ["Unarmored Defense and flowing grace"] }],
 			"hp": { "average": 313, "formula": "33d8 + 165" },
-			"speed": { "walk": 60, "fly": 60, "canHover": true },
+			"speed": { "walk": 60, "fly": 90, "canHover": true },
 			"str": 12, "dex": 22, "con": 20, "int": 16, "wis": 20, "cha": 22,
 			"save": { "str": "+8", "dex": "+13", "con": "+12", "int": "+10", "wis": "+12", "cha": "+13" },
 			"skill": { "acrobatics": "+13", "deception": "+15", "insight": "+12", "perception": "+12", "persuasion": "+15", "stealth": "+13" },
@@ -53,7 +53,7 @@
 				{ "name": "Nightmare Touch", "entries": ["{@atkr m} {@hit 13}, reach 5 ft. {@h}16 ({@damage 3d6 + 6}) Psychic damage, and if the target is {@condition charmed} by the Paradox Succubus it can't take Reactions until the end of its next turn as waking nightmares close in. (The incubus's signature touch.)"] },
 				{ "name": "Dominate", "entries": ["The Paradox Succubus casts {@spell dominate monster|XPHB} (no Material components), spell save {@dc 21}, on one creature she can see within 60 feet. (This is the succubus/incubus Charm, upgraded: she takes the mind, not just the heart. It requires her Concentration; damaging her or the target forces or allows the usual saves.)"] },
 				{ "name": "Draining Kiss", "entries": ["The Paradox Succubus kisses a creature {@condition charmed} or Dominated by her, or a creature {@condition grappled} by her, {@condition incapacitated}, or willing, within 5 feet. {@actSave con} {@dc 21}. {@actSaveFail} 33 ({@damage 6d10}) Psychic damage; {@actSaveSuccess} half as much. Either way the target's Hit Point maximum is reduced by an amount equal to the damage taken (until it finishes a Short or Long Rest) and the Paradox Succubus regains that many Hit Points. The target dies if this reduces its Hit Point maximum to 0."] },
-				{ "name": "Annihilation Palm {@recharge 6}", "entries": ["The Paradox Succubus brings both palms together on one creature within 5 feet, and holy and fiendish energy meet and annihilate. {@b This attack hits automatically}, and on the turn she uses it she can't also use Flurry of Blows. The target takes 91 ({@damage 26d6}) Force damage—the raw energy where her radiant and necrotic palms meet and annihilate, a blast to rival an ancient dragon's breath—then makes two saving throws:", {
+				{ "name": "Annihilation Palm {@recharge 6}", "entries": ["The Paradox Succubus brings both palms together on one creature within 5 feet, and holy and fiendish energy meet and annihilate. {@b This attack hits automatically} (but is never a Critical Hit, even against a {@condition prone} or {@condition unconscious} target), and on the turn she uses it she can't also use Flurry of Blows. The target takes 91 ({@damage 26d6}) Force damage—the raw energy where her radiant and necrotic palms meet and annihilate, a blast to rival an ancient dragon's breath—then makes two saving throws:", {
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
@@ -92,7 +92,7 @@
 			"alignment": ["C", "E"],
 			"ac": [{ "ac": 22, "from": ["Unmade grace"] }],
 			"hp": { "average": 380, "formula": "40d8 + 200" },
-			"speed": { "walk": 60, "fly": 90, "canHover": true },
+			"speed": { "walk": 70, "fly": 100, "canHover": true },
 			"str": 14, "dex": 24, "con": 20, "int": 16, "wis": 20, "cha": 24,
 			"save": { "str": "+9", "dex": "+14", "con": "+12", "int": "+10", "wis": "+12", "cha": "+14" },
 			"skill": { "acrobatics": "+14", "deception": "+16", "insight": "+12", "perception": "+12", "persuasion": "+16", "stealth": "+14" },
@@ -119,7 +119,7 @@
 				{ "name": "Nightmare Touch", "entries": ["{@atkr m} {@hit 14}, reach 5 ft. {@h}17 ({@damage 3d6 + 7}) Psychic damage, and a {@condition charmed} target can't take Reactions until the end of its next turn."] },
 				{ "name": "Dominate", "entries": ["She casts {@spell dominate monster|XPHB} (no Material components), spell save {@dc 22}, on one creature she can see within 60 feet (requires Concentration)."] },
 				{ "name": "Draining Kiss", "entries": ["She kisses a creature {@condition charmed} or Dominated by her, or {@condition grappled} by her, {@condition incapacitated}, or willing, within 5 feet. {@actSave con} {@dc 22}. {@actSaveFail} 38 ({@damage 7d10}) Psychic damage; {@actSaveSuccess} half. Either way the target's Hit Point maximum drops by the damage taken (until it finishes a Short or Long Rest) and she regains that many Hit Points; the target dies if its Hit Point maximum drops to 0."] },
-				{ "name": "Annihilation Palm {@recharge 6}", "entries": ["She brings both palms together on one creature within 5 feet. {@b This attack hits automatically}, and on the turn she uses it she can't also use Flurry of Blows. The target takes 98 ({@damage 28d6}) Force damage—holy and fiendish energy annihilating—then makes two saving throws:", {
+				{ "name": "Annihilation Palm {@recharge 6}", "entries": ["She brings both palms together on one creature within 5 feet. {@b This attack hits automatically} (but is never a Critical Hit, even against a {@condition prone} or {@condition unconscious} target), and on the turn she uses it she can't also use Flurry of Blows. The target takes 98 ({@damage 28d6}) Force damage—holy and fiendish energy annihilating—then makes two saving throws:", {
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
