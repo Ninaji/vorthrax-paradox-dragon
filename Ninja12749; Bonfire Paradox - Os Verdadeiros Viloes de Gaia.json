@@ -11,13 +11,13 @@
                                       "convertedBy":  [
                                                           "Ninja12749"
                                                       ],
-                                      "version":  "2.9.2",
+                                      "version":  "2.9.3",
                                       "color":  "7c3aed"
                                   }
                               ],
                   "edition":  "one",
                   "dateAdded":  1781827200,
-                  "dateLastModified":  1782907000
+                  "dateLastModified":  1782908000
               },
     "monster":  [
                     {
@@ -283,9 +283,9 @@
                                                        ]
                                        },
                                        {
-                                           "name":  "Forgotten Crusade {@recharge 5}",
+                                           "name":  "Forgotten Crusade (1/Day)",
                                            "entries":  [
-                                                           "The Forgotten Hero blurs into the flurry of techniques he once used to save the world, now turned to ending it. Each creature in a 15-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from him makes a {@dc 24} Dexterity saving throw. {@actSaveFail} 55 ({@damage 10d10}) Force damage, and one spell of level 5 or lower on the creature ends (as {@spell dispel magic|XPHB}). {@actSaveSuccess} Half damage. A creature reduced to 0 Hit Points by this damage is subject to Soul Cage."
+                                                           "The Forgotten Hero blurs into the flurry of techniques he once used to save the world, now turned to ending it. Each creature in a 60-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from him makes a {@dc 24} Dexterity saving throw. {@actSaveFail} 55 ({@damage 10d10}) Force damage, and one spell of level 5 or lower on the creature ends (as {@spell dispel magic|XPHB}). {@actSaveSuccess} Half damage. A creature reduced to 0 Hit Points by this damage is subject to Soul Cage."
                                                        ]
                                        }
                                    ],
