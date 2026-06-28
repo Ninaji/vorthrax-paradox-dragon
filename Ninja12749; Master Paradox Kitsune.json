@@ -17,7 +17,7 @@
 	},
 	"monster": [
 		{
-			"name": "Master Paradox Kitsune (Diminished Form)",
+			"name": "Tamamo, the Master Paradox Kitsune (Diminished Form)",
 			"source": "ParadoxKitsune",
 			"isNamedCreature": true,
 			"size": ["S"],
@@ -39,7 +39,7 @@
 				{ "name": "Legendary Resistance (3/Day)", "entries": ["If the Kitsune fails a saving throw, she can choose to succeed instead."] },
 				{ "name": "Elemental Mastery", "entries": ["The Kitsune commands the four great spirits—Salamander (fire), Undine (water and cold), Sylph (wind and lightning), and Gnome (earth and stone). Her Acid, Cold, Fire, Lightning, and Thunder damage ignores Resistance to those types and treats Immunity to them as Resistance. She is herself Resistant to all five (already listed)."] },
 				{ "name": "Gravity Well", "entries": ["The Kitsune bends weight toward herself. The ground within 15 feet of her is {@quickref Difficult Terrain||3} for her enemies, and a flying creature that starts its turn there must succeed on a {@dc 22} Strength saving throw or be pulled 20 feet straight down (it doesn't fall, but its flight is dragged earthward)."] },
-				{ "name": "Paradox Ascension", "entries": ["This palm-sized fox is only a fraction of what she is. The first time the Diminished Form is reduced to 0 Hit Points, she doesn't die: nine tails unfurl in a spiral of foxfire and she rises as {@creature Master Paradox Kitsune (True Form)|ParadoxKitsune}, appearing in her space at that form's full Hit Points with several spells already in effect (see its Ascends trait). Any conditions and ongoing effects on the Diminished Form end. This happens only once; the battle is won only when the True Form falls. Run the pair as a single boss and award XP once, for the True Form."] }
+				{ "name": "Paradox Ascension", "entries": ["This palm-sized fox is only a fraction of what she is. The first time the Diminished Form is reduced to 0 Hit Points, she doesn't die: nine tails unfurl in a spiral of foxfire and she rises as {@creature Tamamo, the Master Paradox Kitsune (True Form)|ParadoxKitsune}, appearing in her space at that form's full Hit Points with several spells already in effect (see its Ascends trait). Any conditions and ongoing effects on the Diminished Form end. This happens only once; the battle is won only when the True Form falls. Run the pair as a single boss and award XP once, for the True Form."] }
 			],
 			"spellcasting": [
 				{
@@ -73,12 +73,12 @@
 				{ "name": "Cataclysm (Costs 2 Actions)", "entries": ["The Kitsune uses Meteor or Gnome's Gravity if it is available."] }
 			],
 			"fluff": { "entries": [
-				{ "type": "entries", "name": "The Nine-Tailed Master of Elements", "entries": ["An ancient nine-tailed fox spirit—an earth-and-gravity sage who commands the four great spirits and pulls meteors from an empty sky. Drawn into the violet ring around Vorthrax's hollow, she let the paradox bind the greater part of her away, and now she meets challengers as a small, almost cute fox spirit, palm-sized and patient. It is a courtesy. It is also a trap: when the little fox is struck down, the binding breaks."] },
-				{ "type": "entries", "name": "Design: CR 24 Full-Caster Boss — Phase 1 of 2", "entries": ["The Diminished Form is a legendary full caster (Charisma) with the four spirits, gravity control, and a thrown Meteor. She is built to out-magic a lich, and she is {@b Phase 1}: at 0 Hit Points she ascends to {@creature Master Paradox Kitsune (True Form)|ParadoxKitsune} (CR 27). Run both as one boss for four well-equipped 17th-level characters; expect a Vorthrax-tier fight. Lead with Gravity Well positioning, fence at range with Call the Spirits, and spend slots on earthquake / reverse gravity / chain lightning."] }
+				{ "type": "entries", "name": "The Nine-Tailed Master of Elements", "entries": ["Tamamo, an ancient nine-tailed fox spirit—an earth-and-gravity sage who commands the four great spirits and pulls meteors from an empty sky. Drawn into the violet ring around Vorthrax's hollow, she let the paradox bind the greater part of her away, and now she meets challengers as a small, almost cute fox spirit, palm-sized and patient. It is a courtesy. It is also a trap: when the little fox is struck down, the binding breaks."] },
+				{ "type": "entries", "name": "Design: CR 24 Full-Caster Boss — Phase 1 of 2", "entries": ["The Diminished Form is a legendary full caster (Charisma) with the four spirits, gravity control, and a thrown Meteor. She is built to out-magic a lich, and she is {@b Phase 1}: at 0 Hit Points she ascends to {@creature Tamamo, the Master Paradox Kitsune (True Form)|ParadoxKitsune} (CR 27). Run both as one boss for four well-equipped 17th-level characters; expect a Vorthrax-tier fight. Lead with Gravity Well positioning, fence at range with Call the Spirits, and spend slots on earthquake / reverse gravity / chain lightning."] }
 			] }
 		},
 		{
-			"name": "Master Paradox Kitsune (True Form)",
+			"name": "Tamamo, the Master Paradox Kitsune (True Form)",
 			"source": "ParadoxKitsune",
 			"isNamedCreature": true,
 			"size": ["M"],

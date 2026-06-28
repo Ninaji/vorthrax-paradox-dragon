@@ -11,13 +11,13 @@
                                       "convertedBy":  [
                                                           "Ninja12749"
                                                       ],
-                                      "version":  "2.8.1",
+                                      "version":  "2.8.2",
                                       "color":  "7c3aed"
                                   }
                               ],
                   "edition":  "one",
                   "dateAdded":  1781827200,
-                  "dateLastModified":  1782901000
+                  "dateLastModified":  1782902000
               },
     "monster":  [
                     {
@@ -1227,7 +1227,7 @@
                                   }
                     },
                     {
-                        "name":  "Master Paradox Kitsune (Diminished Form)",
+                        "name":  "Tamamo, the Master Paradox Kitsune (Diminished Form)",
                         "source":  "VorthraxParadox",
                         "isNamedCreature":  true,
                         "size":  [
@@ -1322,7 +1322,7 @@
                                       {
                                           "name":  "Paradox Ascension",
                                           "entries":  [
-                                                          "This palm-sized fox is only a fraction of what she is. The first time the Diminished Form is reduced to 0 Hit Points, she doesn\u0027t die: nine tails unfurl in a spiral of foxfire and she rises as {@creature Master Paradox Kitsune (True Form)|VorthraxParadox}, appearing in her space at that form\u0027s full Hit Points with several spells already in effect (see its Ascends trait). Any conditions and ongoing effects on the Diminished Form end. This happens only once; the battle is won only when the True Form falls. Run the pair as a single boss and award XP once, for the True Form."
+                                                          "This palm-sized fox is only a fraction of what she is. The first time the Diminished Form is reduced to 0 Hit Points, she doesn\u0027t die: nine tails unfurl in a spiral of foxfire and she rises as {@creature Tamamo, the Master Paradox Kitsune (True Form)|VorthraxParadox}, appearing in her space at that form\u0027s full Hit Points with several spells already in effect (see its Ascends trait). Any conditions and ongoing effects on the Diminished Form end. This happens only once; the battle is won only when the True Form falls. Run the pair as a single boss and award XP once, for the True Form."
                                                       ]
                                       }
                                   ],
@@ -1428,21 +1428,21 @@
                                                           "type":  "entries",
                                                           "name":  "The Nine-Tailed Master of Elements",
                                                           "entries":  [
-                                                                          "An ancient nine-tailed fox spirit—an earth-and-gravity sage who commands the four great spirits and pulls meteors from an empty sky. Drawn into the violet ring around Vorthrax\u0027s hollow, she let the paradox bind the greater part of her away, and now she meets challengers as a small, almost cute fox spirit, palm-sized and patient. It is a courtesy. It is also a trap: when the little fox is struck down, the binding breaks."
+                                                                          "Tamamo, an ancient nine-tailed fox spirit—an earth-and-gravity sage who commands the four great spirits and pulls meteors from an empty sky. Drawn into the violet ring around Vorthrax\u0027s hollow, she let the paradox bind the greater part of her away, and now she meets challengers as a small, almost cute fox spirit, palm-sized and patient. It is a courtesy. It is also a trap: when the little fox is struck down, the binding breaks."
                                                                       ]
                                                       },
                                                       {
                                                           "type":  "entries",
                                                           "name":  "Design: CR 24 Full-Caster Boss — Phase 1 of 2",
                                                           "entries":  [
-                                                                          "The Diminished Form is a legendary full caster (Charisma) with the four spirits, gravity control, and a thrown Meteor. She is built to out-magic a lich, and she is {@b Phase 1}: at 0 Hit Points she ascends to {@creature Master Paradox Kitsune (True Form)|VorthraxParadox} (CR 27). Run both as one boss for four well-equipped 17th-level characters; expect a Vorthrax-tier fight. Lead with Gravity Well positioning, fence at range with Call the Spirits, and spend slots on earthquake / reverse gravity / chain lightning."
+                                                                          "The Diminished Form is a legendary full caster (Charisma) with the four spirits, gravity control, and a thrown Meteor. She is built to out-magic a lich, and she is {@b Phase 1}: at 0 Hit Points she ascends to {@creature Tamamo, the Master Paradox Kitsune (True Form)|VorthraxParadox} (CR 27). Run both as one boss for four well-equipped 17th-level characters; expect a Vorthrax-tier fight. Lead with Gravity Well positioning, fence at range with Call the Spirits, and spend slots on earthquake / reverse gravity / chain lightning."
                                                                       ]
                                                       }
                                                   ]
                                   }
                     },
                     {
-                        "name":  "Master Paradox Kitsune (True Form)",
+                        "name":  "Tamamo, the Master Paradox Kitsune (True Form)",
                         "source":  "VorthraxParadox",
                         "isNamedCreature":  true,
                         "size":  [

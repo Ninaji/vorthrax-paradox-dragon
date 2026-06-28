@@ -1,4 +1,6 @@
-# A Mestra-Raposa do Paradoxo — o Inverno que Veste Primavera
+# Tamamo, a Mestra-Raposa do Paradoxo — o Inverno que Veste Primavera
+
+> **Nome próprio:** Tamamo (no bestiário: *Tamamo, the Master Paradox Kitsune* — Diminished Form CR 24 → True Form CR 27). Nome da lendária raposa de nove caudas do folclore japonês.
 
 > *"Ela nos perguntou se preferíamos que a floresta morresse num inverno só ou em mil. Achamos que era enigma. Era oferta de preço. Aceitamos sem saber, e na primavera seguinte o rio veio roxo, e o roxo era doce, e bebemos."*
 > — relato de um lenhador de Tsunari, recolhido à beira de um riacho que já não corre
