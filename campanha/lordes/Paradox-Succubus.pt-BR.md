@@ -1,4 +1,6 @@
-# A Súcubo-Paradoxo, Mestra da Palma Aberta
+# Seraviel, a Súcubo-Paradoxo — Mestra da Palma Aberta
+
+> **Nome próprio:** Seraviel (no bestiário: *Seraviel, the Paradox Succubus* → *Seraviel, Unbound*). Use "a Súcubo" / "ela" no corpo do texto à vontade — Seraviel é como ela se apresenta.
 
 > *"Ela não me beijou. Eu esperava o beijo — todas as histórias falam do beijo — e ela só me olhou,
 > e perguntou se eu já tinha sido feliz por mim mesmo, sem precisar de ninguém para me querer. Eu não

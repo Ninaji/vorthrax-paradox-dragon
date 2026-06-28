@@ -1,4 +1,6 @@
-# A Galaxy Slime, a Senhora das Estrelas em Botão
+# Caelum, o Senhor das Estrelas em Botão (a Galaxy Slime)
+
+> **Nome próprio:** Caelum (latim "céu/firmamento"; no bestiário: *Caelum, the Galaxy Slimeling* → *Caelum, the Galaxy Swarm Lord*). A *gosma* é "ela" na gramática, mas a mente dentro dela é **ele**, Caelum — trate o ser como masculino.
 
 > *"Comprei um caco dela num porto de Tsunari, do tamanho de uma unha, vivo de luzinhas. O mercador jurou que era inofensivo. Cortei ao meio para mostrar à minha filha — e nasceram dois. Cada um falava. Cada um sabia o meu nome. À noite ouço os dois conversando dentro do baú, baixinho, decidindo qual vai ser eu."*
 > — carta interceptada de um colecionador de Centro-Artia, encontrada sem o autor
