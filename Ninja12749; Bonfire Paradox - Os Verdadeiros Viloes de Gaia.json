@@ -11,13 +11,13 @@
                                       "convertedBy":  [
                                                           "Ninja12749"
                                                       ],
-                                      "version":  "2.8.3",
+                                      "version":  "2.8.4",
                                       "color":  "7c3aed"
                                   }
                               ],
                   "edition":  "one",
                   "dateAdded":  1781827200,
-                  "dateLastModified":  1782903000
+                  "dateLastModified":  1782904000
               },
     "monster":  [
                     {
@@ -919,7 +919,7 @@
                                        {
                                            "name":  "Cut Through Reality {@recharge 5}",
                                            "entries":  [
-                                                           "Granveyra severs the space between herself and one creature she can see within 30 feet, ignoring cover and barriers of magical force (such as {@spell wall of force|XPHB}). The target makes a {@dc 24} Dexterity saving throw, taking 88 ({@damage 16d10}) Force damage on a failed save, or half as much on a successful one."
+                                                           "Granveyra severs the space between herself and one creature she can see within 300 feet, ignoring cover and barriers of magical force (such as {@spell wall of force|XPHB}). The target makes a {@dc 24} Dexterity saving throw, taking 88 ({@damage 16d10}) Force damage on a failed save, or half as much on a successful one. After the cut, Granveyra can either remain where she is or step through it—teleporting to an unoccupied space she can see within 5 feet of any creature she can see."
                                                        ]
                                        }
                                    ],
@@ -1163,7 +1163,7 @@
                                        {
                                            "name":  "Cut Through Reality {@recharge 5}",
                                            "entries":  [
-                                                           "Granveyra Ascendant severs the space between herself and one creature she can see within 30 feet, ignoring cover and barriers of magical force. The target makes a {@dc 24} Dexterity saving throw, taking 88 ({@damage 16d10}) Force damage on a failed save, or half as much on a successful one."
+                                                           "Granveyra Ascendant severs the space between herself and one creature she can see within 300 feet, ignoring cover and barriers of magical force. The target makes a {@dc 24} Dexterity saving throw, taking 88 ({@damage 16d10}) Force damage on a failed save, or half as much on a successful one. After the cut, she can either remain where she is or step through it—teleporting to an unoccupied space she can see within 5 feet of any creature she can see."
                                                        ]
                                        }
                                    ],
