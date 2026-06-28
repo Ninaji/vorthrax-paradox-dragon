@@ -11,13 +11,13 @@
                                       "convertedBy":  [
                                                           "Ninja12749"
                                                       ],
-                                      "version":  "2.9.0",
+                                      "version":  "2.9.1",
                                       "color":  "7c3aed"
                                   }
                               ],
                   "edition":  "one",
                   "dateAdded":  1781827200,
-                  "dateLastModified":  1782905000
+                  "dateLastModified":  1782906000
               },
     "monster":  [
                     {
@@ -331,7 +331,7 @@
                     },
                     {
                         "name":  "Caelum, the Galaxy Slimeling",
-                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/slime-galaxy-tiny.png",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/slime-galaxy-9.png",
                         "source":  "VorthraxParadox",
                         "isNamedCreature":  true,
                         "size":  [
@@ -675,7 +675,7 @@
                     },
                     {
                         "name":  "Elemental Galaxy Slime",
-                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/slime-galaxy-9.png",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/slime-galaxy-tiny.png",
                         "source":  "VorthraxParadox",
                         "size":  [
                                      "S"
