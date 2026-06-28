@@ -22,6 +22,7 @@
 	"monster": [
 		{
 			"name": "Astral Tyrannosaur",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/astral-trex.png",
 			"source": "AstralTyrant",
 			"size": [
 				"H"

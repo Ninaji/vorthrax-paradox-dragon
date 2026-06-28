@@ -22,6 +22,7 @@
 	"monster": [
 		{
 			"name": "The Eraser",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/eraser.png",
 			"source": "ParadoxApoptosis",
 			"size": ["M"],
 			"type": { "type": "aberration", "tags": ["paradox"] },
@@ -61,6 +62,7 @@
 		},
 		{
 			"name": "White Choir",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/white-choir.png",
 			"source": "ParadoxApoptosis",
 			"size": ["L"],
 			"type": { "type": "aberration", "tags": ["paradox"] },
@@ -94,6 +96,7 @@
 		},
 		{
 			"name": "The Unfinished Queen",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/unfinished-queen.png",
 			"source": "ParadoxApoptosis",
 			"size": ["G"],
 			"type": { "type": "aberration", "tags": ["paradox"] },
@@ -135,6 +138,7 @@
 		},
 		{
 			"name": "Redaction Effigy",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/redaction-effigy.png",
 			"source": "ParadoxApoptosis",
 			"size": ["L"],
 			"type": { "type": "construct", "tags": ["paradox"] },
@@ -168,6 +172,7 @@
 		},
 		{
 			"name": "Twin-Star Reliquary",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/twin-star-reliquary.png",
 			"source": "ParadoxApoptosis",
 			"size": ["L"],
 			"type": { "type": "construct", "tags": ["paradox"] },
@@ -200,6 +205,7 @@
 		},
 		{
 			"name": "Mirror Sentinel",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/mirror-sentinel.png",
 			"source": "ParadoxApoptosis",
 			"size": ["L"],
 			"type": { "type": "construct", "tags": ["paradox"] },
@@ -233,6 +239,7 @@
 		},
 		{
 			"name": "Gilded Seraph",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/gilded-seraph.png",
 			"source": "ParadoxApoptosis",
 			"size": ["L"],
 			"type": { "type": "celestial", "tags": ["paradox"] },

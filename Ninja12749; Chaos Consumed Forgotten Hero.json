@@ -18,6 +18,7 @@
 	"monster": [
 		{
 			"name": "Chaos Consumed Forgotten Hero",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/chaos-hero.png",
 			"source": "ForgottenHero",
 			"isNamedCreature": true,
 			"size": ["M"],

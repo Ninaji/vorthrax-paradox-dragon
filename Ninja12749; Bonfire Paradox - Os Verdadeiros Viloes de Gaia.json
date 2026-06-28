@@ -11,17 +11,18 @@
                                       "convertedBy":  [
                                                           "Ninja12749"
                                                       ],
-                                      "version":  "2.9.1",
+                                      "version":  "2.9.2",
                                       "color":  "7c3aed"
                                   }
                               ],
                   "edition":  "one",
                   "dateAdded":  1781827200,
-                  "dateLastModified":  1782906000
+                  "dateLastModified":  1782907000
               },
     "monster":  [
                     {
                         "name":  "Astral Tyrannosaur",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/astral-trex.png",
                         "source":  "VorthraxParadox",
                         "size":  [
                                      "H"
@@ -173,6 +174,7 @@
                     },
                     {
                         "name":  "Chaos Consumed Forgotten Hero",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/chaos-hero.png",
                         "source":  "VorthraxParadox",
                         "isNamedCreature":  true,
                         "size":  [
@@ -2458,6 +2460,7 @@
                     },
                     {
                         "name":  "The Eraser",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/eraser.png",
                         "source":  "VorthraxParadox",
                         "size":  [
                                      "M"
@@ -2591,6 +2594,7 @@
                     },
                     {
                         "name":  "White Choir",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/white-choir.png",
                         "source":  "VorthraxParadox",
                         "size":  [
                                      "L"
@@ -2715,6 +2719,7 @@
                     },
                     {
                         "name":  "The Unfinished Queen",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/unfinished-queen.png",
                         "source":  "VorthraxParadox",
                         "size":  [
                                      "G"
@@ -2863,6 +2868,7 @@
                     },
                     {
                         "name":  "Redaction Effigy",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/redaction-effigy.png",
                         "source":  "VorthraxParadox",
                         "size":  [
                                      "L"
@@ -2988,6 +2994,7 @@
                     },
                     {
                         "name":  "Twin-Star Reliquary",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/twin-star-reliquary.png",
                         "source":  "VorthraxParadox",
                         "size":  [
                                      "L"
@@ -3107,6 +3114,7 @@
                     },
                     {
                         "name":  "Mirror Sentinel",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/mirror-sentinel.png",
                         "source":  "VorthraxParadox",
                         "size":  [
                                      "L"
@@ -3229,6 +3237,7 @@
                     },
                     {
                         "name":  "Gilded Seraph",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/gilded-seraph.png",
                         "source":  "VorthraxParadox",
                         "size":  [
                                      "L"
