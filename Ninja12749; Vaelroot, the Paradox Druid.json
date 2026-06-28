@@ -18,6 +18,7 @@
 	"monster": [
 		{
 			"name": "Vaelroot, the Verdant Dawn",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/druid.png",
 			"source": "ParadoxDruid",
 			"isNamedCreature": true,
 			"size": ["L"],
@@ -78,6 +79,7 @@
 		},
 		{
 			"name": "Vaelroot, the Withering Dusk",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/druid.png",
 			"source": "ParadoxDruid",
 			"isNamedCreature": true,
 			"size": ["L"],
@@ -135,6 +137,7 @@
 		},
 		{
 			"name": "Vaelroot, the Unmade Bloom",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/druid.png",
 			"source": "ParadoxDruid",
 			"isNamedCreature": true,
 			"size": ["L"],

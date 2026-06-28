@@ -22,6 +22,7 @@
 	"monster": [
 		{
 			"name": "Paradox-Touched Goblin Cutter",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/goblin.png",
 			"source": "ParadoxWarband",
 			"size": [
 				"S"
@@ -126,6 +127,7 @@
 		},
 		{
 			"name": "Paradox-Touched Goblin Stinger",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/goblin.png",
 			"source": "ParadoxWarband",
 			"size": [
 				"S"
@@ -236,6 +238,7 @@
 		},
 		{
 			"name": "Paradox-Touched Goblin Hexer",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/goblin.png",
 			"source": "ParadoxWarband",
 			"size": [
 				"S"
@@ -395,6 +398,7 @@
 		},
 		{
 			"name": "Paradox-Touched Kobold Clawfoot",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/kobold-warrior.png",
 			"source": "ParadoxWarband",
 			"size": [
 				"S"
@@ -506,6 +510,7 @@
 		},
 		{
 			"name": "Paradox-Touched Kobold Slinger",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/kobold-warrior.png",
 			"source": "ParadoxWarband",
 			"size": [
 				"S"
@@ -615,6 +620,7 @@
 		},
 		{
 			"name": "Paradox-Touched Kobold Star-Scale",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/kobold-warrior.png",
 			"source": "ParadoxWarband",
 			"size": [
 				"S"

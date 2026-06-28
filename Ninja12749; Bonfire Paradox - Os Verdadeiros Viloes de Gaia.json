@@ -11,13 +11,13 @@
                                       "convertedBy":  [
                                                           "Ninja12749"
                                                       ],
-                                      "version":  "2.8.4",
+                                      "version":  "2.9.0",
                                       "color":  "7c3aed"
                                   }
                               ],
                   "edition":  "one",
                   "dateAdded":  1781827200,
-                  "dateLastModified":  1782904000
+                  "dateLastModified":  1782905000
               },
     "monster":  [
                     {
@@ -331,6 +331,7 @@
                     },
                     {
                         "name":  "Caelum, the Galaxy Slimeling",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/slime-galaxy-tiny.png",
                         "source":  "VorthraxParadox",
                         "isNamedCreature":  true,
                         "size":  [
@@ -472,6 +473,7 @@
                     },
                     {
                         "name":  "Caelum, the Galaxy Swarm Lord",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/slime-gargantual.png",
                         "source":  "VorthraxParadox",
                         "isNamedCreature":  true,
                         "size":  [
@@ -673,6 +675,7 @@
                     },
                     {
                         "name":  "Elemental Galaxy Slime",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/slime-galaxy-9.png",
                         "source":  "VorthraxParadox",
                         "size":  [
                                      "S"
@@ -785,6 +788,7 @@
                     },
                     {
                         "name":  "Granveyra, the Half-Dragon Paradox Champion",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/granveyra.png",
                         "source":  "VorthraxParadox",
                         "isNamedCreature":  true,
                         "size":  [
@@ -984,6 +988,7 @@
                     },
                     {
                         "name":  "Granveyra Ascendant, the Paradox Spellblade",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/granveyra.png",
                         "source":  "VorthraxParadox",
                         "isNamedCreature":  true,
                         "size":  [
@@ -1228,6 +1233,7 @@
                     },
                     {
                         "name":  "Tamamo, the Master Paradox Kitsune (Diminished Form)",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/kitsune1.png",
                         "source":  "VorthraxParadox",
                         "isNamedCreature":  true,
                         "size":  [
@@ -1443,6 +1449,7 @@
                     },
                     {
                         "name":  "Tamamo, the Master Paradox Kitsune (True Form)",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/kitsune2.png",
                         "source":  "VorthraxParadox",
                         "isNamedCreature":  true,
                         "size":  [
@@ -4065,6 +4072,7 @@
                     },
                     {
                         "name":  "Paradox Kaeru",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/paradox-kaeru.png",
                         "source":  "VorthraxParadox",
                         "size":  [
                                      "S"
@@ -4177,6 +4185,7 @@
                     },
                     {
                         "name":  "Seraviel, the Paradox Succubus",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/succubus.png",
                         "source":  "VorthraxParadox",
                         "isNamedCreature":  true,
                         "size":  [
@@ -4451,6 +4460,7 @@
                     },
                     {
                         "name":  "Seraviel, Unbound",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/succubus.png",
                         "source":  "VorthraxParadox",
                         "isNamedCreature":  true,
                         "size":  [
@@ -4707,6 +4717,7 @@
                     },
                     {
                         "name":  "Paradox-Touched Goblin Cutter",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/goblin.png",
                         "source":  "VorthraxParadox",
                         "size":  [
                                      "S"
@@ -4811,6 +4822,7 @@
                     },
                     {
                         "name":  "Paradox-Touched Goblin Stinger",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/goblin.png",
                         "source":  "VorthraxParadox",
                         "size":  [
                                      "S"
@@ -4921,6 +4933,7 @@
                     },
                     {
                         "name":  "Paradox-Touched Goblin Hexer",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/goblin.png",
                         "source":  "VorthraxParadox",
                         "size":  [
                                      "S"
@@ -5080,6 +5093,7 @@
                     },
                     {
                         "name":  "Paradox-Touched Kobold Clawfoot",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/kobold-warrior.png",
                         "source":  "VorthraxParadox",
                         "size":  [
                                      "S"
@@ -5191,6 +5205,7 @@
                     },
                     {
                         "name":  "Paradox-Touched Kobold Slinger",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/kobold-warrior.png",
                         "source":  "VorthraxParadox",
                         "size":  [
                                      "S"
@@ -5300,6 +5315,7 @@
                     },
                     {
                         "name":  "Paradox-Touched Kobold Star-Scale",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/kobold-warrior.png",
                         "source":  "VorthraxParadox",
                         "size":  [
                                      "S"
@@ -6456,6 +6472,7 @@
                     },
                     {
                         "name":  "Vaelroot, the Verdant Dawn",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/druid.png",
                         "source":  "VorthraxParadox",
                         "isNamedCreature":  true,
                         "size":  [
@@ -6681,6 +6698,7 @@
                     },
                     {
                         "name":  "Vaelroot, the Withering Dusk",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/druid.png",
                         "source":  "VorthraxParadox",
                         "isNamedCreature":  true,
                         "size":  [
@@ -6903,6 +6921,7 @@
                     },
                     {
                         "name":  "Vaelroot, the Unmade Bloom",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/druid.png",
                         "source":  "VorthraxParadox",
                         "isNamedCreature":  true,
                         "size":  [
@@ -7141,6 +7160,7 @@
                     },
                     {
                         "name":  "Vorthrax",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/vorthrax.png",
                         "shortName":  "Vorthrax",
                         "isNamedCreature":  true,
                         "source":  "VorthraxParadox",
@@ -7428,6 +7448,7 @@
                     },
                     {
                         "name":  "Dawnwheel",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/stonegold.png",
                         "source":  "VorthraxParadox",
                         "size":  [
                                      "L"
@@ -7533,6 +7554,7 @@
                     },
                     {
                         "name":  "Duskwheel",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/stoneshadow.png",
                         "source":  "VorthraxParadox",
                         "size":  [
                                      "L"
@@ -7638,6 +7660,7 @@
                     },
                     {
                         "name":  "Voidwheel",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/stoneparadox.png",
                         "source":  "VorthraxParadox",
                         "size":  [
                                      "L"
@@ -7743,6 +7766,7 @@
                     },
                     {
                         "name":  "Aureli, Treasurer-General of the Shogun",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/aureli.png",
                         "source":  "VorthraxParadox",
                         "isNamedCreature":  true,
                         "size":  [
@@ -7997,6 +8021,7 @@
                     },
                     {
                         "name":  "Solar Elf Shadow Kensei",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/shadowkensei.png",
                         "source":  "VorthraxParadox",
                         "size":  [
                                      "M"
@@ -8151,6 +8176,7 @@
                     },
                     {
                         "name":  "Sawjaw Rex, the Steam Tyrant",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/sawrex.png",
                         "source":  "VorthraxParadox",
                         "isNamedCreature":  true,
                         "size":  [
@@ -8296,6 +8322,7 @@
                     },
                     {
                         "name":  "Sawjaw Rex, the Runaway Boiler",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/sawrex.png",
                         "source":  "VorthraxParadox",
                         "isNamedCreature":  true,
                         "size":  [
@@ -8470,6 +8497,7 @@
                     },
                     {
                         "name":  "Merchant Musketeer",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/musketer.png",
                         "source":  "VorthraxParadox",
                         "size":  [
                                      "M"
@@ -8561,6 +8589,7 @@
                     },
                     {
                         "name":  "Merchant Bombardier",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/bomb.png",
                         "source":  "VorthraxParadox",
                         "size":  [
                                      "M"
@@ -8650,6 +8679,7 @@
                     },
                     {
                         "name":  "Merchant Captain",
+                        "tokenUrl":  "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/captain.png",
                         "source":  "VorthraxParadox",
                         "size":  [
                                      "M"

@@ -18,6 +18,7 @@
 	"monster": [
 		{
 			"name": "Sawjaw Rex, the Steam Tyrant",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/sawrex.png",
 			"source": "SawjawRex",
 			"isNamedCreature": true,
 			"size": ["L"],
@@ -59,6 +60,7 @@
 		},
 		{
 			"name": "Sawjaw Rex, the Runaway Boiler",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/sawrex.png",
 			"source": "SawjawRex",
 			"isNamedCreature": true,
 			"size": ["L"],
@@ -104,6 +106,7 @@
 		},
 		{
 			"name": "Merchant Musketeer",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/musketer.png",
 			"source": "SawjawRex",
 			"size": ["M"],
 			"type": { "type": "humanoid", "tags": ["human"] },
@@ -133,6 +136,7 @@
 		},
 		{
 			"name": "Merchant Bombardier",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/bomb.png",
 			"source": "SawjawRex",
 			"size": ["M"],
 			"type": { "type": "humanoid", "tags": ["human"] },
@@ -160,6 +164,7 @@
 		},
 		{
 			"name": "Merchant Captain",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/captain.png",
 			"source": "SawjawRex",
 			"size": ["M"],
 			"type": { "type": "humanoid", "tags": ["human"] },

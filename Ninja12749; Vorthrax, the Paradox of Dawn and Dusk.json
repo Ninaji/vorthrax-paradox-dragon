@@ -22,6 +22,7 @@
 	"monster": [
 		{
 			"name": "Vorthrax",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/vorthrax.png",
 			"shortName": "Vorthrax",
 			"isNamedCreature": true,
 			"source": "VorthraxParadox",
@@ -309,6 +310,7 @@
 		},
 		{
 			"name": "Dawnwheel",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/stonegold.png",
 			"source": "VorthraxParadox",
 			"size": [
 				"L"
@@ -414,6 +416,7 @@
 		},
 		{
 			"name": "Duskwheel",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/stoneshadow.png",
 			"source": "VorthraxParadox",
 			"size": [
 				"L"
@@ -519,6 +522,7 @@
 		},
 		{
 			"name": "Voidwheel",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/stoneparadox.png",
 			"source": "VorthraxParadox",
 			"size": [
 				"L"

@@ -18,6 +18,7 @@
 	"monster": [
 		{
 			"name": "Seraviel, the Paradox Succubus",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/succubus.png",
 			"source": "ParadoxSuccubus",
 			"isNamedCreature": true,
 			"size": ["M"],
@@ -85,6 +86,7 @@
 		},
 		{
 			"name": "Seraviel, Unbound",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/succubus.png",
 			"source": "ParadoxSuccubus",
 			"isNamedCreature": true,
 			"size": ["M"],

@@ -18,6 +18,7 @@
 	"monster": [
 		{
 			"name": "Granveyra, the Half-Dragon Paradox Champion",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/granveyra.png",
 			"source": "ParadoxChampion",
 			"isNamedCreature": true,
 			"size": ["M"],
@@ -71,6 +72,7 @@
 		},
 		{
 			"name": "Granveyra Ascendant, the Paradox Spellblade",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/granveyra.png",
 			"source": "ParadoxChampion",
 			"isNamedCreature": true,
 			"size": ["M"],

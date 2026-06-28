@@ -18,6 +18,7 @@
 	"monster": [
 		{
 			"name": "Paradox Kaeru",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/paradox-kaeru.png",
 			"source": "ParadoxKaeru",
 			"size": ["S"],
 			"type": { "type": "monstrosity", "tags": ["paradox"] },

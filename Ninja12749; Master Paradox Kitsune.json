@@ -18,6 +18,7 @@
 	"monster": [
 		{
 			"name": "Tamamo, the Master Paradox Kitsune (Diminished Form)",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/kitsune1.png",
 			"source": "ParadoxKitsune",
 			"isNamedCreature": true,
 			"size": ["S"],
@@ -79,6 +80,7 @@
 		},
 		{
 			"name": "Tamamo, the Master Paradox Kitsune (True Form)",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/kitsune2.png",
 			"source": "ParadoxKitsune",
 			"isNamedCreature": true,
 			"size": ["M"],
