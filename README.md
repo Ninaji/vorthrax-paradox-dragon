@@ -47,6 +47,23 @@ também já está **incluído no bestiário combinado `VPX`** (consolidado como 
 | [`oneshots/Ninja12749; Sawjaw Rex, the Steam Tyrant.json`](oneshots/Ninja12749%3B%20Sawjaw%20Rex%2C%20the%20Steam%20Tyrant.json) | **2 fichas** (fonte SJR): **Sawjaw Rex** — tiranossauro *steampunk* com serra elétrica no braço direito, canhão-caldeira a vapor nas costas (mochila) e cuspe de fogo. Boss de **2 estágios**: vivo (Monstruosidade CR 11) → ao morrer a caldeira pilota o cadáver como **construto** "Runaway Boiler" (CR 12) com **ponto fraco destrutível** (a caldeira: 40 PV, vulnerável a frio, detona ao quebrar). Encontro **Difícil** para 4 PCs nível 8 bem equipados (paladino/clérigo da vida/caçador/feiticeiro). *Tema steampunk — fora do cânone medieval do Gaia.* |
 | [`oneshots/Ninja12749; Aureli, Treasurer-General of the Shogun.json`](oneshots/Ninja12749%3B%20Aureli%2C%20Treasurer-General%20of%20the%20Shogun.json) | **2 fichas** (fonte AUR): **Aureli** — comandante-tesoureira elfa solar do Xogum, com bandeira, leque que desvia tiros, 5 mosquetes flutuantes, bombas de luz que cegam e **estátuas de adamantina/mithral/prata/ouro**; mais o minion elite **Solar Elf Shadow Kensei** (monge das sombras que teleporta no escuro + mosquete). Boss elite **CR 15** + adds CR 6, encontro **Difícil** para 5 PCs nível 11 (3 clérigos / 2 caçadores). *Tema wuxia/samurai — fora do cânone do Gaia.* |
 
+## 🗺️ Campanha — Bonfire Paradox: A Era dos Maou
+
+Uma **bíblia de campanha** de alto nível (níveis **14–20**), pensada para **vários mestres rodarem mesas em paralelo** no mesmo mundo e terminar numa **raid para 20+ jogadores** contra a Lord Maou. A história começa quando um guerreiro mata o Vorthrax pela primeira vez e é refeito no primeiro **Maou Sama** — porque matar o dragão não o encerra, *fabrica* um tirano novo. A única vitória é cortar o fio que o prende ao mundo.
+
+| Documento | O que é |
+|---|---|
+| ⭐ [`campanha/CAMPANHA-Bonfire-Paradox.pt-BR.md`](campanha/CAMPANHA-Bonfire-Paradox.pt-BR.md) | **Documento mestre** — a premissa, a hierarquia (**mercadores → Aureli → Kitsune → Nyxariel**), a estrutura de níveis 14–20, o **guia multi-mestre** (estado do mundo compartilhado + pontos de campanha) e a **raid final** (party de 4 por vez, troca a cada morte/fuga; vencer bane o Vorthrax pro plano onírico) |
+| [`campanha/lordes/Nyxariel-Lord-Maou.pt-BR.md`](campanha/lordes/Nyxariel-Lord-Maou.pt-BR.md) | **Nyxariel, a Lord Maou** — canaliza o Vorthrax; é o boss da raid |
+| [`campanha/lordes/Kitsune-Tsunari.pt-BR.md`](campanha/lordes/Kitsune-Tsunari.pt-BR.md) | **A Master Paradox Kitsune** — cultiva o caos desmatando/envenenando **Tsunari** |
+| [`campanha/lordes/Aureli-Mercadores.pt-BR.md`](campanha/lordes/Aureli-Mercadores.pt-BR.md) | **Aureli** — comanda os mercadores e os dirigíveis; serve a Kitsune |
+| [`campanha/lordes/Granveyra-Deserto-dos-Dragoes.pt-BR.md`](campanha/lordes/Granveyra-Deserto-dos-Dragoes.pt-BR.md) | **Granveyra** — meia-dragão feita por vampiros, isolada no **Deserto dos Dragões** |
+| [`campanha/lordes/Paradox-Succubus.pt-BR.md`](campanha/lordes/Paradox-Succubus.pt-BR.md) | **A Paradox Succubus** — cria do plano onírico que quer ser livre da própria natureza |
+| [`campanha/lordes/Galaxy-Slime.pt-BR.md`](campanha/lordes/Galaxy-Slime.pt-BR.md) | **A Galaxy Slime** — maou que precisa se propagar pra não enlouquecer como o Vorthrax |
+| [`campanha/lordes/Vaelroot.pt-BR.md`](campanha/lordes/Vaelroot.pt-BR.md) | **Vaelroot** — o jardineiro da ferida, que cultiva o sub-céu |
+
+Cada documento de lorde traz **5 aventuras (nível 14–20)** prontas e como a queda dele afeta o mundo compartilhado das outras mesas.
+
 ## Destaques da ficha
 
 - **CR 25 (26 no covil)** — 487 PV por vida, CA 22, deslocamento 36 m (120 ft) + teleporte bônus
