@@ -1,0 +1,134 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "GalaxySlime",
+				"abbreviation": "GXS",
+				"full": "The Galaxy Slime, Lord of Budding Stars",
+				"authors": ["Ninja12749"],
+				"convertedBy": ["Ninja12749"],
+				"version": "1.0.0",
+				"color": "4338ca"
+			}
+		],
+		"edition": "one",
+		"dateAdded": 1782800000,
+		"dateLastModified": 1782800000
+	},
+	"monster": [
+		{
+			"name": "Galaxy Slimeling",
+			"source": "GalaxySlime",
+			"isNamedCreature": true,
+			"size": ["S"],
+			"type": { "type": "ooze", "tags": ["paradox"] },
+			"alignment": ["unaligned"],
+			"ac": [{ "ac": 14, "from": ["star-dense jelly"] }],
+			"hp": { "average": 170, "formula": "20d6 + 100" },
+			"speed": { "walk": 30, "climb": 30 },
+			"str": 18, "dex": 8, "con": 20, "int": 6, "wis": 10, "cha": 6,
+			"save": { "con": "+9" },
+			"senses": ["blindsight 60 ft. (blind beyond this radius)", "tremorsense 30 ft."],
+			"passive": 10,
+			"resist": ["fire", "lightning"],
+			"immune": ["acid", "poison"],
+			"vulnerable": ["cold"],
+			"conditionImmune": ["blinded", "charmed", "deafened", "exhaustion", "frightened", "prone"],
+			"languages": [],
+			"cr": "9",
+			"trait": [
+				{ "name": "Galaxy Within (Elemental Portals)", "entries": ["The slimeling's body holds tiny galaxies that open onto the Elemental Planes of Fire, Air (lightning), Earth, and Water (acid). At the start of each of its turns it chooses one of those elements; until the start of its next turn, the elemental damage of its attacks and Elemental Surge is that type (Earth = Bludgeoning, Air = Lightning, Fire = Fire, Water = Acid)."] },
+				{ "name": "Force Solvent", "entries": ["Reality made of Force comes apart against it. A {@spell wall of force|XPHB} or similar Force barrier it touches is destroyed; effects such as {@spell forcecage|XPHB} that contact it end; and a creature within 5 feet of it can't gain the benefit of the {@spell shield|XPHB} spell or of half cover provided by a Force effect. Nonmagical objects that touch it (and aren't being worn or carried) dissolve at the GM's discretion."] },
+				{ "name": "Amorphous", "entries": ["The slimeling can move through a space as narrow as 1 inch without squeezing, and it can move into and share another creature's space (see Engulf)."] },
+				{ "name": "Erupts", "entries": ["When the Galaxy Slimeling is reduced to 0 Hit Points, it doesn't die: its skin fails and the galaxies pour out. At the start of the next round it becomes {@creature Galaxy Swarm Lord|GalaxySlime} (Gargantuan), centered on its space, at that form's full Hit Points. Run both forms as one boss; award the encounter's XP only when the Swarm Lord falls."] }
+			],
+			"action": [
+				{ "name": "Multiattack", "entries": ["The slimeling makes two Pseudopod attacks."] },
+				{ "name": "Pseudopod", "entries": ["{@atkr m} {@hit 8}, reach 5 ft. {@h}13 ({@damage 2d8 + 4}) Bludgeoning damage plus 7 ({@damage 2d6}) damage of its current element, and the target is {@condition grappled} (escape {@dc 15}) and {@condition restrained} until the grapple ends."] },
+				{ "name": "Engulf", "entries": ["The slimeling moves up to its Speed into the space of a Medium or smaller creature. That creature makes a {@dc 15} Dexterity saving throw. {@actSaveFail} It is engulfed: it has the {@condition restrained} condition (escape {@dc 15}), it can't breathe (it begins suffocating), and it takes 14 ({@damage 4d6}) damage of the slimeling's current element at the start of each of the slimeling's turns. {@actSaveSuccess} It is pushed 5 feet out of the slimeling's space."] },
+				{ "name": "Elemental Surge {@recharge 5}", "entries": ["A galaxy flares. Each creature in a 15-foot {@variantrule Cone [Area of Effect]|XPHB|Cone} makes a {@dc 15} Dexterity saving throw, taking 28 ({@damage 8d6}) damage of the slimeling's current element on a failure, or half as much on a success."] }
+			],
+			"fluff": { "entries": [
+				{ "type": "entries", "name": "A Hole in the Sky, Wearing a Slime", "entries": ["It looks harmless—a hand-span of glittering jelly with little stars drifting inside it. The stars are real. The slime is a wound in the world that healed wrong, a knot of galaxies each opening onto an Elemental Plane, wrapped in just enough flesh to crawl. Cut it and it doesn't bleed; it {@i buds}. Kill the little one and you only let the sky out."] }
+			] }
+		},
+		{
+			"name": "Galaxy Swarm Lord",
+			"source": "GalaxySlime",
+			"isNamedCreature": true,
+			"size": ["G"],
+			"type": { "type": "ooze", "tags": ["paradox"] },
+			"alignment": ["unaligned"],
+			"ac": [{ "ac": 16, "from": ["churning star-jelly"] }],
+			"hp": { "average": 310, "formula": "20d20 + 100" },
+			"speed": { "walk": 40, "climb": 40 },
+			"str": 24, "dex": 8, "con": 22, "int": 8, "wis": 12, "cha": 10,
+			"save": { "con": "+12", "wis": "+7" },
+			"senses": ["blindsight 120 ft. (blind beyond this radius)", "tremorsense 60 ft."],
+			"passive": 11,
+			"resist": ["fire", "lightning", "bludgeoning", "piercing", "slashing"],
+			"immune": ["acid", "poison"],
+			"vulnerable": ["cold"],
+			"conditionImmune": ["blinded", "charmed", "deafened", "exhaustion", "frightened", "grappled", "paralyzed", "petrified", "prone", "restrained", "stunned"],
+			"languages": [],
+			"cr": "17",
+			"trait": [
+				{ "name": "Legendary Resistance (3/Day)", "entries": ["If the Swarm Lord fails a saving throw, it can choose to succeed instead."] },
+				{ "name": "Gargantuan Mass", "entries": ["The Swarm Lord fills a 20-foot square. Other creatures can enter its space, and it can enter theirs; its space is {@quickref Difficult Terrain||3}."] },
+				{ "name": "Galaxy Within (Elemental Portals)", "entries": ["Its body is a sky of galaxies opening onto the Planes of Fire, Air (lightning), Earth, and Water (acid). Each of its Pseudopods can deal a different one of those elements (Earth = Bludgeoning, Air = Lightning, Fire = Fire, Water = Acid), chosen when it attacks; its Elemental Cataclysm uses all four."] },
+				{ "name": "Force Solvent", "entries": ["A {@spell wall of force|XPHB} or other Force barrier the Swarm Lord touches is destroyed; {@spell forcecage|XPHB} and similar effects that contact it end; and a creature within 15 feet can't gain the benefit of the {@spell shield|XPHB} spell or of half cover from a Force effect."] },
+				{ "name": "Mitosis (Budding Stars)", "entries": ["The Swarm Lord multiplies like a hydra, but slowly enough to fight. Whenever it takes 40 or more damage from a single source, or whenever an {@creature Elemental Galaxy Slime|GalaxySlime} it spawned is reduced to 0 Hit Points, it buds {@b one} Elemental Galaxy Slime (a random element) in an unoccupied space within 15 feet at the end of that turn. It buds at most {@b once per round} and can have at most {@b 6} spawned slimes active at once. {@b Cold, Force, or Radiant damage closes the portals:} a triggering hit of one of those types, or a bud reduced to 0 by one of those types, causes no budding at all. When the Swarm Lord drops to 0 Hit Points, every slime it spawned collapses into an inert puddle."] },
+				{ "name": "Suffocating Mass", "entries": ["A creature that ends its turn in the Swarm Lord's space is engulfed: it has the {@condition restrained} condition (escape {@dc 15}, using Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}), with Advantage after its first failed attempt as the mass loosens), it can't breathe (it begins suffocating), and it takes 21 ({@damage 6d6}) damage of a random element at the start of each of the Swarm Lord's turns."] },
+				{ "name": "Amorphous", "entries": ["The Swarm Lord can move through a space as narrow as 1 foot without squeezing, and moving through its space costs no extra effort for it."] }
+			],
+			"action": [
+				{ "name": "Multiattack", "entries": ["The Swarm Lord makes two Pseudopod attacks (each may be a different element)."] },
+				{ "name": "Pseudopod", "entries": ["{@atkr m} {@hit 11}, reach 15 ft. {@h}18 ({@damage 2d10 + 7}) Bludgeoning damage plus 10 ({@damage 3d6}) damage of the chosen element, and the target is {@condition grappled} (escape {@dc 15}, using Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics})) and {@condition restrained}; the Swarm Lord can then pull a grappled creature 10 feet toward its space."] },
+				{ "name": "Devour {@recharge 5}", "entries": ["The Swarm Lord surges over a 20-foot {@variantrule Cube [Area of Effect]|XPHB|Cube} within reach. Each creature there makes a {@dc 18} Strength or Dexterity saving throw (its choice). {@actSaveFail} The creature is pulled into the Swarm Lord's space and engulfed (see Suffocating Mass): {@condition restrained} (escape {@dc 15}), suffocating, and it takes 21 ({@damage 6d6}) damage of a random element. {@actSaveSuccess} Half that damage and not pulled."] },
+				{ "name": "Elemental Cataclysm {@recharge 6}", "entries": ["Every galaxy opens at once. Each creature within 30 feet of the Swarm Lord makes a {@dc 18} Dexterity saving throw, taking 7 ({@damage 2d6}) Fire damage plus 7 ({@damage 2d6}) Lightning damage plus 7 ({@damage 2d6}) Acid damage plus 7 ({@damage 2d6}) Bludgeoning damage (28 total) on a failure, or half as much on a success."] }
+			],
+			"legendaryHeader": ["Legendary Action Uses: 3. Immediately after another creature's turn, the Swarm Lord can expend a use to take one of the following actions. It regains all expended uses at the start of each of its turns."],
+			"legendaryActions": 3,
+			"legendary": [
+				{ "name": "Lash", "entries": ["The Swarm Lord makes one Pseudopod attack. It can use Lash no more than once per round."] },
+				{ "name": "Bud", "entries": ["The Swarm Lord creates one Elemental Galaxy Slime in an unoccupied space within 15 feet (subject to the once-per-round limit and 6-slime cap of Mitosis)."] },
+				{ "name": "Flow (Costs 2 Actions)", "entries": ["The Swarm Lord moves up to its Speed. Each creature whose space it enters makes a {@dc 18} Dexterity saving throw or is engulfed (see Suffocating Mass)."] }
+			],
+			"fluff": { "entries": [
+				{ "type": "entries", "name": "When the Sky Came Loose", "entries": ["The little slime was the cork. Once it bursts, the galaxies have nothing holding them in, and they spread—a heaving, glittering tide of star-jelly the size of a hall, every wave of it a doorway to a different burning plane. Cut a piece off and the wound buds two more; the only things that close the portals are the cold of the void between stars and the raw Force that severs space. Everything else just feeds it."] },
+				{ "type": "entries", "name": "Design: Two-Phase Hydra-Ooze Boss for 4 Level-15 PCs", "entries": ["A two-phase 'boss lord' for four 15th-level characters with very rare and rare items (an Echo Knight Fighter, an Evocation Wizard, a Life Cleric, and a long-range Ranger). {@b Phase 1} {@creature Galaxy Slimeling|GalaxySlime} (Small ooze, CR 9) looks trivial; at 0 HP it Erupts into {@b Phase 2} the Galaxy Swarm Lord (Gargantuan ooze, CR 17) at full Hit Points, which then buds {@creature Elemental Galaxy Slime|GalaxySlime}s (CR 4) onto the map. Because the Slimeling {@i erupts} into the Lord (they're never on the board together), the live fielded total is the Lord plus up to 6 CR-4 buds (~24,600 XP)—between Moderate and High for that party, a hard but winnable fight (the CR-9 Slimeling is a pre-phase, not added on top).", "{@b The hydra trick and its counter.} Mitosis makes more bodies when you hurt it: a 40+ hit on the Lord, or killing a bud, buds {@b one} more (at most once per round, cap 6)—{@b unless} that damage was {@b Cold, Force, or Radiant}, which closes the portal and buds nothing. So three of the four PCs have a real answer: the Evocation Wizard ({@b Cone of Cold / Ice Storm}—they're {@i vulnerable} to cold—and {@b Magic Missile} Force) and the Life Cleric ({@b Sacred Flame / Spirit Guardians} Radiant) clear and suppress buds, while the Echo Knight and Ranger chip the Lord's 310 HP. Fire, Lightning, and Acid are the slimes' own planes (resisted), so blasting those is half-value—{@b telegraph this in round 1} (an Arcana check, or the first elemental hit visibly making it bud) so the table learns to pivot instead of feeling hard-countered.", "{@b Engulf / suffocation} (Devour, Suffocating Mass) lets the slimes occupy PC spaces, restrain, and suffocate—deadly for the Wizard and Ranger if they get swallowed; the Echo Knight's echo and the Ranger's range help them fight from outside the mass. {@b Force Solvent} eats the Wizard's {@spell shield|XPHB}/{@spell wall of force|XPHB} and the Cleric's Force walls, so positional spells won't save them. {@b DM dials.} Too hard: lower the slime cap to 4, or raise the Mitosis damage trigger to 50, or drop Multiattack to 1 Pseudopod. Too easy: raise the cap to 8, drop the trigger to 25 and bud two, or let the Lord Bud as a free action when it takes Fire/Lightning/Acid."] }
+			] }
+		},
+		{
+			"name": "Elemental Galaxy Slime",
+			"source": "GalaxySlime",
+			"size": ["S"],
+			"type": { "type": "ooze", "tags": ["paradox"] },
+			"alignment": ["unaligned"],
+			"ac": [{ "ac": 13, "from": ["jelly"] }],
+			"hp": { "average": 55, "formula": "10d6 + 20" },
+			"speed": { "walk": 30, "climb": 30 },
+			"str": 14, "dex": 10, "con": 16, "int": 4, "wis": 8, "cha": 4,
+			"senses": ["blindsight 60 ft. (blind beyond this radius)"],
+			"passive": 9,
+			"immune": ["acid", "poison"],
+			"vulnerable": ["cold"],
+			"conditionImmune": ["blinded", "charmed", "deafened", "exhaustion", "frightened", "prone"],
+			"languages": [],
+			"cr": "4",
+			"trait": [
+				{ "name": "Elemental Body", "entries": ["When this slime appears, choose its plane: {@b Fire} (Fire), {@b Air} (Lightning), {@b Earth} (Bludgeoning), or {@b Water} (Acid). It is also {@b immune} to that damage type, and its Pseudopod and Engulf deal that element (shown below as \"its element\")."] },
+				{ "name": "Amorphous", "entries": ["The slime can move through a space as narrow as 1 inch without squeezing and can move into and share a creature's space (see Engulf)."] },
+				{ "name": "Force Solvent (Lesser)", "entries": ["A Force barrier (such as {@spell wall of force|XPHB}) it touches is destroyed, and a creature within 5 feet can't gain the benefit of the {@spell shield|XPHB} spell."] },
+				{ "name": "Unstable Bud", "entries": ["When this slime is reduced to 0 Hit Points by anything other than Cold, Force, or Radiant damage, its parent {@creature Galaxy Swarm Lord|GalaxySlime} buds {@b one} replacement at the end of the turn (see the Lord's Mitosis; the once-per-round limit and 6-slime cap still apply). Killing it with Cold, Force, or Radiant collapses it for good."] }
+			],
+			"action": [
+				{ "name": "Pseudopod", "entries": ["{@atkr m} {@hit 4}, reach 5 ft. {@h}6 ({@damage 1d8 + 2}) Bludgeoning damage plus 3 ({@damage 1d6}) damage of its element, and the target is {@condition grappled} (escape {@dc 13}) and {@condition restrained} until the grapple ends."] },
+				{ "name": "Engulf", "entries": ["The slime moves into the space of a Medium or smaller creature. {@actSave dex} {@dc 13}. {@actSaveFail} The creature is engulfed: {@condition restrained} (escape {@dc 13}), can't breathe (it begins suffocating), and takes 7 ({@damage 2d6}) damage of the slime's element at the start of each of the slime's turns. {@actSaveSuccess} It is pushed 5 feet away."] }
+			],
+			"fluff": { "entries": [
+				{ "type": "entries", "name": "One Door, One Plane", "entries": ["Each bud is a single galaxy that found its own skin—one plane, one element, one hunger. They crawl for the nearest warm body to smother. Burn them, shock them, melt them, and the Lord just makes two more; freeze them or unmake them with Force and the door finally shuts."] }
+			] }
+		}
+	]
+}
