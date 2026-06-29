@@ -273,6 +273,7 @@
 		},
 		{
 			"name": "Unwritten Angel",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/unwritten-angel.png",
 			"source": "ParadoxApoptosis",
 			"size": ["L"],
 			"type": { "type": "celestial", "tags": ["paradox"] },
@@ -308,6 +309,7 @@
 		},
 		{
 			"name": "The Sundered Archangel",
+			"tokenUrl": "https://raw.githubusercontent.com/Ninaji/vorthrax-paradox-dragon/main/art/tokens/sundered-archangel.png",
 			"source": "ParadoxApoptosis",
 			"size": ["H"],
 			"type": { "type": "celestial", "tags": ["paradox"] },
